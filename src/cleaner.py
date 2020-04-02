@@ -14,6 +14,7 @@ def clean_statewide(raw_state):
     df.loc[df['metric'].str.contains('hospitalized'), 'metric'] = 'currently hospitalized'
     df.loc[df['metric'].str.contains('die'), 'metric'] = 'total deaths'
     df.loc[df['metric'].str.contains('fatalities'), 'metric'] = 'total deaths'
+    df.loc[df['metric'].str.contains('intensive care'), 'metric'] = 'currently in icu'
 
     # convert count to intiger
     df['count'] = df['count'].str.replace('approximately','').str.strip()
