@@ -5,6 +5,13 @@ import json
 with open('./config.json') as config:
     creds = json.load(config)['google']
 
+def convert_int(value):
+    value = str(value).replace('approximately', '')
+    value = value.replace('approx.', '').strip()
+    value = value.replace(',', '').replace('.0', '').replace('.', '')
+    
+    return int(value)
+
 def clean_statewide(raw_state):
     df = pd.read_csv(raw_state)
     # re name metrics to shorten them
@@ -17,9 +24,7 @@ def clean_statewide(raw_state):
     df.loc[df['metric'].str.contains('intensive care'), 'metric'] = 'currently in icu'
 
     # convert count to intiger
-    df['count'] = df['count'].str.replace('approximately','').str.strip()
-    df['count'] = df['count'].str.replace('approx.','').str.strip()
-    df['count'] = df['count'].str.replace(',','').astype(int)
+    df['count'] = df['count'].apply(convert_int)
 
     # pivot to get total tests given out then un-pivot 
     df = df.pivot(index='date', columns='metric', values='count').reset_index()
