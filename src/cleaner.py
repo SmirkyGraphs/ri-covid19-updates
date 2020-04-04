@@ -5,6 +5,10 @@ import json
 with open('./config.json') as config:
     creds = json.load(config)['google']
 
+# google sheets authentication
+api = pygsheets.authorize(service_file=creds)
+wb = api.open('ri-covid-19')
+
 def convert_int(value):
     value = str(value).replace('approximately', '')
     value = value.replace('approx.', '').strip()
@@ -12,8 +16,15 @@ def convert_int(value):
     
     return int(value)
 
-def clean_statewide(raw_state):
-    df = pd.read_csv(raw_state)
+def sync_sheets(wb, df, sheet_name):
+    print(f'[status] syncing google sheet {sheet_name}')
+    # open the google spreadsheet
+    sheet = wb.worksheet_by_title(f'{sheet_name}')
+    sheet.set_dataframe(df, (1,1))
+
+def clean_general(raw_general):
+    print('[status] cleaning statwide general info')
+    df = pd.read_csv(raw_general)
     # re name metrics to shorten them
     df.loc[df['metric'].str.contains('positive'), 'metric'] = 'RI positive cases'
     df.loc[df['metric'].str.contains('negative'), 'metric'] = 'RI negative results'
@@ -36,9 +47,12 @@ def clean_statewide(raw_state):
     df['new_cases'] = df.groupby('metric')['count'].diff().fillna(0).astype(int)
     df['change_%'] = df.groupby('metric')['count'].pct_change().replace(pd.np.inf, 0).fillna(0)
 
-    return df
+    # save & sync to google sheets
+    df.to_csv('./data/clean/ri-covid-19-clean.csv', index=False)
+    sync_sheets(wb, df, 'statewide')
 
 def clean_geographic(raw_geo):
+    print('[status] cleaning city/town info')
     df = pd.read_csv(raw_geo)
     pop = pd.read_csv('./data/files/population_est_2017.csv')
 
@@ -57,25 +71,6 @@ def clean_geographic(raw_geo):
     # filter for wanted columns
     df = df[['city_town', 'count', 'change', 'change_%', 'rate_per_10k', 'date']]
 
-    return df   
-
-def sync_sheets(sh, df, sheet_name):
-    print(f'[status] syncing google sheet {sheet_name}')
-    # open the google spreadsheet
-    sheet = sh.worksheet_by_title(f'{sheet_name}')
-    sheet.set_dataframe(df, (1,1))
-
-def clean_data(raw_state, raw_geo):
-    print('[status] cleaning data & calculating changes')
-    clean_state = clean_statewide(raw_state)
-    clean_geo = clean_geographic(raw_geo)   
-
-    # save files to clean data folder
-    clean_state.to_csv('./data/clean/ri-covid-19-clean.csv', index=False)
-    clean_geo.to_csv('./data/clean/geo-ri-covid-19-clean.csv', index=False)
-
-    # sync to google sheets
-    api = pygsheets.authorize(service_file=creds)
-    sh = api.open('ri-covid-19')
-    sync_sheets(sh, clean_state, 'statewide')
-    sync_sheets(sh, clean_geo, 'city_town')
+    # save & sync to google sheets
+    df.to_csv('./data/clean/geo-ri-covid-19-clean.csv', index=False)
+    sync_sheets(wb, df, 'city_town')
