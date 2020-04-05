@@ -34,25 +34,25 @@ def send_tweet():
     # load data totals
     total = int(count['RI total tests'])
     positive = int(count['RI positive cases'])
-    quarantine = int(count['instructed to self-quarantine'])
+    icu = int(count['currently in icu'])
     hospital = int(count['currently hospitalized'])
     deaths = int(count['total deaths'])
 
     # load data changes
     total_diff = add_plus(change['RI total tests'])
     pos_diff = add_plus(change['RI positive cases'])
-    quar_diff = add_plus(change['instructed to self-quarantine'])
+    icu_diff = add_plus(change['currently in icu'])
     hosp_diff = add_plus(change['currently hospitalized'])
     death_diff = add_plus(change['total deaths'])
 
     tweet = [
         f'{current_date} update:',
-        f'positive results: {positive} ({pos_diff})',
         f'total tests: {total} ({total_diff})',
-        f'self-quarantine: {quarantine} ({quar_diff})',
+        f'positive results: {positive} ({pos_diff})',
         f'hospitalized: {hospital} ({hosp_diff})',
+        f'intensive care: {icu} ({icu_diff})',
         f'total deaths {deaths} ({death_diff})',
-         '#COVID19 #RI #coronavirus'
+         'data from @RIHEALTH'
     ]
 
     tweet = '\n'.join(tweet)
