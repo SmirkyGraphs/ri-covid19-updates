@@ -174,3 +174,10 @@ date,metric,count,new_cases,change_%
 4/3/2020,currently in icu,18.0,4,0.2857142857142858
 4/3/2020,instructed to self-quarantine,0.0,0,0.0
 4/3/2020,total deaths,14.0,2,0.16666666666666674
+4/4/2020,RI negative results,5584.0,727,0.14968087296685195
+4/4/2020,RI positive cases,806.0,95,0.13361462728551343
+4/4/2020,RI total tests,6390.0,822,0.14762931034482762
+4/4/2020,currently hospitalized,93.0,16,0.20779220779220786
+4/4/2020,currently in icu,31.0,13,0.7222222222222223
+4/4/2020,instructed to self-quarantine,0.0,0,0.0
+4/4/2020,total deaths,17.0,3,0.2142857142857142
