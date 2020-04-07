@@ -69,7 +69,7 @@ def clean_geographic(raw_geo):
     df['rate_per_10k'] = (df['count']/df['2017_population']) * 10000
 
     # filter for wanted columns
-    df = df[['city_town', 'count', 'change', 'change_%', 'rate_per_10k', 'date']]
+    df = df[['city_town', 'county', 'count', 'change', 'change_%', 'rate_per_10k', 'date']]
 
     # save & sync to google sheets
     df.to_csv('./data/clean/geo-ri-covid-19-clean.csv', index=False)
