@@ -38,8 +38,8 @@ def scrape_sheet(google_sheet, sheet_id, raw_data):
         date = pd.to_datetime(date).tz_localize('EST').date()
         time.sleep(15 * 60)
     else:
-        print('[status] found new update pausing for 2 mins')
-        time.sleep(2 * 60)
+        print('[status] found new update pausing for 5 mins')
+        time.sleep(5 * 60)
         # transform data into table & save
         if sheet_id == '0':
             df['date'] = list(df)[0].split(': ')[-1:][0].strip()
