@@ -34,8 +34,9 @@ def clean_general(raw_general):
     df.loc[df['metric'].str.contains('fatalities'), 'metric'] = 'total deaths'
     df.loc[df['metric'].str.contains('intensive care'), 'metric'] = 'currently in icu'
 
-    # convert count to intiger
+    # convert types count -> int, date -> datetime str
     df['count'] = df['count'].apply(convert_int)
+    df['date'] = pd.to_datetime(df['date']).dt.strftime('%m/%d/%Y')
 
     # pivot to get total tests given out then un-pivot 
     df = df.pivot(index='date', columns='metric', values='count').reset_index()
