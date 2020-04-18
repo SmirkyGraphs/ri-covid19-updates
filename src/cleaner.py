@@ -33,6 +33,7 @@ def clean_general(raw_general):
     df.loc[df['metric'].str.contains('die'), 'metric'] = 'total deaths'
     df.loc[df['metric'].str.contains('fatalities'), 'metric'] = 'total deaths'
     df.loc[df['metric'].str.contains('intensive care'), 'metric'] = 'currently in icu'
+    df.loc[df['metric'].str.contains('ventilators'), 'metric'] = 'currently on ventilator'
 
     # convert types count -> int, date -> datetime str
     df['count'] = df['count'].apply(convert_int)
