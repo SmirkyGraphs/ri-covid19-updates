@@ -35,6 +35,7 @@ def send_tweet():
     total = int(count['RI total tests'])
     positive = int(count['RI positive cases'])
     icu = int(count['currently in icu'])
+    vent = int(count['currently on ventilator'])
     hospital = int(count['currently hospitalized'])
     deaths = int(count['total deaths'])
 
@@ -42,6 +43,7 @@ def send_tweet():
     total_diff = add_plus(change['RI total tests'])
     pos_diff = add_plus(change['RI positive cases'])
     icu_diff = add_plus(change['currently in icu'])
+    vent_diff = add_plus(change['currently on ventilator'])
     hosp_diff = add_plus(change['currently hospitalized'])
     death_diff = add_plus(change['total deaths'])
 
@@ -51,6 +53,7 @@ def send_tweet():
         f'positive results: {positive} ({pos_diff})',
         f'hospitalized: {hospital} ({hosp_diff})',
         f'intensive care: {icu} ({icu_diff})',
+        f'on ventilator: {vent} ({vent_diff})',
         f'total deaths {deaths} ({death_diff})',
          'data from @RIHEALTH'
     ]
