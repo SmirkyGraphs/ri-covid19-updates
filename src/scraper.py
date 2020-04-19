@@ -9,13 +9,17 @@ options = webdriver.ChromeOptions()
 options.add_argument('--headless')
 options.add_argument('--disable-gpu')
 
-# load browser and request webpage
-browser = webdriver.Chrome('C:/Users/Alex/bin/chromedriver.exe', options=options)
-url = 'https://ri-department-of-health-covid-19-data-rihealth.hub.arcgis.com/'
-
 # load css selectors
 with open('./data/files/selectors.json') as f:
     sel = json.load(f)
+
+# load chrome info
+with open('./config.json') as config:
+    chromedriver = json.load(config)['driver']
+
+# load browser and request webpage
+browser = webdriver.Chrome(chromedriver, options=options)
+url = 'https://ri-department-of-health-covid-19-data-rihealth.hub.arcgis.com/'
 
 def save_file(df, file_path, current_date):
     # save/update file
