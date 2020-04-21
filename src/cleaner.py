@@ -62,6 +62,10 @@ def clean_geographic(raw_geo):
     df['count'] = df['count'].replace('fewer than 5', 0)
     df['count'] = df['count'].replace('<5', 0).astype(int)
 
+    # sort by date
+    df['date'] = pd.to_datetime(df['date']).dt.strftime('%m/%d/%Y')
+    df = df.sort_values(by=['date'])
+
     # get daily changes
     df['change'] = df.groupby('city_town')['count'].diff().fillna(0).astype(int)
     df['change_%'] = df.groupby('city_town')['count'].pct_change().replace(pd.np.inf, 0).fillna(0)
