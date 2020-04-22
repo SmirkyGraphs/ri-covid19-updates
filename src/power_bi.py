@@ -1,3 +1,6 @@
+# legacy code
+# scraper for powerbi
+
 import json
 import time
 import pandas as pd
