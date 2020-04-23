@@ -32,15 +32,17 @@ def clean_general(raw_general):
     df.loc[df['metric'].str.contains('hospitalized'), 'metric'] = 'currently hospitalized'
     df.loc[df['metric'].str.contains('die'), 'metric'] = 'total deaths'
     df.loc[df['metric'].str.contains('fatalities'), 'metric'] = 'total deaths'
-    df.loc[df['metric'].str.contains('intensive care'), 'metric'] = 'currently in icu'
     df.loc[df['metric'].str.contains('ventilators'), 'metric'] = 'currently on ventilator'
+    df.loc[df['metric'].str.contains('on a vent'), 'metric'] = 'currently on ventilator'
+    df.loc[df['metric'].str.contains('intensive care'), 'metric'] = 'currently in icu'
+    df.loc[df['metric'].str.contains('discharged'), 'metric'] = 'total discharged'
 
     # convert types count -> int, date -> datetime str
     df['count'] = df['count'].apply(convert_int)
     df['date'] = pd.to_datetime(df['date']).dt.strftime('%m/%d/%Y')
 
     # pivot to get total tests given out then un-pivot 
-    df = df.pivot(index='date', columns='metric', values='count').reset_index()
+    df = df.pivot_table(index='date', columns='metric', values='count').reset_index()
     df['RI total tests'] = df['RI positive cases'] + df['RI negative results']
     df = df.melt(col_level=0, id_vars=['date'], value_name='count').sort_values(by=['date', 'metric'])
 
