@@ -21,8 +21,6 @@ The code will check every 15 minutes to see if the google spreadsheet has been u
 
 ## Data Features
 
-While RIDOH provides demographics on sex and age, it is infrequently updated so this program doesn't collect it.
-
 **Daily Totals:**  
 \- positive cases  
 \- negative cases  
@@ -34,6 +32,12 @@ While RIDOH provides demographics on sex and age, it is infrequently updated so 
 \- city/town  
 \- positive cases
 
+**Nursing Home Totals:**  
+\- facility name
+\- high/low range cases
+\- high/low range fatalities
+\- facility type
+
 ## Dashboards
 
 Current dashboards created using the cleaned datasets.
@@ -43,6 +47,8 @@ Current dashboards created using the cleaned datasets.
 
 ## References
 
+- Spatial Boundaries: [RIGIS](http://www.rigis.org/)
 - Daily Numbers: [RIDOH](https://docs.google.com/spreadsheets/d/1n-zMS9Al94CPj_Tc3K7Adin-tN9x1RSjjx2UzJ4SV7Q/edit#gid=0)
 - City/Town Breakdown: [RIDOH](https://docs.google.com/spreadsheets/d/1n-zMS9Al94CPj_Tc3K7Adin-tN9x1RSjjx2UzJ4SV7Q/edit#gid=1679077334)
 - City/Town Population: [Census 2017 ACS 5-Year Estimates](https://factfinder.census.gov/faces/tableservices/jsf/pages/productview.xhtml)
+- Zip Population: [Census 2010 Decennial Population](https://data.census.gov/cedsci/)
