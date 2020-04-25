@@ -1,6 +1,3 @@
-# legacy code
-# scraper for google sheets
-
 import time
 import pandas as pd
 from pathlib import Path
@@ -28,7 +25,7 @@ def save_file(df, file_path, current_date):
             df.to_csv(file_path, mode='a', header=False, index=False)
         return
 
-def scrape_sheet(google_sheet, raw_general, raw_geo):
+def scrape_sheet(sheet_id, raw_general, raw_geo):
     # load previous raw_data and get prior date
     df = pd.read_csv(raw_general, parse_dates=['date'])
     prior_date = df['date'].max().tz_localize('EST').date()
@@ -40,7 +37,7 @@ def scrape_sheet(google_sheet, raw_general, raw_geo):
         time.sleep(60)
 
     # load data from RI - DOH spreadsheet
-    gen_url = f'https://docs.google.com/spreadsheets/d/{google_sheet}0'
+    gen_url = f'https://docs.google.com/spreadsheets/d/{sheet_id}0'
     df = pd.read_csv(gen_url)
     date = list(df)[1].strip()
     date = pd.to_datetime(date).tz_localize('EST').date()
@@ -62,9 +59,42 @@ def scrape_sheet(google_sheet, raw_general, raw_geo):
         save_file(df, raw_general, date)
 
         # scrape geographic sheet
-        geo_url = f'https://docs.google.com/spreadsheets/d/{google_sheet}1759341227'
+        geo_url = f'https://docs.google.com/spreadsheets/d/{sheet_id}1759341227'
         geo_df = pd.read_csv(geo_url)
         geo_df['date'] = date
         geo_df = geo_df.dropna(axis=1)
         geo_df.columns = ['city_town', 'count', 'date']
         save_file(geo_df, raw_geo, date)
+
+def scrape_nursing_homes(sheet_id, raw_facility):
+    url = f'https://docs.google.com/spreadsheets/d/e/{sheet_id}/pubhtml?gid=0&single=true'
+    df = pd.read_html(url)[0]
+
+    # load prior date
+    df = pd.read_csv(raw_facility, parse_dates=['date'])
+    prior_date = df['date'].max().tz_localize('EST').date()
+
+    # get date of last update 
+    date = df.iloc[0,1][-10:].strip()
+    date = pd.to_datetime(date).tz_localize('EST').date()
+    if not date > prior_date:
+        print('\n[status] nursing homes: no update')
+        return
+    else:
+        # fix headers
+        df.columns = df.iloc[1]
+
+        # fix dataframe shape
+        assisted = df[df['Facility Name'] == 'Assisted Living Facilities'].index[0]
+        nursing_homes = df.drop(columns=[2])[3:assisted]
+        assisted_living = df.drop(columns=[2])[assisted+1:-1]
+
+        # add facility type & recombine
+        nursing_homes['type'] = 'nursing home'
+        assisted_living['type'] = 'assisted living'
+        df = pd.concat([nursing_homes, assisted_living]).reset_index(drop=True)
+
+        # add date
+        df['date'] = date
+        save_file(df, raw_facility, date)
+        print('[status] nursing homes: updated')
