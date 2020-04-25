@@ -33,9 +33,9 @@ The code will check every 15 minutes to see if the google spreadsheet has been u
 \- positive cases
 
 **Nursing Home Totals:**  
-\- facility name
-\- high/low range cases
-\- high/low range fatalities
+\- facility name  
+\- high/low range cases  
+\- high/low range fatalities  
 \- facility type
 
 ## Dashboards
