@@ -16,6 +16,12 @@ def convert_int(value):
     
     return int(value)
 
+def clean_facility_city(string):
+    string = string.replace(')','')
+    string = string.split('-')[0]
+    
+    return string
+
 def sync_sheets(wb, df, sheet_name):
     print(f'[status] syncing google sheet {sheet_name}')
     # open the google spreadsheet
@@ -82,3 +88,27 @@ def clean_geographic(raw_geo):
     # save & sync to google sheets
     df.to_csv('./data/clean/geo-ri-covid-19-clean.csv', index=False)
     sync_sheets(wb, df, 'city_town')
+
+def clean_zip_codes(raw_zip):
+    pint('[status] cleaning zip codes data')
+
+def clean_facilities(raw_facility):
+    pint('[status] cleaning facilties')
+    df = pd.read_csv(raw_facility)
+
+    # split low/high cases & fatalities
+    cases = df["Cases"].str.split(" to ", n=1, expand=True) 
+    fatalities = df["Fatalities"].str.split(" to ", n=1, expand=True) 
+    df['cases_low'] = cases[0]
+    df['cases_high'] = cases[1]
+    df['fatalities_low'] = fatalities[0]
+    df['fatalities_high'] = fatalities[1]
+
+    # split facility name & city/town
+    facility = df["Facility Name"].str.split("(", n=1, expand=True)
+    df['facility_name'] = facility[0]
+    df['city_town'] = facility[1].apply(clean_facility_city)
+    df = df.drop(columns=['Cases', 'Fatalities', 'Facility Name'])
+
+    # save file
+    df.to_csv('./data/clean/facility-covid-19-clean.csv', index=False)
