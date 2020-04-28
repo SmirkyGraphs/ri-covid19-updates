@@ -31,7 +31,7 @@ The code will wait till 12:05 5 mins after RIDOH reports the numbers, then check
 \- related fatalities  
 \- number in intensive care  
 
-**Demographics:**
+**Demographics:**  
 \- gender  
 \- age bin  
 \- race  
@@ -40,7 +40,7 @@ The code will wait till 12:05 5 mins after RIDOH reports the numbers, then check
 \- city/town  
 \- positive cases
 
-**Zip Code Totals:**
+**Zip Code Totals:**  
 \- zip code  
 \- positive cases  
 
