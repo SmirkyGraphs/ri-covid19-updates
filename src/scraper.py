@@ -8,7 +8,8 @@ keep_rows = [
     'currently hospitalized in Rhode Island',
     'currently in an intensive care unit',
     'COVID-19 associated fatalities \(cumulative\)',
-    'discharged from a hospital in Rhode Island'
+    'discharged from a hospital in Rhode Island',
+    'were admitted to a hospital',
 ]
 
 keep_list = '|'.join(keep_rows)
@@ -25,7 +26,7 @@ def save_file(df, file_path, current_date):
             df.to_csv(file_path, mode='a', header=False, index=False)
         return
 
-def scrape_sheet(sheet_id, raw_general, raw_geo):
+def scrape_sheet(sheet_id, raw_general, raw_geo, raw_dem):
     # load previous raw_data and get prior date
     df = pd.read_csv(raw_general, parse_dates=['date'])
     prior_date = df['date'].max().tz_localize('EST').date()
@@ -58,7 +59,7 @@ def scrape_sheet(sheet_id, raw_general, raw_geo):
         df = df[df['metric'].str.contains(keep_list)]
         save_file(df, raw_general, date)
 
-        # scrape geographic sheet
+        ## scrape geographic sheet
         geo_url = f'https://docs.google.com/spreadsheets/d/{sheet_id}1759341227'
         geo_df = pd.read_csv(geo_url)
         geo_df['date'] = date
@@ -66,19 +67,42 @@ def scrape_sheet(sheet_id, raw_general, raw_geo):
         geo_df.columns = ['city_town', 'count', 'date']
         save_file(geo_df, raw_geo, date)
 
-def scrape_nursing_homes(sheet_id, raw_facility):
-    url = f'https://docs.google.com/spreadsheets/d/e/{sheet_id}/pubhtml?gid=0&single=true'
-    df = pd.read_html(url)[0]
+        ## scrape demographics sheet
+        dem_url = f'https://docs.google.com/spreadsheets/d/{sheet_id}771623753'
+        dem_df = pd.read_csv(dem_url)
 
+        # make sure no columns were added/removed
+        if not dem_df.shape == (27, 7):
+            print('[error] demographics format changed')
+            return
+        else:
+            # drop percentage columns & rename
+            dem_df = dem_df.drop(dem_df.columns[[2, 4, 6]], axis=1)
+            dem_df.columns = ['metric', 'case_count', 'hosptialized', 'deaths']
+            
+            # get data
+            sex = dem_df[1:3]
+            age = dem_df[5:16]
+            race = dem_df[18:23]
+
+            # combine & save
+            dem_df = pd.concat([sex, age, race])
+            dem_df['date'] = date
+            save_file(dem_df, raw_dem, date)
+
+def scrape_nursing_homes(sheet_id, raw_facility):
     # load prior date
     df = pd.read_csv(raw_facility, parse_dates=['date'])
     prior_date = df['date'].max().tz_localize('EST').date()
+
+    url = f'https://docs.google.com/spreadsheets/d/e/{sheet_id}/pubhtml?gid=0&single=true'
+    df = pd.read_html(url)[0]
 
     # get date of last update 
     date = df.iloc[0,1][-10:].strip()
     date = pd.to_datetime(date).tz_localize('EST').date()
     if not date > prior_date:
-        print('\n[status] nursing homes: no update')
+        print('\n[status] nursing homes:\tno update')
         return
     else:
         # fix headers
@@ -97,4 +121,28 @@ def scrape_nursing_homes(sheet_id, raw_facility):
         # add date
         df['date'] = date
         save_file(df, raw_facility, date)
-        print('[status] nursing homes: updated')
+        print('[status] nursing homes:\tupdated')
+
+def scrape_zip_codes(sheet_id, raw_zip):
+    # load prior date
+    df = pd.read_csv(raw_zip, parse_dates=['date'])
+    prior_date = df['date'].max().tz_localize('EST').date()
+
+    url = f'https://docs.google.com/spreadsheets/d/{sheet_id}932150337'
+    df = pd.read_csv(url)
+
+    # check if updated
+    date = df.iloc[0][1].strip()
+    date = pd.to_datetime(date).tz_localize('EST').date()
+    if not date > prior_date:
+        print('[status] zip codes:\tno update')
+        return
+    else:
+        # skip first 3 rows and stop # pending more info
+        df = df[3:df[df.zip_code == 'Pending further information'].index[0]]
+        df.columns = ['zip_code', 'count']
+
+        # add date & save
+        df['date'] = date
+        save_file(df, raw_zip, date)
+        print('[status] zip codes:\tupdated')
