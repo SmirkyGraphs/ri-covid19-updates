@@ -17,11 +17,12 @@ Then edit the config with the saved location of your service file.
 
 Code is run from the command line by simply typing `python main.py`.
 
-The code will check every 15 minutes to see if the google spreadsheet has been updated. Once an update is found the program will again pause for 2 minutes incase the file was currently being updated.
+The code will wait till 12:05 5 mins after RIDOH reports the numbers, then checks every 15 minutes to see if the google spreadsheet has been updated. Once an update is found the program will again pause for 2 minutes incase the file was currently being updated.
 
 ## Data Features
 
-Caution race demographics contain's missing information as of 4/27 more then half are pending, unknown or declided to provide.
+**Caution** race demographics contains missing information as of 4/27  
+**more then half** are pending, unknown or declided to provide.
 
 **Daily Totals:**  
 \- positive cases  
@@ -31,17 +32,17 @@ Caution race demographics contain's missing information as of 4/27 more then hal
 \- number in intensive care  
 
 **Demographics:**
-\- gender
-\- age bin
-\- race
+\- gender  
+\- age bin  
+\- race  
 
 **City/Town Totals:**  
 \- city/town  
 \- positive cases
 
 **Zip Code Totals:**
-\- zip code
-\- positive cases
+\- zip code  
+\- positive cases  
 
 **Nursing Home Totals:**  
 \- facility name  
