@@ -21,8 +21,7 @@ The code will wait till 12:05 5 mins after RIDOH reports the numbers, then check
 
 ## Data Features
 
-**Caution** race demographics contains missing information as of 4/27  
-**more then half** are pending, unknown or declided to provide.
+**Caution** race demographics contains missing information **more then half** are pending, unknown or declided to provide.
 
 **Daily Totals:**  
 \- positive cases  
