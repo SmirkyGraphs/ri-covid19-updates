@@ -10,6 +10,8 @@ api = pygsheets.authorize(service_file=creds)
 wb = api.open('ri-covid-19')
 
 def convert_int(value):
+    value = value.replace('fewer than 5', '0')
+    value = value.replace('<5', '0')
     value = str(value).replace('approximately', '')
     value = value.replace('approx.', '').strip()
     value = value.replace(',', '').replace('.0', '').replace('.', '')
@@ -67,8 +69,8 @@ def clean_geographic(raw_geo):
     pop = pd.read_csv('./data/files/population_est_2017.csv')
 
     # remove under 5 surpressed values
-    df['count'] = df['count'].replace('fewer than 5', 0)
-    df['count'] = df['count'].replace('<5', 0).astype(int)
+    df['count'] = df['count'].apply(convert_int)
+    df['count'] = df['count'].fillna(0)
 
     # sort by date
     df['date'] = pd.to_datetime(df['date']).dt.strftime('%m/%d/%Y')
@@ -90,10 +92,31 @@ def clean_geographic(raw_geo):
     sync_sheets(wb, df, 'city_town')
 
 def clean_zip_codes(raw_zip):
-    pint('[status] cleaning zip codes data')
+    print('\n[status] cleaning zip codes data')
+    df = pd.read_csv(raw_zip)
+    pop = pd.read_csv('./data/files/zip_code_pop_2010.csv')
+
+    # remove under 5 surpressed values
+    df['count'] = df['count'].apply(convert_int)
+    df['count'] = df['count'].fillna(0)
+
+    # sort by date
+    df['date'] = pd.to_datetime(df['date']).dt.strftime('%m/%d/%Y')
+    df = df.sort_values(by=['date'])
+
+    # get daily changes
+    df['change'] = df.groupby('zip_code')['count'].diff().fillna(0).astype(int)
+    df['change_%'] = df.groupby('zip_code')['count'].pct_change().replace(pd.np.inf, 0).fillna(0)
+
+    # merge population & calculate rate per 10,000 people
+    df = df.merge(pop, on='zip_code').sort_values(by='date')
+    df['rate_per_10k'] = (df['count']/df['population']) * 10000
+    
+    # save file
+    df.to_csv('./data/clean/zip-codes-covid-19-clean.csv', index=False)
 
 def clean_facilities(raw_facility):
-    pint('[status] cleaning facilties')
+    print('[status] cleaning facilties')
     df = pd.read_csv(raw_facility)
 
     # split low/high cases & fatalities
