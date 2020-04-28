@@ -21,6 +21,8 @@ The code will check every 15 minutes to see if the google spreadsheet has been u
 
 ## Data Features
 
+Caution race demographics contain's missing information as of 4/27 more then half are pending, unknown or declided to provide.
+
 **Daily Totals:**  
 \- positive cases  
 \- negative cases  
@@ -28,8 +30,17 @@ The code will check every 15 minutes to see if the google spreadsheet has been u
 \- related fatalities  
 \- number in intensive care  
 
+**Demographics:**
+\- gender
+\- age bin
+\- race
+
 **City/Town Totals:**  
 \- city/town  
+\- positive cases
+
+**Zip Code Totals:**
+\- zip code
 \- positive cases
 
 **Nursing Home Totals:**  
