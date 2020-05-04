@@ -92,7 +92,7 @@ def clean_geographic(raw_geo):
     sync_sheets(wb, df, 'city_town')
 
 def clean_zip_codes(raw_zip):
-    print('\n[status] cleaning zip codes data')
+    print('[status] cleaning zip codes data')
     df = pd.read_csv(raw_zip)
     pop = pd.read_csv('./data/files/zip_code_pop_2010.csv')
 
@@ -108,6 +108,8 @@ def clean_zip_codes(raw_zip):
     df['change'] = df.groupby('zip_code')['count'].diff().fillna(0).astype(int)
     df['change_%'] = df.groupby('zip_code')['count'].pct_change().replace(pd.np.inf, 0).fillna(0)
 
+    # add rank & change in rank
+
     # merge population & calculate rate per 10,000 people
     df = df.merge(pop, on='zip_code').sort_values(by='date')
     df['rate_per_10k'] = (df['count']/df['population']) * 10000
@@ -115,17 +117,21 @@ def clean_zip_codes(raw_zip):
     # save file
     df.to_csv('./data/clean/zip-codes-covid-19-clean.csv', index=False)
 
-def clean_facilities(raw_facility):
-    print('[status] cleaning facilties')
-    df = pd.read_csv(raw_facility)
+def clean_nursing_homes(raw_nurse_homes):
+    print('\n[status] cleaning nursing homes')
+    df = pd.read_csv(raw_nurse_homes)
 
     # split low/high cases & fatalities
-    cases = df["Cases"].str.split(" to ", n=1, expand=True) 
-    fatalities = df["Fatalities"].str.split(" to ", n=1, expand=True) 
-    df['cases_low'] = cases[0]
-    df['cases_high'] = cases[1]
-    df['fatalities_low'] = fatalities[0]
-    df['fatalities_high'] = fatalities[1]
+    cases = df["Cases"].str.split(" to ", n=1, expand=True).fillna(0)
+    fatalities = df["Fatalities"].str.split(" to ", n=1, expand=True).fillna(0)
+    df['cases_low'] = cases[0].apply(convert_int)
+    df['cases_high'] = cases[1].apply(convert_int)
+    df['fatalities_low'] = fatalities[0].apply(convert_int)
+    df['fatalities_high'] = fatalities[1].apply(convert_int)
+
+    # add average value 
+    df['cases_avg'] = (df['cases_low'] + df['cases_high'])/2
+    df['fatalities_avg'] = (df['fatalities_low'] + df['fatalities_high'])/2
 
     # split facility name & city/town
     facility = df["Facility Name"].str.split("(", n=1, expand=True)
@@ -133,5 +139,16 @@ def clean_facilities(raw_facility):
     df['city_town'] = facility[1].apply(clean_facility_city)
     df = df.drop(columns=['Cases', 'Fatalities', 'Facility Name'])
 
+    # load & merge county
+    county = pd.read_csv('./data/files/population_est_2017.csv')
+    df = df.merge(county[['city_town', 'county']], on='city_town')
+
+    # create date col and sort by date
+    df['date'] = pd.to_datetime(df['date']).dt.strftime('%m/%d/%Y')
+    df = df.sort_values(by=['date'])
+
+    df.loc[df['date'] == df['date'].unique()[-2:][1], 'date_bin'] = 'Most Recent'
+    df.loc[df['date'] == df['date'].unique()[-2:][0], 'date_bin'] = 'Prior Week'
+
     # save file
-    df.to_csv('./data/clean/facility-covid-19-clean.csv', index=False)
+    df.to_csv('./data/clean/nurse-homes-covid-19-clean.csv', index=False)
