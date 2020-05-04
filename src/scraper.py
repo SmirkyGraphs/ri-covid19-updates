@@ -139,8 +139,9 @@ def scrape_zip_codes(sheet_id, raw_zip):
         return
     else:
         # skip first 3 rows and stop # pending more info
-        df = df[3:df[df.zip_code == 'Pending further information'].index[0]]
-        df.columns = ['zip_code', 'count']
+        df.columns = ['zip_code', 'count', 'rate']
+        df = df[3:df[df.zip_code == 'Pending further info'].index[0]]
+        df = df[['zip_code', 'count']]
 
         # add date & save
         df['date'] = date
