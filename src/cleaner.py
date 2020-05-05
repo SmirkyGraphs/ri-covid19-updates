@@ -10,9 +10,10 @@ api = pygsheets.authorize(service_file=creds)
 wb = api.open('ri-covid-19')
 
 def convert_int(value):
+    value = str(value).lower()
     value = value.replace('fewer than 5', '0')
     value = value.replace('<5', '0')
-    value = str(value).replace('approximately', '')
+    value = value.replace('approximately', '')
     value = value.replace('approx.', '').strip()
     value = value.replace(',', '').replace('.0', '').replace('.', '')
     
@@ -22,7 +23,7 @@ def clean_facility_city(string):
     string = string.replace(')','')
     string = string.split('-')[0]
     
-    return string
+    return string.strip()
 
 def sync_sheets(wb, df, sheet_name):
     print(f'[status] syncing google sheet {sheet_name}')
@@ -145,7 +146,7 @@ def clean_nursing_homes(raw_nurse_homes):
 
     # create date col and sort by date
     df['date'] = pd.to_datetime(df['date']).dt.strftime('%m/%d/%Y')
-    df = df.sort_values(by=['date'])
+    df = df.sort_values(by=['type', 'facility_name', 'date'])
 
     df.loc[df['date'] == df['date'].unique()[-2:][1], 'date_bin'] = 'Most Recent'
     df.loc[df['date'] == df['date'].unique()[-2:][0], 'date_bin'] = 'Prior Week'
