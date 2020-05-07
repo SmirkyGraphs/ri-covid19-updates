@@ -53,7 +53,7 @@ def scrape_sheet(sheet_id, raw_general, raw_geo, raw_dem):
         print('[status] found new update pausing for 5 mins')
         time.sleep(5 * 60)
 
-        # transform general sheet
+        ## transform general sheet
         df['date'] = date
         df.columns = ['metric', 'count', 'date']
         df = df[df['metric'].str.contains(keep_list)]
@@ -62,7 +62,10 @@ def scrape_sheet(sheet_id, raw_general, raw_geo, raw_dem):
         ## scrape geographic sheet
         geo_url = f'https://docs.google.com/spreadsheets/d/{sheet_id}1759341227'
         geo_df = pd.read_csv(geo_url)
-        geo_df['date'] = date
+
+        # get grographic date & fix cols
+        geo_date = list(geo_df)[-1].split(':')[-1].strip()
+        geo_df['date'] = geo_date
         geo_df = geo_df.dropna(axis=1)
         geo_df.columns = ['city_town', 'count', 'date']
         save_file(geo_df, raw_geo, date)
@@ -76,6 +79,9 @@ def scrape_sheet(sheet_id, raw_general, raw_geo, raw_dem):
             print('[error] demographics format changed')
             return
         else:
+            # get demographics updated date
+            dem_date = list(dem_df)[0].split(':')[-1].strip()
+
             # drop percentage columns & rename
             dem_df = dem_df.drop(dem_df.columns[[2, 4, 6]], axis=1)
             dem_df.columns = ['metric', 'case_count', 'hosptialized', 'deaths']
@@ -87,7 +93,7 @@ def scrape_sheet(sheet_id, raw_general, raw_geo, raw_dem):
 
             # combine & save
             dem_df = pd.concat([sex, age, race])
-            dem_df['date'] = date
+            dem_df['date'] = dem_date
             save_file(dem_df, raw_dem, date)
 
 def scrape_nursing_homes(sheet_id, raw_facility):
@@ -99,7 +105,7 @@ def scrape_nursing_homes(sheet_id, raw_facility):
     df = pd.read_html(url)[0]
 
     # get date of last update 
-    date = df.iloc[0,1][-10:].strip()
+    date = df.iloc[0,1].split(' ')[-1]
     date = pd.to_datetime(date).tz_localize('EST').date()
     if not date > prior_date:
         print('\n[status] nursing homes:\tno update')
