@@ -20,6 +20,8 @@ def convert_int(value):
     return int(value)
 
 def clean_facility_city(string):
+    if string == None:
+        return
     string = string.replace(')','')
     string = string.split('-')[0]
     
@@ -121,6 +123,9 @@ def clean_zip_codes(raw_zip):
 def clean_nursing_homes(raw_nurse_homes):
     print('\n[status] cleaning nursing homes')
     df = pd.read_csv(raw_nurse_homes)
+
+    # remove total cases & fatalities rows
+    df = df[~df['Facility Name'].str.contains("Total Cases")]
 
     # split low/high cases & fatalities
     cases = df["Cases"].str.split(" to ", n=1, expand=True).fillna(0)
