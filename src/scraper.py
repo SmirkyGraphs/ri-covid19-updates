@@ -96,6 +96,16 @@ def scrape_sheet(sheet_id, raw_general, raw_geo, raw_dem):
             dem_df['date'] = dem_date
             save_file(dem_df, raw_dem, date)
 
+def scrape_revised_data(sheet_id):
+    """
+    The revised data is updated daily and contains all prior dates.
+    This will download & overwrite prior revised data file.
+    """
+    url = f'https://docs.google.com/spreadsheets/d/{sheet_id}1998687529'
+    df = pd.read_csv(gen_url)
+    df.to_csv('./data/raw/revised_data.csv', index=False)
+
+
 def scrape_nursing_homes(sheet_id, raw_facility):
     # load prior date
     df = pd.read_csv(raw_facility, parse_dates=['date'])
