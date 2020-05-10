@@ -102,7 +102,7 @@ def scrape_revised_data(sheet_id):
     This will download & overwrite prior revised data file.
     """
     url = f'https://docs.google.com/spreadsheets/d/{sheet_id}1998687529'
-    df = pd.read_csv(gen_url)
+    df = pd.read_csv(url)
     df.to_csv('./data/raw/revised_data.csv', index=False)
 
 
