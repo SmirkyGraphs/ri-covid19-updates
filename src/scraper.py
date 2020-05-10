@@ -124,6 +124,9 @@ def scrape_nursing_homes(sheet_id, raw_facility):
         # fix headers
         df.columns = df.iloc[1]
 
+        # drop past 14 days column
+        df = df.drop(columns='New Cases in Past 14 Days')
+
         # fix dataframe shape
         assisted = df[df['Facility Name'] == 'Assisted Living Facilities'].index[0]
         nursing_homes = df.drop(columns=[2])[3:assisted]
