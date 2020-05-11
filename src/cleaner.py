@@ -159,3 +159,12 @@ def clean_nursing_homes(fname):
     # save file
     df.to_csv('./data/clean/nurse-homes-covid-19-clean.csv', index=False)
 
+def clean_revised(fname):
+    print('[status] cleaning revised data')
+    df = pd.read_csv(f'./data/raw/{fname}.csv', parse_dates=['Date'])
+
+    df['New total labs'] = df['New positive labs'] + df['New negative labs']
+    df['%_positive'] = df['New positive labs']/df['New total labs']
+    df['Date_ts'] = df['Date'].apply(lambda x: pd.datetime.toordinal(x))
+
+    df.to_csv('./data/clean/revised-data-clean.csv', index=False)
