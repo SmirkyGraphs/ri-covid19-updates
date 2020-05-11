@@ -31,47 +31,151 @@ Woonsocket Health Center (Woonsocket),15 to 19,Fewer than 5,nursing home,4/23/20
 Darlington Memory Lane (North Providence - 1073 Mineral Spring),25 to 29,Fewer than 5,assisted living,4/23/2020
 Highlands on the East Side (Providence),10 to 14,0,assisted living,4/23/2020
 Wingate Assisted Living - Blackstone Boulevard (Providence),15 to 19,Fewer than 5,assisted living,4/23/2020
-Bannister House (Providence),2 to 4,0,nursing home,2020-04-29
-Berkshire Place (Providence),100 to 104,5 to 9,nursing home,2020-04-29
-Bethany Home (Providence),10 to 14,0,nursing home,2020-04-29
-Brentwood (Warwick),25 to 29,Fewer than 5,nursing home,2020-04-29
-Cedar Crest (Cranston),2 to 4,0,nursing home,2020-04-29
-Charlesgate Nursing Center (Providence),55 to 59,Fewer than 5,nursing home,2020-04-29
-Cherry Hill Manor (Johnston),2 to 4,0,nursing home,2020-04-29
-Crystal Lake Rehab & Care (Burrillville),20 to 24,Fewer than 5,nursing home,2020-04-29
-Eastgate Nursing & Rehab (East Providence),5 to 9,0,nursing home,2020-04-29
-Elmhurst Healthcare Center (Providence),25 to 29,5 to 9,nursing home,2020-04-29
-Evergreen House Health Center (East Providence),10 to 14,0,nursing home,2020-04-29
-Friendly Home (Woonsocket),2 to 4,0,nursing home,2020-04-29
-Golden Crest (North Providence),95 to 99,25 to 29,nursing home,2020-04-29
-Greenville Skilled Nursing & Rehabilitation (Greenville),20 to 24,0,nursing home,2020-04-29
-Hallworth House (Providence),5 to 9,Fewer than 5,nursing home,2020-04-29
-Harris Health Care Center North (Central Falls),15 to 19,0,nursing home,2020-04-29
-Hebert Nursing Home (Smithfield),2 to 4,0,nursing home,2020-04-29
-Heritage Hills (Smithfield),5 to 9,0,nursing home,2020-04-29
-Hopkins Manor (North Providence),25 to 29,Fewer than 5,nursing home,2020-04-29
-Kent Regency (Warwick),5 to 9,0,nursing home,2020-04-29
-Linn Health Center (East Providence),5 to 9,0,nursing home,2020-04-29
-Mount St. Rita (Cumberland),60 to 64,5 to 9,nursing home,2020-04-29
-Oak Hill Health Center (Pawtucket),80 to 89,15 to 19,nursing home,2020-04-29
-Oakland Grove Health Center (Woonsocket),60 to 64,10 to 14,nursing home,2020-04-29
-Orchard View Manor (East Providence),130 to 134,35 to 39,nursing home,2020-04-29
-Riverview Community (Coventry),20 to 24,Fewer than 5,nursing home,2020-04-29
-Saint Elizabeth Home (East Greenwich),2 to 4,0,nursing home,2020-04-29
-Saint Elizabeth Manor East Bay (Bristol),10 to 14,0,nursing home,2020-04-29
-Scalabrini Villa (North Kingstown),65 to 69,10 to 14,nursing home,2020-04-29
-South County Nursing (North Kingstown),5 to 9,0,nursing home,2020-04-29
-South Kingstown Nursing & Rehab (South Kingstown),10 to 14,Fewer than 5,nursing home,2020-04-29
-St. Antoines Residence (North Smithfield),10 to 14,0,nursing home,2020-04-29
-Stillwater Assisted Living & Skilled Nursing (Greenville),60 to 64,10 to 14,nursing home,2020-04-29
-Summit Commons (Providence),95 to 99,10 to 14,nursing home,2020-04-29
-The Ballou Home (Woonsocket),5 to 9,0,nursing home,2020-04-29
-Veterans Home (Bristol),10 to 14,0,nursing home,2020-04-29
-Village House Nursing and Rehab (Newport),2 to 4,0,nursing home,2020-04-29
-West Shore Health Center (Warwick),45 to 49,Fewer than 5,nursing home,2020-04-29
-West View Nursing Home (West Warwick),25 to 29,Fewer than 5,nursing home,2020-04-29
-Woonsocket Health Center (Woonsocket),50 to 54,Fewer than 5,nursing home,2020-04-29
-Darlington Memory Lane (North Providence - 1073 Mineral Spring),30 to 34,5 to 9,assisted living,2020-04-29
-Highlands on the East Side (Providence),10 to 14,Fewer than 5,assisted living,2020-04-29
-The Lighthouse at Lincoln (Lincoln),2 to 4,0,assisted living,2020-04-29
-Wingate Assisted Living - Blackstone Boulevard (Providence),15 to 19,Fewer than 5,assisted living,2020-04-29
+Bannister House (Providence),2 to 4,0,nursing home,4/29/2020
+Berkshire Place (Providence),100 to 104,5 to 9,nursing home,4/29/2020
+Bethany Home (Providence),10 to 14,0,nursing home,4/29/2020
+Brentwood (Warwick),25 to 29,Fewer than 5,nursing home,4/29/2020
+Cedar Crest (Cranston),2 to 4,0,nursing home,4/29/2020
+Charlesgate Nursing Center (Providence),55 to 59,Fewer than 5,nursing home,4/29/2020
+Cherry Hill Manor (Johnston),2 to 4,0,nursing home,4/29/2020
+Crystal Lake Rehab & Care (Burrillville),20 to 24,Fewer than 5,nursing home,4/29/2020
+Eastgate Nursing & Rehab (East Providence),5 to 9,0,nursing home,4/29/2020
+Elmhurst Healthcare Center (Providence),25 to 29,5 to 9,nursing home,4/29/2020
+Evergreen House Health Center (East Providence),10 to 14,0,nursing home,4/29/2020
+Friendly Home (Woonsocket),2 to 4,0,nursing home,4/29/2020
+Golden Crest (North Providence),95 to 99,25 to 29,nursing home,4/29/2020
+Greenville Skilled Nursing & Rehabilitation (Greenville),20 to 24,0,nursing home,4/29/2020
+Hallworth House (Providence),5 to 9,Fewer than 5,nursing home,4/29/2020
+Harris Health Care Center North (Central Falls),15 to 19,0,nursing home,4/29/2020
+Hebert Nursing Home (Smithfield),2 to 4,0,nursing home,4/29/2020
+Heritage Hills (Smithfield),5 to 9,0,nursing home,4/29/2020
+Hopkins Manor (North Providence),25 to 29,Fewer than 5,nursing home,4/29/2020
+Kent Regency (Warwick),5 to 9,0,nursing home,4/29/2020
+Linn Health Center (East Providence),5 to 9,0,nursing home,4/29/2020
+Mount St. Rita (Cumberland),60 to 64,5 to 9,nursing home,4/29/2020
+Oak Hill Health Center (Pawtucket),80 to 89,15 to 19,nursing home,4/29/2020
+Oakland Grove Health Center (Woonsocket),60 to 64,10 to 14,nursing home,4/29/2020
+Orchard View Manor (East Providence),130 to 134,35 to 39,nursing home,4/29/2020
+Riverview Community (Coventry),20 to 24,Fewer than 5,nursing home,4/29/2020
+Saint Elizabeth Home (East Greenwich),2 to 4,0,nursing home,4/29/2020
+Saint Elizabeth Manor East Bay (Bristol),10 to 14,0,nursing home,4/29/2020
+Scalabrini Villa (North Kingstown),65 to 69,10 to 14,nursing home,4/29/2020
+South County Nursing (North Kingstown),5 to 9,0,nursing home,4/29/2020
+South Kingstown Nursing & Rehab (South Kingstown),10 to 14,Fewer than 5,nursing home,4/29/2020
+St. Antoines Residence (North Smithfield),10 to 14,0,nursing home,4/29/2020
+Stillwater Assisted Living & Skilled Nursing (Greenville),60 to 64,10 to 14,nursing home,4/29/2020
+Summit Commons (Providence),95 to 99,10 to 14,nursing home,4/29/2020
+The Ballou Home (Woonsocket),5 to 9,0,nursing home,4/29/2020
+Veterans Home (Bristol),10 to 14,0,nursing home,4/29/2020
+Village House Nursing and Rehab (Newport),2 to 4,0,nursing home,4/29/2020
+West Shore Health Center (Warwick),45 to 49,Fewer than 5,nursing home,4/29/2020
+West View Nursing Home (West Warwick),25 to 29,Fewer than 5,nursing home,4/29/2020
+Woonsocket Health Center (Woonsocket),50 to 54,Fewer than 5,nursing home,4/29/2020
+Darlington Memory Lane (North Providence - 1073 Mineral Spring),30 to 34,5 to 9,assisted living,4/29/2020
+Highlands on the East Side (Providence),10 to 14,Fewer than 5,assisted living,4/29/2020
+The Lighthouse at Lincoln (Lincoln),2 to 4,0,assisted living,4/29/2020
+Wingate Assisted Living - Blackstone Boulevard (Providence),15 to 19,Fewer than 5,assisted living,4/29/2020
+Ballou Home (Woonsocket),5 to 9,0,nursing home,5/6/2020
+Bannister House (Providence),5 to 9,0,nursing home,5/6/2020
+Berkshire Place (Providence),130 to 134,10 to 14,nursing home,5/6/2020
+Bethany Home (Providence),10 to 14,Fewer than 5,nursing home,5/6/2020
+Brentwood (Warwick),30 to 34,5 to 9,nursing home,5/6/2020
+Cedar Crest (Cranston),2 to 4,0,nursing home,5/6/2020
+Charlesgate Nursing Center (Providence),55 to 59,Fewer than 5,nursing home,5/6/2020
+Crestwood Nursing & Rehab (Warren),10 to 14,0,nursing home,5/6/2020
+Cherry Hill Manor (Johnston),10 to 14,0,nursing home,5/6/2020
+Crystal Lake Rehab & Care (Burrillville),35 to 39,Fewer than 5,nursing home,5/6/2020
+Eastgate Nursing & Rehab (East Providence),15 to 19,0,nursing home,5/6/2020
+Elmhurst Healthcare Center (Providence),35 to 39,10 to 14,nursing home,5/6/2020
+Evergreen House Health Center (East Providence),35 to 39,Fewer than 5,nursing home,5/6/2020
+Friendly Home (Woonsocket),5 to 9,0,nursing home,5/6/2020
+Golden Crest (North Providence),95 to 99,30 to 34,nursing home,5/6/2020
+Grand Islander (Middletown),2 to 4,Fewer than 5,nursing home,5/6/2020
+Greenville Skilled Nursing & Rehabilitation (Greenville),35 to 39,0,nursing home,5/6/2020
+Hallworth House (Providence),10 to 14,Fewer than 5,nursing home,5/6/2020
+Harris Health Care Center North (Central Falls),20 to 24,0,nursing home,5/6/2020
+Hebert Nursing Home (Smithfield),2 to 4,0,nursing home,5/6/2020
+Heritage Hills (Smithfield),5 to 9,0,nursing home,5/6/2020
+Hopkins Manor (North Providence),40 to 49,Fewer than 5,nursing home,5/6/2020
+Kent Regency (Warwick),20 to 24,Fewer than 5,nursing home,5/6/2020
+Linn Health Center (East Providence),5 to 9,0,nursing home,5/6/2020
+Mount St. Rita (Cumberland),65 to 69,15 to 19,nursing home,5/6/2020
+Oak Hill Health Center (Pawtucket),80 to 84,20 to 24,nursing home,5/6/2020
+Oakland Grove Health Center (Woonsocket),65 to 69,15 to 19,nursing home,5/6/2020
+Orchard View Manor (East Providence),140 to 144,40 to 44,nursing home,5/6/2020
+Riverview Community (Coventry),25 to 29,Fewer than 5,nursing home,5/6/2020
+Saint Elizabeth Manor East Bay (Bristol),10 to 14,0,nursing home,5/6/2020
+Scalabrini Villa (North Kingstown),65 to 69,15 to 19,nursing home,5/6/2020
+South County Nursing (North Kingstown),20 to 24,0,nursing home,5/6/2020
+South Kingstown Nursing & Rehab (South Kingstown),10 to 14,5 to 9,nursing home,5/6/2020
+St. Antoines Residence (North Smithfield),20 to 24,Fewer than 5,nursing home,5/6/2020
+Steere House Nursing and Rehab (Providence),10 to 14,0,nursing home,5/6/2020
+Stillwater Skilled Nursing (Greenville),60 to 64,10 to 14,nursing home,5/6/2020
+Summit Commons (Providence),105 to 109,15 to 19,nursing home,5/6/2020
+Trinity Health Center (Woonsocket),5 to 9,0,nursing home,5/6/2020
+Veterans Home (Bristol),15 to 19,0,nursing home,5/6/2020
+Village House Nursing and Rehab (Newport),2 to 4,0,nursing home,5/6/2020
+Waterview Villa (East Providence),10 to 14,0,nursing home,5/6/2020
+West Shore Health Center (Warwick),90 to 94,15 to 19,nursing home,5/6/2020
+West View Nursing Home (West Warwick),35 to 39,Fewer than 5,nursing home,5/6/2020
+Woonsocket Health Center (Woonsocket),65 to 69,5 to 9,nursing home,5/6/2020
+Total Cases and Fatalities Long Term Care Facilities,1600-1605,260-265,nursing home,5/6/2020
+Darlington Memory Lane (North Providence - 1073 Mineral Spring),55 to 59,5 to 9,assisted living,5/6/2020
+Highlands on the East Side (Providence),10 to 14,Fewer than 5,assisted living,5/6/2020
+The Lighthouse at Lincoln (Lincoln),10 to 14,Fewer than 5,assisted living,5/6/2020
+Wingate Assisted Living - Blackstone Boulevard (Providence),20 to 24,5 to 9,assisted living,5/6/2020
+Wingate Assisted Living - Residences on the East Side,10 to 14,Fewer than 5,assisted living,5/6/2020
+Total Cases and Fatalities Assisted Living Facilities,115-119,15 to 19,assisted living,5/6/2020
+Ballou Home (Woonsocket),5 to 9,0,nursing home,2020-05-09
+Bannister House (Providence),5 to 9,0,nursing home,2020-05-09
+Berkshire Place (Providence),165 to 170,15 to 19,nursing home,2020-05-09
+Bethany Home (Providence),10 to 14,Fewer than 5,nursing home,2020-05-09
+Brentwood (Warwick),30 to 34,5 to 9,nursing home,2020-05-09
+Brookdale - Sakonnet Bay (Tiverton),2 to 4,0,nursing home,2020-05-09
+Cedar Crest (Cranston),2 to 4,0,nursing home,2020-05-09
+Charlesgate Nursing Center (Providence),60 to 64,Fewer than 5,nursing home,2020-05-09
+Cherry Hill Manor (Johnston),15 to 19,0,nursing home,2020-05-09
+Crestwood Nursing & Rehab (Warren),10 to 14,0,nursing home,2020-05-09
+Crystal Lake Rehab & Care (Burrillville),40 to 44,5 to 9,nursing home,2020-05-09
+Eastgate Nursing & Rehab (East Providence),25 to 29,0,nursing home,2020-05-09
+Elmhurst Healthcare Center (Providence),40 to 44,10 to 14,nursing home,2020-05-09
+Evergreen House Health Center (East Providence),55 to 59,Fewer than 5,nursing home,2020-05-09
+Friendly Home (Woonsocket),5 to 9,0,nursing home,2020-05-09
+Golden Crest (North Providence),95 to 99,30 to 35,nursing home,2020-05-09
+Grand Islander (Middletown),2 to 4,Fewer than 5,nursing home,2020-05-09
+Greenville Skilled Nursing & Rehabilitation (Greenville),60 to 64,0,nursing home,2020-05-09
+Hallworth House (Providence),15 to 19,5 to 9,nursing home,2020-05-09
+Harris Health Care Center North (Central Falls),20 to 24,0,nursing home,2020-05-09
+Hebert Nursing Home (Smithfield),2 to 4,0,nursing home,2020-05-09
+Heritage Hills (Smithfield),5 to 9,0,nursing home,2020-05-09
+Hopkins Manor (North Providence),45 to 49,Fewer than 5,nursing home,2020-05-09
+Kent Regency (Warwick),25 to 29,Fewer than 5,nursing home,2020-05-09
+Linn Health Center (East Providence),5 to 9,0,nursing home,2020-05-09
+Mount St. Rita (Cumberland),65 to 69,15 to 19,nursing home,2020-05-09
+Oak Hill Health Center (Pawtucket),75 to 79,20 to 25,nursing home,2020-05-09
+Oakland Grove Health Center (Woonsocket),70 to 74,15 to 19,nursing home,2020-05-09
+Orchard View Manor (East Providence),140 to 144,40 to 44,nursing home,2020-05-09
+Rhode Island Veterans Home (Bristol),15 to 19,Fewer than 5,nursing home,2020-05-09
+Riverview Community (Coventry),25 to 29,Fewer than 5,nursing home,2020-05-09
+Saint Antoine Residence (North Smithfield),35 to 39,10 to 14,nursing home,2020-05-09
+Saint Elizabeth Manor East Bay (Bristol),10 to 14,0,nursing home,2020-05-09
+Scalabrini Villa (North Kingstown),65 to 69,15 to 19,nursing home,2020-05-09
+South County Nursing Center (North Kingstown),25 to 29,0,nursing home,2020-05-09
+South Kingstown Nursing & Rehab (South Kingstown),15 to 19,5 to 9,nursing home,2020-05-09
+Steere House Nursing and Rehab (Providence),10 to 14,Fewer than 5,nursing home,2020-05-09
+Stillwater Skilled Nursing (Greenville),60 to 64,10 to 14,nursing home,2020-05-09
+Summit Commons (Providence),105 to 109,15 to 19,nursing home,2020-05-09
+Trinity Health Center (Woonsocket),5 to 9,0,nursing home,2020-05-09
+Village House Nursing and Rehab (Newport),2 to 4,0,nursing home,2020-05-09
+Waterview Villa (East Providence),15 to 19,0,nursing home,2020-05-09
+West Shore Health Center (Warwick),95 to 99,20 to 24,nursing home,2020-05-09
+West View Nursing Home (West Warwick),35 to 39,Fewer than 5,nursing home,2020-05-09
+Woonsocket Health Center (Woonsocket),80 to 84,5 to 9,nursing home,2020-05-09
+Total Cases and Fatalities Long Term Care Facilities,1780-1784,294-299,nursing home,2020-05-09
+Darlington Memory Lane (North Providence - 1073 Mineral Spring),55 to 59,5 to 9,assisted living,2020-05-09
+Highlands on the East Side (Providence),10 to 14,Fewer than 5,assisted living,2020-05-09
+Lighthouse at Lincoln (Lincoln),10 to 14,0,assisted living,2020-05-09
+Stillwater Assisted Living (Greenville),2 to 4,,assisted living,2020-05-09
+Wingate Assisted Living - Blackstone Boulevard (Providence),20 to 24,5 to 9,assisted living,2020-05-09
+Wingate Assisted Living - Residences on the East Side,10 to 14,Fewer than 5,assisted living,2020-05-09
+Total Cases and Fatalities Assisted Living Facilities,125-129,20 to 24,assisted living,2020-05-09
