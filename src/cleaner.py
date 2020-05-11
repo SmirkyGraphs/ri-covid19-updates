@@ -33,9 +33,9 @@ def sync_sheets(wb, df, sheet_name):
     sheet = wb.worksheet_by_title(f'{sheet_name}')
     sheet.set_dataframe(df, (1,1))
 
-def clean_general(raw_general):
+def clean_general(fname):
     print('[status] cleaning statwide general info')
-    df = pd.read_csv(raw_general)
+    df = pd.read_csv(f'./data/raw/{fname}.csv')
     # re name metrics to shorten them
     df.loc[df['metric'].str.contains('positive'), 'metric'] = 'RI positive cases'
     df.loc[df['metric'].str.contains('negative'), 'metric'] = 'RI negative results'
@@ -66,9 +66,9 @@ def clean_general(raw_general):
     df.to_csv('./data/clean/ri-covid-19-clean.csv', index=False)
     sync_sheets(wb, df, 'statewide')
 
-def clean_geographic(raw_geo):
+def clean_geographic(fname):
     print('[status] cleaning city/town info')
-    df = pd.read_csv(raw_geo)
+    df = pd.read_csv(f'./data/raw/{fname}.csv')
     pop = pd.read_csv('./data/files/population_est_2017.csv')
 
     # remove under 5 surpressed values
@@ -94,9 +94,9 @@ def clean_geographic(raw_geo):
     df.to_csv('./data/clean/geo-ri-covid-19-clean.csv', index=False)
     sync_sheets(wb, df, 'city_town')
 
-def clean_zip_codes(raw_zip):
+def clean_zip_codes(fname):
     print('[status] cleaning zip codes data')
-    df = pd.read_csv(raw_zip)
+    df = pd.read_csv(f'./data/raw/{fname}.csv')
     pop = pd.read_csv('./data/files/zip_code_pop_2010.csv')
 
     # remove under 5 surpressed values
@@ -120,9 +120,9 @@ def clean_zip_codes(raw_zip):
     # save file
     df.to_csv('./data/clean/zip-codes-covid-19-clean.csv', index=False)
 
-def clean_nursing_homes(raw_nurse_homes):
+def clean_nursing_homes(fname):
     print('\n[status] cleaning nursing homes')
-    df = pd.read_csv(raw_nurse_homes)
+    df = pd.read_csv(f'./data/raw/{fname}.csv')
 
     # remove total cases & fatalities rows
     df = df[~df['Facility Name'].str.contains("Total Cases")]
@@ -158,3 +158,4 @@ def clean_nursing_homes(raw_nurse_homes):
 
     # save file
     df.to_csv('./data/clean/nurse-homes-covid-19-clean.csv', index=False)
+
