@@ -26,8 +26,9 @@ def save_file(df, file_path, current_date):
             df.to_csv(file_path, mode='a', header=False, index=False)
         return
 
-def scrape_sheet(sheet_id, raw_general, raw_geo, raw_dem):
+def scrape_sheet(sheet_id):
     # load previous raw_data and get prior date
+    raw_general = './data/raw/ri-covid-19.csv'
     df = pd.read_csv(raw_general, parse_dates=['date'])
     prior_date = df['date'].max().tz_localize('EST').date()
 
@@ -68,6 +69,9 @@ def scrape_sheet(sheet_id, raw_general, raw_geo, raw_dem):
         geo_df['date'] = geo_date
         geo_df = geo_df.dropna(axis=1)
         geo_df.columns = ['city_town', 'count', 'date']
+
+        # save file
+        raw_geo = './data/raw/geo-ri-covid-19.csv'
         save_file(geo_df, raw_geo, date)
 
         ## scrape demographics sheet
@@ -91,23 +95,25 @@ def scrape_sheet(sheet_id, raw_general, raw_geo, raw_dem):
             age = dem_df[5:16]
             race = dem_df[18:23]
 
-            # combine & save
             dem_df = pd.concat([sex, age, race])
             dem_df['date'] = dem_date
+
+            raw_dem = './data/raw/demographics-covid-19.csv'
             save_file(dem_df, raw_dem, date)
 
-def scrape_revised_data(sheet_id):
+def scrape_revised(sheet_id):
     """
     The revised data is updated daily and contains all prior dates.
     This will download & overwrite prior revised data file.
     """
     url = f'https://docs.google.com/spreadsheets/d/{sheet_id}1998687529'
     df = pd.read_csv(url)
-    df.to_csv('./data/raw/revised_data.csv', index=False)
+    df.to_csv('./data/raw/revised-data.csv', index=False)
 
 
-def scrape_nursing_homes(sheet_id, raw_facility):
+def scrape_nursing_homes(sheet_id):
     # load prior date
+    raw_facility = './data/raw/nurse-homes-covid-19.csv'
     df = pd.read_csv(raw_facility, parse_dates=['date'])
     prior_date = df['date'].max().tz_localize('EST').date()
 
@@ -142,8 +148,9 @@ def scrape_nursing_homes(sheet_id, raw_facility):
         save_file(df, raw_facility, date)
         print('[status] nursing homes:\tupdated')
 
-def scrape_zip_codes(sheet_id, raw_zip):
+def scrape_zip_codes(sheet_id):
     # load prior date
+    raw_zip = './data/raw/zip-codes-covid-19.csv'
     df = pd.read_csv(raw_zip, parse_dates=['date'])
     prior_date = df['date'].max().tz_localize('EST').date()
 
