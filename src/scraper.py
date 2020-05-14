@@ -66,13 +66,14 @@ def scrape_sheet(sheet_id):
 
         # get grographic date & fix cols
         geo_date = list(geo_df)[-1].split(':')[-1].strip()
+        geo_date = pd.to_datetime(geo_date).tz_localize('EST').date()
         geo_df['date'] = geo_date
         geo_df = geo_df.dropna(axis=1)
         geo_df.columns = ['city_town', 'count', 'date']
 
         # save file
         raw_geo = './data/raw/geo-ri-covid-19.csv'
-        save_file(geo_df, raw_geo, date)
+        save_file(geo_df, raw_geo, geo_date)
 
         ## scrape demographics sheet
         dem_url = f'https://docs.google.com/spreadsheets/d/{sheet_id}771623753'
@@ -85,6 +86,7 @@ def scrape_sheet(sheet_id):
         else:
             # get demographics updated date
             dem_date = list(dem_df)[0].split(':')[-1].strip()
+            dem_date = pd.to_datetime(dem_date).tz_localize('EST').date()
 
             # drop percentage columns & rename
             dem_df = dem_df.drop(dem_df.columns[[2, 4, 6]], axis=1)
@@ -99,7 +101,7 @@ def scrape_sheet(sheet_id):
             dem_df['date'] = dem_date
 
             raw_dem = './data/raw/demographics-covid-19.csv'
-            save_file(dem_df, raw_dem, date)
+            save_file(dem_df, raw_dem, dem_date)
 
 def scrape_revised(sheet_id):
     """
