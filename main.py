@@ -26,4 +26,6 @@ if __name__ == "__main__":
     # make graphs
     plots.testing_plot()
     plots.hospital_plot()
+    plots.testing_ma_plot()
+    plots.hospital_ma_plot()
     plots.city_rate_plot()
