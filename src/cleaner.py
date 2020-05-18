@@ -11,6 +11,7 @@ wb = api.open('ri-covid-19')
 
 def convert_int(value):
     value = str(value).lower()
+    value = value.replace('fewer than five', '0')
     value = value.replace('fewer than 5', '0')
     value = value.replace('<5', '0')
     value = value.replace('approximately', '')
@@ -69,7 +70,7 @@ def clean_general(fname):
 def clean_geographic(fname):
     print('[status] cleaning city/town info')
     df = pd.read_csv(f'./data/raw/{fname}.csv')
-    pop = pd.read_csv('./data/files/population_est_2017.csv')
+    pop = pd.read_csv('./data/external/population_est_2017.csv')
 
     # remove under 5 surpressed values
     df['count'] = df['count'].apply(convert_int)
@@ -97,7 +98,7 @@ def clean_geographic(fname):
 def clean_zip_codes(fname):
     print('[status] cleaning zip codes data')
     df = pd.read_csv(f'./data/raw/{fname}.csv')
-    pop = pd.read_csv('./data/files/zip_code_pop_2010.csv')
+    pop = pd.read_csv('./data/external/zip_code_pop_2010.csv')
 
     # remove under 5 surpressed values
     df['count'] = df['count'].apply(convert_int)
@@ -146,8 +147,8 @@ def clean_nursing_homes(fname):
     df = df.drop(columns=['Cases', 'Fatalities', 'Facility Name'])
 
     # load & merge county
-    county = pd.read_csv('./data/files/population_est_2017.csv')
-    df = df.merge(county[['city_town', 'county']], on='city_town')
+    county = pd.read_csv('./data/external/population_est_2017.csv')
+    df = df.merge(county[['city_town', 'county']], on='city_town', how='left')
 
     # create date col and sort by date
     df['date'] = pd.to_datetime(df['date']).dt.strftime('%m/%d/%Y')
