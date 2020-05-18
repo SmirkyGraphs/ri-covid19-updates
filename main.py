@@ -4,7 +4,6 @@ from src import tweeter
 from src import plots
 
 main_sheet = '1n-zMS9Al94CPj_Tc3K7Adin-tN9x1RSjjx2UzJ4SV7Q/export?format=csv&gid='
-facility_sheet = '2PACX-1vQUem_oGj3-KdLreZ3swTBx6q264zWqJUWc39nWSgE-KSYoqDRmlFyksSIP7H_lLNTVtr5lHbudeDz0'
 
 if __name__ == "__main__":
     # scrape, clean & tweet out general information
@@ -14,7 +13,7 @@ if __name__ == "__main__":
     tweeter.send_tweet()
 
     # scrape, clean infrequently updated data
-    scraper.scrape_nursing_homes(facility_sheet)
+    scraper.scrape_nursing_homes(main_sheet)
     scraper.scrape_zip_codes(main_sheet)
     cleaner.clean_nursing_homes('nurse-homes-covid-19')
     cleaner.clean_zip_codes('zip-codes-covid-19')
