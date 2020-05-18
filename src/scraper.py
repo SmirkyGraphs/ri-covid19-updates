@@ -119,11 +119,11 @@ def scrape_nursing_homes(sheet_id):
     df = pd.read_csv(raw_facility, parse_dates=['date'])
     prior_date = df['date'].max().tz_localize('EST').date()
 
-    url = f'https://docs.google.com/spreadsheets/d/e/{sheet_id}/pubhtml?gid=0&single=true'
-    df = pd.read_html(url)[0]
+    url = f'https://docs.google.com/spreadsheets/d/{sheet_id}666863098'
+    df = pd.read_csv(url)
 
     # get date of last update 
-    date = df.iloc[0,1].split(' ')[-1]
+    date = df.iloc[0,0].split(' ')[-1]
     date = pd.to_datetime(date).tz_localize('EST').date()
     if not date > prior_date:
         print('\n[status] nursing homes:\tno update')
@@ -133,12 +133,12 @@ def scrape_nursing_homes(sheet_id):
         df.columns = df.iloc[1]
 
         # drop past 14 days column
-        df = df.drop(columns='New Cases in Past 14 Days')
+        df = df.drop(columns='New Resident Cases (in the past 14 days)')
 
         # fix dataframe shape
         assisted = df[df['Facility Name'] == 'Assisted Living Facilities'].index[0]
-        nursing_homes = df.drop(columns=[2])[3:assisted]
-        assisted_living = df.drop(columns=[2])[assisted+1:-1]
+        nursing_homes = df[3:assisted].copy()
+        assisted_living = df[assisted+1:-1].copy()
 
         # add facility type & recombine
         nursing_homes['type'] = 'nursing home'
