@@ -154,8 +154,9 @@ def clean_nursing_homes(fname):
     df['date'] = pd.to_datetime(df['date']).dt.strftime('%m/%d/%Y')
     df = df.sort_values(by=['type', 'facility_name', 'date'])
 
-    df.loc[df['date'] == df['date'].unique()[-2:][1], 'date_bin'] = 'Most Recent'
-    df.loc[df['date'] == df['date'].unique()[-2:][0], 'date_bin'] = 'Prior Week'
+    recent_dates = pd.np.sort(df['date'].unique())[-2:]
+    df.loc[df['date'] == recent_dates[1], 'date_bin'] = 'Most Recent'
+    df.loc[df['date'] == recent_dates[0], 'date_bin'] = 'Prior Week'
 
     # save file
     df.to_csv('./data/clean/nurse-homes-covid-19-clean.csv', index=False)
