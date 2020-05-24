@@ -8,7 +8,7 @@ keep_rows = [
     'currently hospitalized in Rhode Island',
     'currently in an intensive care unit',
     'COVID-19 associated fatalities \(cumulative\)',
-    'discharged from a hospital in Rhode Island',
+    'discharged from a hospital in Rhode Island \(cumlative\)',
     'were admitted to a hospital',
 ]
 
