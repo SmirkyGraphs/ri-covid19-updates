@@ -41,6 +41,8 @@ def scrape_sheet(sheet_id):
     # load data from RI - DOH spreadsheet
     gen_url = f'https://docs.google.com/spreadsheets/d/{sheet_id}0'
     df = pd.read_csv(gen_url)
+    gen_url = f'https://docs.google.com/spreadsheets/d/{sheet_id}1225599023'
+    df = pd.read_csv(gen_url).dropna(axis=1, how='all')
     date = list(df)[1].strip()
     date = pd.to_datetime(date).tz_localize('EST').date()
 
