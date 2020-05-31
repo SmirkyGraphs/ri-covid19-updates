@@ -108,7 +108,7 @@ def scrape_revised(sheet_id):
     The revised data is updated daily and contains all prior dates.
     This will download & overwrite prior revised data file.
     """
-    url = f'https://docs.google.com/spreadsheets/d/{sheet_id}1998687529'
+    url = f'https://docs.google.com/spreadsheets/d/{sheet_id}590763272'
     df = pd.read_csv(url)
     df.to_csv('./data/raw/revised-data.csv', index=False)
 
