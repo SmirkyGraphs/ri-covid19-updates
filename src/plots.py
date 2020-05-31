@@ -169,7 +169,7 @@ def city_rate_plot():
     df = pd.read_csv('./data/clean/geo-ri-covid-19-clean.csv', parse_dates=['date'])
     df = df.sort_values(by=['city_town', 'date'])
 
-    g = sns.FacetGrid(df, col="city_town", col_wrap=5, height=5)
+    g = sns.FacetGrid(df, col="city_town", col_wrap=7, height=3)
     g = g.map(plt.plot, "date", "rate_per_10k", marker=",")
     g.axes[0].xaxis.set_major_formatter(date_format)
     

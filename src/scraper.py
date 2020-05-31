@@ -80,7 +80,7 @@ def scrape_sheet(sheet_id):
         dem_df = pd.read_csv(dem_url)
 
         # make sure no columns were added/removed
-        if not dem_df.shape == (27, 7):
+        if not dem_df.shape == (26, 7):
             print('[error] demographics format changed')
             return
         else:
