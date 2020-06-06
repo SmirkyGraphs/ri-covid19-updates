@@ -170,7 +170,7 @@ def city_rate_plot():
     df = df.sort_values(by=['city_town', 'date'])
 
     g = sns.FacetGrid(df, col="city_town", col_wrap=7, height=3)
-    g = g.map(plt.plot, "date", "rate_per_10k", marker=",")
+    g = g.map(plt.plot, "date", "rate_per_10k", marker=",", linewidth=2.5)
     g.axes[0].xaxis.set_major_formatter(date_format)
     
     g.savefig("./figures/cities_rate.png", dpi=150)
