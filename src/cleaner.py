@@ -6,7 +6,7 @@ with open('./config.json') as config:
     creds = json.load(config)['google']
 
 # google sheets authentication
-api = pygsheets.authorize(service_file=creds)
+api = pygsheets.authorize(service_file=creds, retries=5)
 wb = api.open('ri-covid-19')
 
 def convert_int(value):
