@@ -167,10 +167,14 @@ def clean_nursing_homes(fname):
 
 def clean_revised(fname):
     print('[status] cleaning revised data')
-    df = pd.read_csv(f'./data/raw/{fname}.csv', parse_dates=['Date'])
+    df = pd.read_csv(f'./data/raw/{fname}.csv', parse_dates=['date'])
 
-    df['New total labs'] = df['New positive labs'] + df['New negative labs']
-    df['%_positive'] = df['New positive labs']/df['New total labs']
-    df['Date_ts'] = df['Date'].apply(lambda x: pd.datetime.toordinal(x))
+    # replace null label -- with 0
+    df['deaths'] = df['deaths'].replace('--', 0)
+    df['total deaths'] = df['total deaths'].replace('--', 0)
+
+    df['new total labs'] = df['new positive labs'] + df['new negative labs']
+    df['%_positive'] = df['new positive labs']/df['new total labs']
+    df['date_ts'] = df['date'].apply(lambda x: pd.datetime.toordinal(x))
 
     df.to_csv('./data/clean/revised-data-clean.csv', index=False)
