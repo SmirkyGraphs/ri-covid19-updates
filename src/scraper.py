@@ -20,7 +20,7 @@ def save_file(df, file_path, current_date):
         df.to_csv(file_path, index=False)
     else:
         # get prior file date
-        prior = pd.read_csv(file_path)
+        prior = pd.read_csv(file_path, parse_dates=['date'])
         prior_date = pd.to_datetime(prior['date'].max()).date()  
         if current_date > prior_date:
             df.to_csv(file_path, mode='a', header=False, index=False)
