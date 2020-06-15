@@ -140,7 +140,7 @@ def scrape_nursing_homes(sheet_id):
         df.columns = df.iloc[1]
 
         # drop past 14 days column
-        #df = df.drop(columns='New Resident Cases (in the past 14 days)')
+        df = df.drop(columns='New Resident Cases (in past 14 days)')
         df['Facility Name'] = df['Facility Name'].str.replace(u'\xa0', ' ') # random unicode appeared
 
         # fix dataframe shape
