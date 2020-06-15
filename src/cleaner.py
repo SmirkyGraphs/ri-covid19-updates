@@ -128,6 +128,10 @@ def clean_nursing_homes(fname):
     # remove total cases & fatalities rows
     df = df[~df['Facility Name'].str.contains("Total Cases")]
 
+    # normalize delimiter
+    df['Cases'] = df['Cases'].str.replace('-', ' to ')
+    df["Fatalities"] = df["Fatalities"].str.replace('-', ' to ')
+
     # split low/high cases & fatalities
     cases = df["Cases"].str.split(" to ", n=1, expand=True).fillna(0)
     fatalities = df["Fatalities"].str.split(" to ", n=1, expand=True).fillna(0)
