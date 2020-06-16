@@ -23,27 +23,27 @@ def fit_trend(df, y):
 
 def testing_plot():
     print('\n[status] creating testing plots')
-    df = pd.read_csv('./data/clean/revised-data-clean.csv', parse_dates=['Date'])
+    df = pd.read_csv('./data/clean/revised-data-clean.csv', parse_dates=['date'])
     df = df[-14:] # last 14 days
 
-    min_date = df['Date'].min().strftime("%#m/%d/%y")
-    max_date = df['Date'].max().strftime("%#m/%d/%y")
+    min_date = df['date'].min().strftime("%#m/%d/%y")
+    max_date = df['date'].max().strftime("%#m/%d/%y")
     date_range = f'between {min_date} - {max_date}'
 
     fig, axs = plt.subplots(nrows=2, ncols=2, sharex=True)
     fig.suptitle("14-Day Trend: Testing", fontsize=16)
-
+    
     # plot data
-    axs[0,0].plot(df['Date'], df['New positive labs'], c='dodgerblue', linewidth=2)
-    axs[0,1].plot(df['Date'], df['New negative labs'], c='dodgerblue', linewidth=2)
-    axs[1,0].plot(df['Date'], df['New total labs'], c='dodgerblue', linewidth=2)
-    axs[1,1].plot(df['Date'], df['%_positive'], c='dodgerblue', linewidth=2)
+    axs[0,0].plot(df['date'], df['new positive labs'], c='dodgerblue', linewidth=2)
+    axs[0,1].plot(df['date'], df['new negative labs'], c='dodgerblue', linewidth=2)
+    axs[1,0].plot(df['date'], df['new total labs'], c='dodgerblue', linewidth=2)
+    axs[1,1].plot(df['date'], df['%_positive'], c='dodgerblue', linewidth=2)
 
     # add trendline
-    axs[0,0].plot(df['Date'], fit_trend('New positive labs'), c='coral', linewidth=2, linestyle='--')
-    axs[0,1].plot(df['Date'], fit_trend('New negative labs'), c='coral', linewidth=2, linestyle='--')
-    axs[1,0].plot(df['Date'], fit_trend('New total labs'), c='coral', linewidth=2, linestyle='--')
-    axs[1,1].plot(df['Date'], fit_trend('%_positive'), c='coral', linewidth=2, linestyle='--')
+    axs[0,0].plot(df['date'], fit_trend(df, 'new positive labs'), c='coral', linewidth=2, linestyle='--')
+    axs[0,1].plot(df['date'], fit_trend(df, 'new negative labs'), c='coral', linewidth=2, linestyle='--')
+    axs[1,0].plot(df['date'], fit_trend(df, 'new total labs'), c='coral', linewidth=2, linestyle='--')
+    axs[1,1].plot(df['date'], fit_trend(df, '%_positive'), c='coral', linewidth=2, linestyle='--')
 
     axs[0,0].set_title('new positive labs')
     axs[0,1].set_title('new negative labs')
@@ -62,27 +62,27 @@ def testing_plot():
 
 def hospital_plot():
     print('[status] creating hospital plots')
-    df = pd.read_csv('./data/clean/revised-data-clean.csv', parse_dates=['Date'])
+    df = pd.read_csv('./data/clean/revised-data-clean.csv', parse_dates=['date'])
     df = df[-14:] # last 14 days
 
-    min_date = df['Date'].min().strftime("%#m/%d/%y")
-    max_date = df['Date'].max().strftime("%#m/%d/%y")
+    min_date = df['date'].min().strftime("%#m/%d/%y")
+    max_date = df['date'].max().strftime("%#m/%d/%y")
     date_range = f'between {min_date} - {max_date}'
 
     fig, axs = plt.subplots(nrows=2, ncols=2, sharex=True)
     fig.suptitle("14-Day Trend: Hospital", fontsize=16)
 
     # plot data
-    axs[0,0].plot(df['Date'], df['New hospital admissions'], c='dodgerblue', linewidth=2)
-    axs[0,1].plot(df['Date'], df['New hospital discharges'], c='dodgerblue', linewidth=2)
-    axs[1,0].plot(df['Date'], df['Hospital Deaths'], c='dodgerblue', linewidth=2)
-    axs[1,1].plot(df['Date'], df['Deaths'], c='dodgerblue', linewidth=2)
+    axs[0,0].plot(df['date'], df['new hospital admissions'], c='dodgerblue', linewidth=2)
+    axs[0,1].plot(df['date'], df['new hospital discharges'], c='dodgerblue', linewidth=2)
+    axs[1,0].plot(df['date'], df['hospital deaths'], c='dodgerblue', linewidth=2)
+    axs[1,1].plot(df['date'], df['deaths'], c='dodgerblue', linewidth=2)
 
     # add trendline
-    axs[0,0].plot(df['Date'], fit_trend('New hospital admissions'), c='coral', linewidth=2, linestyle='--')
-    axs[0,1].plot(df['Date'], fit_trend('New hospital discharges'), c='coral', linewidth=2, linestyle='--')
-    axs[1,0].plot(df['Date'], fit_trend('Hospital Deaths'), c='coral', linewidth=2, linestyle='--')
-    axs[1,1].plot(df['Date'], fit_trend('Deaths'), c='coral', linewidth=2, linestyle='--')
+    axs[0,0].plot(df['date'], fit_trend(df, 'new hospital admissions'), c='coral', linewidth=2, linestyle='--')
+    axs[0,1].plot(df['date'], fit_trend(df, 'new hospital discharges'), c='coral', linewidth=2, linestyle='--')
+    axs[1,0].plot(df['date'], fit_trend(df, 'hospital Deaths'), c='coral', linewidth=2, linestyle='--')
+    axs[1,1].plot(df['date'], fit_trend(df, 'deaths'), c='coral', linewidth=2, linestyle='--')
 
     axs[0,0].set_title('hospital admissions')
     axs[0,1].set_title('hospital discharges')
@@ -100,24 +100,24 @@ def hospital_plot():
     plt.savefig('./figures/hospital_14_day_trend.png', dpi=150)
 
 def testing_ma_plot():
-    df = pd.read_csv('./data/clean/revised-data-clean.csv', parse_dates=['Date'])
+    df = pd.read_csv('./data/clean/revised-data-clean.csv', parse_dates=['date'])
 
-    min_date = df['Date'].min().strftime("%#m/%d/%y")
-    max_date = df['Date'].max().strftime("%#m/%d/%y")
+    min_date = df['date'].min().strftime("%#m/%d/%y")
+    max_date = df['date'].max().strftime("%#m/%d/%y")
     date_range = f'between {min_date} - {max_date}'
 
     fig, axs = plt.subplots(nrows=2, ncols=2, sharex=True)
     fig.suptitle("7-Day Moving Avg: Testing", fontsize=16)
 
     # plot data
-    axs[0,0].plot(df['Date'], df['New positive labs'].rolling(7).mean(), c='dodgerblue', linewidth=2)
-    axs[0,1].plot(df['Date'], df['New negative labs'].rolling(7).mean(), c='dodgerblue', linewidth=2)
-    axs[1,0].plot(df['Date'], df['New total labs'].rolling(7).mean(), c='dodgerblue', linewidth=2)
-    axs[1,1].plot(df['Date'], df['%_positive'].rolling(7).mean(), c='dodgerblue', linewidth=2)
+    axs[0,0].plot(df['date'], df['new positive labs'].rolling(7).mean(), c='dodgerblue', linewidth=2)
+    axs[0,1].plot(df['date'], df['new negative labs'].rolling(7).mean(), c='dodgerblue', linewidth=2)
+    axs[1,0].plot(df['date'], df['new total labs'].rolling(7).mean(), c='dodgerblue', linewidth=2)
+    axs[1,1].plot(df['date'], df['%_positive'].rolling(7).mean(), c='dodgerblue', linewidth=2)
 
-    axs[0,0].set_title('New positive labs')
-    axs[0,1].set_title('New negative labs')
-    axs[1,0].set_title('New total labs')
+    axs[0,0].set_title('new positive labs')
+    axs[0,1].set_title('new negative labs')
+    axs[1,0].set_title('new total labs')
     axs[1,1].set_title('% new labs - positive')
 
     axs[1,0].xaxis.set_major_formatter(date_format)
@@ -131,20 +131,20 @@ def testing_ma_plot():
     plt.savefig('./figures/testing_7_day_ma.png', dpi=150)
 
 def hospital_ma_plot():
-    df = pd.read_csv('./data/clean/revised-data-clean.csv', parse_dates=['Date'])
+    df = pd.read_csv('./data/clean/revised-data-clean.csv', parse_dates=['date'])
 
-    min_date = df['Date'].min().strftime("%#m/%d/%y")
-    max_date = df['Date'].max().strftime("%#m/%d/%y")
+    min_date = df['date'].min().strftime("%#m/%d/%y")
+    max_date = df['date'].max().strftime("%#m/%d/%y")
     date_range = f'between {min_date} - {max_date}'
 
     fig, axs = plt.subplots(nrows=2, ncols=2, sharex=True)
     fig.suptitle("7-Day Moving Avg: Hospital", fontsize=16)
 
     # plot data
-    axs[0,0].plot(df['Date'], df['New hospital admissions'].rolling(7).mean(), c='dodgerblue', linewidth=2)
-    axs[0,1].plot(df['Date'], df['New hospital discharges'].rolling(7).mean(), c='dodgerblue', linewidth=2)
-    axs[1,0].plot(df['Date'], df['Hospital Deaths'].rolling(7).mean(), c='dodgerblue', linewidth=2)
-    axs[1,1].plot(df['Date'], df['Deaths'].rolling(7).mean(), c='dodgerblue', linewidth=2)
+    axs[0,0].plot(df['date'], df['new hospital admissions'].rolling(7).mean(), c='dodgerblue', linewidth=2)
+    axs[0,1].plot(df['date'], df['new hospital discharges'].rolling(7).mean(), c='dodgerblue', linewidth=2)
+    axs[1,0].plot(df['date'], df['hospital deaths'].rolling(7).mean(), c='dodgerblue', linewidth=2)
+    axs[1,1].plot(df['date'], df['deaths'].rolling(7).mean(), c='dodgerblue', linewidth=2)
 
     axs[0,0].set_title('hospital admissions')
     axs[0,1].set_title('hospital discharges')
