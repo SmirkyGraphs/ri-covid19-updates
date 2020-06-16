@@ -174,3 +174,47 @@ def city_rate_plot():
     g.axes[0].xaxis.set_major_formatter(date_format)
     
     g.savefig("./figures/cities_rate.png", dpi=150)
+def then_v_now():
+    df = pd.read_csv('./data/clean/revised-data-clean.csv', parse_dates=['date'])
+
+    dates = df['date_scraped'].unique()
+    start = df.loc[df['date_scraped'] == dates[0]]
+    current = df.loc[df['date_scraped'] == dates[-1]]
+
+    # save date_scraped for each set
+    start_date = start['date_scraped'].values[0]
+    current_date = current['date_scraped'].values[0]
+
+    # set date as index and select only deaths
+    start = start.set_index('date')['deaths']
+    current = current.set_index('date')['deaths']
+    current = current.reindex_like(start)
+
+    # combine data sets
+    df = pd.concat([start, current], axis=1).reset_index()
+    df.columns = ['date', start_date, current_date]
+
+    # 7 day moving average
+    df[df.columns[1]] = df[df.columns[1]].rolling(7).mean()
+    df[df.columns[2]] = df[df.columns[2]].rolling(7).mean()
+
+    fig, axs = plt.subplots(nrows=1, ncols=1, sharex=True)
+    fig.suptitle("COVID-19 Deaths Then vs. Now", fontsize=16)
+    sub_head = '7-day moving average deaths up to 5/9'
+
+    # plot data
+    axs.plot(df['date'], df[df.columns[1]], c='dodgerblue', linewidth=2)
+    axs.plot(df['date'], df[df.columns[2]], c='coral', linewidth=2)
+    axs.xaxis.set_major_formatter(date_format)
+
+    fig.tight_layout(rect=[0, 0.05, 1, 0.90])
+    fig.set_size_inches(9, 7, forward=True)
+    fig.text(x=.5, y=0.92, s=sub_head, fontsize=10, ha='center')
+    fig.text(x=0.97, y=0.03, s=footer, fontsize=10, ha='right')
+
+    patch = mpatches.Patch(facecolor='dodgerblue', label='data from 5/10/2020')
+    fig.legend(handles=[patch], loc='upper left', bbox_to_anchor=[0.78, 1], fontsize=10)    
+
+    patch = mpatches.Patch(facecolor='coral', label='data from 6/15/2020')
+    fig.legend(handles=[patch], loc='upper left', bbox_to_anchor=[0.78, 0.97], fontsize=10) 
+    plt.savefig('./figures/daily_deaths_then_vs_now.png', dpi=150)
