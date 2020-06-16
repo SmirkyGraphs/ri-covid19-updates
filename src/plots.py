@@ -4,6 +4,9 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
+import matplotlib.patches as mpatches
+
+pd.plotting.register_matplotlib_converters()
 
 plt.style.use('seaborn')
 plt.style.use('fivethirtyeight')
@@ -174,6 +177,7 @@ def city_rate_plot():
     g.axes[0].xaxis.set_major_formatter(date_format)
     
     g.savefig("./figures/cities_rate.png", dpi=150)
+
 def then_v_now():
     df = pd.read_csv('./data/clean/revised-data-clean.csv', parse_dates=['date'])
 
