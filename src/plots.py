@@ -14,6 +14,13 @@ date_format = mdates.DateFormatter('%#m/%#d')
 
 footer = 'made by: SmirkyGraphs  |  site: ivizri.com  |  source: RIDOH'
 
+def fit_trend(df, y):
+    temp_df = df[df[y].notnull()].copy()
+    z = np.polyfit(temp_df['date_ts'], temp_df[y], 1)
+    p = np.poly1d(z)
+    
+    return p(df['date_ts'])
+
 def testing_plot():
     print('\n[status] creating testing plots')
     df = pd.read_csv('./data/clean/revised-data-clean.csv', parse_dates=['Date'])
@@ -22,13 +29,6 @@ def testing_plot():
     min_date = df['Date'].min().strftime("%#m/%d/%y")
     max_date = df['Date'].max().strftime("%#m/%d/%y")
     date_range = f'between {min_date} - {max_date}'
-
-    def fit_trend(y):
-        temp_df = df[df[y].notnull()].copy()
-        z = np.polyfit(temp_df['Date_ts'], temp_df[y], 1)
-        p = np.poly1d(z)
-        
-        return p(df['Date_ts'])
 
     fig, axs = plt.subplots(nrows=2, ncols=2, sharex=True)
     fig.suptitle("14-Day Trend: Testing", fontsize=16)
@@ -68,13 +68,6 @@ def hospital_plot():
     min_date = df['Date'].min().strftime("%#m/%d/%y")
     max_date = df['Date'].max().strftime("%#m/%d/%y")
     date_range = f'between {min_date} - {max_date}'
-
-    def fit_trend(y):
-        temp_df = df[df[y].notnull()].copy()
-        z = np.polyfit(temp_df['Date_ts'], temp_df[y], 1)
-        p = np.poly1d(z)
-        
-        return p(df['Date_ts'])
 
     fig, axs = plt.subplots(nrows=2, ncols=2, sharex=True)
     fig.suptitle("14-Day Trend: Hospital", fontsize=16)
