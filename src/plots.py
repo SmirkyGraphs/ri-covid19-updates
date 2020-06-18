@@ -81,7 +81,7 @@ def hospital_plot():
     # add trendline
     axs[0,0].plot(df['date'], fit_trend(df, 'new hospital admissions'), c='coral', linewidth=2, linestyle='--')
     axs[0,1].plot(df['date'], fit_trend(df, 'new hospital discharges'), c='coral', linewidth=2, linestyle='--')
-    axs[1,0].plot(df['date'], fit_trend(df, 'hospital Deaths'), c='coral', linewidth=2, linestyle='--')
+    axs[1,0].plot(df['date'], fit_trend(df, 'hospital deaths'), c='coral', linewidth=2, linestyle='--')
     axs[1,1].plot(df['date'], fit_trend(df, 'deaths'), c='coral', linewidth=2, linestyle='--')
 
     axs[0,0].set_title('hospital admissions')
