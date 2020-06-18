@@ -2,6 +2,7 @@ from src import scraper
 from src import cleaner
 from src import tweeter
 from src import plots
+from src import reports
 
 main_sheet = '1n-zMS9Al94CPj_Tc3K7Adin-tN9x1RSjjx2UzJ4SV7Q/export?format=csv&gid='
 
@@ -28,3 +29,6 @@ if __name__ == "__main__":
     plots.testing_ma_plot()
     plots.hospital_ma_plot()
     plots.city_rate_plot()
+
+    # run reports
+    reports.run_reports()
