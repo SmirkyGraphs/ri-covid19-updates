@@ -1022,3 +1022,25 @@ date,metric,count,new_cases,change_%
 06/15/2020,instructed to self-quarantine,0.0,0,0.0
 06/15/2020,total deaths,851.0,18,0.021608643457383003
 06/15/2020,total discharged,0.0,0,0.0
+06/16/2020,Number of COVID-19 cases who  were admitted to a hospital in Rhode Island (cumulative),0.0,0,0.0
+06/16/2020,Number of COVID-19 cases who were admitted to a hospital in Rhode Island (cumulative),1889.0,7,0.0037194473963868546
+06/16/2020,RI negative results,187454.0,3102,0.01682650581496259
+06/16/2020,RI positive cases,16164.0,71,0.00441185608649719
+06/16/2020,RI total tests,203618.0,3173,0.015829778742298295
+06/16/2020,currently hospitalized,129.0,2,0.015748031496062964
+06/16/2020,currently in icu,16.0,-5,-0.23809523809523814
+06/16/2020,currently on ventilator,13.0,-1,-0.0714285714285714
+06/16/2020,instructed to self-quarantine,0.0,0,0.0
+06/16/2020,total deaths,865.0,14,0.016451233842538215
+06/16/2020,total discharged,0.0,0,0.0
+06/17/2020,Number of COVID-19 cases who  were admitted to a hospital in Rhode Island (cumulative),0.0,0,0.0
+06/17/2020,Number of COVID-19 cases who were admitted to a hospital in Rhode Island (cumulative),1898.0,9,0.004764425622022284
+06/17/2020,RI negative results,190257.0,2803,0.01495300180310899
+06/17/2020,RI positive cases,16213.0,49,0.003031427864389924
+06/17/2020,RI total tests,206470.0,2852,0.01400662023986099
+06/17/2020,currently hospitalized,126.0,-3,-0.023255813953488413
+06/17/2020,currently in icu,17.0,1,0.0625
+06/17/2020,currently on ventilator,13.0,0,0.0
+06/17/2020,instructed to self-quarantine,0.0,0,0.0
+06/17/2020,total deaths,876.0,11,0.012716763005780285
+06/17/2020,total discharged,0.0,0,0.0
