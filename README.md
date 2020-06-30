@@ -21,7 +21,7 @@ The code will wait till 12:05 5 mins after RIDOH reports the numbers, then check
 
 ## Data Features
 
-**Caution** race demographics contains missing information **more then half** are pending, unknown or declided to provide.
+**Caution** race demographics contains missing info (unknown, pending, refused).
 
 **Daily Totals:**  
 \- positive cases  
@@ -49,12 +49,21 @@ The code will wait till 12:05 5 mins after RIDOH reports the numbers, then check
 \- high/low range fatalities  
 \- facility type
 
-## Dashboards
+## Visualizations
 
 Current dashboards created using the cleaned datasets.
 - [daily update comparison](https://ivizri.com/posts/2020/03/rhode-island-covid-19-cases/)
 - [timelines tracking key information](https://ivizri.com/posts/2020/03/timeline-of-covid-19-cases/)
 - [map of case rate by city/town](https://ivizri.com/posts/2020/03/covid-19-cases-by-location/)
+- [ri nursing home cases/deaths](https://ivizri.com/posts/2020/05/covid19-ri-nursing-homes/)
+
+Current plots created using the cleaned datasets.
+- [7-day moving avg: hospitals](https://raw.githubusercontent.com/SmirkyGraphs/ri-covid19-updates/master/figures/hospital_7_day_ma.png)
+- [7-day moving avg: testing](https://raw.githubusercontent.com/SmirkyGraphs/ri-covid19-updates/master/figures/testing_7_day_ma.png)
+- [14-day trend: hospitals](https://raw.githubusercontent.com/SmirkyGraphs/ri-covid19-updates/master/figures/hospital_14_day_trend.png)
+- [14-day trend: testing](https://raw.githubusercontent.com/SmirkyGraphs/ri-covid19-updates/master/figures/testing_14_day_trend.png)
+- [cities cases rate by 10k](https://raw.githubusercontent.com/SmirkyGraphs/ri-covid19-updates/master/figures/cities_rate.png)
+- [historical comparison of daily deaths](https://raw.githubusercontent.com/SmirkyGraphs/ri-covid19-updates/master/figures/daily_deaths_then_vs_now.png)
 
 ## References
 
