@@ -1,20 +1,24 @@
 type,date,Unnamed: 5,cases_low,cases_high,fatalities_low,fatalities_high,cases_avg,fatalities_avg,facility_name,city_town,county,date_bin
-assisted living,06/11/2020,,2,4,0,0,3.0,0.0,Brentwood by the Bay ,Warwick,Kent,Prior Week
-assisted living,06/19/2020,,2,4,0,0,3.0,0.0,Brentwood by the Bay ,Warwick,Kent,Most Recent
+assisted living,06/11/2020,,2,4,0,0,3.0,0.0,Brentwood by the Bay ,Warwick,Kent,
+assisted living,06/19/2020,,2,4,0,0,3.0,0.0,Brentwood by the Bay ,Warwick,Kent,Prior Week
+assisted living,06/29/2020,,2,4,0,0,3.0,0.0,Brentwood by the Bay ,Warwick,Kent,Most Recent
 assisted living,05/22/2020,,5,9,0,0,7.0,0.0,Capitol Ridge at Providence ,Providence,Providence,
 assisted living,05/29/2020,,10,14,0,0,12.0,0.0,Capitol Ridge at Providence ,Providence,Providence,
 assisted living,06/05/2020,,10,14,0,0,12.0,0.0,Capitol Ridge at Providence ,Providence,Providence,
-assisted living,06/11/2020,,15,19,5,9,17.0,7.0,Capitol Ridge at Providence ,Providence,Providence,Prior Week
-assisted living,06/19/2020,,20,24,5,9,22.0,7.0,Capitol Ridge at Providence ,Providence,Providence,Most Recent
-assisted living,06/19/2020,,2,4,0,0,3.0,0.0,Darling Assisted Living Center ,Pawtucket,Providence,Most Recent
+assisted living,06/11/2020,,15,19,5,9,17.0,7.0,Capitol Ridge at Providence ,Providence,Providence,
+assisted living,06/19/2020,,20,24,5,9,22.0,7.0,Capitol Ridge at Providence ,Providence,Providence,Prior Week
+assisted living,06/29/2020,,20,24,5,9,22.0,7.0,Capitol Ridge at Providence ,Providence,Providence,Most Recent
+assisted living,06/19/2020,,2,4,0,0,3.0,0.0,Darling Assisted Living Center ,Pawtucket,Providence,Prior Week
+assisted living,06/29/2020,,2,4,0,0,3.0,0.0,Darling Assisted Living Center ,Pawtucket,Providence,Most Recent
 assisted living,04/23/2020,,25,29,0,0,27.0,0.0,Darlington Memory Lane ,North Providence,Providence,
 assisted living,04/29/2020,,30,34,5,9,32.0,7.0,Darlington Memory Lane ,North Providence,Providence,
 assisted living,05/06/2020,,55,59,5,9,57.0,7.0,Darlington Memory Lane ,North Providence,Providence,
 assisted living,05/09/2020,,55,59,5,9,57.0,7.0,Darlington Memory Lane ,North Providence,Providence,
 assisted living,05/15/2020,,60,64,10,14,62.0,12.0,Darlington Memory Lane ,North Providence,Providence,
 assisted living,06/05/2020,,55,59,10,14,57.0,12.0,Darlington Memory Lane ,North Providence,Providence,
-assisted living,06/11/2020,,55,59,10,14,57.0,12.0,Darlington Memory Lane ,North Providence,Providence,Prior Week
-assisted living,06/19/2020,,55,59,10,14,57.0,12.0,Darlington Memory Lane ,North Providence,Providence,Most Recent
+assisted living,06/11/2020,,55,59,10,14,57.0,12.0,Darlington Memory Lane ,North Providence,Providence,
+assisted living,06/19/2020,,55,59,10,14,57.0,12.0,Darlington Memory Lane ,North Providence,Providence,Prior Week
+assisted living,06/29/2020,,55,59,10,14,57.0,12.0,Darlington Memory Lane ,North Providence,Providence,Most Recent
 assisted living,05/22/2020,,60,64,10,14,62.0,12.0,Darlington Memory Lane  ,North Providence,Providence,
 assisted living,05/29/2020,,60,64,10,14,62.0,12.0,Darlington Memory Lane  ,North Providence,Providence,
 assisted living,05/29/2020,,2,4,0,0,3.0,0.0,Franklin Court Assisted Living  ,Bristol,Bristol,
@@ -26,31 +30,38 @@ assisted living,05/15/2020,,15,19,0,0,17.0,0.0,Highlands on the East Side ,Provi
 assisted living,05/22/2020,,15,19,0,0,17.0,0.0,Highlands on the East Side ,Providence,Providence,
 assisted living,05/29/2020,,15,19,0,0,17.0,0.0,Highlands on the East Side ,Providence,Providence,
 assisted living,06/05/2020,,15,19,0,0,17.0,0.0,Highlands on the East Side ,Providence,Providence,
-assisted living,06/11/2020,,15,19,0,0,17.0,0.0,Highlands on the East Side ,Providence,Providence,Prior Week
-assisted living,06/19/2020,,15,19,0,0,17.0,0.0,Highlands on the East Side ,Providence,Providence,Most Recent
+assisted living,06/11/2020,,15,19,0,0,17.0,0.0,Highlands on the East Side ,Providence,Providence,
+assisted living,06/19/2020,,15,19,0,0,17.0,0.0,Highlands on the East Side ,Providence,Providence,Prior Week
+assisted living,06/29/2020,,15,19,0,0,17.0,0.0,Highlands on the East Side ,Providence,Providence,Most Recent
 assisted living,05/09/2020,,10,14,0,0,12.0,0.0,Lighthouse at Lincoln ,Lincoln,Providence,
 assisted living,05/15/2020,,10,14,0,0,12.0,0.0,Lighthouse at Lincoln ,Lincoln,Providence,
 assisted living,05/22/2020,,15,19,0,0,17.0,0.0,Lighthouse at Lincoln ,Lincoln,Providence,
 assisted living,05/29/2020,,15,19,0,0,17.0,0.0,Lighthouse at Lincoln ,Lincoln,Providence,
 assisted living,06/05/2020,,15,19,0,0,17.0,0.0,Lighthouse at Lincoln ,Lincoln,Providence,
-assisted living,06/11/2020,,15,19,0,0,17.0,0.0,Lighthouse at Lincoln ,Lincoln,Providence,Prior Week
-assisted living,06/19/2020,,15,19,0,0,17.0,0.0,Lighthouse at Lincoln ,Lincoln,Providence,Most Recent
+assisted living,06/11/2020,,15,19,0,0,17.0,0.0,Lighthouse at Lincoln ,Lincoln,Providence,
+assisted living,06/19/2020,,15,19,0,0,17.0,0.0,Lighthouse at Lincoln ,Lincoln,Providence,Prior Week
+assisted living,06/29/2020,,15,19,0,0,17.0,0.0,Lighthouse at Lincoln ,Lincoln,Providence,Most Recent
 assisted living,05/29/2020,,2,4,0,0,3.0,0.0,Spring Villa Memory Care ,West Warwick,Kent,
 assisted living,06/05/2020,,10,14,0,0,12.0,0.0,Spring Villa Memory Care ,West Warwick,Kent,
-assisted living,06/11/2020,,10,14,0,0,12.0,0.0,Spring Villa Memory Care ,West Warwick,Kent,Prior Week
-assisted living,06/19/2020,,15,19,0,0,17.0,0.0,Spring Villa Memory Care ,West Warwick,Kent,Most Recent
+assisted living,06/11/2020,,10,14,0,0,12.0,0.0,Spring Villa Memory Care ,West Warwick,Kent,
+assisted living,06/19/2020,,15,19,0,0,17.0,0.0,Spring Villa Memory Care ,West Warwick,Kent,Prior Week
+assisted living,06/29/2020,,15,19,0,0,17.0,0.0,Spring Villa Memory Care ,West Warwick,Kent,Most Recent
 assisted living,05/09/2020,,2,4,0,0,3.0,0.0,Stillwater Assisted Living ,Greenville,,
 assisted living,05/15/2020,,5,9,0,0,7.0,0.0,Stillwater Assisted Living ,Greenville,,
 assisted living,05/22/2020,,5,9,0,0,7.0,0.0,Stillwater Assisted Living ,Greenville,,
 assisted living,05/29/2020,,5,9,0,0,7.0,0.0,Stillwater Assisted Living ,Greenville,,
 assisted living,06/05/2020,,5,9,0,0,7.0,0.0,Stillwater Assisted Living ,Greenville,,
-assisted living,06/11/2020,,5,9,0,0,7.0,0.0,Stillwater Assisted Living ,Greenville,,Prior Week
-assisted living,06/19/2020,,5,9,0,0,7.0,0.0,Stillwater Assisted Living ,Greenville,,Most Recent
+assisted living,06/11/2020,,5,9,0,0,7.0,0.0,Stillwater Assisted Living ,Greenville,,
+assisted living,06/19/2020,,5,9,0,0,7.0,0.0,Stillwater Assisted Living ,Greenville,,Prior Week
+assisted living,06/29/2020,,5,9,0,0,7.0,0.0,Stillwater Assisted Living ,Greenville,,Most Recent
 assisted living,04/29/2020,,2,4,0,0,3.0,0.0,The Lighthouse at Lincoln ,Lincoln,Providence,
 assisted living,05/06/2020,,10,14,0,0,12.0,0.0,The Lighthouse at Lincoln ,Lincoln,Providence,
+assisted living,06/29/2020,,2,4,0,0,3.0,0.0,"The Village at Waterman Lake - The Lodge
+",Smithfield,Providence,Most Recent
 assisted living,06/05/2020,,160,164,30,34,162.0,32.0,Total,,,
-assisted living,06/11/2020,,165,169,35,39,167.0,37.0,Total,,,Prior Week
-assisted living,06/19/2020,,175,179,40,44,177.0,42.0,Total,,,Most Recent
+assisted living,06/11/2020,,165,169,35,39,167.0,37.0,Total,,,
+assisted living,06/19/2020,,175,179,40,44,177.0,42.0,Total,,,Prior Week
+assisted living,06/29/2020,,170,174,40,44,172.0,42.0,Total,,,Most Recent
 assisted living,04/23/2020,,15,19,0,0,17.0,0.0,Wingate Assisted Living - Blackstone Boulevard ,Providence,Providence,
 assisted living,04/29/2020,,15,19,0,0,17.0,0.0,Wingate Assisted Living - Blackstone Boulevard ,Providence,Providence,
 assisted living,05/06/2020,,20,24,5,9,22.0,7.0,Wingate Assisted Living - Blackstone Boulevard ,Providence,Providence,
@@ -59,24 +70,27 @@ assisted living,05/15/2020,,20,24,5,9,22.0,7.0,Wingate Assisted Living - Blackst
 assisted living,05/22/2020,,20,24,5,9,22.0,7.0,Wingate Assisted Living - Blackstone Boulevard ,Providence,Providence,
 assisted living,05/29/2020,,20,24,10,14,22.0,12.0,Wingate Assisted Living - Blackstone Boulevard ,Providence,Providence,
 assisted living,06/05/2020,,20,24,5,9,22.0,7.0,Wingate Assisted Living - Blackstone Boulevard ,Providence,Providence,
-assisted living,06/11/2020,,20,24,5,9,22.0,7.0,Wingate Assisted Living - Blackstone Boulevard ,Providence,Providence,Prior Week
-assisted living,06/19/2020,,20,24,5,9,22.0,7.0,Wingate Assisted Living - Blackstone Boulevard ,Providence,Providence,Most Recent
+assisted living,06/11/2020,,20,24,5,9,22.0,7.0,Wingate Assisted Living - Blackstone Boulevard ,Providence,Providence,
+assisted living,06/19/2020,,20,24,5,9,22.0,7.0,Wingate Assisted Living - Blackstone Boulevard ,Providence,Providence,Prior Week
+assisted living,06/29/2020,,20,24,5,9,22.0,7.0,Wingate Assisted Living - Blackstone Boulevard ,Providence,Providence,Most Recent
 assisted living,05/06/2020,,10,14,0,0,12.0,0.0,Wingate Assisted Living - Residences on the East Side,,,
 assisted living,05/09/2020,,10,14,0,0,12.0,0.0,Wingate Assisted Living - Residences on the East Side,,,
 assisted living,05/15/2020,,15,19,0,0,17.0,0.0,Wingate Assisted Living - Residences on the East Side,,,
 assisted living,05/22/2020,,15,19,0,0,17.0,0.0,Wingate Assisted Living - Residences on the East Side ,Providence,Providence,
 assisted living,05/29/2020,,15,19,0,0,17.0,0.0,Wingate Assisted Living - Residences on the East Side ,Providence,Providence,
 assisted living,06/05/2020,,15,19,0,0,17.0,0.0,Wingate Assisted Living - Residences on the East Side ,Providence,Providence,
-assisted living,06/11/2020,,15,19,0,0,17.0,0.0,Wingate Assisted Living - Residences on the East Side ,Providence,Providence,Prior Week
-assisted living,06/19/2020,,15,19,0,0,17.0,0.0,Wingate Assisted Living - Residences on the East Side ,Providence,Providence,Most Recent
+assisted living,06/11/2020,,15,19,0,0,17.0,0.0,Wingate Assisted Living - Residences on the East Side ,Providence,Providence,
+assisted living,06/19/2020,,15,19,0,0,17.0,0.0,Wingate Assisted Living - Residences on the East Side ,Providence,Providence,Prior Week
+assisted living,06/29/2020,,15,19,0,0,17.0,0.0,Wingate Assisted Living - Residences on the East Side ,Providence,Providence,Most Recent
 nursing home,05/06/2020,,5,9,0,0,7.0,0.0,Ballou Home ,Woonsocket,Providence,
 nursing home,05/09/2020,,5,9,0,0,7.0,0.0,Ballou Home ,Woonsocket,Providence,
 nursing home,05/15/2020,,5,9,0,0,7.0,0.0,Ballou Home ,Woonsocket,Providence,
 nursing home,05/22/2020,,5,9,0,0,7.0,0.0,Ballou Home ,Woonsocket,Providence,
 nursing home,05/29/2020,,5,9,0,0,7.0,0.0,Ballou Home ,Woonsocket,Providence,
 nursing home,06/05/2020,,5,9,0,0,7.0,0.0,Ballou Home ,Woonsocket,Providence,
-nursing home,06/11/2020,,5,9,0,0,7.0,0.0,Ballou Home ,Woonsocket,Providence,Prior Week
-nursing home,06/19/2020,,5,9,0,0,7.0,0.0,Ballou Home ,Woonsocket,Providence,Most Recent
+nursing home,06/11/2020,,5,9,0,0,7.0,0.0,Ballou Home ,Woonsocket,Providence,
+nursing home,06/19/2020,,5,9,0,0,7.0,0.0,Ballou Home ,Woonsocket,Providence,Prior Week
+nursing home,06/29/2020,,5,9,0,0,7.0,0.0,Ballou Home ,Woonsocket,Providence,Most Recent
 nursing home,04/23/2020,,2,4,0,0,3.0,0.0,Bannister House ,Providence,Providence,
 nursing home,04/29/2020,,2,4,0,0,3.0,0.0,Bannister House ,Providence,Providence,
 nursing home,05/06/2020,,5,9,0,0,7.0,0.0,Bannister House ,Providence,Providence,
@@ -85,8 +99,9 @@ nursing home,05/15/2020,,5,9,0,0,7.0,0.0,Bannister House ,Providence,Providence,
 nursing home,05/22/2020,,5,9,0,0,7.0,0.0,Bannister House ,Providence,Providence,
 nursing home,05/29/2020,,5,9,0,0,7.0,0.0,Bannister House ,Providence,Providence,
 nursing home,06/05/2020,,5,9,0,0,7.0,0.0,Bannister House ,Providence,Providence,
-nursing home,06/11/2020,,5,9,0,0,7.0,0.0,Bannister House ,Providence,Providence,Prior Week
-nursing home,06/19/2020,,5,9,0,0,7.0,0.0,Bannister House ,Providence,Providence,Most Recent
+nursing home,06/11/2020,,5,9,0,0,7.0,0.0,Bannister House ,Providence,Providence,
+nursing home,06/19/2020,,5,9,0,0,7.0,0.0,Bannister House ,Providence,Providence,Prior Week
+nursing home,06/29/2020,,5,9,0,0,7.0,0.0,Bannister House ,Providence,Providence,Most Recent
 nursing home,04/23/2020,,15,19,0,0,17.0,0.0,Berkshire Place ,Providence,Providence,
 nursing home,04/29/2020,,100,104,5,9,102.0,7.0,Berkshire Place ,Providence,Providence,
 nursing home,05/06/2020,,130,134,10,14,132.0,12.0,Berkshire Place ,Providence,Providence,
@@ -95,8 +110,9 @@ nursing home,05/15/2020,,165,170,15,19,167.5,17.0,Berkshire Place ,Providence,Pr
 nursing home,05/22/2020,,165,169,20,24,167.0,22.0,Berkshire Place ,Providence,Providence,
 nursing home,05/29/2020,,165,169,20,24,167.0,22.0,Berkshire Place ,Providence,Providence,
 nursing home,06/05/2020,,165,169,20,24,167.0,22.0,Berkshire Place ,Providence,Providence,
-nursing home,06/11/2020,,165,169,25,29,167.0,27.0,Berkshire Place ,Providence,Providence,Prior Week
-nursing home,06/19/2020,,165,169,30,34,167.0,32.0,Berkshire Place ,Providence,Providence,Most Recent
+nursing home,06/11/2020,,165,169,25,29,167.0,27.0,Berkshire Place ,Providence,Providence,
+nursing home,06/19/2020,,165,169,30,34,167.0,32.0,Berkshire Place ,Providence,Providence,Prior Week
+nursing home,06/29/2020,,165,169,30,34,167.0,32.0,Berkshire Place ,Providence,Providence,Most Recent
 nursing home,04/23/2020,,5,9,0,0,7.0,0.0,Bethany Home ,Providence,Providence,
 nursing home,04/29/2020,,10,14,0,0,12.0,0.0,Bethany Home ,Providence,Providence,
 nursing home,05/06/2020,,10,14,0,0,12.0,0.0,Bethany Home ,Providence,Providence,
@@ -105,8 +121,9 @@ nursing home,05/15/2020,,15,19,0,0,17.0,0.0,Bethany Home ,Providence,Providence,
 nursing home,05/22/2020,,15,19,0,0,17.0,0.0,Bethany Home ,Providence,Providence,
 nursing home,05/29/2020,,15,19,0,0,17.0,0.0,Bethany Home ,Providence,Providence,
 nursing home,06/05/2020,,15,19,0,0,17.0,0.0,Bethany Home ,Providence,Providence,
-nursing home,06/11/2020,,15,19,0,0,17.0,0.0,Bethany Home ,Providence,Providence,Prior Week
-nursing home,06/19/2020,,15,19,0,0,17.0,0.0,Bethany Home ,Providence,Providence,Most Recent
+nursing home,06/11/2020,,15,19,0,0,17.0,0.0,Bethany Home ,Providence,Providence,
+nursing home,06/19/2020,,15,19,0,0,17.0,0.0,Bethany Home ,Providence,Providence,Prior Week
+nursing home,06/29/2020,,15,19,0,0,17.0,0.0,Bethany Home ,Providence,Providence,Most Recent
 nursing home,04/23/2020,,15,19,0,0,17.0,0.0,Brentwood ,Warwick,Kent,
 nursing home,04/29/2020,,25,29,0,0,27.0,0.0,Brentwood ,Warwick,Kent,
 nursing home,05/06/2020,,30,34,5,9,32.0,7.0,Brentwood ,Warwick,Kent,
@@ -115,11 +132,13 @@ nursing home,05/15/2020,,35,39,5,9,37.0,7.0,Brentwood ,Warwick,Kent,
 nursing home,05/22/2020,,35,39,5,9,37.0,7.0,Brentwood Nursing Home ,Warwick,Kent,
 nursing home,05/29/2020,,40,44,5,9,42.0,7.0,Brentwood Nursing Home ,Warwick,Kent,
 nursing home,06/05/2020,,35,39,5,9,37.0,7.0,Brentwood Nursing Home ,Warwick,Kent,
-nursing home,06/11/2020,,35,39,10,14,37.0,12.0,Brentwood Nursing Home ,Warwick,Kent,Prior Week
-nursing home,06/19/2020,,35,39,10,14,37.0,12.0,Brentwood Nursing Home ,Warwick,Kent,Most Recent
+nursing home,06/11/2020,,35,39,10,14,37.0,12.0,Brentwood Nursing Home ,Warwick,Kent,
+nursing home,06/19/2020,,35,39,10,14,37.0,12.0,Brentwood Nursing Home ,Warwick,Kent,Prior Week
+nursing home,06/29/2020,,35,39,10,14,37.0,12.0,Brentwood Nursing Home ,Warwick,Kent,Most Recent
 nursing home,06/05/2020,,65,69,20,24,67.0,22.0,Briarcliffe Manor ,Johnston,Providence,
-nursing home,06/11/2020,,65,69,20,24,67.0,22.0,Briarcliffe Manor ,Johnston,Providence,Prior Week
-nursing home,06/19/2020,,65,69,20,24,67.0,22.0,Briarcliffe Manor ,Johnston,Providence,Most Recent
+nursing home,06/11/2020,,65,69,20,24,67.0,22.0,Briarcliffe Manor ,Johnston,Providence,
+nursing home,06/19/2020,,65,69,20,24,67.0,22.0,Briarcliffe Manor ,Johnston,Providence,Prior Week
+nursing home,06/29/2020,,65,69,20,24,67.0,22.0,Briarcliffe Manor ,Johnston,Providence,Most Recent
 nursing home,05/22/2020,,40,44,5,9,42.0,7.0,Briarcliffe Manor  ,Johnston,Providence,
 nursing home,05/29/2020,,50,54,15,19,52.0,17.0,Briarcliffe Manor  ,Johnston,Providence,
 nursing home,05/09/2020,,2,4,0,0,3.0,0.0,Brookdale - Sakonnet Bay ,Tiverton,Newport,
@@ -127,15 +146,17 @@ nursing home,05/15/2020,,2,4,0,0,3.0,0.0,Brookdale - Sakonnet Bay ,Tiverton,Newp
 nursing home,05/22/2020,,2,4,0,0,3.0,0.0,Brookdale - Sakonnet Bay  ,Tiverton,Newport,
 nursing home,05/29/2020,,2,4,0,0,3.0,0.0,Brookdale - Sakonnet Bay  ,Tiverton,Newport,
 nursing home,06/05/2020,,5,9,0,0,7.0,0.0,Brookdale Sakonnet Bay ,Tiverton,Newport,
-nursing home,06/11/2020,,5,9,0,0,7.0,0.0,Brookdale Sakonnet Bay ,Tiverton,Newport,Prior Week
-nursing home,06/19/2020,,5,9,0,0,7.0,0.0,Brookdale Sakonnet Bay ,Tiverton,Newport,Most Recent
+nursing home,06/11/2020,,5,9,0,0,7.0,0.0,Brookdale Sakonnet Bay ,Tiverton,Newport,
+nursing home,06/19/2020,,5,9,0,0,7.0,0.0,Brookdale Sakonnet Bay ,Tiverton,Newport,Prior Week
+nursing home,06/29/2020,,14,0,0,0,7.0,0.0,Brookdale Sakonnet Bay ,Tiverton,Newport,Most Recent
 nursing home,04/29/2020,,2,4,0,0,3.0,0.0,Cedar Crest ,Cranston,Providence,
 nursing home,05/06/2020,,2,4,0,0,3.0,0.0,Cedar Crest ,Cranston,Providence,
 nursing home,05/09/2020,,2,4,0,0,3.0,0.0,Cedar Crest ,Cranston,Providence,
 nursing home,05/15/2020,,2,4,0,0,3.0,0.0,Cedar Crest ,Cranston,Providence,
 nursing home,06/05/2020,,2,4,0,0,3.0,0.0,Cedar Crest ,Cranston,Providence,
-nursing home,06/11/2020,,2,4,0,0,3.0,0.0,Cedar Crest ,Cranston,Providence,Prior Week
-nursing home,06/19/2020,,2,4,0,0,3.0,0.0,Cedar Crest ,Cranston,Providence,Most Recent
+nursing home,06/11/2020,,2,4,0,0,3.0,0.0,Cedar Crest ,Cranston,Providence,
+nursing home,06/19/2020,,2,4,0,0,3.0,0.0,Cedar Crest ,Cranston,Providence,Prior Week
+nursing home,06/29/2020,,2,4,0,0,3.0,0.0,Cedar Crest ,Cranston,Providence,Most Recent
 nursing home,05/22/2020,,2,4,0,0,3.0,0.0,Cedar Crest  ,Cranston,Providence,
 nursing home,05/29/2020,,2,4,0,0,3.0,0.0,Cedar Crest  ,Cranston,Providence,
 nursing home,04/23/2020,,35,39,0,0,37.0,0.0,Charlesgate Nursing Center ,Providence,Providence,
@@ -146,8 +167,9 @@ nursing home,05/15/2020,,70,74,5,9,72.0,7.0,Charlesgate Nursing Center ,Providen
 nursing home,05/22/2020,,75,79,5,9,77.0,7.0,Charlesgate Nursing Center ,Providence,Providence,
 nursing home,05/29/2020,,75,79,5,9,77.0,7.0,Charlesgate Nursing Center ,Providence,Providence,
 nursing home,06/05/2020,,75,79,10,14,77.0,12.0,Charlesgate Nursing Center ,Providence,Providence,
-nursing home,06/11/2020,,75,79,10,14,77.0,12.0,Charlesgate Nursing Center ,Providence,Providence,Prior Week
-nursing home,06/19/2020,,75,79,10,14,77.0,12.0,Charlesgate Nursing Center ,Providence,Providence,Most Recent
+nursing home,06/11/2020,,75,79,10,14,77.0,12.0,Charlesgate Nursing Center ,Providence,Providence,
+nursing home,06/19/2020,,75,79,10,14,77.0,12.0,Charlesgate Nursing Center ,Providence,Providence,Prior Week
+nursing home,06/29/2020,,75,79,10,14,77.0,12.0,Charlesgate Nursing Center ,Providence,Providence,Most Recent
 nursing home,04/29/2020,,2,4,0,0,3.0,0.0,Cherry Hill Manor ,Johnston,Providence,
 nursing home,05/06/2020,,10,14,0,0,12.0,0.0,Cherry Hill Manor ,Johnston,Providence,
 nursing home,05/09/2020,,15,19,0,0,17.0,0.0,Cherry Hill Manor ,Johnston,Providence,
@@ -155,16 +177,18 @@ nursing home,05/15/2020,,30,34,0,0,32.0,0.0,Cherry Hill Manor ,Johnston,Providen
 nursing home,05/22/2020,,45,49,0,0,47.0,0.0,Cherry Hill Manor ,Johnston,Providence,
 nursing home,05/29/2020,,55,59,10,14,57.0,12.0,Cherry Hill Manor ,Johnston,Providence,
 nursing home,06/05/2020,,65,69,15,19,67.0,17.0,Cherry Hill Manor ,Johnston,Providence,
-nursing home,06/11/2020,,70,74,15,19,72.0,17.0,Cherry Hill Manor ,Johnston,Providence,Prior Week
-nursing home,06/19/2020,,70,74,20,24,72.0,22.0,Cherry Hill Manor ,Johnston,Providence,Most Recent
+nursing home,06/11/2020,,70,74,15,19,72.0,17.0,Cherry Hill Manor ,Johnston,Providence,
+nursing home,06/19/2020,,70,74,20,24,72.0,22.0,Cherry Hill Manor ,Johnston,Providence,Prior Week
+nursing home,06/29/2020,,75,79,20,24,77.0,22.0,Cherry Hill Manor ,Johnston,Providence,Most Recent
 nursing home,05/06/2020,,10,14,0,0,12.0,0.0,Crestwood Nursing & Rehab ,Warren,Bristol,
 nursing home,05/09/2020,,10,14,0,0,12.0,0.0,Crestwood Nursing & Rehab ,Warren,Bristol,
 nursing home,05/15/2020,,10,14,0,0,12.0,0.0,Crestwood Nursing & Rehab ,Warren,Bristol,
 nursing home,05/22/2020,,10,14,0,0,12.0,0.0,Crestwood Nursing & Rehab ,Warren,Bristol,
 nursing home,05/29/2020,,10,14,0,0,12.0,0.0,Crestwood Nursing & Rehab ,Warren,Bristol,
 nursing home,06/05/2020,,15,19,0,0,17.0,0.0,Crestwood Nursing & Rehab ,Warren,Bristol,
-nursing home,06/11/2020,,15,19,0,0,17.0,0.0,Crestwood Nursing & Rehab ,Warren,Bristol,Prior Week
-nursing home,06/19/2020,,15,19,0,0,17.0,0.0,Crestwood Nursing & Rehab ,Warren,Bristol,Most Recent
+nursing home,06/11/2020,,15,19,0,0,17.0,0.0,Crestwood Nursing & Rehab ,Warren,Bristol,
+nursing home,06/19/2020,,15,19,0,0,17.0,0.0,Crestwood Nursing & Rehab ,Warren,Bristol,Prior Week
+nursing home,06/29/2020,,15,19,0,0,17.0,0.0,Crestwood Nursing & Rehab ,Warren,Bristol,Most Recent
 nursing home,04/23/2020,,10,14,0,0,12.0,0.0,Crystal Lake Rehab & Care ,Burrillville,Providence,
 nursing home,04/29/2020,,20,24,0,0,22.0,0.0,Crystal Lake Rehab & Care ,Burrillville,Providence,
 nursing home,05/06/2020,,35,39,0,0,37.0,0.0,Crystal Lake Rehab & Care ,Burrillville,Providence,
@@ -173,8 +197,9 @@ nursing home,05/15/2020,,40,44,5,9,42.0,7.0,Crystal Lake Rehab & Care ,Burrillvi
 nursing home,05/22/2020,,40,44,5,9,42.0,7.0,Crystal Lake Rehab & Care ,Burrillville,Providence,
 nursing home,05/29/2020,,40,44,5,9,42.0,7.0,Crystal Lake Rehab & Care ,Burrillville,Providence,
 nursing home,06/05/2020,,40,44,10,14,42.0,12.0,Crystal Lake Rehabilitation & Care Center ,Burrillville,Providence,
-nursing home,06/11/2020,,40,44,10,14,42.0,12.0,Crystal Lake Rehabilitation & Care Center ,Burrillville,Providence,Prior Week
-nursing home,06/19/2020,,40,44,15,19,42.0,17.0,Crystal Lake Rehabilitation & Care Center ,Burrillville,Providence,Most Recent
+nursing home,06/11/2020,,40,44,10,14,42.0,12.0,Crystal Lake Rehabilitation & Care Center ,Burrillville,Providence,
+nursing home,06/19/2020,,40,44,15,19,42.0,17.0,Crystal Lake Rehabilitation & Care Center ,Burrillville,Providence,Prior Week
+nursing home,06/29/2020,,40,44,15,19,42.0,17.0,Crystal Lake Rehabilitation & Care Center ,Burrillville,Providence,Most Recent
 nursing home,04/29/2020,,5,9,0,0,7.0,0.0,Eastgate Nursing & Rehab ,East Providence,Providence,
 nursing home,05/06/2020,,15,19,0,0,17.0,0.0,Eastgate Nursing & Rehab ,East Providence,Providence,
 nursing home,05/09/2020,,25,29,0,0,27.0,0.0,Eastgate Nursing & Rehab ,East Providence,Providence,
@@ -182,24 +207,27 @@ nursing home,05/15/2020,,30,34,0,0,32.0,0.0,Eastgate Nursing & Rehab ,East Provi
 nursing home,05/22/2020,,40,44,0,0,42.0,0.0,Eastgate Nursing & Rehab ,East Providence,Providence,
 nursing home,05/29/2020,,40,44,5,9,42.0,7.0,Eastgate Nursing & Rehab ,East Providence,Providence,
 nursing home,06/05/2020,,40,44,10,14,42.0,12.0,Eastgate Nursing & Rehab ,East Providence,Providence,
-nursing home,06/11/2020,,45,49,10,14,47.0,12.0,Eastgate Nursing & Rehab ,East Providence,Providence,Prior Week
-nursing home,06/19/2020,,45,49,10,14,47.0,12.0,Eastgate Nursing & Rehab ,East Providence,Providence,Most Recent
+nursing home,06/11/2020,,45,49,10,14,47.0,12.0,Eastgate Nursing & Rehab ,East Providence,Providence,
+nursing home,06/19/2020,,45,49,10,14,47.0,12.0,Eastgate Nursing & Rehab ,East Providence,Providence,Prior Week
+nursing home,06/29/2020,,45,49,10,14,47.0,12.0,Eastgate Nursing & Rehab ,East Providence,Providence,Most Recent
 nursing home,04/23/2020,,25,29,5,9,27.0,7.0,Elmhurst Healthcare Center ,Providence,Providence,
 nursing home,04/29/2020,,25,29,5,9,27.0,7.0,Elmhurst Healthcare Center ,Providence,Providence,
 nursing home,05/06/2020,,35,39,10,14,37.0,12.0,Elmhurst Healthcare Center ,Providence,Providence,
 nursing home,05/09/2020,,40,44,10,14,42.0,12.0,Elmhurst Healthcare Center ,Providence,Providence,
 nursing home,05/15/2020,,45,49,10,14,47.0,12.0,Elmhurst Healthcare Center ,Providence,Providence,
 nursing home,06/05/2020,,60,64,15,19,62.0,17.0,Elmhurst Healthcare Center ,Providence,Providence,
-nursing home,06/11/2020,,60,64,15,19,62.0,17.0,Elmhurst Healthcare Center ,Providence,Providence,Prior Week
-nursing home,06/19/2020,,60,64,20,24,62.0,22.0,Elmhurst Healthcare Center ,Providence,Providence,Most Recent
+nursing home,06/11/2020,,60,64,15,19,62.0,17.0,Elmhurst Healthcare Center ,Providence,Providence,
+nursing home,06/19/2020,,60,64,20,24,62.0,22.0,Elmhurst Healthcare Center ,Providence,Providence,Prior Week
+nursing home,06/29/2020,,60,64,20,24,62.0,22.0,Elmhurst Healthcare Center ,Providence,Providence,Most Recent
 nursing home,05/22/2020,,55,59,10,14,57.0,12.0,Elmhurst Healthcare Center  ,Providence,Providence,
 nursing home,05/29/2020,,55,59,15,19,57.0,17.0,Elmhurst Healthcare Center  ,Providence,Providence,
 nursing home,05/15/2020,,5,9,0,0,7.0,0.0,Elmwood Nursing & Rehab Center ,Providence,Providence,
 nursing home,05/22/2020,,25,29,0,0,27.0,0.0,Elmwood Nursing and Rehab Center ,Providence,Providence,
 nursing home,05/29/2020,,40,44,0,0,42.0,0.0,Elmwood Nursing and Rehab Center ,Providence,Providence,
 nursing home,06/05/2020,,40,44,0,0,42.0,0.0,Elmwood Nursing and Rehab Center ,Providence,Providence,
-nursing home,06/11/2020,,40,44,5,9,42.0,7.0,Elmwood Nursing and Rehab Center ,Providence,Providence,Prior Week
-nursing home,06/19/2020,,45,49,5,9,47.0,7.0,Elmwood Nursing and Rehab Center ,Providence,Providence,Most Recent
+nursing home,06/11/2020,,40,44,5,9,42.0,7.0,Elmwood Nursing and Rehab Center ,Providence,Providence,
+nursing home,06/19/2020,,45,49,5,9,47.0,7.0,Elmwood Nursing and Rehab Center ,Providence,Providence,Prior Week
+nursing home,06/29/2020,,45,49,5,9,47.0,7.0,Elmwood Nursing and Rehab Center ,Providence,Providence,Most Recent
 nursing home,04/23/2020,,2,4,0,0,3.0,0.0,Evergreen House Health Center ,East Providence,Providence,
 nursing home,04/29/2020,,10,14,0,0,12.0,0.0,Evergreen House Health Center ,East Providence,Providence,
 nursing home,05/06/2020,,35,39,0,0,37.0,0.0,Evergreen House Health Center ,East Providence,Providence,
@@ -208,8 +236,9 @@ nursing home,05/15/2020,,95,99,0,0,97.0,0.0,Evergreen House Health Center ,East 
 nursing home,05/22/2020,,105,109,0,0,107.0,0.0,Evergreen House Health Center ,East Providence,Providence,
 nursing home,05/29/2020,,110,114,0,0,112.0,0.0,Evergreen House Health Center ,East Providence,Providence,
 nursing home,06/05/2020,,110,114,0,0,112.0,0.0,Evergreen House Health Center ,East Providence,Providence,
-nursing home,06/11/2020,,110,114,10,14,112.0,12.0,Evergreen House Health Center ,East Providence,Providence,Prior Week
-nursing home,06/19/2020,,110,114,15,19,112.0,17.0,Evergreen House Health Center ,East Providence,Providence,Most Recent
+nursing home,06/11/2020,,110,114,10,14,112.0,12.0,Evergreen House Health Center ,East Providence,Providence,
+nursing home,06/19/2020,,110,114,15,19,112.0,17.0,Evergreen House Health Center ,East Providence,Providence,Prior Week
+nursing home,06/29/2020,,110,114,15,19,112.0,17.0,Evergreen House Health Center ,East Providence,Providence,Most Recent
 nursing home,04/29/2020,,2,4,0,0,3.0,0.0,Friendly Home ,Woonsocket,Providence,
 nursing home,05/06/2020,,5,9,0,0,7.0,0.0,Friendly Home ,Woonsocket,Providence,
 nursing home,05/09/2020,,5,9,0,0,7.0,0.0,Friendly Home ,Woonsocket,Providence,
@@ -217,27 +246,31 @@ nursing home,05/15/2020,,40,44,0,0,42.0,0.0,Friendly Home ,Woonsocket,Providence
 nursing home,05/22/2020,,55,59,10,14,57.0,12.0,Friendly Home ,Woonsocket,Providence,
 nursing home,05/29/2020,,60,64,15,19,62.0,17.0,Friendly Home ,Woonsocket,Providence,
 nursing home,06/05/2020,,60,64,15,19,62.0,17.0,Friendly Home ,Woonsocket,Providence,
-nursing home,06/11/2020,,60,64,15,19,62.0,17.0,Friendly Home ,Woonsocket,Providence,Prior Week
-nursing home,06/19/2020,,60,64,15,19,62.0,17.0,Friendly Home ,Woonsocket,Providence,Most Recent
+nursing home,06/11/2020,,60,64,15,19,62.0,17.0,Friendly Home ,Woonsocket,Providence,
+nursing home,06/19/2020,,60,64,15,19,62.0,17.0,Friendly Home ,Woonsocket,Providence,Prior Week
+nursing home,06/29/2020,,60,64,15,19,62.0,17.0,Friendly Home ,Woonsocket,Providence,Most Recent
 nursing home,04/23/2020,,95,99,25,29,97.0,27.0,Golden Crest ,North Providence,Providence,
 nursing home,04/29/2020,,95,99,25,29,97.0,27.0,Golden Crest ,North Providence,Providence,
 nursing home,05/06/2020,,95,99,30,34,97.0,32.0,Golden Crest ,North Providence,Providence,
 nursing home,05/09/2020,,95,99,30,35,97.0,32.5,Golden Crest ,North Providence,Providence,
 nursing home,05/15/2020,,95,99,30,35,97.0,32.5,Golden Crest ,North Providence,Providence,
 nursing home,06/05/2020,,95,99,35,39,97.0,37.0,Golden Crest ,North Providence,Providence,
-nursing home,06/11/2020,,95,99,35,39,97.0,37.0,Golden Crest ,North Providence,Providence,Prior Week
-nursing home,06/19/2020,,95,99,35,39,97.0,37.0,Golden Crest ,North Providence,Providence,Most Recent
+nursing home,06/11/2020,,95,99,35,39,97.0,37.0,Golden Crest ,North Providence,Providence,
+nursing home,06/19/2020,,95,99,35,39,97.0,37.0,Golden Crest ,North Providence,Providence,Prior Week
+nursing home,06/29/2020,,95,99,35,39,97.0,37.0,Golden Crest ,North Providence,Providence,Most Recent
 nursing home,05/22/2020,,95,99,30,34,97.0,32.0,Golden Crest  ,North Providence,Providence,
 nursing home,05/29/2020,,95,99,35,39,97.0,37.0,Golden Crest  ,North Providence,Providence,
 nursing home,06/05/2020,,2,4,0,0,3.0,0.0,Grace Barker Nursing Home ,Warren,Bristol,
-nursing home,06/11/2020,,2,4,0,0,3.0,0.0,Grace Barker Nursing Home ,Warren,Bristol,Prior Week
-nursing home,06/19/2020,,2,4,0,0,3.0,0.0,Grace Barker Nursing Home ,Warren,Bristol,Most Recent
+nursing home,06/11/2020,,2,4,0,0,3.0,0.0,Grace Barker Nursing Home ,Warren,Bristol,
+nursing home,06/19/2020,,2,4,0,0,3.0,0.0,Grace Barker Nursing Home ,Warren,Bristol,Prior Week
+nursing home,06/29/2020,,2,4,0,0,3.0,0.0,Grace Barker Nursing Home ,Warren,Bristol,Most Recent
 nursing home,05/06/2020,,2,4,0,0,3.0,0.0,Grand Islander ,Middletown,Newport,
 nursing home,05/09/2020,,2,4,0,0,3.0,0.0,Grand Islander ,Middletown,Newport,
 nursing home,05/15/2020,,2,4,0,0,3.0,0.0,Grand Islander ,Middletown,Newport,
 nursing home,06/05/2020,,2,4,0,0,3.0,0.0,Grand Islander ,Middletown,Newport,
-nursing home,06/11/2020,,2,4,0,0,3.0,0.0,Grand Islander ,Middletown,Newport,Prior Week
-nursing home,06/19/2020,,2,4,0,0,3.0,0.0,Grand Islander ,Middletown,Newport,Most Recent
+nursing home,06/11/2020,,2,4,0,0,3.0,0.0,Grand Islander ,Middletown,Newport,
+nursing home,06/19/2020,,2,4,0,0,3.0,0.0,Grand Islander ,Middletown,Newport,Prior Week
+nursing home,06/29/2020,,2,4,0,0,3.0,0.0,Grand Islander ,Middletown,Newport,Most Recent
 nursing home,05/22/2020,,2,4,0,0,3.0,0.0,Grand Islander  ,Middletown,Newport,
 nursing home,05/29/2020,,2,4,0,0,3.0,0.0,Grand Islander  ,Middletown,Newport,
 nursing home,04/23/2020,,5,9,0,0,7.0,0.0,Greenville Skilled Nursing & Rehabilitation ,Greenville,,
@@ -248,12 +281,14 @@ nursing home,05/15/2020,,70,74,5,9,72.0,7.0,Greenville Skilled Nursing & Rehabil
 nursing home,05/22/2020,,70,74,10,14,72.0,12.0,Greenville Skilled Nursing & Rehabilitation ,Greenville,,
 nursing home,05/29/2020,,75,79,10,14,77.0,12.0,Greenville Skilled Nursing & Rehabilitation ,Greenville,,
 nursing home,06/05/2020,,75,79,15,19,77.0,17.0,Greenville Skilled Nursing & Rehabilitation ,Greenville,,
-nursing home,06/11/2020,,70,74,20,24,72.0,22.0,Greenville Skilled Nursing & Rehabilitation ,Greenville,,Prior Week
-nursing home,06/19/2020,,75,79,20,24,77.0,22.0,Greenville Skilled Nursing & Rehabilitation ,Greenville,,Most Recent
+nursing home,06/11/2020,,70,74,20,24,72.0,22.0,Greenville Skilled Nursing & Rehabilitation ,Greenville,,
+nursing home,06/19/2020,,75,79,20,24,77.0,22.0,Greenville Skilled Nursing & Rehabilitation ,Greenville,,Prior Week
+nursing home,06/29/2020,,75,79,20,24,77.0,22.0,Greenville Skilled Nursing & Rehabilitation ,Greenville,,Most Recent
 nursing home,05/29/2020,,2,4,0,0,3.0,0.0,Greenwood Center ,Warwick,Kent,
 nursing home,06/05/2020,,2,4,0,0,3.0,0.0,Greenwood Center ,Warwick,Kent,
-nursing home,06/11/2020,,2,4,0,0,3.0,0.0,Greenwood Center ,Warwick,Kent,Prior Week
-nursing home,06/19/2020,,2,4,0,0,3.0,0.0,Greenwood Center ,Warwick,Kent,Most Recent
+nursing home,06/11/2020,,2,4,0,0,3.0,0.0,Greenwood Center ,Warwick,Kent,
+nursing home,06/19/2020,,2,4,0,0,3.0,0.0,Greenwood Center ,Warwick,Kent,Prior Week
+nursing home,06/29/2020,,2,4,0,0,3.0,0.0,Greenwood Center ,Warwick,Kent,Most Recent
 nursing home,04/23/2020,,2,4,0,0,3.0,0.0,Hallworth House ,Providence,Providence,
 nursing home,04/29/2020,,5,9,0,0,7.0,0.0,Hallworth House ,Providence,Providence,
 nursing home,05/06/2020,,10,14,0,0,12.0,0.0,Hallworth House ,Providence,Providence,
@@ -262,8 +297,9 @@ nursing home,05/15/2020,,20,24,5,9,22.0,7.0,Hallworth House ,Providence,Providen
 nursing home,05/22/2020,,20,24,5,9,22.0,7.0,Hallworth House ,Providence,Providence,
 nursing home,05/29/2020,,25,29,10,14,27.0,12.0,Hallworth House ,Providence,Providence,
 nursing home,06/05/2020,,25,29,10,14,27.0,12.0,Hallworth House ,Providence,Providence,
-nursing home,06/11/2020,,25,29,10,14,27.0,12.0,Hallworth House ,Providence,Providence,Prior Week
-nursing home,06/19/2020,,25,29,10,14,27.0,12.0,Hallworth House ,Providence,Providence,Most Recent
+nursing home,06/11/2020,,25,29,10,14,27.0,12.0,Hallworth House ,Providence,Providence,
+nursing home,06/19/2020,,25,29,10,14,27.0,12.0,Hallworth House ,Providence,Providence,Prior Week
+nursing home,06/29/2020,,25,29,10,14,27.0,12.0,Hallworth House ,Providence,Providence,Most Recent
 nursing home,04/23/2020,,15,19,0,0,17.0,0.0,Harris Health Care Center North ,Central Falls,Providence,
 nursing home,04/29/2020,,15,19,0,0,17.0,0.0,Harris Health Care Center North ,Central Falls,Providence,
 nursing home,05/06/2020,,20,24,0,0,22.0,0.0,Harris Health Care Center North ,Central Falls,Providence,
@@ -272,8 +308,9 @@ nursing home,05/15/2020,,20,24,0,0,22.0,0.0,Harris Health Care Center North ,Cen
 nursing home,05/22/2020,,20,24,0,0,22.0,0.0,Harris Health Care Center North ,Central Falls,Providence,
 nursing home,05/29/2020,,20,24,0,0,22.0,0.0,Harris Health Care Center North ,Central Falls,Providence,
 nursing home,06/05/2020,,20,24,0,0,22.0,0.0,Harris Health Care Center North ,Central Falls,Providence,
-nursing home,06/11/2020,,20,24,0,0,22.0,0.0,Harris Health Care Center North ,Central Falls,Providence,Prior Week
-nursing home,06/19/2020,,20,24,0,0,22.0,0.0,Harris Health Care Center North ,Central Falls,Providence,Most Recent
+nursing home,06/11/2020,,20,24,0,0,22.0,0.0,Harris Health Care Center North ,Central Falls,Providence,
+nursing home,06/19/2020,,20,24,0,0,22.0,0.0,Harris Health Care Center North ,Central Falls,Providence,Prior Week
+nursing home,06/29/2020,,20,24,0,0,22.0,0.0,Harris Health Care Center North ,Central Falls,Providence,Most Recent
 nursing home,04/29/2020,,2,4,0,0,3.0,0.0,Hebert Nursing Home ,Smithfield,Providence,
 nursing home,05/06/2020,,2,4,0,0,3.0,0.0,Hebert Nursing Home ,Smithfield,Providence,
 nursing home,05/09/2020,,2,4,0,0,3.0,0.0,Hebert Nursing Home ,Smithfield,Providence,
@@ -281,8 +318,9 @@ nursing home,05/15/2020,,2,4,0,0,3.0,0.0,Hebert Nursing Home ,Smithfield,Provide
 nursing home,05/22/2020,,2,4,0,0,3.0,0.0,Hebert Nursing Home ,Smithfield,Providence,
 nursing home,05/29/2020,,2,4,0,0,3.0,0.0,Hebert Nursing Home ,Smithfield,Providence,
 nursing home,06/05/2020,,2,4,0,0,3.0,0.0,Hebert Nursing Home ,Smithfield,Providence,
-nursing home,06/11/2020,,2,4,0,0,3.0,0.0,Hebert Nursing Home ,Smithfield,Providence,Prior Week
-nursing home,06/19/2020,,2,4,0,0,3.0,0.0,Hebert Nursing Home ,Smithfield,Providence,Most Recent
+nursing home,06/11/2020,,2,4,0,0,3.0,0.0,Hebert Nursing Home ,Smithfield,Providence,
+nursing home,06/19/2020,,2,4,0,0,3.0,0.0,Hebert Nursing Home ,Smithfield,Providence,Prior Week
+nursing home,06/29/2020,,2,4,0,0,3.0,0.0,Hebert Nursing Home ,Smithfield,Providence,Most Recent
 nursing home,04/23/2020,,5,9,0,0,7.0,0.0,Heritage Hills ,Smithfield,Providence,
 nursing home,04/29/2020,,5,9,0,0,7.0,0.0,Heritage Hills ,Smithfield,Providence,
 nursing home,05/06/2020,,5,9,0,0,7.0,0.0,Heritage Hills ,Smithfield,Providence,
@@ -291,10 +329,12 @@ nursing home,05/15/2020,,5,9,0,0,7.0,0.0,Heritage Hills ,Smithfield,Providence,
 nursing home,05/22/2020,,5,9,0,0,7.0,0.0,Heritage Hills ,Smithfield,Providence,
 nursing home,05/29/2020,,5,9,0,0,7.0,0.0,Heritage Hills ,Smithfield,Providence,
 nursing home,06/05/2020,,5,9,0,0,7.0,0.0,Heritage Hills ,Smithfield,Providence,
-nursing home,06/11/2020,,5,9,0,0,7.0,0.0,Heritage Hills ,Smithfield,Providence,Prior Week
-nursing home,06/19/2020,,5,9,0,0,7.0,0.0,Heritage Hills ,Smithfield,Providence,Most Recent
-nursing home,06/11/2020,,15,19,0,0,17.0,0.0,Holiday Retirement Home ,Manville,,Prior Week
-nursing home,06/19/2020,,45,49,5,9,47.0,7.0,Holiday Retirement Home ,Manville,,Most Recent
+nursing home,06/11/2020,,5,9,0,0,7.0,0.0,Heritage Hills ,Smithfield,Providence,
+nursing home,06/19/2020,,5,9,0,0,7.0,0.0,Heritage Hills ,Smithfield,Providence,Prior Week
+nursing home,06/29/2020,,5,9,0,0,7.0,0.0,Heritage Hills ,Smithfield,Providence,Most Recent
+nursing home,06/11/2020,,15,19,0,0,17.0,0.0,Holiday Retirement Home ,Manville,,
+nursing home,06/19/2020,,45,49,5,9,47.0,7.0,Holiday Retirement Home ,Manville,,Prior Week
+nursing home,06/29/2020,,90,94,15,19,92.0,17.0,Holiday Retirement Home ,Manville,,Most Recent
 nursing home,04/23/2020,,20,24,0,0,22.0,0.0,Hopkins Manor ,North Providence,Providence,
 nursing home,04/29/2020,,25,29,0,0,27.0,0.0,Hopkins Manor ,North Providence,Providence,
 nursing home,05/06/2020,,40,49,0,0,44.5,0.0,Hopkins Manor ,North Providence,Providence,
@@ -303,8 +343,9 @@ nursing home,05/15/2020,,100,104,5,9,102.0,7.0,Hopkins Manor ,North Providence,P
 nursing home,05/22/2020,,105,109,5,9,107.0,7.0,Hopkins Manor ,North Providence,Providence,
 nursing home,05/29/2020,,105,109,10,14,107.0,12.0,Hopkins Manor ,North Providence,Providence,
 nursing home,06/05/2020,,100,104,15,19,102.0,17.0,Hopkins Manor ,North Providence,Providence,
-nursing home,06/11/2020,,100,104,15,19,102.0,17.0,Hopkins Manor ,North Providence,Providence,Prior Week
-nursing home,06/19/2020,,100,105,20,24,102.5,22.0,Hopkins Manor ,North Providence,Providence,Most Recent
+nursing home,06/11/2020,,100,104,15,19,102.0,17.0,Hopkins Manor ,North Providence,Providence,
+nursing home,06/19/2020,,100,105,20,24,102.5,22.0,Hopkins Manor ,North Providence,Providence,Prior Week
+nursing home,06/29/2020,,100,104,20,24,102.0,22.0,Hopkins Manor ,North Providence,Providence,Most Recent
 nursing home,04/29/2020,,5,9,0,0,7.0,0.0,Kent Regency ,Warwick,Kent,
 nursing home,05/06/2020,,20,24,0,0,22.0,0.0,Kent Regency ,Warwick,Kent,
 nursing home,05/09/2020,,25,29,0,0,27.0,0.0,Kent Regency ,Warwick,Kent,
@@ -312,20 +353,23 @@ nursing home,05/15/2020,,25,29,0,0,27.0,0.0,Kent Regency ,Warwick,Kent,
 nursing home,05/22/2020,,25,29,0,0,27.0,0.0,Kent Regency ,Warwick,Kent,
 nursing home,05/29/2020,,25,29,0,0,27.0,0.0,Kent Regency ,Warwick,Kent,
 nursing home,06/05/2020,,25,29,0,0,27.0,0.0,Kent Regency ,Warwick,Kent,
-nursing home,06/11/2020,,25,29,0,0,27.0,0.0,Kent Regency ,Warwick,Kent,Prior Week
-nursing home,06/19/2020,,25,29,0,0,27.0,0.0,Kent Regency ,Warwick,Kent,Most Recent
+nursing home,06/11/2020,,25,29,0,0,27.0,0.0,Kent Regency ,Warwick,Kent,
+nursing home,06/19/2020,,25,29,0,0,27.0,0.0,Kent Regency ,Warwick,Kent,Prior Week
+nursing home,06/29/2020,,25,29,0,0,27.0,0.0,Kent Regency ,Warwick,Kent,Most Recent
 nursing home,05/22/2020,,15,19,0,0,17.0,0.0,Linn Health & Rehab Center ,East Providence,Providence,
 nursing home,05/29/2020,,30,34,0,0,32.0,0.0,Linn Health & Rehab Center ,East Providence,Providence,
 nursing home,06/05/2020,,35,39,5,9,37.0,7.0,Linn Health & Rehab Center ,East Providence,Providence,
-nursing home,06/11/2020,,30,34,10,14,32.0,12.0,Linn Health & Rehab Center ,East Providence,Providence,Prior Week
-nursing home,06/19/2020,,35,39,10,14,37.0,12.0,Linn Health & Rehab Center ,East Providence,Providence,Most Recent
+nursing home,06/11/2020,,30,34,10,14,32.0,12.0,Linn Health & Rehab Center ,East Providence,Providence,
+nursing home,06/19/2020,,35,39,10,14,37.0,12.0,Linn Health & Rehab Center ,East Providence,Providence,Prior Week
+nursing home,06/29/2020,,35,39,10,14,37.0,12.0,Linn Health & Rehab Center ,East Providence,Providence,Most Recent
 nursing home,04/29/2020,,5,9,0,0,7.0,0.0,Linn Health Center ,East Providence,Providence,
 nursing home,05/06/2020,,5,9,0,0,7.0,0.0,Linn Health Center ,East Providence,Providence,
 nursing home,05/09/2020,,5,9,0,0,7.0,0.0,Linn Health Center ,East Providence,Providence,
 nursing home,05/15/2020,,10,14,0,0,12.0,0.0,Linn Health Center ,East Providence,Providence,
 nursing home,05/15/2020,,2,4,0,0,3.0,0.0,Morgan Health Center Nursing & Rehab ,Johnston,Providence,
-nursing home,06/19/2020,,15,19,0,0,17.0,0.0,Morgan Health Center Nursing and Rehab ,Johnston,Providence,Most Recent
-nursing home,06/11/2020,,10,14,0,0,12.0,0.0,Morgan Health Center Nursing and Rehab *,Johnston,Providence,Prior Week
+nursing home,06/19/2020,,15,19,0,0,17.0,0.0,Morgan Health Center Nursing and Rehab ,Johnston,Providence,Prior Week
+nursing home,06/29/2020,,20,24,5,9,22.0,7.0,Morgan Health Center Nursing and Rehab ,Johnston,Providence,Most Recent
+nursing home,06/11/2020,,10,14,0,0,12.0,0.0,Morgan Health Center Nursing and Rehab *,Johnston,Providence,
 nursing home,04/23/2020,,50,54,5,9,52.0,7.0,Mount St. Rita ,Cumberland,Providence,
 nursing home,04/29/2020,,60,64,5,9,62.0,7.0,Mount St. Rita ,Cumberland,Providence,
 nursing home,05/06/2020,,65,69,15,19,67.0,17.0,Mount St. Rita ,Cumberland,Providence,
@@ -334,16 +378,18 @@ nursing home,05/15/2020,,70,74,15,19,72.0,17.0,Mount St. Rita ,Cumberland,Provid
 nursing home,05/22/2020,,70,74,20,24,72.0,22.0,Mount St. Rita ,Cumberland,Providence,
 nursing home,05/29/2020,,75,79,20,24,77.0,22.0,Mount St. Rita ,Cumberland,Providence,
 nursing home,06/05/2020,,75,79,20,24,77.0,22.0,Mount St. Rita ,Cumberland,Providence,
-nursing home,06/11/2020,,75,79,20,24,77.0,22.0,Mount St. Rita ,Cumberland,Providence,Prior Week
-nursing home,06/19/2020,,80,84,20,24,82.0,22.0,Mount St. Rita ,Cumberland,Providence,Most Recent
+nursing home,06/11/2020,,75,79,20,24,77.0,22.0,Mount St. Rita ,Cumberland,Providence,
+nursing home,06/19/2020,,80,84,20,24,82.0,22.0,Mount St. Rita ,Cumberland,Providence,Prior Week
+nursing home,06/29/2020,,75,79,20,24,77.0,22.0,Mount St. Rita ,Cumberland,Providence,Most Recent
 nursing home,04/23/2020,,75,80,15,19,77.5,17.0,Oak Hill Health Center ,Pawtucket,Providence,
 nursing home,04/29/2020,,80,89,15,19,84.5,17.0,Oak Hill Health Center ,Pawtucket,Providence,
 nursing home,05/06/2020,,80,84,20,24,82.0,22.0,Oak Hill Health Center ,Pawtucket,Providence,
 nursing home,05/09/2020,,75,79,20,25,77.0,22.5,Oak Hill Health Center ,Pawtucket,Providence,
 nursing home,05/15/2020,,75,79,20,25,77.0,22.5,Oak Hill Health Center ,Pawtucket,Providence,
-nursing home,06/19/2020,,80,84,25,29,82.0,27.0,Oak Hill Health Center ,Pawtucket,Providence,Most Recent
+nursing home,06/19/2020,,80,84,25,29,82.0,27.0,Oak Hill Health Center ,Pawtucket,Providence,Prior Week
+nursing home,06/29/2020,,80,84,25,29,82.0,27.0,Oak Hill Health Center ,Pawtucket,Providence,Most Recent
 nursing home,06/05/2020,,80,84,20,24,82.0,22.0,Oak Hill Health Center *,Pawtucket,Providence,
-nursing home,06/11/2020,,80,84,25,29,82.0,27.0,Oak Hill Health Center *,Pawtucket,Providence,Prior Week
+nursing home,06/11/2020,,80,84,25,29,82.0,27.0,Oak Hill Health Center *,Pawtucket,Providence,
 nursing home,05/22/2020,,75,79,20,24,77.0,22.0,Oak Hill Health Center * ,Pawtucket,Providence,
 nursing home,05/29/2020,,75,79,20,24,77.0,22.0,Oak Hill Health Center * ,Pawtucket,Providence,
 nursing home,04/23/2020,,50,54,10,14,52.0,12.0,Oakland Grove Health Center ,Woonsocket,Providence,
@@ -354,8 +400,9 @@ nursing home,05/15/2020,,70,74,15,19,72.0,17.0,Oakland Grove Health Center ,Woon
 nursing home,05/22/2020,,75,79,20,24,77.0,22.0,Oakland Grove Health Center ,Woonsocket,Providence,
 nursing home,05/29/2020,,75,79,20,24,77.0,22.0,Oakland Grove Health Center ,Woonsocket,Providence,
 nursing home,06/05/2020,,70,74,20,24,72.0,22.0,Oakland Grove Health Center ,Woonsocket,Providence,
-nursing home,06/11/2020,,70,74,20,24,72.0,22.0,Oakland Grove Health Center ,Woonsocket,Providence,Prior Week
-nursing home,06/19/2020,,70,74,20,24,72.0,22.0,Oakland Grove Health Center ,Woonsocket,Providence,Most Recent
+nursing home,06/11/2020,,70,74,20,24,72.0,22.0,Oakland Grove Health Center ,Woonsocket,Providence,
+nursing home,06/19/2020,,70,74,20,24,72.0,22.0,Oakland Grove Health Center ,Woonsocket,Providence,Prior Week
+nursing home,06/29/2020,,70,74,20,24,72.0,22.0,Oakland Grove Health Center ,Woonsocket,Providence,Most Recent
 nursing home,04/23/2020,,125,129,30,34,127.0,32.0,Orchard View Manor ,East Providence,Providence,
 nursing home,04/29/2020,,130,134,35,39,132.0,37.0,Orchard View Manor ,East Providence,Providence,
 nursing home,05/06/2020,,140,144,40,44,142.0,42.0,Orchard View Manor ,East Providence,Providence,
@@ -364,8 +411,9 @@ nursing home,05/15/2020,,145,149,40,44,147.0,42.0,Orchard View Manor ,East Provi
 nursing home,05/22/2020,,145,149,45,49,147.0,47.0,Orchard View Manor ,East Providence,Providence,
 nursing home,05/29/2020,,145,149,45,49,147.0,47.0,Orchard View Manor ,East Providence,Providence,
 nursing home,06/05/2020,,135,139,45,49,137.0,47.0,Orchard View Manor ,East Providence,Providence,
-nursing home,06/11/2020,,135,139,45,49,137.0,47.0,Orchard View Manor ,East Providence,Providence,Prior Week
-nursing home,06/19/2020,,135,139,45,49,137.0,47.0,Orchard View Manor ,East Providence,Providence,Most Recent
+nursing home,06/11/2020,,135,139,45,49,137.0,47.0,Orchard View Manor ,East Providence,Providence,
+nursing home,06/19/2020,,135,139,45,49,137.0,47.0,Orchard View Manor ,East Providence,Providence,Prior Week
+nursing home,06/29/2020,,135,139,45,49,137.0,47.0,Orchard View Manor ,East Providence,Providence,Most Recent
 nursing home,05/15/2020,,2,4,0,0,3.0,0.0,Pawtucket Skilled Nursing ,Pawtucket,Providence,
 nursing home,05/22/2020,,2,4,0,0,3.0,0.0,Respiratory and Rehabilitation Center of RI ,Coventry,Kent,
 nursing home,05/29/2020,,2,4,0,0,3.0,0.0,Respiratory and Rehabilitation Center of RI ,Coventry,Kent,
@@ -374,8 +422,9 @@ nursing home,05/15/2020,,15,19,0,0,17.0,0.0,Rhode Island Veterans Home ,Bristol,
 nursing home,05/22/2020,,15,19,0,0,17.0,0.0,Rhode Island Veterans Home ,Bristol,Bristol,
 nursing home,05/29/2020,,15,19,0,0,17.0,0.0,Rhode Island Veterans Home ,Bristol,Bristol,
 nursing home,06/05/2020,,15,19,0,0,17.0,0.0,Rhode Island Veterans Home ,Bristol,Bristol,
-nursing home,06/11/2020,,15,19,5,9,17.0,7.0,Rhode Island Veterans Home ,Bristol,Bristol,Prior Week
-nursing home,06/19/2020,,15,19,5,9,17.0,7.0,Rhode Island Veterans Home ,Bristol,Bristol,Most Recent
+nursing home,06/11/2020,,15,19,5,9,17.0,7.0,Rhode Island Veterans Home ,Bristol,Bristol,
+nursing home,06/19/2020,,15,19,5,9,17.0,7.0,Rhode Island Veterans Home ,Bristol,Bristol,Prior Week
+nursing home,06/29/2020,,15,19,5,9,17.0,7.0,Rhode Island Veterans Home ,Bristol,Bristol,Most Recent
 nursing home,04/23/2020,,25,29,0,0,27.0,0.0,Riverview Community ,Coventry,Kent,
 nursing home,04/29/2020,,20,24,0,0,22.0,0.0,Riverview Community ,Coventry,Kent,
 nursing home,05/06/2020,,25,29,0,0,27.0,0.0,Riverview Community ,Coventry,Kent,
@@ -384,15 +433,17 @@ nursing home,05/15/2020,,30,34,0,0,32.0,0.0,Riverview Community ,Coventry,Kent,
 nursing home,05/22/2020,,30,34,5,9,32.0,7.0,Riverview Community  ,Coventry,Kent,
 nursing home,05/29/2020,,35,39,5,9,37.0,7.0,Riverview Community  ,Coventry,Kent,
 nursing home,06/05/2020,,40,44,5,9,42.0,7.0,Riverview Healthcare Community ,Coventry,Kent,
-nursing home,06/11/2020,,40,44,5,9,42.0,7.0,Riverview Healthcare Community ,Coventry,Kent,Prior Week
-nursing home,06/19/2020,,55,59,5,9,57.0,7.0,Riverview Healthcare Community ,Coventry,Kent,Most Recent
+nursing home,06/11/2020,,40,44,5,9,42.0,7.0,Riverview Healthcare Community ,Coventry,Kent,
+nursing home,06/19/2020,,55,59,5,9,57.0,7.0,Riverview Healthcare Community ,Coventry,Kent,Prior Week
+nursing home,06/29/2020,,60,64,5,9,62.0,7.0,Riverview Healthcare Community ,Coventry,Kent,Most Recent
 nursing home,05/09/2020,,35,39,10,14,37.0,12.0,Saint Antoine Residence ,North Smithfield,Providence,
 nursing home,05/15/2020,,45,49,10,14,47.0,12.0,Saint Antoine Residence ,North Smithfield,Providence,
 nursing home,05/22/2020,,60,64,15,19,62.0,17.0,Saint Antoine Residence ,North Smithfield,Providence,
 nursing home,05/29/2020,,60,64,15,19,62.0,17.0,Saint Antoine Residence ,North Smithfield,Providence,
 nursing home,06/05/2020,,65,69,15,19,67.0,17.0,Saint Antoine Residence ,North Smithfield,Providence,
-nursing home,06/11/2020,,60,64,20,24,62.0,22.0,Saint Antoine Residence ,North Smithfield,Providence,Prior Week
-nursing home,06/19/2020,,65,69,20,24,67.0,22.0,Saint Antoine Residence ,North Smithfield,Providence,Most Recent
+nursing home,06/11/2020,,60,64,20,24,62.0,22.0,Saint Antoine Residence ,North Smithfield,Providence,
+nursing home,06/19/2020,,65,69,20,24,67.0,22.0,Saint Antoine Residence ,North Smithfield,Providence,Prior Week
+nursing home,06/29/2020,,65,69,20,24,67.0,22.0,Saint Antoine Residence ,North Smithfield,Providence,Most Recent
 nursing home,04/29/2020,,2,4,0,0,3.0,0.0,Saint Elizabeth Home ,East Greenwich,Kent,
 nursing home,04/23/2020,,10,14,0,0,12.0,0.0,Saint Elizabeth Manor East Bay ,Bristol,Bristol,
 nursing home,04/29/2020,,10,14,0,0,12.0,0.0,Saint Elizabeth Manor East Bay ,Bristol,Bristol,
@@ -402,19 +453,22 @@ nursing home,05/15/2020,,10,14,0,0,12.0,0.0,Saint Elizabeth Manor East Bay ,Bris
 nursing home,05/22/2020,,10,14,0,0,12.0,0.0,Saint Elizabeth Manor East Bay ,Bristol,Bristol,
 nursing home,05/29/2020,,10,14,0,0,12.0,0.0,Saint Elizabeth Manor East Bay ,Bristol,Bristol,
 nursing home,06/05/2020,,10,14,0,0,12.0,0.0,Saint Elizabeth Manor East Bay ,Bristol,Bristol,
-nursing home,06/11/2020,,10,14,0,0,12.0,0.0,Saint Elizabeth Manor East Bay ,Bristol,Bristol,Prior Week
-nursing home,06/19/2020,,10,14,0,0,12.0,0.0,Saint Elizabeth Manor East Bay ,Bristol,Bristol,Most Recent
+nursing home,06/11/2020,,10,14,0,0,12.0,0.0,Saint Elizabeth Manor East Bay ,Bristol,Bristol,
+nursing home,06/19/2020,,10,14,0,0,12.0,0.0,Saint Elizabeth Manor East Bay ,Bristol,Bristol,Prior Week
+nursing home,06/29/2020,,10,14,0,0,12.0,0.0,Saint Elizabeth Manor East Bay ,Bristol,Bristol,Most Recent
 nursing home,04/23/2020,,60,64,5,9,62.0,7.0,Scalabrini Villa ,North Kingstown,Washington,
 nursing home,04/29/2020,,65,69,10,14,67.0,12.0,Scalabrini Villa ,North Kingstown,Washington,
 nursing home,05/06/2020,,65,69,15,19,67.0,17.0,Scalabrini Villa ,North Kingstown,Washington,
 nursing home,05/09/2020,,65,69,15,19,67.0,17.0,Scalabrini Villa ,North Kingstown,Washington,
 nursing home,05/15/2020,,70,74,15,19,72.0,17.0,Scalabrini Villa ,North Kingstown,Washington,
 nursing home,06/05/2020,,65,69,20,24,67.0,22.0,Scalabrini Villa ,North Kingstown,Washington,
-nursing home,06/11/2020,,65,69,20,24,67.0,22.0,Scalabrini Villa ,North Kingstown,Washington,Prior Week
-nursing home,06/19/2020,,65,69,20,24,67.0,22.0,Scalabrini Villa ,North Kingstown,Washington,Most Recent
+nursing home,06/11/2020,,65,69,20,24,67.0,22.0,Scalabrini Villa ,North Kingstown,Washington,
+nursing home,06/19/2020,,65,69,20,24,67.0,22.0,Scalabrini Villa ,North Kingstown,Washington,Prior Week
+nursing home,06/29/2020,,65,69,20,24,67.0,22.0,Scalabrini Villa ,North Kingstown,Washington,Most Recent
 nursing home,05/22/2020,,70,74,15,19,72.0,17.0,Scalabrini Villa  ,North Kingstown,Washington,
 nursing home,05/29/2020,,70,74,20,24,72.0,22.0,Scalabrini Villa  ,North Kingstown,Washington,
-nursing home,06/19/2020,,2,4,0,0,3.0,0.0,Silver Creek Manor ,Bristol,Bristol,Most Recent
+nursing home,06/19/2020,,2,4,0,0,3.0,0.0,Silver Creek Manor ,Bristol,Bristol,Prior Week
+nursing home,06/29/2020,,2,4,0,0,3.0,0.0,Silver Creek Manor ,Bristol,Bristol,Most Recent
 nursing home,04/29/2020,,5,9,0,0,7.0,0.0,South County Nursing ,North Kingstown,Washington,
 nursing home,05/06/2020,,20,24,0,0,22.0,0.0,South County Nursing ,North Kingstown,Washington,
 nursing home,05/09/2020,,25,29,0,0,27.0,0.0,South County Nursing Center ,North Kingstown,Washington,
@@ -422,11 +476,13 @@ nursing home,05/15/2020,,50,59,0,0,54.5,0.0,South County Nursing Center ,North K
 nursing home,05/22/2020,,80,84,15,19,82.0,17.0,South County Nursing Center ,North Kingstown,Washington,
 nursing home,05/29/2020,,80,84,15,19,82.0,17.0,South County Nursing Center ,North Kingstown,Washington,
 nursing home,06/05/2020,,80,84,20,24,82.0,22.0,South County Nursing Center ,North Kingstown,Washington,
-nursing home,06/11/2020,,80,84,25,29,82.0,27.0,South County Nursing Center ,North Kingstown,Washington,Prior Week
-nursing home,06/19/2020,,80,84,25,29,82.0,27.0,South County Nursing Center ,North Kingstown,Washington,Most Recent
+nursing home,06/11/2020,,80,84,25,29,82.0,27.0,South County Nursing Center ,North Kingstown,Washington,
+nursing home,06/19/2020,,80,84,25,29,82.0,27.0,South County Nursing Center ,North Kingstown,Washington,Prior Week
+nursing home,06/29/2020,,80,84,25,29,82.0,27.0,South County Nursing Center ,North Kingstown,Washington,Most Recent
 nursing home,06/05/2020,,20,24,5,9,22.0,7.0,South Kingstown Center ,West Kingston,,
-nursing home,06/11/2020,,20,24,5,9,22.0,7.0,South Kingstown Center ,West Kingston,,Prior Week
-nursing home,06/19/2020,,20,24,5,9,22.0,7.0,South Kingstown Center ,West Kingston,,Most Recent
+nursing home,06/11/2020,,20,24,5,9,22.0,7.0,South Kingstown Center ,West Kingston,,
+nursing home,06/19/2020,,20,24,5,9,22.0,7.0,South Kingstown Center ,West Kingston,,Prior Week
+nursing home,06/29/2020,,20,24,5,9,22.0,7.0,South Kingstown Center ,West Kingston,,Most Recent
 nursing home,04/23/2020,,10,14,0,0,12.0,0.0,South Kingstown Nursing & Rehab ,South Kingstown,Washington,
 nursing home,04/29/2020,,10,14,0,0,12.0,0.0,South Kingstown Nursing & Rehab ,South Kingstown,Washington,
 nursing home,05/06/2020,,10,14,5,9,12.0,7.0,South Kingstown Nursing & Rehab ,South Kingstown,Washington,
@@ -443,8 +499,9 @@ nursing home,05/15/2020,,40,44,0,0,42.0,0.0,Steere House Nursing and Rehab ,Prov
 nursing home,05/22/2020,,55,59,10,14,57.0,12.0,Steere House Nursing and Rehab ,Providence,Providence,
 nursing home,05/29/2020,,60,64,15,19,62.0,17.0,Steere House Nursing and Rehab ,Providence,Providence,
 nursing home,06/05/2020,,65,69,15,19,67.0,17.0,Steere House Nursing and Rehab ,Providence,Providence,
-nursing home,06/11/2020,,65,69,20,24,67.0,22.0,Steere House Nursing and Rehab ,Providence,Providence,Prior Week
-nursing home,06/19/2020,,75,79,20,24,77.0,22.0,Steere House Nursing and Rehab ,Providence,Providence,Most Recent
+nursing home,06/11/2020,,65,69,20,24,67.0,22.0,Steere House Nursing and Rehab ,Providence,Providence,
+nursing home,06/19/2020,,75,79,20,24,77.0,22.0,Steere House Nursing and Rehab ,Providence,Providence,Prior Week
+nursing home,06/29/2020,,75,79,20,24,77.0,22.0,Steere House Nursing and Rehab ,Providence,Providence,Most Recent
 nursing home,04/23/2020,,45,49,5,9,47.0,7.0,Stillwater Assisted Living & Skilled Nursing ,Greenville,,
 nursing home,04/29/2020,,60,64,10,14,62.0,12.0,Stillwater Assisted Living & Skilled Nursing ,Greenville,,
 nursing home,05/06/2020,,60,64,10,14,62.0,12.0,Stillwater Skilled Nursing ,Greenville,,
@@ -453,8 +510,9 @@ nursing home,05/15/2020,,60,64,15,19,62.0,17.0,Stillwater Skilled Nursing ,Green
 nursing home,05/22/2020,,65,69,15,19,67.0,17.0,Stillwater Skilled Nursing ,Greenville,,
 nursing home,05/29/2020,,65,69,20,24,67.0,22.0,Stillwater Skilled Nursing ,Greenville,,
 nursing home,06/05/2020,,60,64,20,24,62.0,22.0,Stillwater Skilled Nursing ,Greenville,,
-nursing home,06/11/2020,,60,64,20,24,62.0,22.0,Stillwater Skilled Nursing ,Greenville,,Prior Week
-nursing home,06/19/2020,,60,64,20,24,62.0,22.0,Stillwater Skilled Nursing ,Greenville,,Most Recent
+nursing home,06/11/2020,,60,64,20,24,62.0,22.0,Stillwater Skilled Nursing ,Greenville,,
+nursing home,06/19/2020,,60,64,20,24,62.0,22.0,Stillwater Skilled Nursing ,Greenville,,Prior Week
+nursing home,06/29/2020,,60,64,20,24,62.0,22.0,Stillwater Skilled Nursing ,Greenville,,Most Recent
 nursing home,04/23/2020,,75,80,5,9,77.5,7.0,Summit Commons ,Providence,Providence,
 nursing home,04/29/2020,,95,99,10,14,97.0,12.0,Summit Commons ,Providence,Providence,
 nursing home,05/06/2020,,105,109,15,19,107.0,17.0,Summit Commons ,Providence,Providence,
@@ -463,21 +521,24 @@ nursing home,05/15/2020,,105,109,20,24,107.0,22.0,Summit Commons ,Providence,Pro
 nursing home,05/22/2020,,105,109,20,24,107.0,22.0,Summit Commons ,Providence,Providence,
 nursing home,05/29/2020,,105,109,20,24,107.0,22.0,Summit Commons ,Providence,Providence,
 nursing home,06/05/2020,,105,109,20,24,107.0,22.0,Summit Commons ,Providence,Providence,
-nursing home,06/11/2020,,105,109,25,29,107.0,27.0,Summit Commons ,Providence,Providence,Prior Week
-nursing home,06/19/2020,,105,109,25,29,107.0,27.0,Summit Commons ,Providence,Providence,Most Recent
+nursing home,06/11/2020,,105,109,25,29,107.0,27.0,Summit Commons ,Providence,Providence,
+nursing home,06/19/2020,,105,109,25,29,107.0,27.0,Summit Commons ,Providence,Providence,Prior Week
+nursing home,06/29/2020,,105,109,25,29,107.0,27.0,Summit Commons ,Providence,Providence,Most Recent
 nursing home,04/29/2020,,5,9,0,0,7.0,0.0,The Ballou Home ,Woonsocket,Providence,
 nursing home,05/29/2020,,2,4,0,0,3.0,0.0,Tockwotton on the Waterfront ,East Providence,Providence,
 nursing home,06/05/2020,,2445,2449,581,584,2447.0,582.5,Total,,,
-nursing home,06/11/2020,,2495,2499,625,629,2497.0,627.0,Total,,,Prior Week
-nursing home,06/19/2020,,2570,2574,675,679,2572.0,677.0,Total,,,Most Recent
+nursing home,06/11/2020,,2495,2499,625,629,2497.0,627.0,Total,,,
+nursing home,06/19/2020,,2570,2574,675,679,2572.0,677.0,Total,,,Prior Week
+nursing home,06/29/2020,,2650,2654,720,724,2652.0,722.0,Total,,,Most Recent
 nursing home,05/06/2020,,5,9,0,0,7.0,0.0,Trinity Health Center ,Woonsocket,Providence,
 nursing home,05/09/2020,,5,9,0,0,7.0,0.0,Trinity Health Center ,Woonsocket,Providence,
 nursing home,05/15/2020,,10,14,0,0,12.0,0.0,Trinity Health Center ,Woonsocket,Providence,
 nursing home,05/22/2020,,15,19,0,0,17.0,0.0,Trinity Health Center ,Woonsocket,Providence,
 nursing home,05/29/2020,,15,19,0,0,17.0,0.0,Trinity Health Center ,Woonsocket,Providence,
 nursing home,06/05/2020,,15,19,0,0,17.0,0.0,Trinity Health Center ,Woonsocket,Providence,
-nursing home,06/11/2020,,15,19,0,0,17.0,0.0,Trinity Health Center ,Woonsocket,Providence,Prior Week
-nursing home,06/19/2020,,20,24,0,0,22.0,0.0,Trinity Health Center ,Woonsocket,Providence,Most Recent
+nursing home,06/11/2020,,15,19,0,0,17.0,0.0,Trinity Health Center ,Woonsocket,Providence,
+nursing home,06/19/2020,,20,24,0,0,22.0,0.0,Trinity Health Center ,Woonsocket,Providence,Prior Week
+nursing home,06/29/2020,,20,24,0,0,22.0,0.0,Trinity Health Center ,Woonsocket,Providence,Most Recent
 nursing home,04/29/2020,,10,14,0,0,12.0,0.0,Veterans Home ,Bristol,Bristol,
 nursing home,05/06/2020,,15,19,0,0,17.0,0.0,Veterans Home ,Bristol,Bristol,
 nursing home,04/23/2020,,2,4,0,0,3.0,0.0,Village House Nursing and Rehab ,Newport,Newport,
@@ -486,8 +547,9 @@ nursing home,05/06/2020,,2,4,0,0,3.0,0.0,Village House Nursing and Rehab ,Newpor
 nursing home,05/09/2020,,2,4,0,0,3.0,0.0,Village House Nursing and Rehab ,Newport,Newport,
 nursing home,05/15/2020,,2,4,0,0,3.0,0.0,Village House Nursing and Rehab ,Newport,Newport,
 nursing home,06/05/2020,,2,4,0,0,3.0,0.0,Village House Nursing and Rehab ,Newport,Newport,
-nursing home,06/11/2020,,2,4,0,0,3.0,0.0,Village House Nursing and Rehab ,Newport,Newport,Prior Week
-nursing home,06/19/2020,,2,4,0,0,3.0,0.0,Village House Nursing and Rehab ,Newport,Newport,Most Recent
+nursing home,06/11/2020,,2,4,0,0,3.0,0.0,Village House Nursing and Rehab ,Newport,Newport,
+nursing home,06/19/2020,,2,4,0,0,3.0,0.0,Village House Nursing and Rehab ,Newport,Newport,Prior Week
+nursing home,06/29/2020,,2,4,0,0,3.0,0.0,Village House Nursing and Rehab ,Newport,Newport,Most Recent
 nursing home,05/22/2020,,2,4,9,0,3.0,4.5,Village House Nursing and Rehab  ,Newport,Newport,
 nursing home,05/29/2020,,2,4,0,0,3.0,0.0,Village House Nursing and Rehab  ,Newport,Newport,
 nursing home,05/06/2020,,10,14,0,0,12.0,0.0,Waterview Villa ,East Providence,Providence,
@@ -496,8 +558,9 @@ nursing home,05/15/2020,,25,29,0,0,27.0,0.0,Waterview Villa ,East Providence,Pro
 nursing home,05/22/2020,,30,34,0,0,32.0,0.0,Waterview Villa ,East Providence,Providence,
 nursing home,05/29/2020,,40,44,0,0,42.0,0.0,Waterview Villa ,East Providence,Providence,
 nursing home,06/05/2020,,40,44,5,9,42.0,7.0,Waterview Villa ,East Providence,Providence,
-nursing home,06/11/2020,,40,44,5,9,42.0,7.0,Waterview Villa ,East Providence,Providence,Prior Week
-nursing home,06/19/2020,,45,49,5,9,47.0,7.0,Waterview Villa ,East Providence,Providence,Most Recent
+nursing home,06/11/2020,,40,44,5,9,42.0,7.0,Waterview Villa ,East Providence,Providence,
+nursing home,06/19/2020,,45,49,5,9,47.0,7.0,Waterview Villa ,East Providence,Providence,Prior Week
+nursing home,06/29/2020,,45,49,10,14,47.0,12.0,Waterview Villa ,East Providence,Providence,Most Recent
 nursing home,04/23/2020,,20,24,0,0,22.0,0.0,West Shore Health Center ,Warwick,Kent,
 nursing home,04/29/2020,,45,49,0,0,47.0,0.0,West Shore Health Center ,Warwick,Kent,
 nursing home,05/06/2020,,90,94,15,19,92.0,17.0,West Shore Health Center ,Warwick,Kent,
@@ -506,13 +569,15 @@ nursing home,05/15/2020,,105,109,25,29,107.0,27.0,West Shore Health Center ,Warw
 nursing home,05/22/2020,,110,114,30,34,112.0,32.0,West Shore Health Center ,Warwick,Kent,
 nursing home,05/29/2020,,110,114,35,39,112.0,37.0,West Shore Health Center ,Warwick,Kent,
 nursing home,06/05/2020,,105,109,35,39,107.0,37.0,West Shore Health Center ,Warwick,Kent,
-nursing home,06/11/2020,,105,109,35,39,107.0,37.0,West Shore Health Center ,Warwick,Kent,Prior Week
-nursing home,06/19/2020,,105,109,40,44,107.0,42.0,West Shore Health Center ,Warwick,Kent,Most Recent
+nursing home,06/11/2020,,105,109,35,39,107.0,37.0,West Shore Health Center ,Warwick,Kent,
+nursing home,06/19/2020,,105,109,40,44,107.0,42.0,West Shore Health Center ,Warwick,Kent,Prior Week
+nursing home,06/29/2020,,105,109,40,44,107.0,42.0,West Shore Health Center ,Warwick,Kent,Most Recent
 nursing home,05/22/2020,,60,64,5,9,62.0,7.0,West View Nursing Center ,West Warwick,Kent,
 nursing home,05/29/2020,,60,64,5,9,62.0,7.0,West View Nursing Center ,West Warwick,Kent,
 nursing home,06/05/2020,,60,64,15,19,62.0,17.0,West View Nursing Center ,West Warwick,Kent,
-nursing home,06/11/2020,,60,64,15,19,62.0,17.0,West View Nursing Center ,West Warwick,Kent,Prior Week
-nursing home,06/19/2020,,60,64,15,19,62.0,17.0,West View Nursing Center ,West Warwick,Kent,Most Recent
+nursing home,06/11/2020,,60,64,15,19,62.0,17.0,West View Nursing Center ,West Warwick,Kent,
+nursing home,06/19/2020,,60,64,15,19,62.0,17.0,West View Nursing Center ,West Warwick,Kent,Prior Week
+nursing home,06/29/2020,,60,64,15,19,62.0,17.0,West View Nursing Center ,West Warwick,Kent,Most Recent
 nursing home,04/23/2020,,2,4,0,0,3.0,0.0,West View Nursing Home ,West Warwick,Kent,
 nursing home,04/29/2020,,25,29,0,0,27.0,0.0,West View Nursing Home ,West Warwick,Kent,
 nursing home,05/06/2020,,35,39,0,0,37.0,0.0,West View Nursing Home ,West Warwick,Kent,
@@ -526,5 +591,6 @@ nursing home,05/15/2020,,85,89,10,14,87.0,12.0,Woonsocket Health Center ,Woonsoc
 nursing home,05/22/2020,,85,89,15,19,87.0,17.0,Woonsocket Health Center ,Woonsocket,Providence,
 nursing home,05/29/2020,,85,89,15,19,87.0,17.0,Woonsocket Health Center ,Woonsocket,Providence,
 nursing home,06/05/2020,,85,89,15,19,87.0,17.0,Woonsocket Health Center ,Woonsocket,Providence,
-nursing home,06/11/2020,,85,89,15,19,87.0,17.0,Woonsocket Health Center ,Woonsocket,Providence,Prior Week
-nursing home,06/19/2020,,85,89,20,24,87.0,22.0,Woonsocket Health Center ,Woonsocket,Providence,Most Recent
+nursing home,06/11/2020,,85,89,15,19,87.0,17.0,Woonsocket Health Center ,Woonsocket,Providence,
+nursing home,06/19/2020,,85,89,20,24,87.0,22.0,Woonsocket Health Center ,Woonsocket,Providence,Prior Week
+nursing home,06/29/2020,,85,89,20,24,87.0,22.0,Woonsocket Health Center ,Woonsocket,Providence,Most Recent
