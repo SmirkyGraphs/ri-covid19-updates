@@ -211,9 +211,9 @@ def then_v_now():
     fig.text(x=.5, y=0.92, s=sub_head, fontsize=10, ha='center')
     fig.text(x=0.97, y=0.03, s=footer, fontsize=10, ha='right')
 
-    patch = mpatches.Patch(facecolor='dodgerblue', label='data from 5/10/2020')
+    patch = mpatches.Patch(facecolor='dodgerblue', label=f'data from {start_date}')
     fig.legend(handles=[patch], loc='upper left', bbox_to_anchor=[0.78, 1], fontsize=10)    
 
-    patch = mpatches.Patch(facecolor='coral', label='data from 6/15/2020')
+    patch = mpatches.Patch(facecolor='coral', label=f'data from {current_date}')
     fig.legend(handles=[patch], loc='upper left', bbox_to_anchor=[0.78, 0.97], fontsize=10) 
     plt.savefig('./figures/daily_deaths_then_vs_now.png', dpi=150)
