@@ -101,6 +101,7 @@ def hospital_plot():
 
 def testing_ma_plot():
     df = pd.read_csv('./data/clean/revised-data-clean.csv', parse_dates=['date'])
+    df = df[df['date_scraped'] == df['date_scraped'].unique()[-1]]
 
     min_date = df['date'].min().strftime("%#m/%d/%y")
     max_date = df['date'].max().strftime("%#m/%d/%y")
@@ -132,6 +133,7 @@ def testing_ma_plot():
 
 def hospital_ma_plot():
     df = pd.read_csv('./data/clean/revised-data-clean.csv', parse_dates=['date'])
+    df = df[df['date_scraped'] == df['date_scraped'].unique()[-1]]
 
     min_date = df['date'].min().strftime("%#m/%d/%y")
     max_date = df['date'].max().strftime("%#m/%d/%y")
