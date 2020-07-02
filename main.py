@@ -29,6 +29,7 @@ if __name__ == "__main__":
     plots.testing_ma_plot()
     plots.hospital_ma_plot()
     plots.city_rate_plot()
+    plots.then_v_now()
 
     # run reports
     reports.run_reports()
