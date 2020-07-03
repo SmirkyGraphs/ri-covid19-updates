@@ -5,10 +5,6 @@ import json
 with open('./config.json') as config:
     creds = json.load(config)['google']
 
-# google sheets authentication
-api = pygsheets.authorize(service_file=creds, retries=5)
-wb = api.open('ri-covid-19')
-
 def convert_int(value):
     value = str(value).lower()
     value = value.replace('fewer than five', '0')
@@ -28,8 +24,12 @@ def clean_facility_city(string):
     
     return string.strip()
 
-def sync_sheets(wb, df, sheet_name):
+def sync_sheets(df, sheet_name):
     print(f'[status] syncing google sheet {sheet_name}')
+    # google sheets authentication
+    api = pygsheets.authorize(service_file=creds, retries=5)
+    wb = api.open('ri-covid-19')
+
     # open the google spreadsheet
     sheet = wb.worksheet_by_title(f'{sheet_name}')
     sheet.set_dataframe(df, (1,1))
@@ -65,7 +65,7 @@ def clean_general(fname):
 
     # save & sync to google sheets
     df.to_csv('./data/clean/ri-covid-19-clean.csv', index=False)
-    sync_sheets(wb, df, 'statewide')
+    sync_sheets(df, 'statewide')
 
 def clean_geographic(fname):
     print('[status] cleaning city/town info')
@@ -93,7 +93,7 @@ def clean_geographic(fname):
 
     # save & sync to google sheets
     df.to_csv('./data/clean/geo-ri-covid-19-clean.csv', index=False)
-    sync_sheets(wb, df, 'city_town')
+    sync_sheets(df, 'city_town')
 
 def clean_zip_codes(fname):
     print('[status] cleaning zip codes data')
