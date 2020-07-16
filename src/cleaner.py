@@ -36,18 +36,33 @@ def sync_sheets(df, sheet_name):
 
 def clean_general(fname):
     print('[status] cleaning statwide general info')
-    df = pd.read_csv(f'./data/raw/{fname}.csv')
+    df = pd.read_csv(f'./data/raw/{fname}.csv', parse_dates=['date'])
+
+    # remove total causing errors
+    df = df[df['metric'] != 'Cumulative people who tested positive (counts first positive lab per person) plus cumulative negative tests (may count people more than once)']
+
     # re name metrics to shorten them
-    df.loc[df['metric'].str.contains('positive'), 'metric'] = 'RI positive cases'
-    df.loc[df['metric'].str.contains('negative'), 'metric'] = 'RI negative results'
-    df.loc[df['metric'].str.contains('self-quarantine'), 'metric'] = 'instructed to self-quarantine'
-    df.loc[df['metric'].str.contains('hospitalized'), 'metric'] = 'currently hospitalized'
-    df.loc[df['metric'].str.contains('die'), 'metric'] = 'total deaths'
-    df.loc[df['metric'].str.contains('fatalities'), 'metric'] = 'total deaths'
-    df.loc[df['metric'].str.contains('ventilators'), 'metric'] = 'currently on ventilator'
-    df.loc[df['metric'].str.contains('on a vent'), 'metric'] = 'currently on ventilator'
-    df.loc[df['metric'].str.contains('intensive care'), 'metric'] = 'currently in icu'
-    df.loc[df['metric'].str.contains('discharged'), 'metric'] = 'total discharged'
+    df.loc[(df['metric'].str.contains('positive')) & (df['date'] < '2020-07-13'), 'metric'] = 'RI positive cases'
+    df.loc[(df['metric'].str.contains('negative')) & (df['date'] < '2020-07-13'), 'metric'] = 'RI negative results'
+    df.loc[(df['metric'].str.contains('self-quarantine')) & (df['date'] < '2020-07-13'), 'metric'] = 'instructed to self-quarantine'
+    df.loc[(df['metric'].str.contains('hospitalized')) & (df['date'] < '2020-07-13'), 'metric'] = 'currently hospitalized'
+    df.loc[(df['metric'].str.contains('die')) & (df['date'] < '2020-07-13'), 'metric'] = 'total deaths'
+    df.loc[(df['metric'].str.contains('fatalities')) & (df['date'] < '2020-07-13'), 'metric'] = 'total deaths'
+    df.loc[(df['metric'].str.contains('ventilators')) & (df['date'] < '2020-07-13'), 'metric'] = 'currently on ventilator'
+    df.loc[(df['metric'].str.contains('on a vent')) & (df['date'] < '2020-07-13'), 'metric'] = 'currently on ventilator'
+    df.loc[(df['metric'].str.contains('intensive care')) & (df['date'] < '2020-07-13'), 'metric'] = 'currently in icu'
+    df.loc[(df['metric'].str.contains('discharged')) & (df['date'] < '2020-07-13'), 'metric'] = 'total discharged'
+
+    df.loc[df['metric'].str.contains('Cumulative people who tested positive '), 'metric'] = 'people positive'
+    df.loc[df['metric'].str.contains('Cumulative people tested '), 'metric'] = 'people tested'
+    df.loc[df['metric'].str.contains('New people who tested positive'), 'metric'] = 'new positive'
+    df.loc[df['metric'].str.contains('Cumlative people who tested positive'), 'metric'] = 'RI positive cases'
+    df.loc[df['metric'].str.contains('Cumlative people who have only tested negative'), 'metric'] = 'RI negative results'
+    df.loc[df['metric'].str.contains('Currently hospitalized'), 'metric'] = 'currently hospitalized'
+    df.loc[df['metric'].str.contains('Currently in ICU'), 'metric'] = 'currently in icu'
+    df.loc[df['metric'].str.contains('Currently vented'), 'metric'] = 'currently on ventilator'
+    df.loc[df['metric'].str.contains('Total deaths'), 'metric'] = 'total deaths'
+
 
     # convert types count -> int, date -> datetime str
     df['count'] = df['count'].apply(convert_int)
@@ -167,14 +182,25 @@ def clean_nursing_homes(fname):
 
 def clean_revised(fname):
     print('[status] cleaning revised data')
-    df = pd.read_csv(f'./data/raw/{fname}.csv', parse_dates=['date'])
+    df = pd.read_csv(f'./data/raw/{fname}.csv', parse_dates=['date', 'date_scraped'])
 
     # replace null label -- with 0
     df['deaths'] = df['deaths'].replace('--', 0)
     df['total deaths'] = df['total deaths'].replace('--', 0)
+    df = df.fillna(0)
 
     df['new total labs'] = df['new positive labs'] + df['new negative labs']
     df['%_positive'] = df['new positive labs']/df['new total labs']
+    df['new people tested'] = df['new people positive'] + df['new people negative']
+    df['%_peopple_positive'] = df['new people positive']/df['new people tested']
     df['date_ts'] = df['date'].apply(lambda x: pd.datetime.toordinal(x))
 
+    # sort by date & save
+    df['date'] = pd.to_datetime(df['date']).dt.strftime('%m/%d/%Y')
+    df = df.sort_values(by=['date_scraped', 'date'])
     df.to_csv('./data/clean/revised-data-clean.csv', index=False)
+
+    # export to google sheets most recent date
+    df = df[df['date_scraped'] == df['date_scraped'].max()]
+    df['date_scraped'] = df['date_scraped'].dt.strftime('%m/%d/%Y')
+    sync_sheets(df, 'trend_data')

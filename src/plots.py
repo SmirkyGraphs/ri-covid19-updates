@@ -174,15 +174,15 @@ def city_rate_plot():
     g.savefig("./figures/cities_rate.png", dpi=150)
 
 def then_v_now():
-    df = pd.read_csv('./data/clean/revised-data-clean.csv', parse_dates=['date'])
+    df = pd.read_csv('./data/clean/revised-data-clean.csv', parse_dates=['date', 'date_scraped'])
 
-    dates = df['date_scraped'].unique()
+    dates = df['date_scraped'].sort_values().unique()
     start = df.loc[df['date_scraped'] == dates[0]]
     current = df.loc[df['date_scraped'] == dates[-1]]
 
     # save date_scraped for each set
-    start_date = start['date_scraped'].values[0]
-    current_date = current['date_scraped'].values[0]
+    start_date = start['date_scraped'].min().strftime("%#m/%d/%Y")
+    current_date = current['date_scraped'].max().strftime("%#m/%d/%Y")
 
     # set date as index and select only deaths
     start = start.set_index('date')['deaths']

@@ -32,16 +32,16 @@ def send_tweet():
     change = df.set_index('metric')['new_cases']
 
     # load data totals
-    total = int(count['RI total tests'])
-    positive = int(count['RI positive cases'])
+    total = int(count['people tested'])
+    positive = int(count['people positive'])
     icu = int(count['currently in icu'])
     vent = int(count['currently on ventilator'])
     hospital = int(count['currently hospitalized'])
     deaths = int(count['total deaths'])
 
     # load data changes
-    total_diff = add_plus(change['RI total tests'])
-    pos_diff = add_plus(change['RI positive cases'])
+    total_diff = add_plus(change['people tested'])
+    pos_diff = add_plus(change['people positive'])
     icu_diff = add_plus(change['currently in icu'])
     vent_diff = add_plus(change['currently on ventilator'])
     hosp_diff = add_plus(change['currently hospitalized'])
@@ -49,8 +49,8 @@ def send_tweet():
 
     tweet = [
         f'{current_date} update:',
-        f'total tests: {total} ({total_diff})',
-        f'positive results: {positive} ({pos_diff})',
+        f'people tested: {total} ({total_diff})',
+        f'people positive: {positive} ({pos_diff})',
         f'hospitalized: {hospital} ({hosp_diff})',
         f'intensive care: {icu} ({icu_diff})',
         f'on ventilator: {vent} ({vent_diff})',
