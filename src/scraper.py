@@ -2,17 +2,12 @@ import time
 import pandas as pd
 from pathlib import Path
 
-keep_rows = [
-    'Total number of positive labs received by RIDOH',
-    'Total number of negative labs received by RIDOH',
-    'currently hospitalized in Rhode Island',
-    'currently in an intensive care unit',
-    'COVID-19 associated fatalities \(cumulative\)',
-    'discharged from a hospital in Rhode Island \(cumlative\)',
-    'were admitted to a hospital',
+drop_cols = [
+    '3-day average of daily number of positive tests (may count people more than once)',
+    'daily total tests completed (may count people more than once)',
+    '3-day average of new people who tested positive (counts first positive lab per person)',
+    '3-day average of currently hospitalized'
 ]
-
-keep_list = '|'.join(keep_rows)
 
 def save_file(df, file_path, current_date):
     # save/update file
@@ -39,7 +34,7 @@ def scrape_sheet(sheet_id):
         time.sleep(60)
 
     # load data from RI - DOH spreadsheet
-    gen_url = f'https://docs.google.com/spreadsheets/d/{sheet_id}1225599023'
+    gen_url = f'https://docs.google.com/spreadsheets/d/{sheet_id}264100583'
     df = pd.read_csv(gen_url).dropna(axis=1, how='all')
     date = list(df)[1].strip()
     date = pd.to_datetime(date).tz_localize('EST').date()
@@ -57,45 +52,48 @@ def scrape_sheet(sheet_id):
         ## transform general sheet
         df['date'] = date
         df.columns = ['metric', 'count', 'date']
-        df = df[df['metric'].str.contains(keep_list)]
         save_file(df, raw_general, date)
 
         ## scrape geographic sheet
-        geo_url = f'https://docs.google.com/spreadsheets/d/{sheet_id}1759341227'
+        geo_url = f'https://docs.google.com/spreadsheets/d/{sheet_id}901548302'
         geo_df = pd.read_csv(geo_url)
 
         # get grographic date & fix cols
-        geo_date = list(geo_df)[-1].split(':')[-1].strip()
+        geo_date = geo_df.iloc[-1][1]
         geo_date = pd.to_datetime(geo_date).tz_localize('EST').date()
         geo_df['date'] = geo_date
-        geo_df = geo_df.dropna(axis=1)
-        geo_df.columns = ['city_town', 'count', 'date']
+
+        cols = [x for x in list(geo_df) if 'Rate' not in x]
+        geo_df = geo_df[cols]
+
+        geo_df = geo_df.dropna(axis=0)
+        geo_df.columns = ['city_town', 'count', 'hostpialized', 'deaths', 'date']
 
         # save file
         raw_geo = './data/raw/geo-ri-covid-19.csv'
         save_file(geo_df, raw_geo, geo_date)
 
         ## scrape demographics sheet
-        dem_url = f'https://docs.google.com/spreadsheets/d/{sheet_id}771623753'
+        dem_url = f'https://docs.google.com/spreadsheets/d/{sheet_id}31350783'
         dem_df = pd.read_csv(dem_url)
 
         # make sure no columns were added/removed
-        if not dem_df.shape == (26, 7):
+        if not dem_df.shape == (31, 9):
             print('[error] demographics format changed')
             return
         else:
             # get demographics updated date
-            dem_date = list(dem_df)[0].split(':')[-1].strip()
+            dem_date = dem_df.iloc[-1][1]
             dem_date = pd.to_datetime(dem_date).tz_localize('EST').date()
 
             # drop percentage columns & rename
-            dem_df = dem_df.drop(dem_df.columns[[2, 4, 6]], axis=1)
+            dem_df = dem_df.drop(dem_df.columns[[1, 2, 4, 6, 8]], axis=1)
             dem_df.columns = ['metric', 'case_count', 'hosptialized', 'deaths']
             
             # get data
-            sex = dem_df[1:3]
-            age = dem_df[5:16]
-            race = dem_df[18:23]
+            sex = dem_df[1:4]
+            age = dem_df[5:17]
+            race = dem_df[18:24]
 
             dem_df = pd.concat([sex, age, race])
             dem_df['date'] = dem_date
@@ -110,15 +108,27 @@ def scrape_revised(sheet_id):
     prior_date = df['date'].max().tz_localize('EST').date()
 
     # load revised sheet & fix column names
-    url = f'https://docs.google.com/spreadsheets/d/{sheet_id}590763272'
+    url = f'https://docs.google.com/spreadsheets/d/{sheet_id}1592746937'
     df = pd.read_csv(url, parse_dates=['Date'])
     df.columns = [x.lower() for x in list(df)]
 
+    # test to try and make sure columns dont change
+    if df.shape[1] != 26 or list(df)[6] != 'daily total tests completed (may count people more than once)':
+        print('[error] revised sheet columns changed')
+        return
+
     # check if updated
     if df['date'].max() > prior_date:
+        df = df.drop(columns=drop_cols)
+
+        # re order columns
+        move_cols = list(df)[6:11]
+        cols = [x for x in list(df) if x not in move_cols]
+        cols.extend(move_cols)
+        df = df[cols]
+
         df['date_scraped'] = pd.datetime.strftime(pd.datetime.now(), '%m/%d/%Y')
         save_file(df, raw_revised, df['date'].max())
-
 
 def scrape_nursing_homes(sheet_id):
     # load prior date
@@ -126,7 +136,7 @@ def scrape_nursing_homes(sheet_id):
     df = pd.read_csv(raw_facility, parse_dates=['date'])
     prior_date = df['date'].max().tz_localize('EST').date()
 
-    url = f'https://docs.google.com/spreadsheets/d/{sheet_id}666863098'
+    url = f'https://docs.google.com/spreadsheets/d/{sheet_id}500394186'
     df = pd.read_csv(url)
 
     # get date of last update 
@@ -164,11 +174,11 @@ def scrape_zip_codes(sheet_id):
     df = pd.read_csv(raw_zip, parse_dates=['date'])
     prior_date = df['date'].max().tz_localize('EST').date()
 
-    url = f'https://docs.google.com/spreadsheets/d/{sheet_id}932150337'
+    url = f'https://docs.google.com/spreadsheets/d/{sheet_id}365656702'
     df = pd.read_csv(url)
 
     # check if updated
-    date = df.iloc[0][1].strip()
+    date = df.iloc[-1][1].strip()
     date = pd.to_datetime(date).tz_localize('EST').date()
     if not date > prior_date:
         print('[status] zip codes:\tno update')
