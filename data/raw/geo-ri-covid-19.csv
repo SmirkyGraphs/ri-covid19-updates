@@ -1,2493 +1,2534 @@
-city_town,count,date
-Barrington,fewer than 5,3/25/2020
-Bristol,fewer than 5,3/25/2020
-Burrillville,fewer than 5,3/25/2020
-Central Falls,fewer than 5,3/25/2020
-Coventry,fewer than 5,3/25/2020
-Cranston,11,3/25/2020
-Cumberland,fewer than 5,3/25/2020
-East Providence,8,3/25/2020
-Exeter,0,3/25/2020
-Foster,fewer than 5,3/25/2020
-Glocester,0,3/25/2020
-Hopkinton,0,3/25/2020
-Jamestown,fewer than 5,3/25/2020
-Johnston,fewer than 5,3/25/2020
-Lincoln,fewer than 5,3/25/2020
-Little Compton,0,3/25/2020
-Middletown,5,3/25/2020
-Narragansett,fewer than 5,3/25/2020
-New Shoreham,0,3/25/2020
-Newport,fewer than 5,3/25/2020
-North Kingstown,fewer than 5,3/25/2020
-North Providence,fewer than 5,3/25/2020
-North Smithfield,fewer than 5,3/25/2020
-Pawtucket,5,3/25/2020
-Portsmouth,fewer than 5,3/25/2020
-Providence,42,3/25/2020
-Richmond,0,3/25/2020
-Scituate,fewer than 5,3/25/2020
-Smithfield,fewer than 5,3/25/2020
-South Kingstown,7,3/25/2020
-Tiverton,0,3/25/2020
-Warren,fewer than 5,3/25/2020
-Warwick,7,3/25/2020
-West Greenwich,0,3/25/2020
-West Warwick,0,3/25/2020
-Westerly,fewer than 5,3/25/2020
-Woonsocket,fewer than 5,3/25/2020
-Barrington,fewer than 5,3/26/2020
-Bristol,fewer than 5,3/26/2020
-Burrillville,fewer than 5,3/26/2020
-Central Falls,fewer than 5,3/26/2020
-Coventry,fewer than 5,3/26/2020
-Cranston,18,3/26/2020
-Cumberland,5,3/26/2020
-East Providence,9,3/26/2020
-Exeter,0,3/26/2020
-Foster,fewer than 5,3/26/2020
-Glocester,0,3/26/2020
-Hopkinton,fewer than 5,3/26/2020
-Jamestown,fewer than 5,3/26/2020
-Johnston,6,3/26/2020
-Lincoln,fewer than 5,3/26/2020
-Little Compton,0,3/26/2020
-Middletown,6,3/26/2020
-Narragansett,fewer than 5,3/26/2020
-New Shoreham,0,3/26/2020
-Newport,5,3/26/2020
-North Kingstown,fewer than 5,3/26/2020
-North Providence,fewer than 5,3/26/2020
-North Smithfield,fewer than 5,3/26/2020
-Pawtucket,7,3/26/2020
-Portsmouth,fewer than 5,3/26/2020
-Providence,51,3/26/2020
-Richmond,0,3/26/2020
-Scituate,fewer than 5,3/26/2020
-Smithfield,fewer than 5,3/26/2020
-South Kingstown,7,3/26/2020
-Tiverton,0,3/26/2020
-Warren,fewer than 5,3/26/2020
-Warwick,8,3/26/2020
-West Greenwich,0,3/26/2020
-West Warwick,fewer than 5,3/26/2020
-Westerly,fewer than 5,3/26/2020
-Woonsocket,fewer than 5,3/26/2020
-Barrington,5,3/27/2020
-Bristol,<5,3/27/2020
-Burrillville,<5,3/27/2020
-Central Falls,<5,3/27/2020
-Charlestown,<5,3/27/2020
-Coventry,5,3/27/2020
-Cranston,21,3/27/2020
-Cumberland,7,3/27/2020
-East Greenwich,0,3/27/2020
-East Providence,9,3/27/2020
-Exeter,0,3/27/2020
-Foster,<5,3/27/2020
-Glocester,0,3/27/2020
-Hopkinton,<5,3/27/2020
-Jamestown,<5,3/27/2020
-Johnston,5,3/27/2020
-Lincoln,<5,3/27/2020
-Little Compton,0,3/27/2020
-Middletown,6,3/27/2020
-Narragansett,<5,3/27/2020
-New Shoreham,0,3/27/2020
-Newport,5,3/27/2020
-North Kingstown,8,3/27/2020
-North Providence,<5,3/27/2020
-North Smithfield,<5,3/27/2020
-Pawtucket,9,3/27/2020
-Portsmouth,<5,3/27/2020
-Providence,57,3/27/2020
-Richmond,0,3/27/2020
-Scituate,<5,3/27/2020
-Smithfield,<5,3/27/2020
-South Kingstown,8,3/27/2020
-Tiverton,<5,3/27/2020
-Warren,<5,3/27/2020
-Warwick,11,3/27/2020
-West Greenwich,0,3/27/2020
-West Warwick,<5,3/27/2020
-Westerly,5,3/27/2020
-Woonsocket,<5,3/27/2020
-Barrington,6,3/28/2020
-Bristol,<5,3/28/2020
-Burrillville,7,3/28/2020
-Central Falls,<5,3/28/2020
-Charlestown,<5,3/28/2020
-Coventry,5,3/28/2020
-Cranston,27,3/28/2020
-Cumberland,7,3/28/2020
-East Greenwich,<5,3/28/2020
-East Providence,10,3/28/2020
-Exeter,0,3/28/2020
-Foster,<5,3/28/2020
-Glocester,<5,3/28/2020
-Hopkinton,<5,3/28/2020
-Jamestown,<5,3/28/2020
-Johnston,5,3/28/2020
-Lincoln,<5,3/28/2020
-Little Compton,0,3/28/2020
-Middletown,6,3/28/2020
-Narragansett,<5,3/28/2020
-New Shoreham,0,3/28/2020
-Newport,5,3/28/2020
-North Kingstown,8,3/28/2020
-North Providence,<5,3/28/2020
-North Smithfield,<5,3/28/2020
-Pawtucket,11,3/28/2020
-Portsmouth,<5,3/28/2020
-Providence,59,3/28/2020
-Richmond,0,3/28/2020
-Scituate,<5,3/28/2020
-Smithfield,5,3/28/2020
-South Kingstown,8,3/28/2020
-Tiverton,5,3/28/2020
-Warren,<5,3/28/2020
-Warwick,14,3/28/2020
-West Greenwich,0,3/28/2020
-West Warwick,5,3/28/2020
-Westerly,5,3/28/2020
-Woonsocket,<5,3/28/2020
-Barrington,6,3/29/2020
-Bristol,5,3/29/2020
-Burrillville,7,3/29/2020
-Central Falls,<5,3/29/2020
-Charlestown,<5,3/29/2020
-Coventry,6,3/29/2020
-Cranston,31,3/29/2020
-Cumberland,8,3/29/2020
-East Greenwich,<5,3/29/2020
-East Providence,13,3/29/2020
-Exeter,<5,3/29/2020
-Foster,<5,3/29/2020
-Glocester,<5,3/29/2020
-Hopkinton,<5,3/29/2020
-Jamestown,<5,3/29/2020
-Johnston,7,3/29/2020
-Lincoln,<5,3/29/2020
-Little Compton,<5,3/29/2020
-Middletown,6,3/29/2020
-Narragansett,<5,3/29/2020
-New Shoreham,0,3/29/2020
-Newport,6,3/29/2020
-North Kingstown,8,3/29/2020
-North Providence,<5,3/29/2020
-North Smithfield,<5,3/29/2020
-Pawtucket,14,3/29/2020
-Portsmouth,<5,3/29/2020
-Providence,63,3/29/2020
-Richmond,0,3/29/2020
-Scituate,<5,3/29/2020
-Smithfield,5,3/29/2020
-South Kingstown,8,3/29/2020
-Tiverton,5,3/29/2020
-Warren,<5,3/29/2020
-Warwick,16,3/29/2020
-West Greenwich,0,3/29/2020
-West Warwick,6,3/29/2020
-Westerly,5,3/29/2020
-Woonsocket,<5,3/29/2020
-Barrington,8,3/30/2020
-Bristol,5,3/30/2020
-Burrillville,8,3/30/2020
-Central Falls,5,3/30/2020
-Charlestown,<5,3/30/2020
-Coventry,6,3/30/2020
-Cranston,35,3/30/2020
-Cumberland,10,3/30/2020
-East Greenwich,<5,3/30/2020
-East Providence,17,3/30/2020
-Exeter,<5,3/30/2020
-Foster,<5,3/30/2020
-Glocester,<5,3/30/2020
-Hopkinton,<5,3/30/2020
-Jamestown,<5,3/30/2020
-Johnston,8,3/30/2020
-Lincoln,<5,3/30/2020
-Little Compton,<5,3/30/2020
-Middletown,6,3/30/2020
-Narragansett,<5,3/30/2020
-New Shoreham,0,3/30/2020
-Newport,7,3/30/2020
-North Kingstown,8,3/30/2020
-North Providence,16,3/30/2020
-North Smithfield,<5,3/30/2020
-Pawtucket,32,3/30/2020
-Portsmouth,<5,3/30/2020
-Providence,71,3/30/2020
-Richmond,0,3/30/2020
-Scituate,<5,3/30/2020
-Smithfield,6,3/30/2020
-South Kingstown,8,3/30/2020
-Tiverton,5,3/30/2020
-Warren,<5,3/30/2020
-Warwick,17,3/30/2020
-West Greenwich,0,3/30/2020
-West Warwick,8,3/30/2020
-Westerly,8,3/30/2020
-Woonsocket,<5,3/30/2020
-Barrington,12,3/31/2020
-Bristol,6,3/31/2020
-Burrillville,10,3/31/2020
-Central Falls,6,3/31/2020
-Charlestown,<5,3/31/2020
-Coventry,9,3/31/2020
-Cranston,39,3/31/2020
-Cumberland,15,3/31/2020
-East Greenwich,<5,3/31/2020
-East Providence,18,3/31/2020
-Exeter,<5,3/31/2020
-Foster,<5,3/31/2020
-Glocester,<5,3/31/2020
-Hopkinton,<5,3/31/2020
-Jamestown,<5,3/31/2020
-Johnston,9,3/31/2020
-Lincoln,8,3/31/2020
-Little Compton,<5,3/31/2020
-Middletown,7,3/31/2020
-Narragansett,<5,3/31/2020
-New Shoreham,0,3/31/2020
-Newport,8,3/31/2020
-North Kingstown,8,3/31/2020
-North Providence,49,3/31/2020
-North Smithfield,<5,3/31/2020
-Pawtucket,52,3/31/2020
-Portsmouth,<5,3/31/2020
-Providence,83,3/31/2020
-Richmond,0,3/31/2020
-Scituate,<5,3/31/2020
-Smithfield,7,3/31/2020
-South Kingstown,9,3/31/2020
-Tiverton,5,3/31/2020
-Warren,<5,3/31/2020
-Warwick,22,3/31/2020
-West Greenwich,0,3/31/2020
-West Warwick,8,3/31/2020
-Westerly,8,3/31/2020
-Woonsocket,5,3/31/2020
-Barrington,12,4/1/2020
-Bristol,7,4/1/2020
-Burrillville,10,4/1/2020
-Central Falls,8,4/1/2020
-Charlestown,<5,4/1/2020
-Coventry,13,4/1/2020
-Cranston,47,4/1/2020
-Cumberland,19,4/1/2020
-East Greenwich,<5,4/1/2020
-East Providence,20,4/1/2020
-Exeter,<5,4/1/2020
-Foster,<5,4/1/2020
-Glocester,<5,4/1/2020
-Hopkinton,<5,4/1/2020
-Jamestown,<5,4/1/2020
-Johnston,10,4/1/2020
-Lincoln,11,4/1/2020
-Little Compton,<5,4/1/2020
-Middletown,9,4/1/2020
-Narragansett,<5,4/1/2020
-New Shoreham,0,4/1/2020
-Newport,8,4/1/2020
-North Kingstown,10,4/1/2020
-North Providence,60,4/1/2020
-North Smithfield,<5,4/1/2020
-Pawtucket,86,4/1/2020
-Portsmouth,6,4/1/2020
-Providence,96,4/1/2020
-Richmond,0,4/1/2020
-Scituate,<5,4/1/2020
-Smithfield,12,4/1/2020
-South Kingstown,10,4/1/2020
-Tiverton,6,4/1/2020
-Warren,<5,4/1/2020
-Warwick,29,4/1/2020
-West Greenwich,<5,4/1/2020
-West Warwick,11,4/1/2020
-Westerly,8,4/1/2020
-Woonsocket,8,4/1/2020
-Barrington,13,4/2/2020
-Bristol,7,4/2/2020
-Burrillville,10,4/2/2020
-Central Falls,11,4/2/2020
-Charlestown,<5,4/2/2020
-Coventry,15,4/2/2020
-Cranston,54,4/2/2020
-Cumberland,21,4/2/2020
-East Greenwich,<5,4/2/2020
-East Providence,21,4/2/2020
-Exeter,<5,4/2/2020
-Foster,<5,4/2/2020
-Glocester,<5,4/2/2020
-Hopkinton,<5,4/2/2020
-Jamestown,<5,4/2/2020
-Johnston,11,4/2/2020
-Lincoln,11,4/2/2020
-Little Compton,<5,4/2/2020
-Middletown,9,4/2/2020
-Narragansett,<5,4/2/2020
-New Shoreham,0,4/2/2020
-Newport,9,4/2/2020
-North Kingstown,10,4/2/2020
-North Providence,61,4/2/2020
-North Smithfield,<5,4/2/2020
-Pawtucket,91,4/2/2020
-Portsmouth,7,4/2/2020
-Providence,102,4/2/2020
-Richmond,0,4/2/2020
-Scituate,<5,4/2/2020
-Smithfield,12,4/2/2020
-South Kingstown,12,4/2/2020
-Tiverton,6,4/2/2020
-Warren,<5,4/2/2020
-Warwick,30,4/2/2020
-West Greenwich,<5,4/2/2020
-West Warwick,12,4/2/2020
-Westerly,8,4/2/2020
-Woonsocket,9,4/2/2020
-Barrington,13,4/4/2020
-Bristol,10,4/4/2020
-Burrillville,11,4/4/2020
-Central Falls,12,4/4/2020
-Charlestown,<5,4/4/2020
-Coventry,23,4/4/2020
-Cranston,64,4/4/2020
-Cumberland,25,4/4/2020
-East Greenwich,<5,4/4/2020
-East Providence,24,4/4/2020
-Exeter,<5,4/4/2020
-Foster,<5,4/4/2020
-Glocester,<5,4/4/2020
-Hopkinton,<5,4/4/2020
-Jamestown,<5,4/4/2020
-Johnston,11,4/4/2020
-Lincoln,12,4/4/2020
-Little Compton,<5,4/4/2020
-Middletown,9,4/4/2020
-Narragansett,<5,4/4/2020
-New Shoreham,<5,4/4/2020
-Newport,13,4/4/2020
-North Kingstown,15,4/4/2020
-North Providence,68,4/4/2020
-North Smithfield,<5,4/4/2020
-Pawtucket,99,4/4/2020
-Portsmouth,8,4/4/2020
-Providence,136,4/4/2020
-Richmond,0,4/4/2020
-Scituate,<5,4/4/2020
-Smithfield,13,4/4/2020
-South Kingstown,19,4/4/2020
-Tiverton,7,4/4/2020
-Warren,<5,4/4/2020
-Warwick,37,4/4/2020
-West Greenwich,<5,4/4/2020
-West Warwick,20,4/4/2020
-Westerly,9,4/4/2020
-Woonsocket,12,4/4/2020
-Barrington,14,4/5/2020
-Bristol,10,4/5/2020
-Burrillville,11,4/5/2020
-Central Falls,12,4/5/2020
-Charlestown,<5,4/5/2020
-Coventry,25,4/5/2020
-Cranston,67,4/5/2020
-Cumberland,27,4/5/2020
-East Greenwich,<5,4/5/2020
-East Providence,27,4/5/2020
-Exeter,<5,4/5/2020
-Foster,<5,4/5/2020
-Glocester,<5,4/5/2020
-Hopkinton,<5,4/5/2020
-Jamestown,<5,4/5/2020
-Johnston,14,4/5/2020
-Lincoln,12,4/5/2020
-Little Compton,<5,4/5/2020
-Middletown,10,4/5/2020
-Narragansett,<5,4/5/2020
-New Shoreham,<5,4/5/2020
-Newport,14,4/5/2020
-North Kingstown,17,4/5/2020
-North Providence,73,4/5/2020
-North Smithfield,<5,4/5/2020
-Pawtucket,109,4/5/2020
-Portsmouth,9,4/5/2020
-Providence,151,4/5/2020
-Richmond,0,4/5/2020
-Scituate,5,4/5/2020
-Smithfield,14,4/5/2020
-South Kingstown,19,4/5/2020
-Tiverton,7,4/5/2020
-Warren,<5,4/5/2020
-Warwick,41,4/5/2020
-West Greenwich,<5,4/5/2020
-West Warwick,24,4/5/2020
-Westerly,12,4/5/2020
-Woonsocket,13,4/5/2020
-Barrington,15,4/6/2020
-Bristol,11,4/6/2020
-Burrillville,12,4/6/2020
-Central Falls,15,4/6/2020
-Charlestown,<5,4/6/2020
-Coventry,26,4/6/2020
-Cranston,78,4/6/2020
-Cumberland,32,4/6/2020
-East Greenwich,5,4/6/2020
-East Providence,34,4/6/2020
-Exeter,<5,4/6/2020
-Foster,<5,4/6/2020
-Glocester,<5,4/6/2020
-Hopkinton,<5,4/6/2020
-Jamestown,5,4/6/2020
-Johnston,17,4/6/2020
-Lincoln,12,4/6/2020
-Little Compton,<5,4/6/2020
-Middletown,10,4/6/2020
-Narragansett,5,4/6/2020
-New Shoreham,<5,4/6/2020
-Newport,14,4/6/2020
-North Kingstown,28,4/6/2020
-North Providence,77,4/6/2020
-North Smithfield,5,4/6/2020
-Pawtucket,126,4/6/2020
-Portsmouth,12,4/6/2020
-Providence,178,4/6/2020
-Richmond,0,4/6/2020
-Scituate,5,4/6/2020
-Smithfield,16,4/6/2020
-South Kingstown,20,4/6/2020
-Tiverton,10,4/6/2020
-Warren,<5,4/6/2020
-Warwick,48,4/6/2020
-West Greenwich,<5,4/6/2020
-West Warwick,25,4/6/2020
-Westerly,13,4/6/2020
-Woonsocket,13,4/6/2020
-Barrington,15,4/7/2020
-Bristol,14,4/7/2020
-Burrillville,16,4/7/2020
-Central Falls,15,4/7/2020
-Charlestown,<5,4/7/2020
-Coventry,37,4/7/2020
-Cranston,90,4/7/2020
-Cumberland,34,4/7/2020
-East Greenwich,5,4/7/2020
-East Providence,41,4/7/2020
-Exeter,<5,4/7/2020
-Foster,<5,4/7/2020
-Glocester,<5,4/7/2020
-Hopkinton,<5,4/7/2020
-Jamestown,5,4/7/2020
-Johnston,21,4/7/2020
-Lincoln,13,4/7/2020
-Little Compton,<5,4/7/2020
-Middletown,11,4/7/2020
-Narragansett,8,4/7/2020
-New Shoreham,<5,4/7/2020
-Newport,14,4/7/2020
-North Kingstown,32,4/7/2020
-North Providence,84,4/7/2020
-North Smithfield,5,4/7/2020
-Pawtucket,133,4/7/2020
-Portsmouth,13,4/7/2020
-Providence,217,4/7/2020
-Richmond,0,4/7/2020
-Scituate,5,4/7/2020
-Smithfield,19,4/7/2020
-South Kingstown,20,4/7/2020
-Tiverton,12,4/7/2020
-Warren,<5,4/7/2020
-Warwick,54,4/7/2020
-West Greenwich,<5,4/7/2020
-West Warwick,28,4/7/2020
-Westerly,16,4/7/2020
-Woonsocket,20,4/7/2020
-Barrington,16,4/8/2020
-Bristol,14,4/8/2020
-Burrillville,17,4/8/2020
-Central Falls,20,4/8/2020
-Charlestown,<5,4/8/2020
-Coventry,39,4/8/2020
-Cranston,98,4/8/2020
-Cumberland,37,4/8/2020
-East Greenwich,7,4/8/2020
-East Providence,46,4/8/2020
-Exeter,5,4/8/2020
-Foster,<5,4/8/2020
-Glocester,<5,4/8/2020
-Hopkinton,<5,4/8/2020
-Jamestown,6,4/8/2020
-Johnston,25,4/8/2020
-Lincoln,14,4/8/2020
-Little Compton,<5,4/8/2020
-Middletown,11,4/8/2020
-Narragansett,9,4/8/2020
-New Shoreham,<5,4/8/2020
-Newport,14,4/8/2020
-North Kingstown,40,4/8/2020
-North Providence,93,4/8/2020
-North Smithfield,6,4/8/2020
-Pawtucket,143,4/8/2020
-Portsmouth,12,4/8/2020
-Providence,283,4/8/2020
-Richmond,0,4/8/2020
-Scituate,6,4/8/2020
-Smithfield,19,4/8/2020
-South Kingstown,23,4/8/2020
-Tiverton,12,4/8/2020
-Warren,<5,4/8/2020
-Warwick,59,4/8/2020
-West Greenwich,<5,4/8/2020
-West Warwick,31,4/8/2020
-Westerly,17,4/8/2020
-Woonsocket,23,4/8/2020
-Barrington,17,4/9/2020
-Bristol,14,4/9/2020
-Burrillville,22,4/9/2020
-Central Falls,26,4/9/2020
-Charlestown,<5,4/9/2020
-Coventry,42,4/9/2020
-Cranston,112,4/9/2020
-Cumberland,40,4/9/2020
-East Greenwich,8,4/9/2020
-East Providence,49,4/9/2020
-Exeter,5,4/9/2020
-Foster,<5,4/9/2020
-Glocester,<5,4/9/2020
-Hopkinton,<5,4/9/2020
-Jamestown,6,4/9/2020
-Johnston,29,4/9/2020
-Lincoln,16,4/9/2020
-Little Compton,<5,4/9/2020
-Middletown,11,4/9/2020
-Narragansett,10,4/9/2020
-New Shoreham,<5,4/9/2020
-Newport,15,4/9/2020
-North Kingstown,42,4/9/2020
-North Providence,98,4/9/2020
-North Smithfield,6,4/9/2020
-Pawtucket,156,4/9/2020
-Portsmouth,12,4/9/2020
-Providence,345,4/9/2020
-Richmond,0,4/9/2020
-Scituate,7,4/9/2020
-Smithfield,22,4/9/2020
-South Kingstown,23,4/9/2020
-Tiverton,12,4/9/2020
-Warren,6,4/9/2020
-Warwick,67,4/9/2020
-West Greenwich,<5,4/9/2020
-West Warwick,34,4/9/2020
-Westerly,17,4/9/2020
-Woonsocket,27,4/9/2020
-Barrington,18,4/10/2020
-Bristol,14,4/10/2020
-Burrillville,24,4/10/2020
-Central Falls,35,4/10/2020
-Charlestown,5,4/10/2020
-Coventry,48,4/10/2020
-Cranston,136,4/10/2020
-Cumberland,52,4/10/2020
-East Greenwich,8,4/10/2020
-East Providence,58,4/10/2020
-Exeter,8,4/10/2020
-Foster,7,4/10/2020
-Glocester,<5,4/10/2020
-Hopkinton,<5,4/10/2020
-Jamestown,6,4/10/2020
-Johnston,40,4/10/2020
-Lincoln,20,4/10/2020
-Little Compton,6,4/10/2020
-Middletown,12,4/10/2020
-Narragansett,10,4/10/2020
-New Shoreham,<5,4/10/2020
-Newport,18,4/10/2020
-North Kingstown,47,4/10/2020
-North Providence,127,4/10/2020
-North Smithfield,7,4/10/2020
-Pawtucket,186,4/10/2020
-Portsmouth,14,4/10/2020
-Providence,504,4/10/2020
-Richmond,<5,4/10/2020
-Scituate,8,4/10/2020
-Smithfield,31,4/10/2020
-South Kingstown,24,4/10/2020
-Tiverton,18,4/10/2020
-Warren,7,4/10/2020
-Warwick,75,4/10/2020
-West Greenwich,<5,4/10/2020
-West Warwick,37,4/10/2020
-Westerly,19,4/10/2020
-Woonsocket,42,4/10/2020
-Barrington,22,4/14/2020
-Bristol,20,4/14/2020
-Burrillville,30,4/14/2020
-Central Falls,76,4/14/2020
-Charlestown,5,4/14/2020
-Coventry,55,4/14/2020
-Cranston,197,4/14/2020
-Cumberland,75,4/14/2020
-East Greenwich,15,4/14/2020
-East Providence,123,4/14/2020
-Exeter,8,4/14/2020
-Foster,7,4/14/2020
-Glocester,<5,4/14/2020
-Hopkinton,5,4/14/2020
-Jamestown,6,4/14/2020
-Johnston,53,4/14/2020
-Lincoln,26,4/14/2020
-Little Compton,7,4/14/2020
-Middletown,17,4/14/2020
-Narragansett,17,4/14/2020
-New Shoreham,<5,4/14/2020
-Newport,21,4/14/2020
-North Kingstown,54,4/14/2020
-North Providence,180,4/14/2020
-North Smithfield,8,4/14/2020
-Pawtucket,288,4/14/2020
-Portsmouth,16,4/14/2020
-Providence,766,4/14/2020
-Richmond,<5,4/14/2020
-Scituate,12,4/14/2020
-Smithfield,48,4/14/2020
-South Kingstown,38,4/14/2020
-Tiverton,26,4/14/2020
-Warren,7,4/14/2020
-Warwick,122,4/14/2020
-West Greenwich,6,4/14/2020
-West Warwick,46,4/14/2020
-Westerly,23,4/14/2020
-Woonsocket,67,4/14/2020
-Providence,973,4/16/2020
-Pawtucket,347,4/16/2020
-Cranston,220,4/16/2020
-North Providence,209,4/16/2020
-East Providence,159,4/16/2020
-Warwick,141,4/16/2020
-Central Falls,103,4/16/2020
-Cumberland,96,4/16/2020
-Woonsocket,84,4/16/2020
-North Kingstown,67,4/16/2020
-Johnston,59,4/16/2020
-Coventry,57,4/16/2020
-Smithfield,54,4/16/2020
-West Warwick,49,4/16/2020
-South Kingstown,39,4/16/2020
-Burrillville,33,4/16/2020
-Lincoln,33,4/16/2020
-Tiverton,28,4/16/2020
-Barrington,24,4/16/2020
-Bristol,24,4/16/2020
-Westerly,24,4/16/2020
-Newport,22,4/16/2020
-Middletown,19,4/16/2020
-East Greenwich,18,4/16/2020
-Narragansett,17,4/16/2020
-Portsmouth,16,4/16/2020
-North Smithfield,12,4/16/2020
-Scituate,12,4/16/2020
-Exeter,8,4/16/2020
-Warren,8,4/16/2020
-Foster,7,4/16/2020
-Little Compton,7,4/16/2020
-West Greenwich,7,4/16/2020
-Jamestown,6,4/16/2020
-Richmond,6,4/16/2020
-Charlestown,5,4/16/2020
-Hopkinton,5,4/16/2020
-Glocester,0,4/16/2020
-New Shoreham,0,4/16/2020
-Providence,1093,4/17/2020
-Pawtucket,380,4/17/2020
-Cranston,245,4/17/2020
-North Providence,233,4/17/2020
-East Providence,188,4/17/2020
-Warwick,154,4/17/2020
-Central Falls,129,4/17/2020
-Cumberland,110,4/17/2020
-Woonsocket,91,4/17/2020
-Johnston,69,4/17/2020
-North Kingstown,68,4/17/2020
-Coventry,62,4/17/2020
-Smithfield,56,4/17/2020
-West Warwick,56,4/17/2020
-South Kingstown,42,4/17/2020
-Lincoln,37,4/17/2020
-Burrillville,33,4/17/2020
-Tiverton,29,4/17/2020
-Westerly,26,4/17/2020
-Bristol,25,4/17/2020
-Barrington,23,4/17/2020
-Newport,22,4/17/2020
-East Greenwich,20,4/17/2020
-Middletown,19,4/17/2020
-Narragansett,19,4/17/2020
-Portsmouth,18,4/17/2020
-Scituate,14,4/17/2020
-North Smithfield,13,4/17/2020
-Exeter,11,4/17/2020
-Little Compton,9,4/17/2020
-Warren,9,4/17/2020
-Foster,7,4/17/2020
-West Greenwich,7,4/17/2020
-Charlestown,6,4/17/2020
-Jamestown,6,4/17/2020
-Richmond,6,4/17/2020
-Glocester,5,4/17/2020
-Hopkinton,5,4/17/2020
-New Shoreham,0,4/17/2020
-Providence,1220,4/18/2020
-Pawtucket,415,4/18/2020
-Cranston,271,4/18/2020
-North Providence,253,4/18/2020
-East Providence,224,4/18/2020
-Warwick,161,4/18/2020
-Central Falls,134,4/18/2020
-Woonsocket,124,4/18/2020
-Cumberland,117,4/18/2020
-Johnston,74,4/18/2020
-North Kingstown,69,4/18/2020
-Coventry,67,4/18/2020
-Smithfield,60,4/18/2020
-West Warwick,59,4/18/2020
-South Kingstown,43,4/18/2020
-Lincoln,41,4/18/2020
-Burrillville,36,4/18/2020
-Tiverton,29,4/18/2020
-Bristol,26,4/18/2020
-Westerly,26,4/18/2020
-Barrington,24,4/18/2020
-Newport,22,4/18/2020
-East Greenwich,20,4/18/2020
-Portsmouth,19,4/18/2020
-Middletown,18,4/18/2020
-Narragansett,18,4/18/2020
-Scituate,15,4/18/2020
-North Smithfield,14,4/18/2020
-Exeter,11,4/18/2020
-Little Compton,9,4/18/2020
-Warren,9,4/18/2020
-West Greenwich,9,4/18/2020
-Foster,8,4/18/2020
-Glocester,8,4/18/2020
-Charlestown,6,4/18/2020
-Jamestown,6,4/18/2020
-Richmond,6,4/18/2020
-Hopkinton,5,4/18/2020
-New Shoreham,0,4/18/2020
-Providence,1317,4/19/2020
-Pawtucket,445,4/19/2020
-Cranston,294,4/19/2020
-North Providence,286,4/19/2020
-East Providence,231,4/19/2020
-Warwick,177,4/19/2020
-Woonsocket,153,4/19/2020
-Central Falls,147,4/19/2020
-Cumberland,123,4/19/2020
-Smithfield,90,4/19/2020
-Johnston,83,4/19/2020
-North Kingstown,72,4/19/2020
-Coventry,70,4/19/2020
-West Warwick,65,4/19/2020
-South Kingstown,44,4/19/2020
-Lincoln,42,4/19/2020
-Burrillville,36,4/19/2020
-Tiverton,30,4/19/2020
-Bristol,28,4/19/2020
-Barrington,26,4/19/2020
-Westerly,26,4/19/2020
-Newport,23,4/19/2020
-East Greenwich,20,4/19/2020
-Portsmouth,19,4/19/2020
-Middletown,18,4/19/2020
-Narragansett,18,4/19/2020
-Scituate,15,4/19/2020
-North Smithfield,14,4/19/2020
-Exeter,11,4/19/2020
-Warren,11,4/19/2020
-Little Compton,9,4/19/2020
-West Greenwich,9,4/19/2020
-Foster,8,4/19/2020
-Glocester,8,4/19/2020
-Charlestown,6,4/19/2020
-Jamestown,6,4/19/2020
-Richmond,6,4/19/2020
-Hopkinton,5,4/19/2020
-New Shoreham,0,4/19/2020
-Providence,1399,4/20/2020
-Pawtucket,464,4/20/2020
-Cranston,309,4/20/2020
-North Providence,301,4/20/2020
-East Providence,246,4/20/2020
-Warwick,187,4/20/2020
-Central Falls,169,4/20/2020
-Woonsocket,158,4/20/2020
-Cumberland,125,4/20/2020
-Smithfield,96,4/20/2020
-Johnston,85,4/20/2020
-Coventry,75,4/20/2020
-North Kingstown,75,4/20/2020
-West Warwick,73,4/20/2020
-South Kingstown,46,4/20/2020
-Lincoln,44,4/20/2020
-Burrillville,42,4/20/2020
-Bristol,31,4/20/2020
-Tiverton,31,4/20/2020
-Westerly,30,4/20/2020
-Barrington,25,4/20/2020
-Newport,23,4/20/2020
-East Greenwich,22,4/20/2020
-North Smithfield,22,4/20/2020
-Middletown,19,4/20/2020
-Portsmouth,19,4/20/2020
-Narragansett,18,4/20/2020
-Scituate,15,4/20/2020
-Exeter,11,4/20/2020
-Warren,11,4/20/2020
-Little Compton,9,4/20/2020
-West Greenwich,9,4/20/2020
-Foster,8,4/20/2020
-Glocester,8,4/20/2020
-Charlestown,7,4/20/2020
-Jamestown,6,4/20/2020
-Richmond,6,4/20/2020
-Hopkinton,5,4/20/2020
-New Shoreham,0,4/20/2020
-Providence,1524,2020-04-21
-Pawtucket,496,2020-04-21
-Cranston,331,2020-04-21
-North Providence,314,2020-04-21
-East Providence,251,2020-04-21
-Warwick,195,2020-04-21
-Central Falls,183,2020-04-21
-Woonsocket,161,2020-04-21
-Cumberland,129,2020-04-21
-Smithfield,99,2020-04-21
-Johnston,93,2020-04-21
-Coventry,81,2020-04-21
-North Kingstown,81,2020-04-21
-West Warwick,77,2020-04-21
-South Kingstown,48,2020-04-21
-Lincoln,45,2020-04-21
-Burrillville,43,2020-04-21
-Bristol,32,2020-04-21
-Tiverton,32,2020-04-21
-Westerly,30,2020-04-21
-Barrington,24,2020-04-21
-East Greenwich,24,2020-04-21
-Newport,23,2020-04-21
-North Smithfield,23,2020-04-21
-Middletown,20,2020-04-21
-Narragansett,20,2020-04-21
-Portsmouth,19,2020-04-21
-Scituate,16,2020-04-21
-Exeter,12,2020-04-21
-Warren,12,2020-04-21
-Glocester,10,2020-04-21
-Foster,9,2020-04-21
-Little Compton,9,2020-04-21
-West Greenwich,9,2020-04-21
-Charlestown,7,2020-04-21
-Jamestown,7,2020-04-21
-Richmond,6,2020-04-21
-Hopkinton,5,2020-04-21
-New Shoreham,0,2020-04-21
-Barrington,26,2020-04-22
-Bristol,45,2020-04-22
-Burrillville,45,2020-04-22
-Central Falls,209,2020-04-22
-Charlestown,7,2020-04-22
-Coventry,90,2020-04-22
-Cranston,369,2020-04-22
-Cumberland,140,2020-04-22
-East Greenwich,25,2020-04-22
-East Providence,272,2020-04-22
-Exeter,13,2020-04-22
-Foster,8,2020-04-22
-Glocester,10,2020-04-22
-Hopkinton,5,2020-04-22
-Jamestown,7,2020-04-22
-Johnston,106,2020-04-22
-Lincoln,51,2020-04-22
-Little Compton,9,2020-04-22
-Middletown,21,2020-04-22
-Narragansett,21,2020-04-22
-New Shoreham,0,2020-04-22
-Newport,25,2020-04-22
-North Kingstown,88,2020-04-22
-North Providence,337,2020-04-22
-North Smithfield,24,2020-04-22
-Pawtucket,540,2020-04-22
-Portsmouth,20,2020-04-22
-Providence,1658,2020-04-22
-Richmond,6,2020-04-22
-Scituate,21,2020-04-22
-Smithfield,102,2020-04-22
-South Kingstown,49,2020-04-22
-Tiverton,32,2020-04-22
-Warren,17,2020-04-22
-Warwick,210,2020-04-22
-West Greenwich,9,2020-04-22
-West Warwick,78,2020-04-22
-Westerly,30,2020-04-22
-Woonsocket,172,2020-04-22
-Pending further information,671,2020-04-22
-TOTAL,5569,2020-04-22
-Barrington,26,2020-04-23
-Bristol,47,2020-04-23
-Burrillville,45,2020-04-23
-Central Falls,239,2020-04-23
-Charlestown,7,2020-04-23
-Coventry,88,2020-04-23
-Cranston,386,2020-04-23
-Cumberland,145,2020-04-23
-East Greenwich,28,2020-04-23
-East Providence,281,2020-04-23
-Exeter,13,2020-04-23
-Foster,8,2020-04-23
-Glocester,12,2020-04-23
-Hopkinton,6,2020-04-23
-Jamestown,7,2020-04-23
-Johnston,111,2020-04-23
-Lincoln,54,2020-04-23
-Little Compton,9,2020-04-23
-Middletown,21,2020-04-23
-Narragansett,23,2020-04-23
-New Shoreham,0,2020-04-23
-Newport,27,2020-04-23
-North Kingstown,109,2020-04-23
-North Providence,345,2020-04-23
-North Smithfield,25,2020-04-23
-Pawtucket,570,2020-04-23
-Portsmouth,21,2020-04-23
-Providence,1817,2020-04-23
-Richmond,8,2020-04-23
-Scituate,20,2020-04-23
-Smithfield,115,2020-04-23
-South Kingstown,59,2020-04-23
-Tiverton,32,2020-04-23
-Warren,22,2020-04-23
-Warwick,218,2020-04-23
-West Greenwich,9,2020-04-23
-West Warwick,89,2020-04-23
-Westerly,31,2020-04-23
-Woonsocket,177,2020-04-23
-Pending further information,626,2020-04-23
-TOTAL,5877,2020-04-23
-Barrington,26,2020-04-24
-Bristol,49,2020-04-24
-Burrillville,48,2020-04-24
-Central Falls,265,2020-04-24
-Charlestown,7,2020-04-24
-Coventry,95,2020-04-24
-Cranston,408,2020-04-24
-Cumberland,147,2020-04-24
-East Greenwich,31,2020-04-24
-East Providence,291,2020-04-24
-Exeter,13,2020-04-24
-Foster,8,2020-04-24
-Glocester,12,2020-04-24
-Hopkinton,7,2020-04-24
-Jamestown,7,2020-04-24
-Johnston,116,2020-04-24
-Lincoln,57,2020-04-24
-Little Compton,10,2020-04-24
-Middletown,21,2020-04-24
-Narragansett,25,2020-04-24
-New Shoreham,0,2020-04-24
-Newport,29,2020-04-24
-North Kingstown,116,2020-04-24
-North Providence,358,2020-04-24
-North Smithfield,26,2020-04-24
-Pawtucket,600,2020-04-24
-Portsmouth,22,2020-04-24
-Providence,1937,2020-04-24
-Richmond,10,2020-04-24
-Scituate,20,2020-04-24
-Smithfield,119,2020-04-24
-South Kingstown,62,2020-04-24
-Tiverton,35,2020-04-24
-Warren,27,2020-04-24
-Warwick,234,2020-04-24
-West Greenwich,11,2020-04-24
-West Warwick,95,2020-04-24
-Westerly,32,2020-04-24
-Woonsocket,191,2020-04-24
-Pending further information,739,2020-04-24
-TOTAL,6307,2020-04-24
-Barrington,27,2020-04-25
-Bristol,53,2020-04-25
-Burrillville,52,2020-04-25
-Central Falls,291,2020-04-25
-Charlestown,7,2020-04-25
-Coventry,95,2020-04-25
-Cranston,416,2020-04-25
-Cumberland,155,2020-04-25
-East Greenwich,33,2020-04-25
-East Providence,301,2020-04-25
-Exeter,15,2020-04-25
-Foster,9,2020-04-25
-Glocester,13,2020-04-25
-Hopkinton,7,2020-04-25
-Jamestown,7,2020-04-25
-Johnston,120,2020-04-25
-Lincoln,70,2020-04-25
-Little Compton,10,2020-04-25
-Middletown,22,2020-04-25
-Narragansett,25,2020-04-25
-New Shoreham,0,2020-04-25
-Newport,31,2020-04-25
-North Kingstown,120,2020-04-25
-North Providence,377,2020-04-25
-North Smithfield,25,2020-04-25
-Pawtucket,643,2020-04-25
-Portsmouth,22,2020-04-25
-Providence,2085,2020-04-25
-Richmond,11,2020-04-25
-Scituate,21,2020-04-25
-Smithfield,126,2020-04-25
-South Kingstown,63,2020-04-25
-Tiverton,38,2020-04-25
-Warren,27,2020-04-25
-Warwick,259,2020-04-25
-West Greenwich,12,2020-04-25
-West Warwick,97,2020-04-25
-Westerly,34,2020-04-25
-Woonsocket,212,2020-04-25
-Pending further information,734,2020-04-25
-TOTAL,6666,2020-04-25
-Barrington,29,2020-04-26
-Bristol,53,2020-04-26
-Burrillville,55,2020-04-26
-Central Falls,322,2020-04-26
-Charlestown,7,2020-04-26
-Coventry,95,2020-04-26
-Cranston,429,2020-04-26
-Cumberland,166,2020-04-26
-East Greenwich,34,2020-04-26
-East Providence,316,2020-04-26
-Exeter,15,2020-04-26
-Foster,9,2020-04-26
-Glocester,13,2020-04-26
-Hopkinton,8,2020-04-26
-Jamestown,7,2020-04-26
-Johnston,124,2020-04-26
-Lincoln,72,2020-04-26
-Little Compton,10,2020-04-26
-Middletown,23,2020-04-26
-Narragansett,25,2020-04-26
-New Shoreham,0,2020-04-26
-Newport,31,2020-04-26
-North Kingstown,121,2020-04-26
-North Providence,394,2020-04-26
-North Smithfield,29,2020-04-26
-Pawtucket,683,2020-04-26
-Portsmouth,22,2020-04-26
-Providence,2256,2020-04-26
-Richmond,13,2020-04-26
-Scituate,22,2020-04-26
-Smithfield,142,2020-04-26
-South Kingstown,67,2020-04-26
-Tiverton,42,2020-04-26
-Warren,29,2020-04-26
-Warwick,274,2020-04-26
-West Greenwich,12,2020-04-26
-West Warwick,111,2020-04-26
-Westerly,36,2020-04-26
-Woonsocket,234,2020-04-26
-Pending further information,670,2020-04-26
-TOTAL,7001,2020-04-26
-Barrington,30,2020-04-27
-Bristol,54,2020-04-27
-Burrillville,56,2020-04-27
-Central Falls,338,2020-04-27
-Charlestown,7,2020-04-27
-Coventry,97,2020-04-27
-Cranston,437,2020-04-27
-Cumberland,169,2020-04-27
-East Greenwich,37,2020-04-27
-East Providence,318,2020-04-27
-Exeter,16,2020-04-27
-Foster,10,2020-04-27
-Glocester,17,2020-04-27
-Hopkinton,8,2020-04-27
-Jamestown,7,2020-04-27
-Johnston,125,2020-04-27
-Lincoln,74,2020-04-27
-Little Compton,10,2020-04-27
-Middletown,25,2020-04-27
-Narragansett,29,2020-04-27
-New Shoreham,0,2020-04-27
-Newport,31,2020-04-27
-North Kingstown,124,2020-04-27
-North Providence,402,2020-04-27
-North Smithfield,31,2020-04-27
-Pawtucket,708,2020-04-27
-Portsmouth,22,2020-04-27
-Providence,2318,2020-04-27
-Richmond,13,2020-04-27
-Scituate,22,2020-04-27
-Smithfield,146,2020-04-27
-South Kingstown,68,2020-04-27
-Tiverton,43,2020-04-27
-Warren,31,2020-04-27
-Warwick,301,2020-04-27
-West Greenwich,13,2020-04-27
-West Warwick,117,2020-04-27
-Westerly,38,2020-04-27
-Woonsocket,256,2020-04-27
-Pending further information,780,2020-04-27
-TOTAL,7329,2020-04-27
-Barrington,29,2020-04-28
-Bristol,54,2020-04-28
-Burrillville,62,2020-04-28
-Central Falls,349,2020-04-28
-Charlestown,9,2020-04-28
-Coventry,98,2020-04-28
-Cranston,446,2020-04-28
-Cumberland,170,2020-04-28
-East Greenwich,38,2020-04-28
-East Providence,323,2020-04-28
-Exeter,17,2020-04-28
-Foster,10,2020-04-28
-Glocester,17,2020-04-28
-Hopkinton,8,2020-04-28
-Jamestown,7,2020-04-28
-Johnston,126,2020-04-28
-Lincoln,76,2020-04-28
-Little Compton,10,2020-04-28
-Middletown,25,2020-04-28
-Narragansett,29,2020-04-28
-New Shoreham,0,2020-04-28
-Newport,31,2020-04-28
-North Kingstown,130,2020-04-28
-North Providence,409,2020-04-28
-North Smithfield,32,2020-04-28
-Pawtucket,721,2020-04-28
-Portsmouth,22,2020-04-28
-Providence,2348,2020-04-28
-Richmond,13,2020-04-28
-Scituate,22,2020-04-28
-Smithfield,147,2020-04-28
-South Kingstown,68,2020-04-28
-Tiverton,43,2020-04-28
-Warren,31,2020-04-28
-Warwick,305,2020-04-28
-West Greenwich,14,2020-04-28
-West Warwick,119,2020-04-28
-Westerly,39,2020-04-28
-Woonsocket,262,2020-04-28
-Pending further information,778,2020-04-28
-TOTAL,7438,2020-04-28
-Barrington,32,2020-04-29
-Bristol,81,2020-04-29
-Burrillville,65,2020-04-29
-Central Falls,392,2020-04-29
-Charlestown,10,2020-04-29
-Coventry,104,2020-04-29
-Cranston,481,2020-04-29
-Cumberland,182,2020-04-29
-East Greenwich,39,2020-04-29
-East Providence,339,2020-04-29
-Exeter,20,2020-04-29
-Foster,10,2020-04-29
-Glocester,18,2020-04-29
-Hopkinton,10,2020-04-29
-Jamestown,8,2020-04-29
-Johnston,134,2020-04-29
-Lincoln,85,2020-04-29
-Little Compton,10,2020-04-29
-Middletown,27,2020-04-29
-Narragansett,30,2020-04-29
-New Shoreham,0,2020-04-29
-Newport,35,2020-04-29
-North Kingstown,131,2020-04-29
-North Providence,442,2020-04-29
-North Smithfield,35,2020-04-29
-Pawtucket,785,2020-04-29
-Portsmouth,23,2020-04-29
-Providence,2538,2020-04-29
-Richmond,14,2020-04-29
-Scituate,22,2020-04-29
-Smithfield,157,2020-04-29
-South Kingstown,67,2020-04-29
-Tiverton,45,2020-04-29
-Warren,32,2020-04-29
-Warwick,316,2020-04-29
-West Greenwich,15,2020-04-29
-West Warwick,124,2020-04-29
-Westerly,42,2020-04-29
-Woonsocket,282,2020-04-29
-Pending further information,837,2020-04-29
-TOTAL,8020,2020-04-29
-Barrington,32,2020-04-30
-Bristol,79,2020-04-30
-Burrillville,67,2020-04-30
-Central Falls,429,2020-04-30
-Charlestown,10,2020-04-30
-Coventry,106,2020-04-30
-Cranston,511,2020-04-30
-Cumberland,188,2020-04-30
-East Greenwich,43,2020-04-30
-East Providence,350,2020-04-30
-Exeter,22,2020-04-30
-Foster,10,2020-04-30
-Glocester,18,2020-04-30
-Hopkinton,10,2020-04-30
-Jamestown,8,2020-04-30
-Johnston,143,2020-04-30
-Lincoln,90,2020-04-30
-Little Compton,10,2020-04-30
-Middletown,27,2020-04-30
-Narragansett,31,2020-04-30
-New Shoreham,0,2020-04-30
-Newport,35,2020-04-30
-North Kingstown,134,2020-04-30
-North Providence,463,2020-04-30
-North Smithfield,35,2020-04-30
-Pawtucket,826,2020-04-30
-Portsmouth,23,2020-04-30
-Providence,2682,2020-04-30
-Richmond,15,2020-04-30
-Scituate,23,2020-04-30
-Smithfield,160,2020-04-30
-South Kingstown,66,2020-04-30
-Tiverton,46,2020-04-30
-Warren,32,2020-04-30
-Warwick,327,2020-04-30
-West Greenwich,16,2020-04-30
-West Warwick,130,2020-04-30
-Westerly,42,2020-04-30
-Woonsocket,295,2020-04-30
-Pending further information,808,2020-04-30
-TOTAL,8343,2020-04-30
-Barrington,32,2020-05-01
-Bristol,74,2020-05-01
-Burrillville,71,2020-05-01
-Central Falls,449,2020-05-01
-Charlestown,14,2020-05-01
-Coventry,106,2020-05-01
-Cranston,522,2020-05-01
-Cumberland,190,2020-05-01
-East Greenwich,44,2020-05-01
-East Providence,363,2020-05-01
-Exeter,22,2020-05-01
-Foster,10,2020-05-01
-Glocester,19,2020-05-01
-Hopkinton,10,2020-05-01
-Jamestown,8,2020-05-01
-Johnston,154,2020-05-01
-Lincoln,93,2020-05-01
-Little Compton,10,2020-05-01
-Middletown,28,2020-05-01
-Narragansett,31,2020-05-01
-New Shoreham,0,2020-05-01
-Newport,37,2020-05-01
-North Kingstown,139,2020-05-01
-North Providence,477,2020-05-01
-North Smithfield,37,2020-05-01
-Pawtucket,861,2020-05-01
-Portsmouth,24,2020-05-01
-Providence,2840,2020-05-01
-Richmond,16,2020-05-01
-Scituate,23,2020-05-01
-Smithfield,166,2020-05-01
-South Kingstown,66,2020-05-01
-Tiverton,48,2020-05-01
-Warren,36,2020-05-01
-Warwick,336,2020-05-01
-West Greenwich,16,2020-05-01
-West Warwick,136,2020-05-01
-Westerly,46,2020-05-01
-Woonsocket,304,2020-05-01
-Pending further information,897,2020-05-01
-TOTAL,8756,2020-05-01
-Barrington,32,2020-05-02
-Bristol,74,2020-05-02
-Burrillville,73,2020-05-02
-Central Falls,469,2020-05-02
-Charlestown,14,2020-05-02
-Coventry,107,2020-05-02
-Cranston,537,2020-05-02
-Cumberland,197,2020-05-02
-East Greenwich,47,2020-05-02
-East Providence,374,2020-05-02
-Exeter,22,2020-05-02
-Foster,10,2020-05-02
-Glocester,19,2020-05-02
-Hopkinton,10,2020-05-02
-Jamestown,8,2020-05-02
-Johnston,156,2020-05-02
-Lincoln,93,2020-05-02
-Little Compton,10,2020-05-02
-Middletown,28,2020-05-02
-Narragansett,31,2020-05-02
-New Shoreham,0,2020-05-02
-Newport,38,2020-05-02
-North Kingstown,141,2020-05-02
-North Providence,484,2020-05-02
-North Smithfield,40,2020-05-02
-Pawtucket,903,2020-05-02
-Portsmouth,24,2020-05-02
-Providence,2958,2020-05-02
-Richmond,16,2020-05-02
-Scituate,24,2020-05-02
-Smithfield,169,2020-05-02
-South Kingstown,69,2020-05-02
-Tiverton,48,2020-05-02
-Warren,38,2020-05-02
-Warwick,364,2020-05-02
-West Greenwich,15,2020-05-02
-West Warwick,142,2020-05-02
-Westerly,47,2020-05-02
-Woonsocket,316,2020-05-02
-Pending further information,982,2020-05-02
-TOTAL,9130,2020-05-02
-Barrington,32,2020-05-03
-Bristol,81,2020-05-03
-Burrillville,73,2020-05-03
-Central Falls,487,2020-05-03
-Charlestown,15,2020-05-03
-Coventry,108,2020-05-03
-Cranston,552,2020-05-03
-Cumberland,201,2020-05-03
-East Greenwich,47,2020-05-03
-East Providence,393,2020-05-03
-Exeter,22,2020-05-03
-Foster,10,2020-05-03
-Glocester,19,2020-05-03
-Hopkinton,11,2020-05-03
-Jamestown,8,2020-05-03
-Johnston,161,2020-05-03
-Lincoln,95,2020-05-03
-Little Compton,10,2020-05-03
-Middletown,29,2020-05-03
-Narragansett,31,2020-05-03
-New Shoreham,0,2020-05-03
-Newport,39,2020-05-03
-North Kingstown,143,2020-05-03
-North Providence,492,2020-05-03
-North Smithfield,43,2020-05-03
-Pawtucket,928,2020-05-03
-Portsmouth,24,2020-05-03
-Providence,3051,2020-05-03
-Richmond,16,2020-05-03
-Scituate,24,2020-05-03
-Smithfield,173,2020-05-03
-South Kingstown,71,2020-05-03
-Tiverton,48,2020-05-03
-Warren,39,2020-05-03
-Warwick,381,2020-05-03
-West Greenwich,16,2020-05-03
-West Warwick,145,2020-05-03
-Westerly,47,2020-05-03
-Woonsocket,326,2020-05-03
-Pending further information,1023,2020-05-03
-TOTAL,9415,2020-05-03
-Barrington,33,2020-05-04
-Bristol,82,2020-05-04
-Burrillville,73,2020-05-04
-Central Falls,503,2020-05-04
-Charlestown,15,2020-05-04
-Coventry,109,2020-05-04
-Cranston,564,2020-05-04
-Cumberland,201,2020-05-04
-East Greenwich,47,2020-05-04
-East Providence,398,2020-05-04
-Exeter,23,2020-05-04
-Foster,10,2020-05-04
-Glocester,19,2020-05-04
-Hopkinton,12,2020-05-04
-Jamestown,8,2020-05-04
-Johnston,162,2020-05-04
-Lincoln,99,2020-05-04
-Little Compton,10,2020-05-04
-Middletown,30,2020-05-04
-Narragansett,31,2020-05-04
-New Shoreham,0,2020-05-04
-Newport,40,2020-05-04
-North Kingstown,147,2020-05-04
-North Providence,496,2020-05-04
-North Smithfield,43,2020-05-04
-Pawtucket,946,2020-05-04
-Portsmouth,24,2020-05-04
-Providence,3096,2020-05-04
-Richmond,17,2020-05-04
-Scituate,24,2020-05-04
-Smithfield,173,2020-05-04
-South Kingstown,71,2020-05-04
-Tiverton,49,2020-05-04
-Warren,39,2020-05-04
-Warwick,384,2020-05-04
-West Greenwich,16,2020-05-04
-West Warwick,147,2020-05-04
-Westerly,47,2020-05-04
-Woonsocket,331,2020-05-04
-Pending further information,1079,2020-05-04
-TOTAL,9599,2020-05-04
-Barrington,33,2020-05-11
-Bristol,91,2020-05-11
-Burrillville,77,2020-05-11
-Central Falls,615,2020-05-11
-Charlestown,15,2020-05-11
-Coventry,134,2020-05-11
-Cranston,662,2020-05-11
-Cumberland,231,2020-05-11
-East Greenwich,60,2020-05-11
-East Providence,555,2020-05-11
-Exeter,33,2020-05-11
-Foster,12,2020-05-11
-Glocester,28,2020-05-11
-Hopkinton,10,2020-05-11
-Jamestown,8,2020-05-11
-Johnston,212,2020-05-11
-Lincoln,122,2020-05-11
-Little Compton,12,2020-05-11
-Middletown,32,2020-05-11
-Narragansett,35,2020-05-11
-New Shoreham,0,2020-05-11
-Newport,46,2020-05-11
-North Kingstown,172,2020-05-11
-North Providence,587,2020-05-11
-North Smithfield,69,2020-05-11
-Pawtucket,1114,2020-05-11
-Portsmouth,27,2020-05-11
-Providence,3719,2020-05-11
-Richmond,17,2020-05-11
-Scituate,28,2020-05-11
-Smithfield,216,2020-05-11
-South Kingstown,78,2020-05-11
-Tiverton,57,2020-05-11
-Warren,47,2020-05-11
-Warwick,446,2020-05-11
-West Greenwich,20,2020-05-11
-West Warwick,199,2020-05-11
-Westerly,46,2020-05-11
-Woonsocket,427,2020-05-11
-Pending further information,"1,037",2020-05-11
-TOTAL,"11,330",2020-05-11
-Barrington,33,2020-05-11
-Bristol,91,2020-05-11
-Burrillville,77,2020-05-11
-Central Falls,615,2020-05-11
-Charlestown,15,2020-05-11
-Coventry,134,2020-05-11
-Cranston,662,2020-05-11
-Cumberland,231,2020-05-11
-East Greenwich,60,2020-05-11
-East Providence,555,2020-05-11
-Exeter,33,2020-05-11
-Foster,12,2020-05-11
-Glocester,28,2020-05-11
-Hopkinton,10,2020-05-11
-Jamestown,8,2020-05-11
-Johnston,212,2020-05-11
-Lincoln,122,2020-05-11
-Little Compton,12,2020-05-11
-Middletown,32,2020-05-11
-Narragansett,35,2020-05-11
-New Shoreham,0,2020-05-11
-Newport,46,2020-05-11
-North Kingstown,172,2020-05-11
-North Providence,587,2020-05-11
-North Smithfield,69,2020-05-11
-Pawtucket,1114,2020-05-11
-Portsmouth,27,2020-05-11
-Providence,3719,2020-05-11
-Richmond,17,2020-05-11
-Scituate,28,2020-05-11
-Smithfield,216,2020-05-11
-South Kingstown,78,2020-05-11
-Tiverton,57,2020-05-11
-Warren,47,2020-05-11
-Warwick,446,2020-05-11
-West Greenwich,20,2020-05-11
-West Warwick,199,2020-05-11
-Westerly,46,2020-05-11
-Woonsocket,427,2020-05-11
-Pending further information,"1,037",2020-05-11
-TOTAL,"11,330",2020-05-11
-Barrington,34,2020-05-12
-Bristol,92,2020-05-12
-Burrillville,77,2020-05-12
-Central Falls,630,2020-05-12
-Charlestown,15,2020-05-12
-Coventry,132,2020-05-12
-Cranston,658,2020-05-12
-Cumberland,230,2020-05-12
-East Greenwich,58,2020-05-12
-East Providence,569,2020-05-12
-Exeter,33,2020-05-12
-Foster,12,2020-05-12
-Glocester,28,2020-05-12
-Hopkinton,11,2020-05-12
-Jamestown,8,2020-05-12
-Johnston,221,2020-05-12
-Lincoln,124,2020-05-12
-Little Compton,12,2020-05-12
-Middletown,32,2020-05-12
-Narragansett,35,2020-05-12
-New Shoreham,0,2020-05-12
-Newport,47,2020-05-12
-North Kingstown,172,2020-05-12
-North Providence,595,2020-05-12
-North Smithfield,69,2020-05-12
-Pawtucket,1133,2020-05-12
-Portsmouth,27,2020-05-12
-Providence,3770,2020-05-12
-Richmond,17,2020-05-12
-Scituate,27,2020-05-12
-Smithfield,221,2020-05-12
-South Kingstown,82,2020-05-12
-Tiverton,59,2020-05-12
-Warren,46,2020-05-12
-Warwick,440,2020-05-12
-West Greenwich,20,2020-05-12
-West Warwick,200,2020-05-12
-Westerly,46,2020-05-12
-Woonsocket,434,2020-05-12
-Pending further information,"1,008",2020-05-12
-TOTAL,"11,425",2020-05-12
-Barrington,34,2020-05-13
-Bristol,94,2020-05-13
-Burrillville,79,2020-05-13
-Central Falls,668,2020-05-13
-Charlestown,17,2020-05-13
-Coventry,134,2020-05-13
-Cranston,685,2020-05-13
-Cumberland,238,2020-05-13
-East Greenwich,59,2020-05-13
-East Providence,580,2020-05-13
-Exeter,32,2020-05-13
-Foster,12,2020-05-13
-Glocester,31,2020-05-13
-Hopkinton,12,2020-05-13
-Jamestown,8,2020-05-13
-Johnston,232,2020-05-13
-Lincoln,127,2020-05-13
-Little Compton,12,2020-05-13
-Middletown,33,2020-05-13
-Narragansett,36,2020-05-13
-New Shoreham,1,2020-05-13
-Newport,50,2020-05-13
-North Kingstown,177,2020-05-13
-North Providence,608,2020-05-13
-North Smithfield,70,2020-05-13
-Pawtucket,1165,2020-05-13
-Portsmouth,29,2020-05-13
-Providence,3913,2020-05-13
-Richmond,16,2020-05-13
-Scituate,27,2020-05-13
-Smithfield,223,2020-05-13
-South Kingstown,87,2020-05-13
-Tiverton,65,2020-05-13
-Warren,44,2020-05-13
-Warwick,461,2020-05-13
-West Greenwich,21,2020-05-13
-West Warwick,208,2020-05-13
-Westerly,47,2020-05-13
-Woonsocket,454,2020-05-13
-Pending further information,968,2020-05-13
-TOTAL,"11,757",2020-05-13
-Barrington,34,2020-05-13
-Bristol,94,2020-05-13
-Burrillville,79,2020-05-13
-Central Falls,668,2020-05-13
-Charlestown,17,2020-05-13
-Coventry,134,2020-05-13
-Cranston,685,2020-05-13
-Cumberland,238,2020-05-13
-East Greenwich,59,2020-05-13
-East Providence,580,2020-05-13
-Exeter,32,2020-05-13
-Foster,12,2020-05-13
-Glocester,31,2020-05-13
-Hopkinton,12,2020-05-13
-Jamestown,8,2020-05-13
-Johnston,232,2020-05-13
-Lincoln,127,2020-05-13
-Little Compton,12,2020-05-13
-Middletown,33,2020-05-13
-Narragansett,36,2020-05-13
-New Shoreham,1,2020-05-13
-Newport,50,2020-05-13
-North Kingstown,177,2020-05-13
-North Providence,608,2020-05-13
-North Smithfield,70,2020-05-13
-Pawtucket,1165,2020-05-13
-Portsmouth,29,2020-05-13
-Providence,3913,2020-05-13
-Richmond,16,2020-05-13
-Scituate,27,2020-05-13
-Smithfield,223,2020-05-13
-South Kingstown,87,2020-05-13
-Tiverton,65,2020-05-13
-Warren,44,2020-05-13
-Warwick,461,2020-05-13
-West Greenwich,21,2020-05-13
-West Warwick,208,2020-05-13
-Westerly,47,2020-05-13
-Woonsocket,454,2020-05-13
-Pending further information,968,2020-05-13
-TOTAL,"11,757",2020-05-13
-Barrington,34,2020-05-13
-Bristol,94,2020-05-13
-Burrillville,79,2020-05-13
-Central Falls,668,2020-05-13
-Charlestown,17,2020-05-13
-Coventry,134,2020-05-13
-Cranston,685,2020-05-13
-Cumberland,238,2020-05-13
-East Greenwich,59,2020-05-13
-East Providence,580,2020-05-13
-Exeter,32,2020-05-13
-Foster,12,2020-05-13
-Glocester,31,2020-05-13
-Hopkinton,12,2020-05-13
-Jamestown,8,2020-05-13
-Johnston,232,2020-05-13
-Lincoln,127,2020-05-13
-Little Compton,12,2020-05-13
-Middletown,33,2020-05-13
-Narragansett,36,2020-05-13
-New Shoreham,1,2020-05-13
-Newport,50,2020-05-13
-North Kingstown,177,2020-05-13
-North Providence,608,2020-05-13
-North Smithfield,70,2020-05-13
-Pawtucket,1165,2020-05-13
-Portsmouth,29,2020-05-13
-Providence,3913,2020-05-13
-Richmond,16,2020-05-13
-Scituate,27,2020-05-13
-Smithfield,223,2020-05-13
-South Kingstown,87,2020-05-13
-Tiverton,65,2020-05-13
-Warren,44,2020-05-13
-Warwick,461,2020-05-13
-West Greenwich,21,2020-05-13
-West Warwick,208,2020-05-13
-Westerly,47,2020-05-13
-Woonsocket,454,2020-05-13
-Pending further information,968,2020-05-13
-TOTAL,"11,757",2020-05-13
-Barrington,34,2020-05-13
-Bristol,94,2020-05-13
-Burrillville,79,2020-05-13
-Central Falls,668,2020-05-13
-Charlestown,17,2020-05-13
-Coventry,134,2020-05-13
-Cranston,685,2020-05-13
-Cumberland,238,2020-05-13
-East Greenwich,59,2020-05-13
-East Providence,580,2020-05-13
-Exeter,32,2020-05-13
-Foster,12,2020-05-13
-Glocester,31,2020-05-13
-Hopkinton,12,2020-05-13
-Jamestown,8,2020-05-13
-Johnston,232,2020-05-13
-Lincoln,127,2020-05-13
-Little Compton,12,2020-05-13
-Middletown,33,2020-05-13
-Narragansett,36,2020-05-13
-New Shoreham,1,2020-05-13
-Newport,50,2020-05-13
-North Kingstown,177,2020-05-13
-North Providence,608,2020-05-13
-North Smithfield,70,2020-05-13
-Pawtucket,1165,2020-05-13
-Portsmouth,29,2020-05-13
-Providence,3913,2020-05-13
-Richmond,16,2020-05-13
-Scituate,27,2020-05-13
-Smithfield,223,2020-05-13
-South Kingstown,87,2020-05-13
-Tiverton,65,2020-05-13
-Warren,44,2020-05-13
-Warwick,461,2020-05-13
-West Greenwich,21,2020-05-13
-West Warwick,208,2020-05-13
-Westerly,47,2020-05-13
-Woonsocket,454,2020-05-13
-Pending further information,968,2020-05-13
-TOTAL,"11,757",2020-05-13
-Barrington,34,2020-05-13
-Bristol,94,2020-05-13
-Burrillville,79,2020-05-13
-Central Falls,668,2020-05-13
-Charlestown,17,2020-05-13
-Coventry,134,2020-05-13
-Cranston,685,2020-05-13
-Cumberland,238,2020-05-13
-East Greenwich,59,2020-05-13
-East Providence,580,2020-05-13
-Exeter,32,2020-05-13
-Foster,12,2020-05-13
-Glocester,31,2020-05-13
-Hopkinton,12,2020-05-13
-Jamestown,8,2020-05-13
-Johnston,232,2020-05-13
-Lincoln,127,2020-05-13
-Little Compton,12,2020-05-13
-Middletown,33,2020-05-13
-Narragansett,36,2020-05-13
-New Shoreham,1,2020-05-13
-Newport,50,2020-05-13
-North Kingstown,177,2020-05-13
-North Providence,608,2020-05-13
-North Smithfield,70,2020-05-13
-Pawtucket,1165,2020-05-13
-Portsmouth,29,2020-05-13
-Providence,3913,2020-05-13
-Richmond,16,2020-05-13
-Scituate,27,2020-05-13
-Smithfield,223,2020-05-13
-South Kingstown,87,2020-05-13
-Tiverton,65,2020-05-13
-Warren,44,2020-05-13
-Warwick,461,2020-05-13
-West Greenwich,21,2020-05-13
-West Warwick,208,2020-05-13
-Westerly,47,2020-05-13
-Woonsocket,454,2020-05-13
-Pending further information,968,2020-05-13
-TOTAL,"11,757",2020-05-13
-Barrington,34,2020-05-13
-Bristol,94,2020-05-13
-Burrillville,79,2020-05-13
-Central Falls,668,2020-05-13
-Charlestown,17,2020-05-13
-Coventry,134,2020-05-13
-Cranston,685,2020-05-13
-Cumberland,238,2020-05-13
-East Greenwich,59,2020-05-13
-East Providence,580,2020-05-13
-Exeter,32,2020-05-13
-Foster,12,2020-05-13
-Glocester,31,2020-05-13
-Hopkinton,12,2020-05-13
-Jamestown,8,2020-05-13
-Johnston,232,2020-05-13
-Lincoln,127,2020-05-13
-Little Compton,12,2020-05-13
-Middletown,33,2020-05-13
-Narragansett,36,2020-05-13
-New Shoreham,1,2020-05-13
-Newport,50,2020-05-13
-North Kingstown,177,2020-05-13
-North Providence,608,2020-05-13
-North Smithfield,70,2020-05-13
-Pawtucket,1165,2020-05-13
-Portsmouth,29,2020-05-13
-Providence,3913,2020-05-13
-Richmond,16,2020-05-13
-Scituate,27,2020-05-13
-Smithfield,223,2020-05-13
-South Kingstown,87,2020-05-13
-Tiverton,65,2020-05-13
-Warren,44,2020-05-13
-Warwick,461,2020-05-13
-West Greenwich,21,2020-05-13
-West Warwick,208,2020-05-13
-Westerly,47,2020-05-13
-Woonsocket,454,2020-05-13
-Pending further information,968,2020-05-13
-TOTAL,"11,757",2020-05-13
-Barrington,34,2020-05-13
-Bristol,94,2020-05-13
-Burrillville,79,2020-05-13
-Central Falls,668,2020-05-13
-Charlestown,17,2020-05-13
-Coventry,134,2020-05-13
-Cranston,685,2020-05-13
-Cumberland,238,2020-05-13
-East Greenwich,59,2020-05-13
-East Providence,580,2020-05-13
-Exeter,32,2020-05-13
-Foster,12,2020-05-13
-Glocester,31,2020-05-13
-Hopkinton,12,2020-05-13
-Jamestown,8,2020-05-13
-Johnston,232,2020-05-13
-Lincoln,127,2020-05-13
-Little Compton,12,2020-05-13
-Middletown,33,2020-05-13
-Narragansett,36,2020-05-13
-New Shoreham,1,2020-05-13
-Newport,50,2020-05-13
-North Kingstown,177,2020-05-13
-North Providence,608,2020-05-13
-North Smithfield,70,2020-05-13
-Pawtucket,1165,2020-05-13
-Portsmouth,29,2020-05-13
-Providence,3913,2020-05-13
-Richmond,16,2020-05-13
-Scituate,27,2020-05-13
-Smithfield,223,2020-05-13
-South Kingstown,87,2020-05-13
-Tiverton,65,2020-05-13
-Warren,44,2020-05-13
-Warwick,461,2020-05-13
-West Greenwich,21,2020-05-13
-West Warwick,208,2020-05-13
-Westerly,47,2020-05-13
-Woonsocket,454,2020-05-13
-Pending further information,968,2020-05-13
-TOTAL,"11,757",2020-05-13
-Barrington,41,2020-05-20
-Bristol,101,2020-05-20
-Burrillville,80,2020-05-20
-Central Falls,734,2020-05-20
-Charlestown,16,2020-05-20
-Coventry,148,2020-05-20
-Cranston,759,2020-05-20
-Cumberland,238,2020-05-20
-East Greenwich,66,2020-05-20
-East Providence,622,2020-05-20
-Exeter,34,2020-05-20
-Foster,15,2020-05-20
-Glocester,34,2020-05-20
-Hopkinton,13,2020-05-20
-Jamestown,8,2020-05-20
-Johnston,296,2020-05-20
-Lincoln,133,2020-05-20
-Little Compton,12,2020-05-20
-Middletown,32,2020-05-20
-Narragansett,37,2020-05-20
-New Shoreham,0,2020-05-20
-Newport,55,2020-05-20
-North Kingstown,211,2020-05-20
-North Providence,649,2020-05-20
-North Smithfield,94,2020-05-20
-Pawtucket,1266,2020-05-20
-Portsmouth,30,2020-05-20
-Providence,4290,2020-05-20
-Richmond,17,2020-05-20
-Scituate,30,2020-05-20
-Smithfield,235,2020-05-20
-South Kingstown,86,2020-05-20
-Tiverton,69,2020-05-20
-Warren,56,2020-05-20
-Warwick,501,2020-05-20
-West Greenwich,19,2020-05-20
-West Warwick,224,2020-05-20
-Westerly,48,2020-05-20
-Woonsocket,501,2020-05-20
-Pending further information,"1,050",2020-05-20
-TOTAL,"12,851",2020-05-20
-Barrington,43,2020-05-21
-Bristol,103,2020-05-21
-Burrillville,82,2020-05-21
-Central Falls,744,2020-05-21
-Charlestown,16,2020-05-21
-Coventry,150,2020-05-21
-Cranston,771,2020-05-21
-Cumberland,243,2020-05-21
-East Greenwich,67,2020-05-21
-East Providence,623,2020-05-21
-Exeter,34,2020-05-21
-Foster,15,2020-05-21
-Glocester,35,2020-05-21
-Hopkinton,13,2020-05-21
-Jamestown,8,2020-05-21
-Johnston,305,2020-05-21
-Lincoln,136,2020-05-21
-Little Compton,12,2020-05-21
-Middletown,32,2020-05-21
-Narragansett,38,2020-05-21
-New Shoreham,0,2020-05-21
-Newport,55,2020-05-21
-North Kingstown,217,2020-05-21
-North Providence,652,2020-05-21
-North Smithfield,96,2020-05-21
-Pawtucket,1282,2020-05-21
-Portsmouth,32,2020-05-21
-Providence,4402,2020-05-21
-Richmond,17,2020-05-21
-Scituate,31,2020-05-21
-Smithfield,235,2020-05-21
-South Kingstown,87,2020-05-21
-Tiverton,70,2020-05-21
-Warren,58,2020-05-21
-Warwick,511,2020-05-21
-West Greenwich,18,2020-05-21
-West Warwick,228,2020-05-21
-Westerly,49,2020-05-21
-Woonsocket,508,2020-05-21
-Pending further information,"1,019",2020-05-21
-TOTAL,"13,038",2020-05-21
-Barrington,45,2020-05-22
-Bristol,106,2020-05-22
-Burrillville,86,2020-05-22
-Central Falls,758,2020-05-22
-Charlestown,16,2020-05-22
-Coventry,151,2020-05-22
-Cranston,779,2020-05-22
-Cumberland,245,2020-05-22
-East Greenwich,67,2020-05-22
-East Providence,641,2020-05-22
-Exeter,34,2020-05-22
-Foster,17,2020-05-22
-Glocester,36,2020-05-22
-Hopkinton,13,2020-05-22
-Jamestown,8,2020-05-22
-Johnston,310,2020-05-22
-Lincoln,138,2020-05-22
-Little Compton,12,2020-05-22
-Middletown,32,2020-05-22
-Narragansett,38,2020-05-22
-New Shoreham,1,2020-05-22
-Newport,55,2020-05-22
-North Kingstown,219,2020-05-22
-North Providence,655,2020-05-22
-North Smithfield,97,2020-05-22
-Pawtucket,1307,2020-05-22
-Portsmouth,33,2020-05-22
-Providence,4455,2020-05-22
-Richmond,19,2020-05-22
-Scituate,31,2020-05-22
-Smithfield,250,2020-05-22
-South Kingstown,90,2020-05-22
-Tiverton,72,2020-05-22
-Warren,58,2020-05-22
-Warwick,519,2020-05-22
-West Greenwich,19,2020-05-22
-West Warwick,229,2020-05-22
-Westerly,52,2020-05-22
-Woonsocket,515,2020-05-22
-Pending further information,"1,016",2020-05-22
-TOTAL,"13,224",2020-05-22
-Barrington,46,2020-05-23
-Bristol,107,2020-05-23
-Burrillville,89,2020-05-23
-Central Falls,775,2020-05-23
-Charlestown,16,2020-05-23
-Coventry,160,2020-05-23
-Cranston,799,2020-05-23
-Cumberland,246,2020-05-23
-East Greenwich,68,2020-05-23
-East Providence,651,2020-05-23
-Exeter,35,2020-05-23
-Foster,18,2020-05-23
-Glocester,37,2020-05-23
-Hopkinton,13,2020-05-23
-Jamestown,10,2020-05-23
-Johnston,317,2020-05-23
-Lincoln,138,2020-05-23
-Little Compton,13,2020-05-23
-Middletown,33,2020-05-23
-Narragansett,38,2020-05-23
-New Shoreham,0,2020-05-23
-Newport,57,2020-05-23
-North Kingstown,221,2020-05-23
-North Providence,661,2020-05-23
-North Smithfield,97,2020-05-23
-Pawtucket,1334,2020-05-23
-Portsmouth,36,2020-05-23
-Providence,4556,2020-05-23
-Richmond,20,2020-05-23
-Scituate,31,2020-05-23
-Smithfield,251,2020-05-23
-South Kingstown,90,2020-05-23
-Tiverton,77,2020-05-23
-Warren,60,2020-05-23
-Warwick,528,2020-05-23
-West Greenwich,19,2020-05-23
-West Warwick,230,2020-05-23
-Westerly,52,2020-05-23
-Woonsocket,519,2020-05-23
-Pending further information,"1,033",2020-05-23
-TOTAL,"13,482",2020-05-23
-Barrington,46,2020-05-24
-Bristol,107,2020-05-24
-Burrillville,89,2020-05-24
-Central Falls,781,2020-05-24
-Charlestown,16,2020-05-24
-Coventry,161,2020-05-24
-Cranston,808,2020-05-24
-Cumberland,248,2020-05-24
-East Greenwich,69,2020-05-24
-East Providence,654,2020-05-24
-Exeter,36,2020-05-24
-Foster,18,2020-05-24
-Glocester,37,2020-05-24
-Hopkinton,13,2020-05-24
-Jamestown,10,2020-05-24
-Johnston,322,2020-05-24
-Lincoln,138,2020-05-24
-Little Compton,13,2020-05-24
-Middletown,33,2020-05-24
-Narragansett,38,2020-05-24
-New Shoreham,0,2020-05-24
-Newport,57,2020-05-24
-North Kingstown,221,2020-05-24
-North Providence,663,2020-05-24
-North Smithfield,97,2020-05-24
-Pawtucket,1348,2020-05-24
-Portsmouth,38,2020-05-24
-Providence,4599,2020-05-24
-Richmond,20,2020-05-24
-Scituate,31,2020-05-24
-Smithfield,251,2020-05-24
-South Kingstown,90,2020-05-24
-Tiverton,77,2020-05-24
-Warren,60,2020-05-24
-Warwick,532,2020-05-24
-West Greenwich,19,2020-05-24
-West Warwick,232,2020-05-24
-Westerly,52,2020-05-24
-Woonsocket,523,2020-05-24
-Pending further information,"1,036",2020-05-24
-TOTAL,"13,584",2020-05-24
-Barrington,46,2020-05-24
-Bristol,107,2020-05-24
-Burrillville,89,2020-05-24
-Central Falls,781,2020-05-24
-Charlestown,16,2020-05-24
-Coventry,161,2020-05-24
-Cranston,808,2020-05-24
-Cumberland,248,2020-05-24
-East Greenwich,69,2020-05-24
-East Providence,654,2020-05-24
-Exeter,36,2020-05-24
-Foster,18,2020-05-24
-Glocester,37,2020-05-24
-Hopkinton,13,2020-05-24
-Jamestown,10,2020-05-24
-Johnston,322,2020-05-24
-Lincoln,138,2020-05-24
-Little Compton,13,2020-05-24
-Middletown,33,2020-05-24
-Narragansett,38,2020-05-24
-New Shoreham,0,2020-05-24
-Newport,57,2020-05-24
-North Kingstown,221,2020-05-24
-North Providence,663,2020-05-24
-North Smithfield,97,2020-05-24
-Pawtucket,1348,2020-05-24
-Portsmouth,38,2020-05-24
-Providence,4599,2020-05-24
-Richmond,20,2020-05-24
-Scituate,31,2020-05-24
-Smithfield,251,2020-05-24
-South Kingstown,90,2020-05-24
-Tiverton,77,2020-05-24
-Warren,60,2020-05-24
-Warwick,532,2020-05-24
-West Greenwich,19,2020-05-24
-West Warwick,232,2020-05-24
-Westerly,52,2020-05-24
-Woonsocket,523,2020-05-24
-Pending further information,"1,036",2020-05-24
-TOTAL,"13,584",2020-05-24
-Barrington,47,2020-05-27
-Bristol,116,2020-05-27
-Burrillville,88,2020-05-27
-Central Falls,794,2020-05-27
-Charlestown,17,2020-05-27
-Coventry,166,2020-05-27
-Cranston,826,2020-05-27
-Cumberland,252,2020-05-27
-East Greenwich,69,2020-05-27
-East Providence,676,2020-05-27
-Exeter,36,2020-05-27
-Foster,19,2020-05-27
-Glocester,40,2020-05-27
-Hopkinton,13,2020-05-27
-Jamestown,10,2020-05-27
-Johnston,332,2020-05-27
-Lincoln,141,2020-05-27
-Little Compton,13,2020-05-27
-Middletown,34,2020-05-27
-Narragansett,39,2020-05-27
-New Shoreham,0,2020-05-27
-Newport,60,2020-05-27
-North Kingstown,223,2020-05-27
-North Providence,667,2020-05-27
-North Smithfield,98,2020-05-27
-Pawtucket,1372,2020-05-27
-Portsmouth,40,2020-05-27
-Providence,4751,2020-05-27
-Richmond,21,2020-05-27
-Scituate,31,2020-05-27
-Smithfield,252,2020-05-27
-South Kingstown,91,2020-05-27
-Tiverton,78,2020-05-27
-Warren,60,2020-05-27
-Warwick,543,2020-05-27
-West Greenwich,19,2020-05-27
-West Warwick,235,2020-05-27
-Westerly,53,2020-05-27
-Woonsocket,535,2020-05-27
-Pending further information,"1,042",2020-05-27
-TOTAL,"13,900",2020-05-27
-Barrington,46,2020-05-28
-Bristol,116,2020-05-28
-Burrillville,90,2020-05-28
-Central Falls,802,2020-05-28
-Charlestown,17,2020-05-28
-Coventry,169,2020-05-28
-Cranston,842,2020-05-28
-Cumberland,251,2020-05-28
-East Greenwich,68,2020-05-28
-East Providence,674,2020-05-28
-Exeter,36,2020-05-28
-Foster,19,2020-05-28
-Glocester,40,2020-05-28
-Hopkinton,13,2020-05-28
-Jamestown,11,2020-05-28
-Johnston,340,2020-05-28
-Lincoln,142,2020-05-28
-Little Compton,13,2020-05-28
-Middletown,34,2020-05-28
-Narragansett,40,2020-05-28
-New Shoreham,0,2020-05-28
-Newport,60,2020-05-28
-North Kingstown,224,2020-05-28
-North Providence,667,2020-05-28
-North Smithfield,97,2020-05-28
-Pawtucket,1382,2020-05-28
-Portsmouth,41,2020-05-28
-Providence,4801,2020-05-28
-Richmond,21,2020-05-28
-Scituate,31,2020-05-28
-Smithfield,250,2020-05-28
-South Kingstown,92,2020-05-28
-Tiverton,78,2020-05-28
-Warren,60,2020-05-28
-Warwick,545,2020-05-28
-West Greenwich,20,2020-05-28
-West Warwick,236,2020-05-28
-Westerly,53,2020-05-28
-Woonsocket,540,2020-05-28
-Pending further information,"1,078",2020-05-28
-TOTAL,"14,040",2020-05-28
-Barrington,47,2020-05-29
-Bristol,117,2020-05-29
-Burrillville,91,2020-05-29
-Central Falls,806,2020-05-29
-Charlestown,17,2020-05-29
-Coventry,178,2020-05-29
-Cranston,846,2020-05-29
-Cumberland,256,2020-05-29
-East Greenwich,70,2020-05-29
-East Providence,679,2020-05-29
-Exeter,36,2020-05-29
-Foster,19,2020-05-29
-Glocester,40,2020-05-29
-Hopkinton,13,2020-05-29
-Jamestown,11,2020-05-29
-Johnston,346,2020-05-29
-Lincoln,145,2020-05-29
-Little Compton,13,2020-05-29
-Middletown,37,2020-05-29
-Narragansett,40,2020-05-29
-New Shoreham,0,2020-05-29
-Newport,62,2020-05-29
-North Kingstown,225,2020-05-29
-North Providence,673,2020-05-29
-North Smithfield,97,2020-05-29
-Pawtucket,1387,2020-05-29
-Portsmouth,41,2020-05-29
-Providence,4842,2020-05-29
-Richmond,22,2020-05-29
-Scituate,31,2020-05-29
-Smithfield,250,2020-05-29
-South Kingstown,93,2020-05-29
-Tiverton,80,2020-05-29
-Warren,60,2020-05-29
-Warwick,546,2020-05-29
-West Greenwich,20,2020-05-29
-West Warwick,238,2020-05-29
-Westerly,53,2020-05-29
-Woonsocket,544,2020-05-29
-Pending further information,"1,090",2020-05-29
-TOTAL,"14,162",2020-05-29
-Barrington,47,2020-05-29
-Bristol,117,2020-05-29
-Burrillville,91,2020-05-29
-Central Falls,806,2020-05-29
-Charlestown,17,2020-05-29
-Coventry,178,2020-05-29
-Cranston,846,2020-05-29
-Cumberland,256,2020-05-29
-East Greenwich,70,2020-05-29
-East Providence,679,2020-05-29
-Exeter,36,2020-05-29
-Foster,19,2020-05-29
-Glocester,40,2020-05-29
-Hopkinton,13,2020-05-29
-Jamestown,11,2020-05-29
-Johnston,346,2020-05-29
-Lincoln,145,2020-05-29
-Little Compton,13,2020-05-29
-Middletown,37,2020-05-29
-Narragansett,40,2020-05-29
-New Shoreham,0,2020-05-29
-Newport,62,2020-05-29
-North Kingstown,225,2020-05-29
-North Providence,673,2020-05-29
-North Smithfield,97,2020-05-29
-Pawtucket,1387,2020-05-29
-Portsmouth,41,2020-05-29
-Providence,4842,2020-05-29
-Richmond,22,2020-05-29
-Scituate,31,2020-05-29
-Smithfield,250,2020-05-29
-South Kingstown,93,2020-05-29
-Tiverton,80,2020-05-29
-Warren,60,2020-05-29
-Warwick,546,2020-05-29
-West Greenwich,20,2020-05-29
-West Warwick,238,2020-05-29
-Westerly,53,2020-05-29
-Woonsocket,544,2020-05-29
-Pending further information,"1,090",2020-05-29
-TOTAL,"14,162",2020-05-29
-Barrington,47,2020-05-29
-Bristol,117,2020-05-29
-Burrillville,91,2020-05-29
-Central Falls,806,2020-05-29
-Charlestown,17,2020-05-29
-Coventry,178,2020-05-29
-Cranston,846,2020-05-29
-Cumberland,256,2020-05-29
-East Greenwich,70,2020-05-29
-East Providence,679,2020-05-29
-Exeter,36,2020-05-29
-Foster,19,2020-05-29
-Glocester,40,2020-05-29
-Hopkinton,13,2020-05-29
-Jamestown,11,2020-05-29
-Johnston,346,2020-05-29
-Lincoln,145,2020-05-29
-Little Compton,13,2020-05-29
-Middletown,37,2020-05-29
-Narragansett,40,2020-05-29
-New Shoreham,0,2020-05-29
-Newport,62,2020-05-29
-North Kingstown,225,2020-05-29
-North Providence,673,2020-05-29
-North Smithfield,97,2020-05-29
-Pawtucket,1387,2020-05-29
-Portsmouth,41,2020-05-29
-Providence,4842,2020-05-29
-Richmond,22,2020-05-29
-Scituate,31,2020-05-29
-Smithfield,250,2020-05-29
-South Kingstown,93,2020-05-29
-Tiverton,80,2020-05-29
-Warren,60,2020-05-29
-Warwick,546,2020-05-29
-West Greenwich,20,2020-05-29
-West Warwick,238,2020-05-29
-Westerly,53,2020-05-29
-Woonsocket,544,2020-05-29
-Pending further information,"1,090",2020-05-29
-TOTAL,"14,162",2020-05-29
-Barrington,47,2020-06-08
-Bristol,121,2020-06-08
-Burrillville,97,2020-06-08
-Central Falls,843,2020-06-08
-Charlestown,18,2020-06-08
-Coventry,179,2020-06-08
-Cranston,909,2020-06-08
-Cumberland,274,2020-06-08
-East Greenwich,71,2020-06-08
-East Providence,699,2020-06-08
-Exeter,38,2020-06-08
-Foster,20,2020-06-08
-Glocester,43,2020-06-08
-Hopkinton,13,2020-06-08
-Jamestown,12,2020-06-08
-Johnston,414,2020-06-08
-Lincoln,173,2020-06-08
-Little Compton,13,2020-06-08
-Middletown,42,2020-06-08
-Narragansett,41,2020-06-08
-New Shoreham,0,2020-06-08
-Newport,71,2020-06-08
-North Kingstown,230,2020-06-08
-North Providence,718,2020-06-08
-North Smithfield,103,2020-06-08
-Pawtucket,1467,2020-06-08
-Portsmouth,47,2020-06-08
-Providence,5307,2020-06-08
-Richmond,26,2020-06-08
-Scituate,38,2020-06-08
-Smithfield,258,2020-06-08
-South Kingstown,94,2020-06-08
-Tiverton,84,2020-06-08
-Warren,63,2020-06-08
-Warwick,578,2020-06-08
-West Greenwich,20,2020-06-08
-West Warwick,257,2020-06-08
-Westerly,53,2020-06-08
-Woonsocket,596,2020-06-08
-Pending further information,"1,064",2020-06-08
-TOTAL,"15,142",2020-06-08
-Barrington,50,2020-06-15
-Bristol,125,2020-06-15
-Burrillville,98,2020-06-15
-Central Falls,882,2020-06-15
-Charlestown,19,2020-06-15
-Coventry,184,2020-06-15
-Cranston,939,2020-06-15
-Cumberland,282,2020-06-15
-East Greenwich,73,2020-06-15
-East Providence,690,2020-06-15
-Exeter,39,2020-06-15
-Foster,20,2020-06-15
-Glocester,44,2020-06-15
-Hopkinton,13,2020-06-15
-Jamestown,12,2020-06-15
-Johnston,433,2020-06-15
-Lincoln,218,2020-06-15
-Little Compton,13,2020-06-15
-Middletown,44,2020-06-15
-Narragansett,39,2020-06-15
-New Shoreham,0,2020-06-15
-Newport,72,2020-06-15
-North Kingstown,234,2020-06-15
-North Providence,726,2020-06-15
-North Smithfield,117,2020-06-15
-Pawtucket,1520,2020-06-15
-Portsmouth,48,2020-06-15
-Providence,5479,2020-06-15
-Richmond,26,2020-06-15
-Scituate,38,2020-06-15
-Smithfield,257,2020-06-15
-South Kingstown,93,2020-06-15
-Tiverton,88,2020-06-15
-Warren,65,2020-06-15
-Warwick,590,2020-06-15
-West Greenwich,20,2020-06-15
-West Warwick,261,2020-06-15
-Westerly,53,2020-06-15
-Woonsocket,620,2020-06-15
-Pending further information,"1,070",2020-06-15
-TOTAL,"15,595",2020-06-15
-Barrington,51,2020-06-22
-Bristol,127,2020-06-22
-Burrillville,102,2020-06-22
-Central Falls,909,2020-06-22
-Charlestown,22,2020-06-22
-Coventry,192,2020-06-22
-Cranston,960,2020-06-22
-Cumberland,286,2020-06-22
-East Greenwich,78,2020-06-22
-East Providence,735,2020-06-22
-Exeter,39,2020-06-22
-Foster,20,2020-06-22
-Glocester,45,2020-06-22
-Hopkinton,13,2020-06-22
-Jamestown,13,2020-06-22
-Johnston,443,2020-06-22
-Lincoln,242,2020-06-22
-Little Compton,13,2020-06-22
-Middletown,47,2020-06-22
-Narragansett,42,2020-06-22
-New Shoreham,0,2020-06-22
-Newport,82,2020-06-22
-North Kingstown,235,2020-06-22
-North Providence,735,2020-06-22
-North Smithfield,121,2020-06-22
-Pawtucket,1547,2020-06-22
-Portsmouth,50,2020-06-22
-Providence,5628,2020-06-22
-Richmond,26,2020-06-22
-Scituate,41,2020-06-22
-Smithfield,259,2020-06-22
-South Kingstown,92,2020-06-22
-Tiverton,89,2020-06-22
-Warren,69,2020-06-22
-Warwick,607,2020-06-22
-West Greenwich,19,2020-06-22
-West Warwick,273,2020-06-22
-Westerly,54,2020-06-22
-Woonsocket,639,2020-06-22
-Pending further information,"1,002",2020-06-22
-TOTAL,"15,948",2020-06-22
-Barrington,53,2020-06-29
-Bristol,131,2020-06-29
-Burrillville,103,2020-06-29
-Central Falls,918,2020-06-29
-Charlestown,23,2020-06-29
-Coventry,201,2020-06-29
-Cranston,974,2020-06-29
-Cumberland,291,2020-06-29
-East Greenwich,84,2020-06-29
-East Providence,740,2020-06-29
-Exeter,39,2020-06-29
-Foster,20,2020-06-29
-Glocester,44,2020-06-29
-Hopkinton,15,2020-06-29
-Jamestown,13,2020-06-29
-Johnston,451,2020-06-29
-Lincoln,259,2020-06-29
-Little Compton,13,2020-06-29
-Middletown,51,2020-06-29
-Narragansett,42,2020-06-29
-New Shoreham,0,2020-06-29
-Newport,91,2020-06-29
-North Kingstown,237,2020-06-29
-North Providence,738,2020-06-29
-North Smithfield,121,2020-06-29
-Pawtucket,1583,2020-06-29
-Portsmouth,50,2020-06-29
-Providence,5735,2020-06-29
-Richmond,26,2020-06-29
-Scituate,42,2020-06-29
-Smithfield,264,2020-06-29
-South Kingstown,92,2020-06-29
-Tiverton,90,2020-06-29
-Warren,69,2020-06-29
-Warwick,614,2020-06-29
-West Greenwich,20,2020-06-29
-West Warwick,280,2020-06-29
-Westerly,58,2020-06-29
-Woonsocket,654,2020-06-29
-Pending further information,996,2020-06-29
-TOTAL,"16,226",2020-06-29
-Barrington,53,2020-07-03
-Bristol,134,2020-07-03
-Burrillville,103,2020-07-03
-Central Falls,923,2020-07-03
-Charlestown,24,2020-07-03
-Coventry,212,2020-07-03
-Cranston,994,2020-07-03
-Cumberland,298,2020-07-03
-East Greenwich,88,2020-07-03
-East Providence,749,2020-07-03
-Exeter,39,2020-07-03
-Foster,23,2020-07-03
-Glocester,46,2020-07-03
-Hopkinton,14,2020-07-03
-Jamestown,15,2020-07-03
-Johnston,464,2020-07-03
-Lincoln,263,2020-07-03
-Little Compton,14,2020-07-03
-Middletown,55,2020-07-03
-Narragansett,43,2020-07-03
-New Shoreham,0,2020-07-03
-Newport,103,2020-07-03
-North Kingstown,236,2020-07-03
-North Providence,743,2020-07-03
-North Smithfield,127,2020-07-03
-Pawtucket,1599,2020-07-03
-Portsmouth,53,2020-07-03
-Providence,5840,2020-07-03
-Richmond,26,2020-07-03
-Scituate,43,2020-07-03
-Smithfield,267,2020-07-03
-South Kingstown,93,2020-07-03
-Tiverton,91,2020-07-03
-Warren,69,2020-07-03
-Warwick,624,2020-07-03
-West Greenwich,20,2020-07-03
-West Warwick,290,2020-07-03
-Westerly,63,2020-07-03
-Woonsocket,662,2020-07-03
-Pending further information,987,2020-07-03
-TOTAL,"16,491",2020-07-03
+city_town,count,hostpialized,deaths,date
+Barrington,fewer than 5,,,3/25/2020
+Bristol,fewer than 5,,,3/25/2020
+Burrillville,fewer than 5,,,3/25/2020
+Central Falls,fewer than 5,,,3/25/2020
+Coventry,fewer than 5,,,3/25/2020
+Cranston,11,,,3/25/2020
+Cumberland,fewer than 5,,,3/25/2020
+East Providence,8,,,3/25/2020
+Exeter,0,,,3/25/2020
+Foster,fewer than 5,,,3/25/2020
+Glocester,0,,,3/25/2020
+Hopkinton,0,,,3/25/2020
+Jamestown,fewer than 5,,,3/25/2020
+Johnston,fewer than 5,,,3/25/2020
+Lincoln,fewer than 5,,,3/25/2020
+Little Compton,0,,,3/25/2020
+Middletown,5,,,3/25/2020
+Narragansett,fewer than 5,,,3/25/2020
+New Shoreham,0,,,3/25/2020
+Newport,fewer than 5,,,3/25/2020
+North Kingstown,fewer than 5,,,3/25/2020
+North Providence,fewer than 5,,,3/25/2020
+North Smithfield,fewer than 5,,,3/25/2020
+Pawtucket,5,,,3/25/2020
+Portsmouth,fewer than 5,,,3/25/2020
+Providence,42,,,3/25/2020
+Richmond,0,,,3/25/2020
+Scituate,fewer than 5,,,3/25/2020
+Smithfield,fewer than 5,,,3/25/2020
+South Kingstown,7,,,3/25/2020
+Tiverton,0,,,3/25/2020
+Warren,fewer than 5,,,3/25/2020
+Warwick,7,,,3/25/2020
+West Greenwich,0,,,3/25/2020
+West Warwick,0,,,3/25/2020
+Westerly,fewer than 5,,,3/25/2020
+Woonsocket,fewer than 5,,,3/25/2020
+Barrington,fewer than 5,,,3/26/2020
+Bristol,fewer than 5,,,3/26/2020
+Burrillville,fewer than 5,,,3/26/2020
+Central Falls,fewer than 5,,,3/26/2020
+Coventry,fewer than 5,,,3/26/2020
+Cranston,18,,,3/26/2020
+Cumberland,5,,,3/26/2020
+East Providence,9,,,3/26/2020
+Exeter,0,,,3/26/2020
+Foster,fewer than 5,,,3/26/2020
+Glocester,0,,,3/26/2020
+Hopkinton,fewer than 5,,,3/26/2020
+Jamestown,fewer than 5,,,3/26/2020
+Johnston,6,,,3/26/2020
+Lincoln,fewer than 5,,,3/26/2020
+Little Compton,0,,,3/26/2020
+Middletown,6,,,3/26/2020
+Narragansett,fewer than 5,,,3/26/2020
+New Shoreham,0,,,3/26/2020
+Newport,5,,,3/26/2020
+North Kingstown,fewer than 5,,,3/26/2020
+North Providence,fewer than 5,,,3/26/2020
+North Smithfield,fewer than 5,,,3/26/2020
+Pawtucket,7,,,3/26/2020
+Portsmouth,fewer than 5,,,3/26/2020
+Providence,51,,,3/26/2020
+Richmond,0,,,3/26/2020
+Scituate,fewer than 5,,,3/26/2020
+Smithfield,fewer than 5,,,3/26/2020
+South Kingstown,7,,,3/26/2020
+Tiverton,0,,,3/26/2020
+Warren,fewer than 5,,,3/26/2020
+Warwick,8,,,3/26/2020
+West Greenwich,0,,,3/26/2020
+West Warwick,fewer than 5,,,3/26/2020
+Westerly,fewer than 5,,,3/26/2020
+Woonsocket,fewer than 5,,,3/26/2020
+Barrington,5,,,3/27/2020
+Bristol,<5,,,3/27/2020
+Burrillville,<5,,,3/27/2020
+Central Falls,<5,,,3/27/2020
+Charlestown,<5,,,3/27/2020
+Coventry,5,,,3/27/2020
+Cranston,21,,,3/27/2020
+Cumberland,7,,,3/27/2020
+East Greenwich,0,,,3/27/2020
+East Providence,9,,,3/27/2020
+Exeter,0,,,3/27/2020
+Foster,<5,,,3/27/2020
+Glocester,0,,,3/27/2020
+Hopkinton,<5,,,3/27/2020
+Jamestown,<5,,,3/27/2020
+Johnston,5,,,3/27/2020
+Lincoln,<5,,,3/27/2020
+Little Compton,0,,,3/27/2020
+Middletown,6,,,3/27/2020
+Narragansett,<5,,,3/27/2020
+New Shoreham,0,,,3/27/2020
+Newport,5,,,3/27/2020
+North Kingstown,8,,,3/27/2020
+North Providence,<5,,,3/27/2020
+North Smithfield,<5,,,3/27/2020
+Pawtucket,9,,,3/27/2020
+Portsmouth,<5,,,3/27/2020
+Providence,57,,,3/27/2020
+Richmond,0,,,3/27/2020
+Scituate,<5,,,3/27/2020
+Smithfield,<5,,,3/27/2020
+South Kingstown,8,,,3/27/2020
+Tiverton,<5,,,3/27/2020
+Warren,<5,,,3/27/2020
+Warwick,11,,,3/27/2020
+West Greenwich,0,,,3/27/2020
+West Warwick,<5,,,3/27/2020
+Westerly,5,,,3/27/2020
+Woonsocket,<5,,,3/27/2020
+Barrington,6,,,3/28/2020
+Bristol,<5,,,3/28/2020
+Burrillville,7,,,3/28/2020
+Central Falls,<5,,,3/28/2020
+Charlestown,<5,,,3/28/2020
+Coventry,5,,,3/28/2020
+Cranston,27,,,3/28/2020
+Cumberland,7,,,3/28/2020
+East Greenwich,<5,,,3/28/2020
+East Providence,10,,,3/28/2020
+Exeter,0,,,3/28/2020
+Foster,<5,,,3/28/2020
+Glocester,<5,,,3/28/2020
+Hopkinton,<5,,,3/28/2020
+Jamestown,<5,,,3/28/2020
+Johnston,5,,,3/28/2020
+Lincoln,<5,,,3/28/2020
+Little Compton,0,,,3/28/2020
+Middletown,6,,,3/28/2020
+Narragansett,<5,,,3/28/2020
+New Shoreham,0,,,3/28/2020
+Newport,5,,,3/28/2020
+North Kingstown,8,,,3/28/2020
+North Providence,<5,,,3/28/2020
+North Smithfield,<5,,,3/28/2020
+Pawtucket,11,,,3/28/2020
+Portsmouth,<5,,,3/28/2020
+Providence,59,,,3/28/2020
+Richmond,0,,,3/28/2020
+Scituate,<5,,,3/28/2020
+Smithfield,5,,,3/28/2020
+South Kingstown,8,,,3/28/2020
+Tiverton,5,,,3/28/2020
+Warren,<5,,,3/28/2020
+Warwick,14,,,3/28/2020
+West Greenwich,0,,,3/28/2020
+West Warwick,5,,,3/28/2020
+Westerly,5,,,3/28/2020
+Woonsocket,<5,,,3/28/2020
+Barrington,6,,,3/29/2020
+Bristol,5,,,3/29/2020
+Burrillville,7,,,3/29/2020
+Central Falls,<5,,,3/29/2020
+Charlestown,<5,,,3/29/2020
+Coventry,6,,,3/29/2020
+Cranston,31,,,3/29/2020
+Cumberland,8,,,3/29/2020
+East Greenwich,<5,,,3/29/2020
+East Providence,13,,,3/29/2020
+Exeter,<5,,,3/29/2020
+Foster,<5,,,3/29/2020
+Glocester,<5,,,3/29/2020
+Hopkinton,<5,,,3/29/2020
+Jamestown,<5,,,3/29/2020
+Johnston,7,,,3/29/2020
+Lincoln,<5,,,3/29/2020
+Little Compton,<5,,,3/29/2020
+Middletown,6,,,3/29/2020
+Narragansett,<5,,,3/29/2020
+New Shoreham,0,,,3/29/2020
+Newport,6,,,3/29/2020
+North Kingstown,8,,,3/29/2020
+North Providence,<5,,,3/29/2020
+North Smithfield,<5,,,3/29/2020
+Pawtucket,14,,,3/29/2020
+Portsmouth,<5,,,3/29/2020
+Providence,63,,,3/29/2020
+Richmond,0,,,3/29/2020
+Scituate,<5,,,3/29/2020
+Smithfield,5,,,3/29/2020
+South Kingstown,8,,,3/29/2020
+Tiverton,5,,,3/29/2020
+Warren,<5,,,3/29/2020
+Warwick,16,,,3/29/2020
+West Greenwich,0,,,3/29/2020
+West Warwick,6,,,3/29/2020
+Westerly,5,,,3/29/2020
+Woonsocket,<5,,,3/29/2020
+Barrington,8,,,3/30/2020
+Bristol,5,,,3/30/2020
+Burrillville,8,,,3/30/2020
+Central Falls,5,,,3/30/2020
+Charlestown,<5,,,3/30/2020
+Coventry,6,,,3/30/2020
+Cranston,35,,,3/30/2020
+Cumberland,10,,,3/30/2020
+East Greenwich,<5,,,3/30/2020
+East Providence,17,,,3/30/2020
+Exeter,<5,,,3/30/2020
+Foster,<5,,,3/30/2020
+Glocester,<5,,,3/30/2020
+Hopkinton,<5,,,3/30/2020
+Jamestown,<5,,,3/30/2020
+Johnston,8,,,3/30/2020
+Lincoln,<5,,,3/30/2020
+Little Compton,<5,,,3/30/2020
+Middletown,6,,,3/30/2020
+Narragansett,<5,,,3/30/2020
+New Shoreham,0,,,3/30/2020
+Newport,7,,,3/30/2020
+North Kingstown,8,,,3/30/2020
+North Providence,16,,,3/30/2020
+North Smithfield,<5,,,3/30/2020
+Pawtucket,32,,,3/30/2020
+Portsmouth,<5,,,3/30/2020
+Providence,71,,,3/30/2020
+Richmond,0,,,3/30/2020
+Scituate,<5,,,3/30/2020
+Smithfield,6,,,3/30/2020
+South Kingstown,8,,,3/30/2020
+Tiverton,5,,,3/30/2020
+Warren,<5,,,3/30/2020
+Warwick,17,,,3/30/2020
+West Greenwich,0,,,3/30/2020
+West Warwick,8,,,3/30/2020
+Westerly,8,,,3/30/2020
+Woonsocket,<5,,,3/30/2020
+Barrington,12,,,3/31/2020
+Bristol,6,,,3/31/2020
+Burrillville,10,,,3/31/2020
+Central Falls,6,,,3/31/2020
+Charlestown,<5,,,3/31/2020
+Coventry,9,,,3/31/2020
+Cranston,39,,,3/31/2020
+Cumberland,15,,,3/31/2020
+East Greenwich,<5,,,3/31/2020
+East Providence,18,,,3/31/2020
+Exeter,<5,,,3/31/2020
+Foster,<5,,,3/31/2020
+Glocester,<5,,,3/31/2020
+Hopkinton,<5,,,3/31/2020
+Jamestown,<5,,,3/31/2020
+Johnston,9,,,3/31/2020
+Lincoln,8,,,3/31/2020
+Little Compton,<5,,,3/31/2020
+Middletown,7,,,3/31/2020
+Narragansett,<5,,,3/31/2020
+New Shoreham,0,,,3/31/2020
+Newport,8,,,3/31/2020
+North Kingstown,8,,,3/31/2020
+North Providence,49,,,3/31/2020
+North Smithfield,<5,,,3/31/2020
+Pawtucket,52,,,3/31/2020
+Portsmouth,<5,,,3/31/2020
+Providence,83,,,3/31/2020
+Richmond,0,,,3/31/2020
+Scituate,<5,,,3/31/2020
+Smithfield,7,,,3/31/2020
+South Kingstown,9,,,3/31/2020
+Tiverton,5,,,3/31/2020
+Warren,<5,,,3/31/2020
+Warwick,22,,,3/31/2020
+West Greenwich,0,,,3/31/2020
+West Warwick,8,,,3/31/2020
+Westerly,8,,,3/31/2020
+Woonsocket,5,,,3/31/2020
+Barrington,12,,,4/1/2020
+Bristol,7,,,4/1/2020
+Burrillville,10,,,4/1/2020
+Central Falls,8,,,4/1/2020
+Charlestown,<5,,,4/1/2020
+Coventry,13,,,4/1/2020
+Cranston,47,,,4/1/2020
+Cumberland,19,,,4/1/2020
+East Greenwich,<5,,,4/1/2020
+East Providence,20,,,4/1/2020
+Exeter,<5,,,4/1/2020
+Foster,<5,,,4/1/2020
+Glocester,<5,,,4/1/2020
+Hopkinton,<5,,,4/1/2020
+Jamestown,<5,,,4/1/2020
+Johnston,10,,,4/1/2020
+Lincoln,11,,,4/1/2020
+Little Compton,<5,,,4/1/2020
+Middletown,9,,,4/1/2020
+Narragansett,<5,,,4/1/2020
+New Shoreham,0,,,4/1/2020
+Newport,8,,,4/1/2020
+North Kingstown,10,,,4/1/2020
+North Providence,60,,,4/1/2020
+North Smithfield,<5,,,4/1/2020
+Pawtucket,86,,,4/1/2020
+Portsmouth,6,,,4/1/2020
+Providence,96,,,4/1/2020
+Richmond,0,,,4/1/2020
+Scituate,<5,,,4/1/2020
+Smithfield,12,,,4/1/2020
+South Kingstown,10,,,4/1/2020
+Tiverton,6,,,4/1/2020
+Warren,<5,,,4/1/2020
+Warwick,29,,,4/1/2020
+West Greenwich,<5,,,4/1/2020
+West Warwick,11,,,4/1/2020
+Westerly,8,,,4/1/2020
+Woonsocket,8,,,4/1/2020
+Barrington,13,,,4/2/2020
+Bristol,7,,,4/2/2020
+Burrillville,10,,,4/2/2020
+Central Falls,11,,,4/2/2020
+Charlestown,<5,,,4/2/2020
+Coventry,15,,,4/2/2020
+Cranston,54,,,4/2/2020
+Cumberland,21,,,4/2/2020
+East Greenwich,<5,,,4/2/2020
+East Providence,21,,,4/2/2020
+Exeter,<5,,,4/2/2020
+Foster,<5,,,4/2/2020
+Glocester,<5,,,4/2/2020
+Hopkinton,<5,,,4/2/2020
+Jamestown,<5,,,4/2/2020
+Johnston,11,,,4/2/2020
+Lincoln,11,,,4/2/2020
+Little Compton,<5,,,4/2/2020
+Middletown,9,,,4/2/2020
+Narragansett,<5,,,4/2/2020
+New Shoreham,0,,,4/2/2020
+Newport,9,,,4/2/2020
+North Kingstown,10,,,4/2/2020
+North Providence,61,,,4/2/2020
+North Smithfield,<5,,,4/2/2020
+Pawtucket,91,,,4/2/2020
+Portsmouth,7,,,4/2/2020
+Providence,102,,,4/2/2020
+Richmond,0,,,4/2/2020
+Scituate,<5,,,4/2/2020
+Smithfield,12,,,4/2/2020
+South Kingstown,12,,,4/2/2020
+Tiverton,6,,,4/2/2020
+Warren,<5,,,4/2/2020
+Warwick,30,,,4/2/2020
+West Greenwich,<5,,,4/2/2020
+West Warwick,12,,,4/2/2020
+Westerly,8,,,4/2/2020
+Woonsocket,9,,,4/2/2020
+Barrington,13,,,4/4/2020
+Bristol,10,,,4/4/2020
+Burrillville,11,,,4/4/2020
+Central Falls,12,,,4/4/2020
+Charlestown,<5,,,4/4/2020
+Coventry,23,,,4/4/2020
+Cranston,64,,,4/4/2020
+Cumberland,25,,,4/4/2020
+East Greenwich,<5,,,4/4/2020
+East Providence,24,,,4/4/2020
+Exeter,<5,,,4/4/2020
+Foster,<5,,,4/4/2020
+Glocester,<5,,,4/4/2020
+Hopkinton,<5,,,4/4/2020
+Jamestown,<5,,,4/4/2020
+Johnston,11,,,4/4/2020
+Lincoln,12,,,4/4/2020
+Little Compton,<5,,,4/4/2020
+Middletown,9,,,4/4/2020
+Narragansett,<5,,,4/4/2020
+New Shoreham,<5,,,4/4/2020
+Newport,13,,,4/4/2020
+North Kingstown,15,,,4/4/2020
+North Providence,68,,,4/4/2020
+North Smithfield,<5,,,4/4/2020
+Pawtucket,99,,,4/4/2020
+Portsmouth,8,,,4/4/2020
+Providence,136,,,4/4/2020
+Richmond,0,,,4/4/2020
+Scituate,<5,,,4/4/2020
+Smithfield,13,,,4/4/2020
+South Kingstown,19,,,4/4/2020
+Tiverton,7,,,4/4/2020
+Warren,<5,,,4/4/2020
+Warwick,37,,,4/4/2020
+West Greenwich,<5,,,4/4/2020
+West Warwick,20,,,4/4/2020
+Westerly,9,,,4/4/2020
+Woonsocket,12,,,4/4/2020
+Barrington,14,,,4/5/2020
+Bristol,10,,,4/5/2020
+Burrillville,11,,,4/5/2020
+Central Falls,12,,,4/5/2020
+Charlestown,<5,,,4/5/2020
+Coventry,25,,,4/5/2020
+Cranston,67,,,4/5/2020
+Cumberland,27,,,4/5/2020
+East Greenwich,<5,,,4/5/2020
+East Providence,27,,,4/5/2020
+Exeter,<5,,,4/5/2020
+Foster,<5,,,4/5/2020
+Glocester,<5,,,4/5/2020
+Hopkinton,<5,,,4/5/2020
+Jamestown,<5,,,4/5/2020
+Johnston,14,,,4/5/2020
+Lincoln,12,,,4/5/2020
+Little Compton,<5,,,4/5/2020
+Middletown,10,,,4/5/2020
+Narragansett,<5,,,4/5/2020
+New Shoreham,<5,,,4/5/2020
+Newport,14,,,4/5/2020
+North Kingstown,17,,,4/5/2020
+North Providence,73,,,4/5/2020
+North Smithfield,<5,,,4/5/2020
+Pawtucket,109,,,4/5/2020
+Portsmouth,9,,,4/5/2020
+Providence,151,,,4/5/2020
+Richmond,0,,,4/5/2020
+Scituate,5,,,4/5/2020
+Smithfield,14,,,4/5/2020
+South Kingstown,19,,,4/5/2020
+Tiverton,7,,,4/5/2020
+Warren,<5,,,4/5/2020
+Warwick,41,,,4/5/2020
+West Greenwich,<5,,,4/5/2020
+West Warwick,24,,,4/5/2020
+Westerly,12,,,4/5/2020
+Woonsocket,13,,,4/5/2020
+Barrington,15,,,4/6/2020
+Bristol,11,,,4/6/2020
+Burrillville,12,,,4/6/2020
+Central Falls,15,,,4/6/2020
+Charlestown,<5,,,4/6/2020
+Coventry,26,,,4/6/2020
+Cranston,78,,,4/6/2020
+Cumberland,32,,,4/6/2020
+East Greenwich,5,,,4/6/2020
+East Providence,34,,,4/6/2020
+Exeter,<5,,,4/6/2020
+Foster,<5,,,4/6/2020
+Glocester,<5,,,4/6/2020
+Hopkinton,<5,,,4/6/2020
+Jamestown,5,,,4/6/2020
+Johnston,17,,,4/6/2020
+Lincoln,12,,,4/6/2020
+Little Compton,<5,,,4/6/2020
+Middletown,10,,,4/6/2020
+Narragansett,5,,,4/6/2020
+New Shoreham,<5,,,4/6/2020
+Newport,14,,,4/6/2020
+North Kingstown,28,,,4/6/2020
+North Providence,77,,,4/6/2020
+North Smithfield,5,,,4/6/2020
+Pawtucket,126,,,4/6/2020
+Portsmouth,12,,,4/6/2020
+Providence,178,,,4/6/2020
+Richmond,0,,,4/6/2020
+Scituate,5,,,4/6/2020
+Smithfield,16,,,4/6/2020
+South Kingstown,20,,,4/6/2020
+Tiverton,10,,,4/6/2020
+Warren,<5,,,4/6/2020
+Warwick,48,,,4/6/2020
+West Greenwich,<5,,,4/6/2020
+West Warwick,25,,,4/6/2020
+Westerly,13,,,4/6/2020
+Woonsocket,13,,,4/6/2020
+Barrington,15,,,4/7/2020
+Bristol,14,,,4/7/2020
+Burrillville,16,,,4/7/2020
+Central Falls,15,,,4/7/2020
+Charlestown,<5,,,4/7/2020
+Coventry,37,,,4/7/2020
+Cranston,90,,,4/7/2020
+Cumberland,34,,,4/7/2020
+East Greenwich,5,,,4/7/2020
+East Providence,41,,,4/7/2020
+Exeter,<5,,,4/7/2020
+Foster,<5,,,4/7/2020
+Glocester,<5,,,4/7/2020
+Hopkinton,<5,,,4/7/2020
+Jamestown,5,,,4/7/2020
+Johnston,21,,,4/7/2020
+Lincoln,13,,,4/7/2020
+Little Compton,<5,,,4/7/2020
+Middletown,11,,,4/7/2020
+Narragansett,8,,,4/7/2020
+New Shoreham,<5,,,4/7/2020
+Newport,14,,,4/7/2020
+North Kingstown,32,,,4/7/2020
+North Providence,84,,,4/7/2020
+North Smithfield,5,,,4/7/2020
+Pawtucket,133,,,4/7/2020
+Portsmouth,13,,,4/7/2020
+Providence,217,,,4/7/2020
+Richmond,0,,,4/7/2020
+Scituate,5,,,4/7/2020
+Smithfield,19,,,4/7/2020
+South Kingstown,20,,,4/7/2020
+Tiverton,12,,,4/7/2020
+Warren,<5,,,4/7/2020
+Warwick,54,,,4/7/2020
+West Greenwich,<5,,,4/7/2020
+West Warwick,28,,,4/7/2020
+Westerly,16,,,4/7/2020
+Woonsocket,20,,,4/7/2020
+Barrington,16,,,4/8/2020
+Bristol,14,,,4/8/2020
+Burrillville,17,,,4/8/2020
+Central Falls,20,,,4/8/2020
+Charlestown,<5,,,4/8/2020
+Coventry,39,,,4/8/2020
+Cranston,98,,,4/8/2020
+Cumberland,37,,,4/8/2020
+East Greenwich,7,,,4/8/2020
+East Providence,46,,,4/8/2020
+Exeter,5,,,4/8/2020
+Foster,<5,,,4/8/2020
+Glocester,<5,,,4/8/2020
+Hopkinton,<5,,,4/8/2020
+Jamestown,6,,,4/8/2020
+Johnston,25,,,4/8/2020
+Lincoln,14,,,4/8/2020
+Little Compton,<5,,,4/8/2020
+Middletown,11,,,4/8/2020
+Narragansett,9,,,4/8/2020
+New Shoreham,<5,,,4/8/2020
+Newport,14,,,4/8/2020
+North Kingstown,40,,,4/8/2020
+North Providence,93,,,4/8/2020
+North Smithfield,6,,,4/8/2020
+Pawtucket,143,,,4/8/2020
+Portsmouth,12,,,4/8/2020
+Providence,283,,,4/8/2020
+Richmond,0,,,4/8/2020
+Scituate,6,,,4/8/2020
+Smithfield,19,,,4/8/2020
+South Kingstown,23,,,4/8/2020
+Tiverton,12,,,4/8/2020
+Warren,<5,,,4/8/2020
+Warwick,59,,,4/8/2020
+West Greenwich,<5,,,4/8/2020
+West Warwick,31,,,4/8/2020
+Westerly,17,,,4/8/2020
+Woonsocket,23,,,4/8/2020
+Barrington,17,,,4/9/2020
+Bristol,14,,,4/9/2020
+Burrillville,22,,,4/9/2020
+Central Falls,26,,,4/9/2020
+Charlestown,<5,,,4/9/2020
+Coventry,42,,,4/9/2020
+Cranston,112,,,4/9/2020
+Cumberland,40,,,4/9/2020
+East Greenwich,8,,,4/9/2020
+East Providence,49,,,4/9/2020
+Exeter,5,,,4/9/2020
+Foster,<5,,,4/9/2020
+Glocester,<5,,,4/9/2020
+Hopkinton,<5,,,4/9/2020
+Jamestown,6,,,4/9/2020
+Johnston,29,,,4/9/2020
+Lincoln,16,,,4/9/2020
+Little Compton,<5,,,4/9/2020
+Middletown,11,,,4/9/2020
+Narragansett,10,,,4/9/2020
+New Shoreham,<5,,,4/9/2020
+Newport,15,,,4/9/2020
+North Kingstown,42,,,4/9/2020
+North Providence,98,,,4/9/2020
+North Smithfield,6,,,4/9/2020
+Pawtucket,156,,,4/9/2020
+Portsmouth,12,,,4/9/2020
+Providence,345,,,4/9/2020
+Richmond,0,,,4/9/2020
+Scituate,7,,,4/9/2020
+Smithfield,22,,,4/9/2020
+South Kingstown,23,,,4/9/2020
+Tiverton,12,,,4/9/2020
+Warren,6,,,4/9/2020
+Warwick,67,,,4/9/2020
+West Greenwich,<5,,,4/9/2020
+West Warwick,34,,,4/9/2020
+Westerly,17,,,4/9/2020
+Woonsocket,27,,,4/9/2020
+Barrington,18,,,4/10/2020
+Bristol,14,,,4/10/2020
+Burrillville,24,,,4/10/2020
+Central Falls,35,,,4/10/2020
+Charlestown,5,,,4/10/2020
+Coventry,48,,,4/10/2020
+Cranston,136,,,4/10/2020
+Cumberland,52,,,4/10/2020
+East Greenwich,8,,,4/10/2020
+East Providence,58,,,4/10/2020
+Exeter,8,,,4/10/2020
+Foster,7,,,4/10/2020
+Glocester,<5,,,4/10/2020
+Hopkinton,<5,,,4/10/2020
+Jamestown,6,,,4/10/2020
+Johnston,40,,,4/10/2020
+Lincoln,20,,,4/10/2020
+Little Compton,6,,,4/10/2020
+Middletown,12,,,4/10/2020
+Narragansett,10,,,4/10/2020
+New Shoreham,<5,,,4/10/2020
+Newport,18,,,4/10/2020
+North Kingstown,47,,,4/10/2020
+North Providence,127,,,4/10/2020
+North Smithfield,7,,,4/10/2020
+Pawtucket,186,,,4/10/2020
+Portsmouth,14,,,4/10/2020
+Providence,504,,,4/10/2020
+Richmond,<5,,,4/10/2020
+Scituate,8,,,4/10/2020
+Smithfield,31,,,4/10/2020
+South Kingstown,24,,,4/10/2020
+Tiverton,18,,,4/10/2020
+Warren,7,,,4/10/2020
+Warwick,75,,,4/10/2020
+West Greenwich,<5,,,4/10/2020
+West Warwick,37,,,4/10/2020
+Westerly,19,,,4/10/2020
+Woonsocket,42,,,4/10/2020
+Barrington,22,,,4/14/2020
+Bristol,20,,,4/14/2020
+Burrillville,30,,,4/14/2020
+Central Falls,76,,,4/14/2020
+Charlestown,5,,,4/14/2020
+Coventry,55,,,4/14/2020
+Cranston,197,,,4/14/2020
+Cumberland,75,,,4/14/2020
+East Greenwich,15,,,4/14/2020
+East Providence,123,,,4/14/2020
+Exeter,8,,,4/14/2020
+Foster,7,,,4/14/2020
+Glocester,<5,,,4/14/2020
+Hopkinton,5,,,4/14/2020
+Jamestown,6,,,4/14/2020
+Johnston,53,,,4/14/2020
+Lincoln,26,,,4/14/2020
+Little Compton,7,,,4/14/2020
+Middletown,17,,,4/14/2020
+Narragansett,17,,,4/14/2020
+New Shoreham,<5,,,4/14/2020
+Newport,21,,,4/14/2020
+North Kingstown,54,,,4/14/2020
+North Providence,180,,,4/14/2020
+North Smithfield,8,,,4/14/2020
+Pawtucket,288,,,4/14/2020
+Portsmouth,16,,,4/14/2020
+Providence,766,,,4/14/2020
+Richmond,<5,,,4/14/2020
+Scituate,12,,,4/14/2020
+Smithfield,48,,,4/14/2020
+South Kingstown,38,,,4/14/2020
+Tiverton,26,,,4/14/2020
+Warren,7,,,4/14/2020
+Warwick,122,,,4/14/2020
+West Greenwich,6,,,4/14/2020
+West Warwick,46,,,4/14/2020
+Westerly,23,,,4/14/2020
+Woonsocket,67,,,4/14/2020
+Providence,973,,,4/16/2020
+Pawtucket,347,,,4/16/2020
+Cranston,220,,,4/16/2020
+North Providence,209,,,4/16/2020
+East Providence,159,,,4/16/2020
+Warwick,141,,,4/16/2020
+Central Falls,103,,,4/16/2020
+Cumberland,96,,,4/16/2020
+Woonsocket,84,,,4/16/2020
+North Kingstown,67,,,4/16/2020
+Johnston,59,,,4/16/2020
+Coventry,57,,,4/16/2020
+Smithfield,54,,,4/16/2020
+West Warwick,49,,,4/16/2020
+South Kingstown,39,,,4/16/2020
+Burrillville,33,,,4/16/2020
+Lincoln,33,,,4/16/2020
+Tiverton,28,,,4/16/2020
+Barrington,24,,,4/16/2020
+Bristol,24,,,4/16/2020
+Westerly,24,,,4/16/2020
+Newport,22,,,4/16/2020
+Middletown,19,,,4/16/2020
+East Greenwich,18,,,4/16/2020
+Narragansett,17,,,4/16/2020
+Portsmouth,16,,,4/16/2020
+North Smithfield,12,,,4/16/2020
+Scituate,12,,,4/16/2020
+Exeter,8,,,4/16/2020
+Warren,8,,,4/16/2020
+Foster,7,,,4/16/2020
+Little Compton,7,,,4/16/2020
+West Greenwich,7,,,4/16/2020
+Jamestown,6,,,4/16/2020
+Richmond,6,,,4/16/2020
+Charlestown,5,,,4/16/2020
+Hopkinton,5,,,4/16/2020
+Glocester,0,,,4/16/2020
+New Shoreham,0,,,4/16/2020
+Providence,1093,,,4/17/2020
+Pawtucket,380,,,4/17/2020
+Cranston,245,,,4/17/2020
+North Providence,233,,,4/17/2020
+East Providence,188,,,4/17/2020
+Warwick,154,,,4/17/2020
+Central Falls,129,,,4/17/2020
+Cumberland,110,,,4/17/2020
+Woonsocket,91,,,4/17/2020
+Johnston,69,,,4/17/2020
+North Kingstown,68,,,4/17/2020
+Coventry,62,,,4/17/2020
+Smithfield,56,,,4/17/2020
+West Warwick,56,,,4/17/2020
+South Kingstown,42,,,4/17/2020
+Lincoln,37,,,4/17/2020
+Burrillville,33,,,4/17/2020
+Tiverton,29,,,4/17/2020
+Westerly,26,,,4/17/2020
+Bristol,25,,,4/17/2020
+Barrington,23,,,4/17/2020
+Newport,22,,,4/17/2020
+East Greenwich,20,,,4/17/2020
+Middletown,19,,,4/17/2020
+Narragansett,19,,,4/17/2020
+Portsmouth,18,,,4/17/2020
+Scituate,14,,,4/17/2020
+North Smithfield,13,,,4/17/2020
+Exeter,11,,,4/17/2020
+Little Compton,9,,,4/17/2020
+Warren,9,,,4/17/2020
+Foster,7,,,4/17/2020
+West Greenwich,7,,,4/17/2020
+Charlestown,6,,,4/17/2020
+Jamestown,6,,,4/17/2020
+Richmond,6,,,4/17/2020
+Glocester,5,,,4/17/2020
+Hopkinton,5,,,4/17/2020
+New Shoreham,0,,,4/17/2020
+Providence,1220,,,4/18/2020
+Pawtucket,415,,,4/18/2020
+Cranston,271,,,4/18/2020
+North Providence,253,,,4/18/2020
+East Providence,224,,,4/18/2020
+Warwick,161,,,4/18/2020
+Central Falls,134,,,4/18/2020
+Woonsocket,124,,,4/18/2020
+Cumberland,117,,,4/18/2020
+Johnston,74,,,4/18/2020
+North Kingstown,69,,,4/18/2020
+Coventry,67,,,4/18/2020
+Smithfield,60,,,4/18/2020
+West Warwick,59,,,4/18/2020
+South Kingstown,43,,,4/18/2020
+Lincoln,41,,,4/18/2020
+Burrillville,36,,,4/18/2020
+Tiverton,29,,,4/18/2020
+Bristol,26,,,4/18/2020
+Westerly,26,,,4/18/2020
+Barrington,24,,,4/18/2020
+Newport,22,,,4/18/2020
+East Greenwich,20,,,4/18/2020
+Portsmouth,19,,,4/18/2020
+Middletown,18,,,4/18/2020
+Narragansett,18,,,4/18/2020
+Scituate,15,,,4/18/2020
+North Smithfield,14,,,4/18/2020
+Exeter,11,,,4/18/2020
+Little Compton,9,,,4/18/2020
+Warren,9,,,4/18/2020
+West Greenwich,9,,,4/18/2020
+Foster,8,,,4/18/2020
+Glocester,8,,,4/18/2020
+Charlestown,6,,,4/18/2020
+Jamestown,6,,,4/18/2020
+Richmond,6,,,4/18/2020
+Hopkinton,5,,,4/18/2020
+New Shoreham,0,,,4/18/2020
+Providence,1317,,,4/19/2020
+Pawtucket,445,,,4/19/2020
+Cranston,294,,,4/19/2020
+North Providence,286,,,4/19/2020
+East Providence,231,,,4/19/2020
+Warwick,177,,,4/19/2020
+Woonsocket,153,,,4/19/2020
+Central Falls,147,,,4/19/2020
+Cumberland,123,,,4/19/2020
+Smithfield,90,,,4/19/2020
+Johnston,83,,,4/19/2020
+North Kingstown,72,,,4/19/2020
+Coventry,70,,,4/19/2020
+West Warwick,65,,,4/19/2020
+South Kingstown,44,,,4/19/2020
+Lincoln,42,,,4/19/2020
+Burrillville,36,,,4/19/2020
+Tiverton,30,,,4/19/2020
+Bristol,28,,,4/19/2020
+Barrington,26,,,4/19/2020
+Westerly,26,,,4/19/2020
+Newport,23,,,4/19/2020
+East Greenwich,20,,,4/19/2020
+Portsmouth,19,,,4/19/2020
+Middletown,18,,,4/19/2020
+Narragansett,18,,,4/19/2020
+Scituate,15,,,4/19/2020
+North Smithfield,14,,,4/19/2020
+Exeter,11,,,4/19/2020
+Warren,11,,,4/19/2020
+Little Compton,9,,,4/19/2020
+West Greenwich,9,,,4/19/2020
+Foster,8,,,4/19/2020
+Glocester,8,,,4/19/2020
+Charlestown,6,,,4/19/2020
+Jamestown,6,,,4/19/2020
+Richmond,6,,,4/19/2020
+Hopkinton,5,,,4/19/2020
+New Shoreham,0,,,4/19/2020
+Providence,1399,,,4/20/2020
+Pawtucket,464,,,4/20/2020
+Cranston,309,,,4/20/2020
+North Providence,301,,,4/20/2020
+East Providence,246,,,4/20/2020
+Warwick,187,,,4/20/2020
+Central Falls,169,,,4/20/2020
+Woonsocket,158,,,4/20/2020
+Cumberland,125,,,4/20/2020
+Smithfield,96,,,4/20/2020
+Johnston,85,,,4/20/2020
+Coventry,75,,,4/20/2020
+North Kingstown,75,,,4/20/2020
+West Warwick,73,,,4/20/2020
+South Kingstown,46,,,4/20/2020
+Lincoln,44,,,4/20/2020
+Burrillville,42,,,4/20/2020
+Bristol,31,,,4/20/2020
+Tiverton,31,,,4/20/2020
+Westerly,30,,,4/20/2020
+Barrington,25,,,4/20/2020
+Newport,23,,,4/20/2020
+East Greenwich,22,,,4/20/2020
+North Smithfield,22,,,4/20/2020
+Middletown,19,,,4/20/2020
+Portsmouth,19,,,4/20/2020
+Narragansett,18,,,4/20/2020
+Scituate,15,,,4/20/2020
+Exeter,11,,,4/20/2020
+Warren,11,,,4/20/2020
+Little Compton,9,,,4/20/2020
+West Greenwich,9,,,4/20/2020
+Foster,8,,,4/20/2020
+Glocester,8,,,4/20/2020
+Charlestown,7,,,4/20/2020
+Jamestown,6,,,4/20/2020
+Richmond,6,,,4/20/2020
+Hopkinton,5,,,4/20/2020
+New Shoreham,0,,,4/20/2020
+Providence,1524,,,2020-04-21
+Pawtucket,496,,,2020-04-21
+Cranston,331,,,2020-04-21
+North Providence,314,,,2020-04-21
+East Providence,251,,,2020-04-21
+Warwick,195,,,2020-04-21
+Central Falls,183,,,2020-04-21
+Woonsocket,161,,,2020-04-21
+Cumberland,129,,,2020-04-21
+Smithfield,99,,,2020-04-21
+Johnston,93,,,2020-04-21
+Coventry,81,,,2020-04-21
+North Kingstown,81,,,2020-04-21
+West Warwick,77,,,2020-04-21
+South Kingstown,48,,,2020-04-21
+Lincoln,45,,,2020-04-21
+Burrillville,43,,,2020-04-21
+Bristol,32,,,2020-04-21
+Tiverton,32,,,2020-04-21
+Westerly,30,,,2020-04-21
+Barrington,24,,,2020-04-21
+East Greenwich,24,,,2020-04-21
+Newport,23,,,2020-04-21
+North Smithfield,23,,,2020-04-21
+Middletown,20,,,2020-04-21
+Narragansett,20,,,2020-04-21
+Portsmouth,19,,,2020-04-21
+Scituate,16,,,2020-04-21
+Exeter,12,,,2020-04-21
+Warren,12,,,2020-04-21
+Glocester,10,,,2020-04-21
+Foster,9,,,2020-04-21
+Little Compton,9,,,2020-04-21
+West Greenwich,9,,,2020-04-21
+Charlestown,7,,,2020-04-21
+Jamestown,7,,,2020-04-21
+Richmond,6,,,2020-04-21
+Hopkinton,5,,,2020-04-21
+New Shoreham,0,,,2020-04-21
+Barrington,26,,,2020-04-22
+Bristol,45,,,2020-04-22
+Burrillville,45,,,2020-04-22
+Central Falls,209,,,2020-04-22
+Charlestown,7,,,2020-04-22
+Coventry,90,,,2020-04-22
+Cranston,369,,,2020-04-22
+Cumberland,140,,,2020-04-22
+East Greenwich,25,,,2020-04-22
+East Providence,272,,,2020-04-22
+Exeter,13,,,2020-04-22
+Foster,8,,,2020-04-22
+Glocester,10,,,2020-04-22
+Hopkinton,5,,,2020-04-22
+Jamestown,7,,,2020-04-22
+Johnston,106,,,2020-04-22
+Lincoln,51,,,2020-04-22
+Little Compton,9,,,2020-04-22
+Middletown,21,,,2020-04-22
+Narragansett,21,,,2020-04-22
+New Shoreham,0,,,2020-04-22
+Newport,25,,,2020-04-22
+North Kingstown,88,,,2020-04-22
+North Providence,337,,,2020-04-22
+North Smithfield,24,,,2020-04-22
+Pawtucket,540,,,2020-04-22
+Portsmouth,20,,,2020-04-22
+Providence,1658,,,2020-04-22
+Richmond,6,,,2020-04-22
+Scituate,21,,,2020-04-22
+Smithfield,102,,,2020-04-22
+South Kingstown,49,,,2020-04-22
+Tiverton,32,,,2020-04-22
+Warren,17,,,2020-04-22
+Warwick,210,,,2020-04-22
+West Greenwich,9,,,2020-04-22
+West Warwick,78,,,2020-04-22
+Westerly,30,,,2020-04-22
+Woonsocket,172,,,2020-04-22
+Pending further information,671,,,2020-04-22
+TOTAL,5569,,,2020-04-22
+Barrington,26,,,2020-04-23
+Bristol,47,,,2020-04-23
+Burrillville,45,,,2020-04-23
+Central Falls,239,,,2020-04-23
+Charlestown,7,,,2020-04-23
+Coventry,88,,,2020-04-23
+Cranston,386,,,2020-04-23
+Cumberland,145,,,2020-04-23
+East Greenwich,28,,,2020-04-23
+East Providence,281,,,2020-04-23
+Exeter,13,,,2020-04-23
+Foster,8,,,2020-04-23
+Glocester,12,,,2020-04-23
+Hopkinton,6,,,2020-04-23
+Jamestown,7,,,2020-04-23
+Johnston,111,,,2020-04-23
+Lincoln,54,,,2020-04-23
+Little Compton,9,,,2020-04-23
+Middletown,21,,,2020-04-23
+Narragansett,23,,,2020-04-23
+New Shoreham,0,,,2020-04-23
+Newport,27,,,2020-04-23
+North Kingstown,109,,,2020-04-23
+North Providence,345,,,2020-04-23
+North Smithfield,25,,,2020-04-23
+Pawtucket,570,,,2020-04-23
+Portsmouth,21,,,2020-04-23
+Providence,1817,,,2020-04-23
+Richmond,8,,,2020-04-23
+Scituate,20,,,2020-04-23
+Smithfield,115,,,2020-04-23
+South Kingstown,59,,,2020-04-23
+Tiverton,32,,,2020-04-23
+Warren,22,,,2020-04-23
+Warwick,218,,,2020-04-23
+West Greenwich,9,,,2020-04-23
+West Warwick,89,,,2020-04-23
+Westerly,31,,,2020-04-23
+Woonsocket,177,,,2020-04-23
+Pending further information,626,,,2020-04-23
+TOTAL,5877,,,2020-04-23
+Barrington,26,,,2020-04-24
+Bristol,49,,,2020-04-24
+Burrillville,48,,,2020-04-24
+Central Falls,265,,,2020-04-24
+Charlestown,7,,,2020-04-24
+Coventry,95,,,2020-04-24
+Cranston,408,,,2020-04-24
+Cumberland,147,,,2020-04-24
+East Greenwich,31,,,2020-04-24
+East Providence,291,,,2020-04-24
+Exeter,13,,,2020-04-24
+Foster,8,,,2020-04-24
+Glocester,12,,,2020-04-24
+Hopkinton,7,,,2020-04-24
+Jamestown,7,,,2020-04-24
+Johnston,116,,,2020-04-24
+Lincoln,57,,,2020-04-24
+Little Compton,10,,,2020-04-24
+Middletown,21,,,2020-04-24
+Narragansett,25,,,2020-04-24
+New Shoreham,0,,,2020-04-24
+Newport,29,,,2020-04-24
+North Kingstown,116,,,2020-04-24
+North Providence,358,,,2020-04-24
+North Smithfield,26,,,2020-04-24
+Pawtucket,600,,,2020-04-24
+Portsmouth,22,,,2020-04-24
+Providence,1937,,,2020-04-24
+Richmond,10,,,2020-04-24
+Scituate,20,,,2020-04-24
+Smithfield,119,,,2020-04-24
+South Kingstown,62,,,2020-04-24
+Tiverton,35,,,2020-04-24
+Warren,27,,,2020-04-24
+Warwick,234,,,2020-04-24
+West Greenwich,11,,,2020-04-24
+West Warwick,95,,,2020-04-24
+Westerly,32,,,2020-04-24
+Woonsocket,191,,,2020-04-24
+Pending further information,739,,,2020-04-24
+TOTAL,6307,,,2020-04-24
+Barrington,27,,,2020-04-25
+Bristol,53,,,2020-04-25
+Burrillville,52,,,2020-04-25
+Central Falls,291,,,2020-04-25
+Charlestown,7,,,2020-04-25
+Coventry,95,,,2020-04-25
+Cranston,416,,,2020-04-25
+Cumberland,155,,,2020-04-25
+East Greenwich,33,,,2020-04-25
+East Providence,301,,,2020-04-25
+Exeter,15,,,2020-04-25
+Foster,9,,,2020-04-25
+Glocester,13,,,2020-04-25
+Hopkinton,7,,,2020-04-25
+Jamestown,7,,,2020-04-25
+Johnston,120,,,2020-04-25
+Lincoln,70,,,2020-04-25
+Little Compton,10,,,2020-04-25
+Middletown,22,,,2020-04-25
+Narragansett,25,,,2020-04-25
+New Shoreham,0,,,2020-04-25
+Newport,31,,,2020-04-25
+North Kingstown,120,,,2020-04-25
+North Providence,377,,,2020-04-25
+North Smithfield,25,,,2020-04-25
+Pawtucket,643,,,2020-04-25
+Portsmouth,22,,,2020-04-25
+Providence,2085,,,2020-04-25
+Richmond,11,,,2020-04-25
+Scituate,21,,,2020-04-25
+Smithfield,126,,,2020-04-25
+South Kingstown,63,,,2020-04-25
+Tiverton,38,,,2020-04-25
+Warren,27,,,2020-04-25
+Warwick,259,,,2020-04-25
+West Greenwich,12,,,2020-04-25
+West Warwick,97,,,2020-04-25
+Westerly,34,,,2020-04-25
+Woonsocket,212,,,2020-04-25
+Pending further information,734,,,2020-04-25
+TOTAL,6666,,,2020-04-25
+Barrington,29,,,2020-04-26
+Bristol,53,,,2020-04-26
+Burrillville,55,,,2020-04-26
+Central Falls,322,,,2020-04-26
+Charlestown,7,,,2020-04-26
+Coventry,95,,,2020-04-26
+Cranston,429,,,2020-04-26
+Cumberland,166,,,2020-04-26
+East Greenwich,34,,,2020-04-26
+East Providence,316,,,2020-04-26
+Exeter,15,,,2020-04-26
+Foster,9,,,2020-04-26
+Glocester,13,,,2020-04-26
+Hopkinton,8,,,2020-04-26
+Jamestown,7,,,2020-04-26
+Johnston,124,,,2020-04-26
+Lincoln,72,,,2020-04-26
+Little Compton,10,,,2020-04-26
+Middletown,23,,,2020-04-26
+Narragansett,25,,,2020-04-26
+New Shoreham,0,,,2020-04-26
+Newport,31,,,2020-04-26
+North Kingstown,121,,,2020-04-26
+North Providence,394,,,2020-04-26
+North Smithfield,29,,,2020-04-26
+Pawtucket,683,,,2020-04-26
+Portsmouth,22,,,2020-04-26
+Providence,2256,,,2020-04-26
+Richmond,13,,,2020-04-26
+Scituate,22,,,2020-04-26
+Smithfield,142,,,2020-04-26
+South Kingstown,67,,,2020-04-26
+Tiverton,42,,,2020-04-26
+Warren,29,,,2020-04-26
+Warwick,274,,,2020-04-26
+West Greenwich,12,,,2020-04-26
+West Warwick,111,,,2020-04-26
+Westerly,36,,,2020-04-26
+Woonsocket,234,,,2020-04-26
+Pending further information,670,,,2020-04-26
+TOTAL,7001,,,2020-04-26
+Barrington,30,,,2020-04-27
+Bristol,54,,,2020-04-27
+Burrillville,56,,,2020-04-27
+Central Falls,338,,,2020-04-27
+Charlestown,7,,,2020-04-27
+Coventry,97,,,2020-04-27
+Cranston,437,,,2020-04-27
+Cumberland,169,,,2020-04-27
+East Greenwich,37,,,2020-04-27
+East Providence,318,,,2020-04-27
+Exeter,16,,,2020-04-27
+Foster,10,,,2020-04-27
+Glocester,17,,,2020-04-27
+Hopkinton,8,,,2020-04-27
+Jamestown,7,,,2020-04-27
+Johnston,125,,,2020-04-27
+Lincoln,74,,,2020-04-27
+Little Compton,10,,,2020-04-27
+Middletown,25,,,2020-04-27
+Narragansett,29,,,2020-04-27
+New Shoreham,0,,,2020-04-27
+Newport,31,,,2020-04-27
+North Kingstown,124,,,2020-04-27
+North Providence,402,,,2020-04-27
+North Smithfield,31,,,2020-04-27
+Pawtucket,708,,,2020-04-27
+Portsmouth,22,,,2020-04-27
+Providence,2318,,,2020-04-27
+Richmond,13,,,2020-04-27
+Scituate,22,,,2020-04-27
+Smithfield,146,,,2020-04-27
+South Kingstown,68,,,2020-04-27
+Tiverton,43,,,2020-04-27
+Warren,31,,,2020-04-27
+Warwick,301,,,2020-04-27
+West Greenwich,13,,,2020-04-27
+West Warwick,117,,,2020-04-27
+Westerly,38,,,2020-04-27
+Woonsocket,256,,,2020-04-27
+Pending further information,780,,,2020-04-27
+TOTAL,7329,,,2020-04-27
+Barrington,29,,,2020-04-28
+Bristol,54,,,2020-04-28
+Burrillville,62,,,2020-04-28
+Central Falls,349,,,2020-04-28
+Charlestown,9,,,2020-04-28
+Coventry,98,,,2020-04-28
+Cranston,446,,,2020-04-28
+Cumberland,170,,,2020-04-28
+East Greenwich,38,,,2020-04-28
+East Providence,323,,,2020-04-28
+Exeter,17,,,2020-04-28
+Foster,10,,,2020-04-28
+Glocester,17,,,2020-04-28
+Hopkinton,8,,,2020-04-28
+Jamestown,7,,,2020-04-28
+Johnston,126,,,2020-04-28
+Lincoln,76,,,2020-04-28
+Little Compton,10,,,2020-04-28
+Middletown,25,,,2020-04-28
+Narragansett,29,,,2020-04-28
+New Shoreham,0,,,2020-04-28
+Newport,31,,,2020-04-28
+North Kingstown,130,,,2020-04-28
+North Providence,409,,,2020-04-28
+North Smithfield,32,,,2020-04-28
+Pawtucket,721,,,2020-04-28
+Portsmouth,22,,,2020-04-28
+Providence,2348,,,2020-04-28
+Richmond,13,,,2020-04-28
+Scituate,22,,,2020-04-28
+Smithfield,147,,,2020-04-28
+South Kingstown,68,,,2020-04-28
+Tiverton,43,,,2020-04-28
+Warren,31,,,2020-04-28
+Warwick,305,,,2020-04-28
+West Greenwich,14,,,2020-04-28
+West Warwick,119,,,2020-04-28
+Westerly,39,,,2020-04-28
+Woonsocket,262,,,2020-04-28
+Pending further information,778,,,2020-04-28
+TOTAL,7438,,,2020-04-28
+Barrington,32,,,2020-04-29
+Bristol,81,,,2020-04-29
+Burrillville,65,,,2020-04-29
+Central Falls,392,,,2020-04-29
+Charlestown,10,,,2020-04-29
+Coventry,104,,,2020-04-29
+Cranston,481,,,2020-04-29
+Cumberland,182,,,2020-04-29
+East Greenwich,39,,,2020-04-29
+East Providence,339,,,2020-04-29
+Exeter,20,,,2020-04-29
+Foster,10,,,2020-04-29
+Glocester,18,,,2020-04-29
+Hopkinton,10,,,2020-04-29
+Jamestown,8,,,2020-04-29
+Johnston,134,,,2020-04-29
+Lincoln,85,,,2020-04-29
+Little Compton,10,,,2020-04-29
+Middletown,27,,,2020-04-29
+Narragansett,30,,,2020-04-29
+New Shoreham,0,,,2020-04-29
+Newport,35,,,2020-04-29
+North Kingstown,131,,,2020-04-29
+North Providence,442,,,2020-04-29
+North Smithfield,35,,,2020-04-29
+Pawtucket,785,,,2020-04-29
+Portsmouth,23,,,2020-04-29
+Providence,2538,,,2020-04-29
+Richmond,14,,,2020-04-29
+Scituate,22,,,2020-04-29
+Smithfield,157,,,2020-04-29
+South Kingstown,67,,,2020-04-29
+Tiverton,45,,,2020-04-29
+Warren,32,,,2020-04-29
+Warwick,316,,,2020-04-29
+West Greenwich,15,,,2020-04-29
+West Warwick,124,,,2020-04-29
+Westerly,42,,,2020-04-29
+Woonsocket,282,,,2020-04-29
+Pending further information,837,,,2020-04-29
+TOTAL,8020,,,2020-04-29
+Barrington,32,,,2020-04-30
+Bristol,79,,,2020-04-30
+Burrillville,67,,,2020-04-30
+Central Falls,429,,,2020-04-30
+Charlestown,10,,,2020-04-30
+Coventry,106,,,2020-04-30
+Cranston,511,,,2020-04-30
+Cumberland,188,,,2020-04-30
+East Greenwich,43,,,2020-04-30
+East Providence,350,,,2020-04-30
+Exeter,22,,,2020-04-30
+Foster,10,,,2020-04-30
+Glocester,18,,,2020-04-30
+Hopkinton,10,,,2020-04-30
+Jamestown,8,,,2020-04-30
+Johnston,143,,,2020-04-30
+Lincoln,90,,,2020-04-30
+Little Compton,10,,,2020-04-30
+Middletown,27,,,2020-04-30
+Narragansett,31,,,2020-04-30
+New Shoreham,0,,,2020-04-30
+Newport,35,,,2020-04-30
+North Kingstown,134,,,2020-04-30
+North Providence,463,,,2020-04-30
+North Smithfield,35,,,2020-04-30
+Pawtucket,826,,,2020-04-30
+Portsmouth,23,,,2020-04-30
+Providence,2682,,,2020-04-30
+Richmond,15,,,2020-04-30
+Scituate,23,,,2020-04-30
+Smithfield,160,,,2020-04-30
+South Kingstown,66,,,2020-04-30
+Tiverton,46,,,2020-04-30
+Warren,32,,,2020-04-30
+Warwick,327,,,2020-04-30
+West Greenwich,16,,,2020-04-30
+West Warwick,130,,,2020-04-30
+Westerly,42,,,2020-04-30
+Woonsocket,295,,,2020-04-30
+Pending further information,808,,,2020-04-30
+TOTAL,8343,,,2020-04-30
+Barrington,32,,,2020-05-01
+Bristol,74,,,2020-05-01
+Burrillville,71,,,2020-05-01
+Central Falls,449,,,2020-05-01
+Charlestown,14,,,2020-05-01
+Coventry,106,,,2020-05-01
+Cranston,522,,,2020-05-01
+Cumberland,190,,,2020-05-01
+East Greenwich,44,,,2020-05-01
+East Providence,363,,,2020-05-01
+Exeter,22,,,2020-05-01
+Foster,10,,,2020-05-01
+Glocester,19,,,2020-05-01
+Hopkinton,10,,,2020-05-01
+Jamestown,8,,,2020-05-01
+Johnston,154,,,2020-05-01
+Lincoln,93,,,2020-05-01
+Little Compton,10,,,2020-05-01
+Middletown,28,,,2020-05-01
+Narragansett,31,,,2020-05-01
+New Shoreham,0,,,2020-05-01
+Newport,37,,,2020-05-01
+North Kingstown,139,,,2020-05-01
+North Providence,477,,,2020-05-01
+North Smithfield,37,,,2020-05-01
+Pawtucket,861,,,2020-05-01
+Portsmouth,24,,,2020-05-01
+Providence,2840,,,2020-05-01
+Richmond,16,,,2020-05-01
+Scituate,23,,,2020-05-01
+Smithfield,166,,,2020-05-01
+South Kingstown,66,,,2020-05-01
+Tiverton,48,,,2020-05-01
+Warren,36,,,2020-05-01
+Warwick,336,,,2020-05-01
+West Greenwich,16,,,2020-05-01
+West Warwick,136,,,2020-05-01
+Westerly,46,,,2020-05-01
+Woonsocket,304,,,2020-05-01
+Pending further information,897,,,2020-05-01
+TOTAL,8756,,,2020-05-01
+Barrington,32,,,2020-05-02
+Bristol,74,,,2020-05-02
+Burrillville,73,,,2020-05-02
+Central Falls,469,,,2020-05-02
+Charlestown,14,,,2020-05-02
+Coventry,107,,,2020-05-02
+Cranston,537,,,2020-05-02
+Cumberland,197,,,2020-05-02
+East Greenwich,47,,,2020-05-02
+East Providence,374,,,2020-05-02
+Exeter,22,,,2020-05-02
+Foster,10,,,2020-05-02
+Glocester,19,,,2020-05-02
+Hopkinton,10,,,2020-05-02
+Jamestown,8,,,2020-05-02
+Johnston,156,,,2020-05-02
+Lincoln,93,,,2020-05-02
+Little Compton,10,,,2020-05-02
+Middletown,28,,,2020-05-02
+Narragansett,31,,,2020-05-02
+New Shoreham,0,,,2020-05-02
+Newport,38,,,2020-05-02
+North Kingstown,141,,,2020-05-02
+North Providence,484,,,2020-05-02
+North Smithfield,40,,,2020-05-02
+Pawtucket,903,,,2020-05-02
+Portsmouth,24,,,2020-05-02
+Providence,2958,,,2020-05-02
+Richmond,16,,,2020-05-02
+Scituate,24,,,2020-05-02
+Smithfield,169,,,2020-05-02
+South Kingstown,69,,,2020-05-02
+Tiverton,48,,,2020-05-02
+Warren,38,,,2020-05-02
+Warwick,364,,,2020-05-02
+West Greenwich,15,,,2020-05-02
+West Warwick,142,,,2020-05-02
+Westerly,47,,,2020-05-02
+Woonsocket,316,,,2020-05-02
+Pending further information,982,,,2020-05-02
+TOTAL,9130,,,2020-05-02
+Barrington,32,,,2020-05-03
+Bristol,81,,,2020-05-03
+Burrillville,73,,,2020-05-03
+Central Falls,487,,,2020-05-03
+Charlestown,15,,,2020-05-03
+Coventry,108,,,2020-05-03
+Cranston,552,,,2020-05-03
+Cumberland,201,,,2020-05-03
+East Greenwich,47,,,2020-05-03
+East Providence,393,,,2020-05-03
+Exeter,22,,,2020-05-03
+Foster,10,,,2020-05-03
+Glocester,19,,,2020-05-03
+Hopkinton,11,,,2020-05-03
+Jamestown,8,,,2020-05-03
+Johnston,161,,,2020-05-03
+Lincoln,95,,,2020-05-03
+Little Compton,10,,,2020-05-03
+Middletown,29,,,2020-05-03
+Narragansett,31,,,2020-05-03
+New Shoreham,0,,,2020-05-03
+Newport,39,,,2020-05-03
+North Kingstown,143,,,2020-05-03
+North Providence,492,,,2020-05-03
+North Smithfield,43,,,2020-05-03
+Pawtucket,928,,,2020-05-03
+Portsmouth,24,,,2020-05-03
+Providence,3051,,,2020-05-03
+Richmond,16,,,2020-05-03
+Scituate,24,,,2020-05-03
+Smithfield,173,,,2020-05-03
+South Kingstown,71,,,2020-05-03
+Tiverton,48,,,2020-05-03
+Warren,39,,,2020-05-03
+Warwick,381,,,2020-05-03
+West Greenwich,16,,,2020-05-03
+West Warwick,145,,,2020-05-03
+Westerly,47,,,2020-05-03
+Woonsocket,326,,,2020-05-03
+Pending further information,1023,,,2020-05-03
+TOTAL,9415,,,2020-05-03
+Barrington,33,,,2020-05-04
+Bristol,82,,,2020-05-04
+Burrillville,73,,,2020-05-04
+Central Falls,503,,,2020-05-04
+Charlestown,15,,,2020-05-04
+Coventry,109,,,2020-05-04
+Cranston,564,,,2020-05-04
+Cumberland,201,,,2020-05-04
+East Greenwich,47,,,2020-05-04
+East Providence,398,,,2020-05-04
+Exeter,23,,,2020-05-04
+Foster,10,,,2020-05-04
+Glocester,19,,,2020-05-04
+Hopkinton,12,,,2020-05-04
+Jamestown,8,,,2020-05-04
+Johnston,162,,,2020-05-04
+Lincoln,99,,,2020-05-04
+Little Compton,10,,,2020-05-04
+Middletown,30,,,2020-05-04
+Narragansett,31,,,2020-05-04
+New Shoreham,0,,,2020-05-04
+Newport,40,,,2020-05-04
+North Kingstown,147,,,2020-05-04
+North Providence,496,,,2020-05-04
+North Smithfield,43,,,2020-05-04
+Pawtucket,946,,,2020-05-04
+Portsmouth,24,,,2020-05-04
+Providence,3096,,,2020-05-04
+Richmond,17,,,2020-05-04
+Scituate,24,,,2020-05-04
+Smithfield,173,,,2020-05-04
+South Kingstown,71,,,2020-05-04
+Tiverton,49,,,2020-05-04
+Warren,39,,,2020-05-04
+Warwick,384,,,2020-05-04
+West Greenwich,16,,,2020-05-04
+West Warwick,147,,,2020-05-04
+Westerly,47,,,2020-05-04
+Woonsocket,331,,,2020-05-04
+Pending further information,1079,,,2020-05-04
+TOTAL,9599,,,2020-05-04
+Barrington,33,,,2020-05-11
+Bristol,91,,,2020-05-11
+Burrillville,77,,,2020-05-11
+Central Falls,615,,,2020-05-11
+Charlestown,15,,,2020-05-11
+Coventry,134,,,2020-05-11
+Cranston,662,,,2020-05-11
+Cumberland,231,,,2020-05-11
+East Greenwich,60,,,2020-05-11
+East Providence,555,,,2020-05-11
+Exeter,33,,,2020-05-11
+Foster,12,,,2020-05-11
+Glocester,28,,,2020-05-11
+Hopkinton,10,,,2020-05-11
+Jamestown,8,,,2020-05-11
+Johnston,212,,,2020-05-11
+Lincoln,122,,,2020-05-11
+Little Compton,12,,,2020-05-11
+Middletown,32,,,2020-05-11
+Narragansett,35,,,2020-05-11
+New Shoreham,0,,,2020-05-11
+Newport,46,,,2020-05-11
+North Kingstown,172,,,2020-05-11
+North Providence,587,,,2020-05-11
+North Smithfield,69,,,2020-05-11
+Pawtucket,1114,,,2020-05-11
+Portsmouth,27,,,2020-05-11
+Providence,3719,,,2020-05-11
+Richmond,17,,,2020-05-11
+Scituate,28,,,2020-05-11
+Smithfield,216,,,2020-05-11
+South Kingstown,78,,,2020-05-11
+Tiverton,57,,,2020-05-11
+Warren,47,,,2020-05-11
+Warwick,446,,,2020-05-11
+West Greenwich,20,,,2020-05-11
+West Warwick,199,,,2020-05-11
+Westerly,46,,,2020-05-11
+Woonsocket,427,,,2020-05-11
+Pending further information,"1,037",,,2020-05-11
+TOTAL,"11,330",,,2020-05-11
+Barrington,33,,,2020-05-11
+Bristol,91,,,2020-05-11
+Burrillville,77,,,2020-05-11
+Central Falls,615,,,2020-05-11
+Charlestown,15,,,2020-05-11
+Coventry,134,,,2020-05-11
+Cranston,662,,,2020-05-11
+Cumberland,231,,,2020-05-11
+East Greenwich,60,,,2020-05-11
+East Providence,555,,,2020-05-11
+Exeter,33,,,2020-05-11
+Foster,12,,,2020-05-11
+Glocester,28,,,2020-05-11
+Hopkinton,10,,,2020-05-11
+Jamestown,8,,,2020-05-11
+Johnston,212,,,2020-05-11
+Lincoln,122,,,2020-05-11
+Little Compton,12,,,2020-05-11
+Middletown,32,,,2020-05-11
+Narragansett,35,,,2020-05-11
+New Shoreham,0,,,2020-05-11
+Newport,46,,,2020-05-11
+North Kingstown,172,,,2020-05-11
+North Providence,587,,,2020-05-11
+North Smithfield,69,,,2020-05-11
+Pawtucket,1114,,,2020-05-11
+Portsmouth,27,,,2020-05-11
+Providence,3719,,,2020-05-11
+Richmond,17,,,2020-05-11
+Scituate,28,,,2020-05-11
+Smithfield,216,,,2020-05-11
+South Kingstown,78,,,2020-05-11
+Tiverton,57,,,2020-05-11
+Warren,47,,,2020-05-11
+Warwick,446,,,2020-05-11
+West Greenwich,20,,,2020-05-11
+West Warwick,199,,,2020-05-11
+Westerly,46,,,2020-05-11
+Woonsocket,427,,,2020-05-11
+Pending further information,"1,037",,,2020-05-11
+TOTAL,"11,330",,,2020-05-11
+Barrington,34,,,2020-05-12
+Bristol,92,,,2020-05-12
+Burrillville,77,,,2020-05-12
+Central Falls,630,,,2020-05-12
+Charlestown,15,,,2020-05-12
+Coventry,132,,,2020-05-12
+Cranston,658,,,2020-05-12
+Cumberland,230,,,2020-05-12
+East Greenwich,58,,,2020-05-12
+East Providence,569,,,2020-05-12
+Exeter,33,,,2020-05-12
+Foster,12,,,2020-05-12
+Glocester,28,,,2020-05-12
+Hopkinton,11,,,2020-05-12
+Jamestown,8,,,2020-05-12
+Johnston,221,,,2020-05-12
+Lincoln,124,,,2020-05-12
+Little Compton,12,,,2020-05-12
+Middletown,32,,,2020-05-12
+Narragansett,35,,,2020-05-12
+New Shoreham,0,,,2020-05-12
+Newport,47,,,2020-05-12
+North Kingstown,172,,,2020-05-12
+North Providence,595,,,2020-05-12
+North Smithfield,69,,,2020-05-12
+Pawtucket,1133,,,2020-05-12
+Portsmouth,27,,,2020-05-12
+Providence,3770,,,2020-05-12
+Richmond,17,,,2020-05-12
+Scituate,27,,,2020-05-12
+Smithfield,221,,,2020-05-12
+South Kingstown,82,,,2020-05-12
+Tiverton,59,,,2020-05-12
+Warren,46,,,2020-05-12
+Warwick,440,,,2020-05-12
+West Greenwich,20,,,2020-05-12
+West Warwick,200,,,2020-05-12
+Westerly,46,,,2020-05-12
+Woonsocket,434,,,2020-05-12
+Pending further information,"1,008",,,2020-05-12
+TOTAL,"11,425",,,2020-05-12
+Barrington,34,,,2020-05-13
+Bristol,94,,,2020-05-13
+Burrillville,79,,,2020-05-13
+Central Falls,668,,,2020-05-13
+Charlestown,17,,,2020-05-13
+Coventry,134,,,2020-05-13
+Cranston,685,,,2020-05-13
+Cumberland,238,,,2020-05-13
+East Greenwich,59,,,2020-05-13
+East Providence,580,,,2020-05-13
+Exeter,32,,,2020-05-13
+Foster,12,,,2020-05-13
+Glocester,31,,,2020-05-13
+Hopkinton,12,,,2020-05-13
+Jamestown,8,,,2020-05-13
+Johnston,232,,,2020-05-13
+Lincoln,127,,,2020-05-13
+Little Compton,12,,,2020-05-13
+Middletown,33,,,2020-05-13
+Narragansett,36,,,2020-05-13
+New Shoreham,1,,,2020-05-13
+Newport,50,,,2020-05-13
+North Kingstown,177,,,2020-05-13
+North Providence,608,,,2020-05-13
+North Smithfield,70,,,2020-05-13
+Pawtucket,1165,,,2020-05-13
+Portsmouth,29,,,2020-05-13
+Providence,3913,,,2020-05-13
+Richmond,16,,,2020-05-13
+Scituate,27,,,2020-05-13
+Smithfield,223,,,2020-05-13
+South Kingstown,87,,,2020-05-13
+Tiverton,65,,,2020-05-13
+Warren,44,,,2020-05-13
+Warwick,461,,,2020-05-13
+West Greenwich,21,,,2020-05-13
+West Warwick,208,,,2020-05-13
+Westerly,47,,,2020-05-13
+Woonsocket,454,,,2020-05-13
+Pending further information,968,,,2020-05-13
+TOTAL,"11,757",,,2020-05-13
+Barrington,34,,,2020-05-13
+Bristol,94,,,2020-05-13
+Burrillville,79,,,2020-05-13
+Central Falls,668,,,2020-05-13
+Charlestown,17,,,2020-05-13
+Coventry,134,,,2020-05-13
+Cranston,685,,,2020-05-13
+Cumberland,238,,,2020-05-13
+East Greenwich,59,,,2020-05-13
+East Providence,580,,,2020-05-13
+Exeter,32,,,2020-05-13
+Foster,12,,,2020-05-13
+Glocester,31,,,2020-05-13
+Hopkinton,12,,,2020-05-13
+Jamestown,8,,,2020-05-13
+Johnston,232,,,2020-05-13
+Lincoln,127,,,2020-05-13
+Little Compton,12,,,2020-05-13
+Middletown,33,,,2020-05-13
+Narragansett,36,,,2020-05-13
+New Shoreham,1,,,2020-05-13
+Newport,50,,,2020-05-13
+North Kingstown,177,,,2020-05-13
+North Providence,608,,,2020-05-13
+North Smithfield,70,,,2020-05-13
+Pawtucket,1165,,,2020-05-13
+Portsmouth,29,,,2020-05-13
+Providence,3913,,,2020-05-13
+Richmond,16,,,2020-05-13
+Scituate,27,,,2020-05-13
+Smithfield,223,,,2020-05-13
+South Kingstown,87,,,2020-05-13
+Tiverton,65,,,2020-05-13
+Warren,44,,,2020-05-13
+Warwick,461,,,2020-05-13
+West Greenwich,21,,,2020-05-13
+West Warwick,208,,,2020-05-13
+Westerly,47,,,2020-05-13
+Woonsocket,454,,,2020-05-13
+Pending further information,968,,,2020-05-13
+TOTAL,"11,757",,,2020-05-13
+Barrington,34,,,2020-05-13
+Bristol,94,,,2020-05-13
+Burrillville,79,,,2020-05-13
+Central Falls,668,,,2020-05-13
+Charlestown,17,,,2020-05-13
+Coventry,134,,,2020-05-13
+Cranston,685,,,2020-05-13
+Cumberland,238,,,2020-05-13
+East Greenwich,59,,,2020-05-13
+East Providence,580,,,2020-05-13
+Exeter,32,,,2020-05-13
+Foster,12,,,2020-05-13
+Glocester,31,,,2020-05-13
+Hopkinton,12,,,2020-05-13
+Jamestown,8,,,2020-05-13
+Johnston,232,,,2020-05-13
+Lincoln,127,,,2020-05-13
+Little Compton,12,,,2020-05-13
+Middletown,33,,,2020-05-13
+Narragansett,36,,,2020-05-13
+New Shoreham,1,,,2020-05-13
+Newport,50,,,2020-05-13
+North Kingstown,177,,,2020-05-13
+North Providence,608,,,2020-05-13
+North Smithfield,70,,,2020-05-13
+Pawtucket,1165,,,2020-05-13
+Portsmouth,29,,,2020-05-13
+Providence,3913,,,2020-05-13
+Richmond,16,,,2020-05-13
+Scituate,27,,,2020-05-13
+Smithfield,223,,,2020-05-13
+South Kingstown,87,,,2020-05-13
+Tiverton,65,,,2020-05-13
+Warren,44,,,2020-05-13
+Warwick,461,,,2020-05-13
+West Greenwich,21,,,2020-05-13
+West Warwick,208,,,2020-05-13
+Westerly,47,,,2020-05-13
+Woonsocket,454,,,2020-05-13
+Pending further information,968,,,2020-05-13
+TOTAL,"11,757",,,2020-05-13
+Barrington,34,,,2020-05-13
+Bristol,94,,,2020-05-13
+Burrillville,79,,,2020-05-13
+Central Falls,668,,,2020-05-13
+Charlestown,17,,,2020-05-13
+Coventry,134,,,2020-05-13
+Cranston,685,,,2020-05-13
+Cumberland,238,,,2020-05-13
+East Greenwich,59,,,2020-05-13
+East Providence,580,,,2020-05-13
+Exeter,32,,,2020-05-13
+Foster,12,,,2020-05-13
+Glocester,31,,,2020-05-13
+Hopkinton,12,,,2020-05-13
+Jamestown,8,,,2020-05-13
+Johnston,232,,,2020-05-13
+Lincoln,127,,,2020-05-13
+Little Compton,12,,,2020-05-13
+Middletown,33,,,2020-05-13
+Narragansett,36,,,2020-05-13
+New Shoreham,1,,,2020-05-13
+Newport,50,,,2020-05-13
+North Kingstown,177,,,2020-05-13
+North Providence,608,,,2020-05-13
+North Smithfield,70,,,2020-05-13
+Pawtucket,1165,,,2020-05-13
+Portsmouth,29,,,2020-05-13
+Providence,3913,,,2020-05-13
+Richmond,16,,,2020-05-13
+Scituate,27,,,2020-05-13
+Smithfield,223,,,2020-05-13
+South Kingstown,87,,,2020-05-13
+Tiverton,65,,,2020-05-13
+Warren,44,,,2020-05-13
+Warwick,461,,,2020-05-13
+West Greenwich,21,,,2020-05-13
+West Warwick,208,,,2020-05-13
+Westerly,47,,,2020-05-13
+Woonsocket,454,,,2020-05-13
+Pending further information,968,,,2020-05-13
+TOTAL,"11,757",,,2020-05-13
+Barrington,34,,,2020-05-13
+Bristol,94,,,2020-05-13
+Burrillville,79,,,2020-05-13
+Central Falls,668,,,2020-05-13
+Charlestown,17,,,2020-05-13
+Coventry,134,,,2020-05-13
+Cranston,685,,,2020-05-13
+Cumberland,238,,,2020-05-13
+East Greenwich,59,,,2020-05-13
+East Providence,580,,,2020-05-13
+Exeter,32,,,2020-05-13
+Foster,12,,,2020-05-13
+Glocester,31,,,2020-05-13
+Hopkinton,12,,,2020-05-13
+Jamestown,8,,,2020-05-13
+Johnston,232,,,2020-05-13
+Lincoln,127,,,2020-05-13
+Little Compton,12,,,2020-05-13
+Middletown,33,,,2020-05-13
+Narragansett,36,,,2020-05-13
+New Shoreham,1,,,2020-05-13
+Newport,50,,,2020-05-13
+North Kingstown,177,,,2020-05-13
+North Providence,608,,,2020-05-13
+North Smithfield,70,,,2020-05-13
+Pawtucket,1165,,,2020-05-13
+Portsmouth,29,,,2020-05-13
+Providence,3913,,,2020-05-13
+Richmond,16,,,2020-05-13
+Scituate,27,,,2020-05-13
+Smithfield,223,,,2020-05-13
+South Kingstown,87,,,2020-05-13
+Tiverton,65,,,2020-05-13
+Warren,44,,,2020-05-13
+Warwick,461,,,2020-05-13
+West Greenwich,21,,,2020-05-13
+West Warwick,208,,,2020-05-13
+Westerly,47,,,2020-05-13
+Woonsocket,454,,,2020-05-13
+Pending further information,968,,,2020-05-13
+TOTAL,"11,757",,,2020-05-13
+Barrington,34,,,2020-05-13
+Bristol,94,,,2020-05-13
+Burrillville,79,,,2020-05-13
+Central Falls,668,,,2020-05-13
+Charlestown,17,,,2020-05-13
+Coventry,134,,,2020-05-13
+Cranston,685,,,2020-05-13
+Cumberland,238,,,2020-05-13
+East Greenwich,59,,,2020-05-13
+East Providence,580,,,2020-05-13
+Exeter,32,,,2020-05-13
+Foster,12,,,2020-05-13
+Glocester,31,,,2020-05-13
+Hopkinton,12,,,2020-05-13
+Jamestown,8,,,2020-05-13
+Johnston,232,,,2020-05-13
+Lincoln,127,,,2020-05-13
+Little Compton,12,,,2020-05-13
+Middletown,33,,,2020-05-13
+Narragansett,36,,,2020-05-13
+New Shoreham,1,,,2020-05-13
+Newport,50,,,2020-05-13
+North Kingstown,177,,,2020-05-13
+North Providence,608,,,2020-05-13
+North Smithfield,70,,,2020-05-13
+Pawtucket,1165,,,2020-05-13
+Portsmouth,29,,,2020-05-13
+Providence,3913,,,2020-05-13
+Richmond,16,,,2020-05-13
+Scituate,27,,,2020-05-13
+Smithfield,223,,,2020-05-13
+South Kingstown,87,,,2020-05-13
+Tiverton,65,,,2020-05-13
+Warren,44,,,2020-05-13
+Warwick,461,,,2020-05-13
+West Greenwich,21,,,2020-05-13
+West Warwick,208,,,2020-05-13
+Westerly,47,,,2020-05-13
+Woonsocket,454,,,2020-05-13
+Pending further information,968,,,2020-05-13
+TOTAL,"11,757",,,2020-05-13
+Barrington,34,,,2020-05-13
+Bristol,94,,,2020-05-13
+Burrillville,79,,,2020-05-13
+Central Falls,668,,,2020-05-13
+Charlestown,17,,,2020-05-13
+Coventry,134,,,2020-05-13
+Cranston,685,,,2020-05-13
+Cumberland,238,,,2020-05-13
+East Greenwich,59,,,2020-05-13
+East Providence,580,,,2020-05-13
+Exeter,32,,,2020-05-13
+Foster,12,,,2020-05-13
+Glocester,31,,,2020-05-13
+Hopkinton,12,,,2020-05-13
+Jamestown,8,,,2020-05-13
+Johnston,232,,,2020-05-13
+Lincoln,127,,,2020-05-13
+Little Compton,12,,,2020-05-13
+Middletown,33,,,2020-05-13
+Narragansett,36,,,2020-05-13
+New Shoreham,1,,,2020-05-13
+Newport,50,,,2020-05-13
+North Kingstown,177,,,2020-05-13
+North Providence,608,,,2020-05-13
+North Smithfield,70,,,2020-05-13
+Pawtucket,1165,,,2020-05-13
+Portsmouth,29,,,2020-05-13
+Providence,3913,,,2020-05-13
+Richmond,16,,,2020-05-13
+Scituate,27,,,2020-05-13
+Smithfield,223,,,2020-05-13
+South Kingstown,87,,,2020-05-13
+Tiverton,65,,,2020-05-13
+Warren,44,,,2020-05-13
+Warwick,461,,,2020-05-13
+West Greenwich,21,,,2020-05-13
+West Warwick,208,,,2020-05-13
+Westerly,47,,,2020-05-13
+Woonsocket,454,,,2020-05-13
+Pending further information,968,,,2020-05-13
+TOTAL,"11,757",,,2020-05-13
+Barrington,41,,,2020-05-20
+Bristol,101,,,2020-05-20
+Burrillville,80,,,2020-05-20
+Central Falls,734,,,2020-05-20
+Charlestown,16,,,2020-05-20
+Coventry,148,,,2020-05-20
+Cranston,759,,,2020-05-20
+Cumberland,238,,,2020-05-20
+East Greenwich,66,,,2020-05-20
+East Providence,622,,,2020-05-20
+Exeter,34,,,2020-05-20
+Foster,15,,,2020-05-20
+Glocester,34,,,2020-05-20
+Hopkinton,13,,,2020-05-20
+Jamestown,8,,,2020-05-20
+Johnston,296,,,2020-05-20
+Lincoln,133,,,2020-05-20
+Little Compton,12,,,2020-05-20
+Middletown,32,,,2020-05-20
+Narragansett,37,,,2020-05-20
+New Shoreham,0,,,2020-05-20
+Newport,55,,,2020-05-20
+North Kingstown,211,,,2020-05-20
+North Providence,649,,,2020-05-20
+North Smithfield,94,,,2020-05-20
+Pawtucket,1266,,,2020-05-20
+Portsmouth,30,,,2020-05-20
+Providence,4290,,,2020-05-20
+Richmond,17,,,2020-05-20
+Scituate,30,,,2020-05-20
+Smithfield,235,,,2020-05-20
+South Kingstown,86,,,2020-05-20
+Tiverton,69,,,2020-05-20
+Warren,56,,,2020-05-20
+Warwick,501,,,2020-05-20
+West Greenwich,19,,,2020-05-20
+West Warwick,224,,,2020-05-20
+Westerly,48,,,2020-05-20
+Woonsocket,501,,,2020-05-20
+Pending further information,"1,050",,,2020-05-20
+TOTAL,"12,851",,,2020-05-20
+Barrington,43,,,2020-05-21
+Bristol,103,,,2020-05-21
+Burrillville,82,,,2020-05-21
+Central Falls,744,,,2020-05-21
+Charlestown,16,,,2020-05-21
+Coventry,150,,,2020-05-21
+Cranston,771,,,2020-05-21
+Cumberland,243,,,2020-05-21
+East Greenwich,67,,,2020-05-21
+East Providence,623,,,2020-05-21
+Exeter,34,,,2020-05-21
+Foster,15,,,2020-05-21
+Glocester,35,,,2020-05-21
+Hopkinton,13,,,2020-05-21
+Jamestown,8,,,2020-05-21
+Johnston,305,,,2020-05-21
+Lincoln,136,,,2020-05-21
+Little Compton,12,,,2020-05-21
+Middletown,32,,,2020-05-21
+Narragansett,38,,,2020-05-21
+New Shoreham,0,,,2020-05-21
+Newport,55,,,2020-05-21
+North Kingstown,217,,,2020-05-21
+North Providence,652,,,2020-05-21
+North Smithfield,96,,,2020-05-21
+Pawtucket,1282,,,2020-05-21
+Portsmouth,32,,,2020-05-21
+Providence,4402,,,2020-05-21
+Richmond,17,,,2020-05-21
+Scituate,31,,,2020-05-21
+Smithfield,235,,,2020-05-21
+South Kingstown,87,,,2020-05-21
+Tiverton,70,,,2020-05-21
+Warren,58,,,2020-05-21
+Warwick,511,,,2020-05-21
+West Greenwich,18,,,2020-05-21
+West Warwick,228,,,2020-05-21
+Westerly,49,,,2020-05-21
+Woonsocket,508,,,2020-05-21
+Pending further information,"1,019",,,2020-05-21
+TOTAL,"13,038",,,2020-05-21
+Barrington,45,,,2020-05-22
+Bristol,106,,,2020-05-22
+Burrillville,86,,,2020-05-22
+Central Falls,758,,,2020-05-22
+Charlestown,16,,,2020-05-22
+Coventry,151,,,2020-05-22
+Cranston,779,,,2020-05-22
+Cumberland,245,,,2020-05-22
+East Greenwich,67,,,2020-05-22
+East Providence,641,,,2020-05-22
+Exeter,34,,,2020-05-22
+Foster,17,,,2020-05-22
+Glocester,36,,,2020-05-22
+Hopkinton,13,,,2020-05-22
+Jamestown,8,,,2020-05-22
+Johnston,310,,,2020-05-22
+Lincoln,138,,,2020-05-22
+Little Compton,12,,,2020-05-22
+Middletown,32,,,2020-05-22
+Narragansett,38,,,2020-05-22
+New Shoreham,1,,,2020-05-22
+Newport,55,,,2020-05-22
+North Kingstown,219,,,2020-05-22
+North Providence,655,,,2020-05-22
+North Smithfield,97,,,2020-05-22
+Pawtucket,1307,,,2020-05-22
+Portsmouth,33,,,2020-05-22
+Providence,4455,,,2020-05-22
+Richmond,19,,,2020-05-22
+Scituate,31,,,2020-05-22
+Smithfield,250,,,2020-05-22
+South Kingstown,90,,,2020-05-22
+Tiverton,72,,,2020-05-22
+Warren,58,,,2020-05-22
+Warwick,519,,,2020-05-22
+West Greenwich,19,,,2020-05-22
+West Warwick,229,,,2020-05-22
+Westerly,52,,,2020-05-22
+Woonsocket,515,,,2020-05-22
+Pending further information,"1,016",,,2020-05-22
+TOTAL,"13,224",,,2020-05-22
+Barrington,46,,,2020-05-23
+Bristol,107,,,2020-05-23
+Burrillville,89,,,2020-05-23
+Central Falls,775,,,2020-05-23
+Charlestown,16,,,2020-05-23
+Coventry,160,,,2020-05-23
+Cranston,799,,,2020-05-23
+Cumberland,246,,,2020-05-23
+East Greenwich,68,,,2020-05-23
+East Providence,651,,,2020-05-23
+Exeter,35,,,2020-05-23
+Foster,18,,,2020-05-23
+Glocester,37,,,2020-05-23
+Hopkinton,13,,,2020-05-23
+Jamestown,10,,,2020-05-23
+Johnston,317,,,2020-05-23
+Lincoln,138,,,2020-05-23
+Little Compton,13,,,2020-05-23
+Middletown,33,,,2020-05-23
+Narragansett,38,,,2020-05-23
+New Shoreham,0,,,2020-05-23
+Newport,57,,,2020-05-23
+North Kingstown,221,,,2020-05-23
+North Providence,661,,,2020-05-23
+North Smithfield,97,,,2020-05-23
+Pawtucket,1334,,,2020-05-23
+Portsmouth,36,,,2020-05-23
+Providence,4556,,,2020-05-23
+Richmond,20,,,2020-05-23
+Scituate,31,,,2020-05-23
+Smithfield,251,,,2020-05-23
+South Kingstown,90,,,2020-05-23
+Tiverton,77,,,2020-05-23
+Warren,60,,,2020-05-23
+Warwick,528,,,2020-05-23
+West Greenwich,19,,,2020-05-23
+West Warwick,230,,,2020-05-23
+Westerly,52,,,2020-05-23
+Woonsocket,519,,,2020-05-23
+Pending further information,"1,033",,,2020-05-23
+TOTAL,"13,482",,,2020-05-23
+Barrington,46,,,2020-05-24
+Bristol,107,,,2020-05-24
+Burrillville,89,,,2020-05-24
+Central Falls,781,,,2020-05-24
+Charlestown,16,,,2020-05-24
+Coventry,161,,,2020-05-24
+Cranston,808,,,2020-05-24
+Cumberland,248,,,2020-05-24
+East Greenwich,69,,,2020-05-24
+East Providence,654,,,2020-05-24
+Exeter,36,,,2020-05-24
+Foster,18,,,2020-05-24
+Glocester,37,,,2020-05-24
+Hopkinton,13,,,2020-05-24
+Jamestown,10,,,2020-05-24
+Johnston,322,,,2020-05-24
+Lincoln,138,,,2020-05-24
+Little Compton,13,,,2020-05-24
+Middletown,33,,,2020-05-24
+Narragansett,38,,,2020-05-24
+New Shoreham,0,,,2020-05-24
+Newport,57,,,2020-05-24
+North Kingstown,221,,,2020-05-24
+North Providence,663,,,2020-05-24
+North Smithfield,97,,,2020-05-24
+Pawtucket,1348,,,2020-05-24
+Portsmouth,38,,,2020-05-24
+Providence,4599,,,2020-05-24
+Richmond,20,,,2020-05-24
+Scituate,31,,,2020-05-24
+Smithfield,251,,,2020-05-24
+South Kingstown,90,,,2020-05-24
+Tiverton,77,,,2020-05-24
+Warren,60,,,2020-05-24
+Warwick,532,,,2020-05-24
+West Greenwich,19,,,2020-05-24
+West Warwick,232,,,2020-05-24
+Westerly,52,,,2020-05-24
+Woonsocket,523,,,2020-05-24
+Pending further information,"1,036",,,2020-05-24
+TOTAL,"13,584",,,2020-05-24
+Barrington,46,,,2020-05-24
+Bristol,107,,,2020-05-24
+Burrillville,89,,,2020-05-24
+Central Falls,781,,,2020-05-24
+Charlestown,16,,,2020-05-24
+Coventry,161,,,2020-05-24
+Cranston,808,,,2020-05-24
+Cumberland,248,,,2020-05-24
+East Greenwich,69,,,2020-05-24
+East Providence,654,,,2020-05-24
+Exeter,36,,,2020-05-24
+Foster,18,,,2020-05-24
+Glocester,37,,,2020-05-24
+Hopkinton,13,,,2020-05-24
+Jamestown,10,,,2020-05-24
+Johnston,322,,,2020-05-24
+Lincoln,138,,,2020-05-24
+Little Compton,13,,,2020-05-24
+Middletown,33,,,2020-05-24
+Narragansett,38,,,2020-05-24
+New Shoreham,0,,,2020-05-24
+Newport,57,,,2020-05-24
+North Kingstown,221,,,2020-05-24
+North Providence,663,,,2020-05-24
+North Smithfield,97,,,2020-05-24
+Pawtucket,1348,,,2020-05-24
+Portsmouth,38,,,2020-05-24
+Providence,4599,,,2020-05-24
+Richmond,20,,,2020-05-24
+Scituate,31,,,2020-05-24
+Smithfield,251,,,2020-05-24
+South Kingstown,90,,,2020-05-24
+Tiverton,77,,,2020-05-24
+Warren,60,,,2020-05-24
+Warwick,532,,,2020-05-24
+West Greenwich,19,,,2020-05-24
+West Warwick,232,,,2020-05-24
+Westerly,52,,,2020-05-24
+Woonsocket,523,,,2020-05-24
+Pending further information,"1,036",,,2020-05-24
+TOTAL,"13,584",,,2020-05-24
+Barrington,47,,,2020-05-27
+Bristol,116,,,2020-05-27
+Burrillville,88,,,2020-05-27
+Central Falls,794,,,2020-05-27
+Charlestown,17,,,2020-05-27
+Coventry,166,,,2020-05-27
+Cranston,826,,,2020-05-27
+Cumberland,252,,,2020-05-27
+East Greenwich,69,,,2020-05-27
+East Providence,676,,,2020-05-27
+Exeter,36,,,2020-05-27
+Foster,19,,,2020-05-27
+Glocester,40,,,2020-05-27
+Hopkinton,13,,,2020-05-27
+Jamestown,10,,,2020-05-27
+Johnston,332,,,2020-05-27
+Lincoln,141,,,2020-05-27
+Little Compton,13,,,2020-05-27
+Middletown,34,,,2020-05-27
+Narragansett,39,,,2020-05-27
+New Shoreham,0,,,2020-05-27
+Newport,60,,,2020-05-27
+North Kingstown,223,,,2020-05-27
+North Providence,667,,,2020-05-27
+North Smithfield,98,,,2020-05-27
+Pawtucket,1372,,,2020-05-27
+Portsmouth,40,,,2020-05-27
+Providence,4751,,,2020-05-27
+Richmond,21,,,2020-05-27
+Scituate,31,,,2020-05-27
+Smithfield,252,,,2020-05-27
+South Kingstown,91,,,2020-05-27
+Tiverton,78,,,2020-05-27
+Warren,60,,,2020-05-27
+Warwick,543,,,2020-05-27
+West Greenwich,19,,,2020-05-27
+West Warwick,235,,,2020-05-27
+Westerly,53,,,2020-05-27
+Woonsocket,535,,,2020-05-27
+Pending further information,"1,042",,,2020-05-27
+TOTAL,"13,900",,,2020-05-27
+Barrington,46,,,2020-05-28
+Bristol,116,,,2020-05-28
+Burrillville,90,,,2020-05-28
+Central Falls,802,,,2020-05-28
+Charlestown,17,,,2020-05-28
+Coventry,169,,,2020-05-28
+Cranston,842,,,2020-05-28
+Cumberland,251,,,2020-05-28
+East Greenwich,68,,,2020-05-28
+East Providence,674,,,2020-05-28
+Exeter,36,,,2020-05-28
+Foster,19,,,2020-05-28
+Glocester,40,,,2020-05-28
+Hopkinton,13,,,2020-05-28
+Jamestown,11,,,2020-05-28
+Johnston,340,,,2020-05-28
+Lincoln,142,,,2020-05-28
+Little Compton,13,,,2020-05-28
+Middletown,34,,,2020-05-28
+Narragansett,40,,,2020-05-28
+New Shoreham,0,,,2020-05-28
+Newport,60,,,2020-05-28
+North Kingstown,224,,,2020-05-28
+North Providence,667,,,2020-05-28
+North Smithfield,97,,,2020-05-28
+Pawtucket,1382,,,2020-05-28
+Portsmouth,41,,,2020-05-28
+Providence,4801,,,2020-05-28
+Richmond,21,,,2020-05-28
+Scituate,31,,,2020-05-28
+Smithfield,250,,,2020-05-28
+South Kingstown,92,,,2020-05-28
+Tiverton,78,,,2020-05-28
+Warren,60,,,2020-05-28
+Warwick,545,,,2020-05-28
+West Greenwich,20,,,2020-05-28
+West Warwick,236,,,2020-05-28
+Westerly,53,,,2020-05-28
+Woonsocket,540,,,2020-05-28
+Pending further information,"1,078",,,2020-05-28
+TOTAL,"14,040",,,2020-05-28
+Barrington,47,,,2020-05-29
+Bristol,117,,,2020-05-29
+Burrillville,91,,,2020-05-29
+Central Falls,806,,,2020-05-29
+Charlestown,17,,,2020-05-29
+Coventry,178,,,2020-05-29
+Cranston,846,,,2020-05-29
+Cumberland,256,,,2020-05-29
+East Greenwich,70,,,2020-05-29
+East Providence,679,,,2020-05-29
+Exeter,36,,,2020-05-29
+Foster,19,,,2020-05-29
+Glocester,40,,,2020-05-29
+Hopkinton,13,,,2020-05-29
+Jamestown,11,,,2020-05-29
+Johnston,346,,,2020-05-29
+Lincoln,145,,,2020-05-29
+Little Compton,13,,,2020-05-29
+Middletown,37,,,2020-05-29
+Narragansett,40,,,2020-05-29
+New Shoreham,0,,,2020-05-29
+Newport,62,,,2020-05-29
+North Kingstown,225,,,2020-05-29
+North Providence,673,,,2020-05-29
+North Smithfield,97,,,2020-05-29
+Pawtucket,1387,,,2020-05-29
+Portsmouth,41,,,2020-05-29
+Providence,4842,,,2020-05-29
+Richmond,22,,,2020-05-29
+Scituate,31,,,2020-05-29
+Smithfield,250,,,2020-05-29
+South Kingstown,93,,,2020-05-29
+Tiverton,80,,,2020-05-29
+Warren,60,,,2020-05-29
+Warwick,546,,,2020-05-29
+West Greenwich,20,,,2020-05-29
+West Warwick,238,,,2020-05-29
+Westerly,53,,,2020-05-29
+Woonsocket,544,,,2020-05-29
+Pending further information,"1,090",,,2020-05-29
+TOTAL,"14,162",,,2020-05-29
+Barrington,47,,,2020-05-29
+Bristol,117,,,2020-05-29
+Burrillville,91,,,2020-05-29
+Central Falls,806,,,2020-05-29
+Charlestown,17,,,2020-05-29
+Coventry,178,,,2020-05-29
+Cranston,846,,,2020-05-29
+Cumberland,256,,,2020-05-29
+East Greenwich,70,,,2020-05-29
+East Providence,679,,,2020-05-29
+Exeter,36,,,2020-05-29
+Foster,19,,,2020-05-29
+Glocester,40,,,2020-05-29
+Hopkinton,13,,,2020-05-29
+Jamestown,11,,,2020-05-29
+Johnston,346,,,2020-05-29
+Lincoln,145,,,2020-05-29
+Little Compton,13,,,2020-05-29
+Middletown,37,,,2020-05-29
+Narragansett,40,,,2020-05-29
+New Shoreham,0,,,2020-05-29
+Newport,62,,,2020-05-29
+North Kingstown,225,,,2020-05-29
+North Providence,673,,,2020-05-29
+North Smithfield,97,,,2020-05-29
+Pawtucket,1387,,,2020-05-29
+Portsmouth,41,,,2020-05-29
+Providence,4842,,,2020-05-29
+Richmond,22,,,2020-05-29
+Scituate,31,,,2020-05-29
+Smithfield,250,,,2020-05-29
+South Kingstown,93,,,2020-05-29
+Tiverton,80,,,2020-05-29
+Warren,60,,,2020-05-29
+Warwick,546,,,2020-05-29
+West Greenwich,20,,,2020-05-29
+West Warwick,238,,,2020-05-29
+Westerly,53,,,2020-05-29
+Woonsocket,544,,,2020-05-29
+Pending further information,"1,090",,,2020-05-29
+TOTAL,"14,162",,,2020-05-29
+Barrington,47,,,2020-05-29
+Bristol,117,,,2020-05-29
+Burrillville,91,,,2020-05-29
+Central Falls,806,,,2020-05-29
+Charlestown,17,,,2020-05-29
+Coventry,178,,,2020-05-29
+Cranston,846,,,2020-05-29
+Cumberland,256,,,2020-05-29
+East Greenwich,70,,,2020-05-29
+East Providence,679,,,2020-05-29
+Exeter,36,,,2020-05-29
+Foster,19,,,2020-05-29
+Glocester,40,,,2020-05-29
+Hopkinton,13,,,2020-05-29
+Jamestown,11,,,2020-05-29
+Johnston,346,,,2020-05-29
+Lincoln,145,,,2020-05-29
+Little Compton,13,,,2020-05-29
+Middletown,37,,,2020-05-29
+Narragansett,40,,,2020-05-29
+New Shoreham,0,,,2020-05-29
+Newport,62,,,2020-05-29
+North Kingstown,225,,,2020-05-29
+North Providence,673,,,2020-05-29
+North Smithfield,97,,,2020-05-29
+Pawtucket,1387,,,2020-05-29
+Portsmouth,41,,,2020-05-29
+Providence,4842,,,2020-05-29
+Richmond,22,,,2020-05-29
+Scituate,31,,,2020-05-29
+Smithfield,250,,,2020-05-29
+South Kingstown,93,,,2020-05-29
+Tiverton,80,,,2020-05-29
+Warren,60,,,2020-05-29
+Warwick,546,,,2020-05-29
+West Greenwich,20,,,2020-05-29
+West Warwick,238,,,2020-05-29
+Westerly,53,,,2020-05-29
+Woonsocket,544,,,2020-05-29
+Pending further information,"1,090",,,2020-05-29
+TOTAL,"14,162",,,2020-05-29
+Barrington,47,,,2020-06-08
+Bristol,121,,,2020-06-08
+Burrillville,97,,,2020-06-08
+Central Falls,843,,,2020-06-08
+Charlestown,18,,,2020-06-08
+Coventry,179,,,2020-06-08
+Cranston,909,,,2020-06-08
+Cumberland,274,,,2020-06-08
+East Greenwich,71,,,2020-06-08
+East Providence,699,,,2020-06-08
+Exeter,38,,,2020-06-08
+Foster,20,,,2020-06-08
+Glocester,43,,,2020-06-08
+Hopkinton,13,,,2020-06-08
+Jamestown,12,,,2020-06-08
+Johnston,414,,,2020-06-08
+Lincoln,173,,,2020-06-08
+Little Compton,13,,,2020-06-08
+Middletown,42,,,2020-06-08
+Narragansett,41,,,2020-06-08
+New Shoreham,0,,,2020-06-08
+Newport,71,,,2020-06-08
+North Kingstown,230,,,2020-06-08
+North Providence,718,,,2020-06-08
+North Smithfield,103,,,2020-06-08
+Pawtucket,1467,,,2020-06-08
+Portsmouth,47,,,2020-06-08
+Providence,5307,,,2020-06-08
+Richmond,26,,,2020-06-08
+Scituate,38,,,2020-06-08
+Smithfield,258,,,2020-06-08
+South Kingstown,94,,,2020-06-08
+Tiverton,84,,,2020-06-08
+Warren,63,,,2020-06-08
+Warwick,578,,,2020-06-08
+West Greenwich,20,,,2020-06-08
+West Warwick,257,,,2020-06-08
+Westerly,53,,,2020-06-08
+Woonsocket,596,,,2020-06-08
+Pending further information,"1,064",,,2020-06-08
+TOTAL,"15,142",,,2020-06-08
+Barrington,50,,,2020-06-15
+Bristol,125,,,2020-06-15
+Burrillville,98,,,2020-06-15
+Central Falls,882,,,2020-06-15
+Charlestown,19,,,2020-06-15
+Coventry,184,,,2020-06-15
+Cranston,939,,,2020-06-15
+Cumberland,282,,,2020-06-15
+East Greenwich,73,,,2020-06-15
+East Providence,690,,,2020-06-15
+Exeter,39,,,2020-06-15
+Foster,20,,,2020-06-15
+Glocester,44,,,2020-06-15
+Hopkinton,13,,,2020-06-15
+Jamestown,12,,,2020-06-15
+Johnston,433,,,2020-06-15
+Lincoln,218,,,2020-06-15
+Little Compton,13,,,2020-06-15
+Middletown,44,,,2020-06-15
+Narragansett,39,,,2020-06-15
+New Shoreham,0,,,2020-06-15
+Newport,72,,,2020-06-15
+North Kingstown,234,,,2020-06-15
+North Providence,726,,,2020-06-15
+North Smithfield,117,,,2020-06-15
+Pawtucket,1520,,,2020-06-15
+Portsmouth,48,,,2020-06-15
+Providence,5479,,,2020-06-15
+Richmond,26,,,2020-06-15
+Scituate,38,,,2020-06-15
+Smithfield,257,,,2020-06-15
+South Kingstown,93,,,2020-06-15
+Tiverton,88,,,2020-06-15
+Warren,65,,,2020-06-15
+Warwick,590,,,2020-06-15
+West Greenwich,20,,,2020-06-15
+West Warwick,261,,,2020-06-15
+Westerly,53,,,2020-06-15
+Woonsocket,620,,,2020-06-15
+Pending further information,"1,070",,,2020-06-15
+TOTAL,"15,595",,,2020-06-15
+Barrington,51,,,2020-06-22
+Bristol,127,,,2020-06-22
+Burrillville,102,,,2020-06-22
+Central Falls,909,,,2020-06-22
+Charlestown,22,,,2020-06-22
+Coventry,192,,,2020-06-22
+Cranston,960,,,2020-06-22
+Cumberland,286,,,2020-06-22
+East Greenwich,78,,,2020-06-22
+East Providence,735,,,2020-06-22
+Exeter,39,,,2020-06-22
+Foster,20,,,2020-06-22
+Glocester,45,,,2020-06-22
+Hopkinton,13,,,2020-06-22
+Jamestown,13,,,2020-06-22
+Johnston,443,,,2020-06-22
+Lincoln,242,,,2020-06-22
+Little Compton,13,,,2020-06-22
+Middletown,47,,,2020-06-22
+Narragansett,42,,,2020-06-22
+New Shoreham,0,,,2020-06-22
+Newport,82,,,2020-06-22
+North Kingstown,235,,,2020-06-22
+North Providence,735,,,2020-06-22
+North Smithfield,121,,,2020-06-22
+Pawtucket,1547,,,2020-06-22
+Portsmouth,50,,,2020-06-22
+Providence,5628,,,2020-06-22
+Richmond,26,,,2020-06-22
+Scituate,41,,,2020-06-22
+Smithfield,259,,,2020-06-22
+South Kingstown,92,,,2020-06-22
+Tiverton,89,,,2020-06-22
+Warren,69,,,2020-06-22
+Warwick,607,,,2020-06-22
+West Greenwich,19,,,2020-06-22
+West Warwick,273,,,2020-06-22
+Westerly,54,,,2020-06-22
+Woonsocket,639,,,2020-06-22
+Pending further information,"1,002",,,2020-06-22
+TOTAL,"15,948",,,2020-06-22
+Barrington,53,,,2020-06-29
+Bristol,131,,,2020-06-29
+Burrillville,103,,,2020-06-29
+Central Falls,918,,,2020-06-29
+Charlestown,23,,,2020-06-29
+Coventry,201,,,2020-06-29
+Cranston,974,,,2020-06-29
+Cumberland,291,,,2020-06-29
+East Greenwich,84,,,2020-06-29
+East Providence,740,,,2020-06-29
+Exeter,39,,,2020-06-29
+Foster,20,,,2020-06-29
+Glocester,44,,,2020-06-29
+Hopkinton,15,,,2020-06-29
+Jamestown,13,,,2020-06-29
+Johnston,451,,,2020-06-29
+Lincoln,259,,,2020-06-29
+Little Compton,13,,,2020-06-29
+Middletown,51,,,2020-06-29
+Narragansett,42,,,2020-06-29
+New Shoreham,0,,,2020-06-29
+Newport,91,,,2020-06-29
+North Kingstown,237,,,2020-06-29
+North Providence,738,,,2020-06-29
+North Smithfield,121,,,2020-06-29
+Pawtucket,1583,,,2020-06-29
+Portsmouth,50,,,2020-06-29
+Providence,5735,,,2020-06-29
+Richmond,26,,,2020-06-29
+Scituate,42,,,2020-06-29
+Smithfield,264,,,2020-06-29
+South Kingstown,92,,,2020-06-29
+Tiverton,90,,,2020-06-29
+Warren,69,,,2020-06-29
+Warwick,614,,,2020-06-29
+West Greenwich,20,,,2020-06-29
+West Warwick,280,,,2020-06-29
+Westerly,58,,,2020-06-29
+Woonsocket,654,,,2020-06-29
+Pending further information,996,,,2020-06-29
+TOTAL,"16,226",,,2020-06-29
+Barrington,53,,,2020-07-03
+Bristol,134,,,2020-07-03
+Burrillville,103,,,2020-07-03
+Central Falls,923,,,2020-07-03
+Charlestown,24,,,2020-07-03
+Coventry,212,,,2020-07-03
+Cranston,994,,,2020-07-03
+Cumberland,298,,,2020-07-03
+East Greenwich,88,,,2020-07-03
+East Providence,749,,,2020-07-03
+Exeter,39,,,2020-07-03
+Foster,23,,,2020-07-03
+Glocester,46,,,2020-07-03
+Hopkinton,14,,,2020-07-03
+Jamestown,15,,,2020-07-03
+Johnston,464,,,2020-07-03
+Lincoln,263,,,2020-07-03
+Little Compton,14,,,2020-07-03
+Middletown,55,,,2020-07-03
+Narragansett,43,,,2020-07-03
+New Shoreham,0,,,2020-07-03
+Newport,103,,,2020-07-03
+North Kingstown,236,,,2020-07-03
+North Providence,743,,,2020-07-03
+North Smithfield,127,,,2020-07-03
+Pawtucket,1599,,,2020-07-03
+Portsmouth,53,,,2020-07-03
+Providence,5840,,,2020-07-03
+Richmond,26,,,2020-07-03
+Scituate,43,,,2020-07-03
+Smithfield,267,,,2020-07-03
+South Kingstown,93,,,2020-07-03
+Tiverton,91,,,2020-07-03
+Warren,69,,,2020-07-03
+Warwick,624,,,2020-07-03
+West Greenwich,20,,,2020-07-03
+West Warwick,290,,,2020-07-03
+Westerly,63,,,2020-07-03
+Woonsocket,662,,,2020-07-03
+Pending further information,987,,,2020-07-03
+TOTAL,"16,491",,,2020-07-03
+Barrington,60,6,0,2020-07-15
+Bristol,148,14,8,2020-07-15
+Burrillville,113,14,18,2020-07-15
+Central Falls,950,80,9,2020-07-15
+Charlestown,30,<5,0,2020-07-15
+Coventry,226,23,12,2020-07-15
+Cranston,1064,111,15,2020-07-15
+Cumberland,316,42,27,2020-07-15
+East Greenwich,95,<5,0,2020-07-15
+East Providence,771,85,108,2020-07-15
+Exeter,40,5,<5,2020-07-15
+Foster,22,<5,0,2020-07-15
+Glocester,49,<5,0,2020-07-15
+Hopkinton,15,<5,<5,2020-07-15
+Jamestown,17,<5,0,2020-07-15
+Johnston,480,46,65,2020-07-15
+Lincoln,280,27,29,2020-07-15
+Little Compton,14,0,<5,2020-07-15
+Middletown,69,7,<5,2020-07-15
+Narragansett,50,<5,0,2020-07-15
+New Shoreham,0,0,0,2020-07-15
+Newport,116,12,<5,2020-07-15
+North Kingstown,238,31,49,2020-07-15
+North Providence,773,97,76,2020-07-15
+North Smithfield,132,15,23,2020-07-15
+Pawtucket,1663,149,43,2020-07-15
+Portsmouth,57,<5,0,2020-07-15
+Providence,6056,640,255,2020-07-15
+Richmond,25,<5,0,2020-07-15
+Scituate,44,<5,<5,2020-07-15
+Smithfield,272,49,47,2020-07-15
+South Kingstown,97,13,11,2020-07-15
+Tiverton,92,<5,<5,2020-07-15
+Warren,75,5,7,2020-07-15
+Warwick,665,59,67,2020-07-15
+West Greenwich,22,0,0,2020-07-15
+West Warwick,308,29,22,2020-07-15
+Westerly,69,7,<5,2020-07-15
+Woonsocket,689,86,80,2020-07-15
+Pending further information,851,108,<5,2020-07-15
+TOTAL,17054,1760,987,2020-07-15
