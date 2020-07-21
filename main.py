@@ -4,7 +4,7 @@ from src import tweeter
 from src import plots
 from src import reports
 
-main_sheet = '1n-zMS9Al94CPj_Tc3K7Adin-tN9x1RSjjx2UzJ4SV7Q/export?format=csv&gid='
+main_sheet = '1c2QrNMz8pIbYEKzMJL7Uh2dtThOJa2j1sSMwiDo5Gz4/export?format=csv&gid='
 
 if __name__ == "__main__":
     # scrape, clean & tweet out general information
