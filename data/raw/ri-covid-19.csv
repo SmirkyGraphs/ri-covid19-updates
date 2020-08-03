@@ -1055,3 +1055,30 @@ Newly confirmed deaths,0,2020-07-30
 Total deaths,1007,2020-07-30
 Cumulative people who tested positive (counts first positive lab per person) plus cumulative negative tests (may count people more than once),352402,2020-07-30
 Daily number of negative tests (may count people more than once) plus new people who tested positive (counts first positive lab per person),4433,2020-07-30
+Daily number of positive tests (may count people more than once),83,2020-07-31
+3-day average of daily number of positive tests (may count people more than once),113,2020-07-31
+Cumulative positive tests (may count people more than once),27600,2020-07-31
+Daily number of negative tests (may count people more than once),3604,2020-07-31
+Cumulative negative tests (may count people more than once),337466,2020-07-31
+Daily total tests completed (may count people more than once),3687,2020-07-31
+Cumulative total tests completed (may count people more than once),365066,2020-07-31
+New people who tested positive (counts first positive lab per person),64,2020-07-31
+3-day average of new people who tested positive (counts first positive lab per person),86,2020-07-31
+Cumulative people who tested positive (counts first positive lab per person),19022,2020-07-31
+New people who have only tested negative (counts first negative lab per person),1131,2020-07-31
+Cumulative people who have only tested negative (counts first negative lab per person),186994,2020-07-31
+Cumulative people tested (one count per person),206016,2020-07-31
+New hospital admissions,8,2020-07-31
+Cumulative hospital admissions,2211,2020-07-31
+New hospital discharges,10,2020-07-31
+Cumulative hospital discharges,1823,2020-07-31
+Hospital deaths,0,2020-07-31
+Cumulative hospital deaths,312,2020-07-31
+Currently hospitalized,76,2020-07-31
+3-day average of currently hospitalized,76,2020-07-31
+Currently in ICU,15,2020-07-31
+Currently vented,5,2020-07-31
+Newly confirmed deaths,0,2020-07-31
+Total deaths,1007,2020-07-31
+Cumulative people who tested positive (counts first positive lab per person) plus cumulative negative tests (may count people more than once),356488,2020-07-31
+Daily number of negative tests (may count people more than once) plus new people who tested positive (counts first positive lab per person),3668,2020-07-31
