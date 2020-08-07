@@ -4190,3 +4190,36 @@ date,metric,count,new_cases,change_%
 08/05/2020,people tested,213535.0,1582,0.007463918887677945
 08/05/2020,total deaths,1012.0,1,0.0009891196834816984
 08/05/2020,total discharged,0.0,0,0.0
+08/06/2020,3-day average of currently hospitalized,82.0,1,0.012345679012345734
+08/06/2020,3-day average of daily number of positive tests (may count people more than once),137.0,25,0.2232142857142858
+08/06/2020,3-day average of new people who tested positive (counts first positive lab per person),114.0,22,0.23913043478260865
+08/06/2020,Cumulative hospital admissions,2264.0,16,0.007117437722419906
+08/06/2020,Cumulative hospital deaths,315.0,1,0.0031847133757962887
+08/06/2020,Cumulative hospital discharges,1866.0,11,0.005929919137466211
+08/06/2020,Cumulative negative tests (may count people more than once),362179.0,5422,0.01519801994074399
+08/06/2020,Cumulative people who have only tested negative (counts first negative lab per person),196112.0,2058,0.010605295433229855
+08/06/2020,Cumulative positive tests (may count people more than once),28299.0,154,0.00547166459406645
+08/06/2020,Cumulative total tests completed (may count people more than once),390478.0,5576,0.014486804433336387
+08/06/2020,Daily number of negative tests (may count people more than once),4954.0,1937,0.6420285051375538
+08/06/2020,Daily number of negative tests (may count people more than once) plus new people who tested positive (counts first positive lab per person),5064.0,1963,0.6330216059335698
+08/06/2020,Daily number of positive tests (may count people more than once),133.0,27,0.2547169811320755
+08/06/2020,Daily total tests completed (may count people more than once),5087.0,1964,0.6288824847902659
+08/06/2020,Hospital deaths,1.0,1,0.0
+08/06/2020,New hospital admissions,7.0,1,0.16666666666666674
+08/06/2020,New hospital discharges,5.0,-2,-0.2857142857142857
+08/06/2020,New people who have only tested negative (counts first negative lab per person),1761.0,449,0.3422256097560976
+08/06/2020,Newly confirmed deaths,2.0,1,1.0
+08/06/2020,Number of COVID-19 cases who  were admitted to a hospital in Rhode Island (cumulative),0.0,0,0.0
+08/06/2020,Number of COVID-19 cases who were admitted to a hospital in Rhode Island (cumulative),0.0,0,0.0
+08/06/2020,RI negative results,0.0,0,0.0
+08/06/2020,RI positive cases,0.0,0,0.0
+08/06/2020,RI total tests,0.0,0,0.0
+08/06/2020,currently hospitalized,83.0,4,0.05063291139240511
+08/06/2020,currently in icu,11.0,-3,-0.2142857142857143
+08/06/2020,currently on ventilator,4.0,-1,-0.19999999999999996
+08/06/2020,instructed to self-quarantine,0.0,0,0.0
+08/06/2020,new positive,110.0,26,0.30952380952380953
+08/06/2020,people positive,19611.0,130,0.006673168728504653
+08/06/2020,people tested,215723.0,2188,0.010246563795162311
+08/06/2020,total deaths,1014.0,2,0.0019762845849802257
+08/06/2020,total discharged,0.0,0,0.0
