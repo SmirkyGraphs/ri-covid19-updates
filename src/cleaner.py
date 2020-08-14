@@ -185,14 +185,12 @@ def clean_revised(fname):
     df = pd.read_csv(f'./data/raw/{fname}.csv', parse_dates=['date', 'date_scraped'])
 
     # replace null label -- with 0
-    df['deaths'] = df['deaths'].replace('--', 0)
-    df['total deaths'] = df['total deaths'].replace('--', 0)
-    df = df.fillna(0)
+    df = df.replace('--', 0)
 
-    df['new total labs'] = df['new positive labs'] + df['new negative labs']
-    df['%_positive'] = df['new positive labs']/df['new total labs']
-    df['new people tested'] = df['new people positive'] + df['new people negative']
-    df['%_peopple_positive'] = df['new people positive']/df['new people tested']
+    df['new total labs'] = (df['new positive labs'] + df['new negative labs'])
+    df['%_positive_labs'] = (df['new positive labs']/df['new total labs'])
+    df['new people tested'] = (df['new people positive'] + df['new people negative'])
+    df['%_new_people_positive'] = (df['new people positive']/df['new people tested'])
     df['date_ts'] = df['date'].apply(lambda x: pd.datetime.toordinal(x))
 
     # sort by date & save
