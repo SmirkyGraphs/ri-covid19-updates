@@ -24,12 +24,7 @@ if __name__ == "__main__":
     cleaner.clean_revised('revised-data')
 
     # make graphs
-    plots.testing_plot()
-    plots.hospital_plot()
-    plots.testing_ma_plot()
-    plots.hospital_ma_plot()
-    plots.city_rate_plot()
-    plots.then_v_now()
+    plots.make_plots()
 
     # run reports
     reports.run_reports()
