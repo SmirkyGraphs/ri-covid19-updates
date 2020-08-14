@@ -4388,3 +4388,36 @@ date,metric,count,new_cases,change_%
 08/13/2020,people tested,228474.0,2341,0.010352314788199868
 08/13/2020,total deaths,1019.0,1,0.0009823182711199419
 08/13/2020,total discharged,0.0,0,0.0
+08/14/2020,3-day average of currently hospitalized,84.0,-3,-0.03448275862068961
+08/14/2020,3-day average of daily number of positive tests (may count people more than once),105.0,-9,-0.07894736842105265
+08/14/2020,3-day average of new people who tested positive (counts first positive lab per person),88.0,-5,-0.053763440860215006
+08/14/2020,Cumulative hospital admissions,2350.0,9,0.003844510892780928
+08/14/2020,Cumulative hospital deaths,318.0,0,0.0
+08/14/2020,Cumulative hospital discharges,1953.0,10,0.00514668039114774
+08/14/2020,Cumulative negative tests (may count people more than once),390466.0,3172,0.008190160446585715
+08/14/2020,Cumulative people who have only tested negative (counts first negative lab per person),209530.0,1296,0.006223767492340437
+08/14/2020,Cumulative positive tests (may count people more than once),29007.0,98,0.003389947767131307
+08/14/2020,Cumulative total tests completed (may count people more than once),419473.0,3270,0.007856742983592069
+08/14/2020,Daily number of negative tests (may count people more than once),3085.0,-954,-0.23619707848477345
+08/14/2020,Daily number of negative tests (may count people more than once) plus new people who tested positive (counts first positive lab per person),3155.0,-981,-0.2371856866537717
+08/14/2020,Daily number of positive tests (may count people more than once),100.0,-15,-0.13043478260869568
+08/14/2020,Daily total tests completed (may count people more than once),3185.0,-969,-0.23326913818006745
+08/14/2020,Hospital deaths,0.0,0,0.0
+08/14/2020,New hospital admissions,7.0,4,1.3333333333333335
+08/14/2020,New hospital discharges,9.0,-4,-0.3076923076923077
+08/14/2020,New people who have only tested negative (counts first negative lab per person),1276.0,-782,-0.379980563654033
+08/14/2020,Newly confirmed deaths,2.0,1,1.0
+08/14/2020,Number of COVID-19 cases who  were admitted to a hospital in Rhode Island (cumulative),0.0,0,0.0
+08/14/2020,Number of COVID-19 cases who were admitted to a hospital in Rhode Island (cumulative),0.0,0,0.0
+08/14/2020,RI negative results,0.0,0,0.0
+08/14/2020,RI positive cases,0.0,0,0.0
+08/14/2020,RI total tests,0.0,0,0.0
+08/14/2020,currently hospitalized,79.0,-1,-0.012499999999999956
+08/14/2020,currently in icu,8.0,-2,-0.19999999999999996
+08/14/2020,currently on ventilator,3.0,-1,-0.25
+08/14/2020,instructed to self-quarantine,0.0,0,0.0
+08/14/2020,new positive,70.0,-27,-0.27835051546391754
+08/14/2020,people positive,20335.0,95,0.004693675889328119
+08/14/2020,people tested,229865.0,1391,0.006088220103819264
+08/14/2020,total deaths,1021.0,2,0.001962708537782243
+08/14/2020,total discharged,0.0,0,0.0

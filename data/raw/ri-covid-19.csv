@@ -1325,3 +1325,30 @@ Newly confirmed deaths,1,2020-08-13
 Total deaths,1019,2020-08-13
 Cumulative people who tested positive (counts first positive lab per person) plus cumulative negative tests (may count people more than once),407534,2020-08-13
 Daily number of negative tests (may count people more than once) plus new people who tested positive (counts first positive lab per person),4136,2020-08-13
+Daily number of positive tests (may count people more than once),100,2020-08-14
+3-day average of daily number of positive tests (may count people more than once),105,2020-08-14
+Cumulative positive tests (may count people more than once),29007,2020-08-14
+Daily number of negative tests (may count people more than once),3085,2020-08-14
+Cumulative negative tests (may count people more than once),390466,2020-08-14
+Daily total tests completed (may count people more than once),3185,2020-08-14
+Cumulative total tests completed (may count people more than once),419473,2020-08-14
+New people who tested positive (counts first positive lab per person),70,2020-08-14
+3-day average of new people who tested positive (counts first positive lab per person),88,2020-08-14
+Cumulative people who tested positive (counts first positive lab per person),20335,2020-08-14
+New people who have only tested negative (counts first negative lab per person),1276,2020-08-14
+Cumulative people who have only tested negative (counts first negative lab per person),209530,2020-08-14
+Cumulative people tested (one count per person),229865,2020-08-14
+New hospital admissions,7,2020-08-14
+Cumulative hospital admissions,2350,2020-08-14
+New hospital discharges,9,2020-08-14
+Cumulative hospital discharges,1953,2020-08-14
+Hospital deaths,0,2020-08-14
+Cumulative hospital deaths,318,2020-08-14
+Currently hospitalized,79,2020-08-14
+3-day average of currently hospitalized,84,2020-08-14
+Currently in ICU,8,2020-08-14
+Currently vented,3,2020-08-14
+Newly confirmed deaths,2,2020-08-14
+Total deaths,1021,2020-08-14
+Cumulative people who tested positive (counts first positive lab per person) plus cumulative negative tests (may count people more than once),410801,2020-08-14
+Daily number of negative tests (may count people more than once) plus new people who tested positive (counts first positive lab per person),3155,2020-08-14
