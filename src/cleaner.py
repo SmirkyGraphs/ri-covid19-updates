@@ -1,3 +1,5 @@
+from datetime import datetime
+import numpy as np
 import pandas as pd
 import pygsheets
 import json
@@ -76,7 +78,7 @@ def clean_general(fname):
     # get daily changes
     df['count'] = df['count'].fillna(0)
     df['new_cases'] = df.groupby('metric')['count'].diff().fillna(0).astype(int)
-    df['change_%'] = df.groupby('metric')['count'].pct_change().replace(pd.np.inf, 0).fillna(0)
+    df['change_%'] = df.groupby('metric')['count'].pct_change().replace(np.inf, 0).fillna(0)
 
     # save & sync to google sheets
     df.to_csv('./data/clean/ri-covid-19-clean.csv', index=False)
@@ -97,7 +99,7 @@ def clean_geographic(fname):
 
     # get daily changes
     df['change'] = df.groupby('city_town')['count'].diff().fillna(0).astype(int)
-    df['change_%'] = df.groupby('city_town')['count'].pct_change().replace(pd.np.inf, 0).fillna(0)
+    df['change_%'] = df.groupby('city_town')['count'].pct_change().replace(np.inf, 0).fillna(0)
 
     # merge population & calculate rate per 10,000 people
     df = df.merge(pop, on='city_town').sort_values(by='date')
@@ -125,7 +127,7 @@ def clean_zip_codes(fname):
 
     # get daily changes
     df['change'] = df.groupby('zip_code')['count'].diff().fillna(0).astype(int)
-    df['change_%'] = df.groupby('zip_code')['count'].pct_change().replace(pd.np.inf, 0).fillna(0)
+    df['change_%'] = df.groupby('zip_code')['count'].pct_change().replace(np.inf, 0).fillna(0)
 
     # add rank & change in rank
 
@@ -173,7 +175,7 @@ def clean_nursing_homes(fname):
     df['date'] = pd.to_datetime(df['date']).dt.strftime('%m/%d/%Y')
     df = df.sort_values(by=['type', 'facility_name', 'date'])
 
-    recent_dates = pd.np.sort(df['date'].unique())[-2:]
+    recent_dates = np.sort(df['date'].unique())[-2:]
     df.loc[df['date'] == recent_dates[1], 'date_bin'] = 'Most Recent'
     df.loc[df['date'] == recent_dates[0], 'date_bin'] = 'Prior Week'
 
@@ -191,7 +193,7 @@ def clean_revised(fname):
     df['%_positive_labs'] = (df['new positive labs']/df['new total labs'])
     df['new people tested'] = (df['new people positive'] + df['new people negative'])
     df['%_new_people_positive'] = (df['new people positive']/df['new people tested'])
-    df['date_ts'] = df['date'].apply(lambda x: pd.datetime.toordinal(x))
+    df['date_ts'] = df['date'].apply(lambda x: datetime.toordinal(x))
 
     # sort by date & save
     df['date'] = pd.to_datetime(df['date']).dt.strftime('%m/%d/%Y')

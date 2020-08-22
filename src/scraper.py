@@ -1,4 +1,5 @@
 import time
+from datetime import datetime
 import pandas as pd
 from pathlib import Path
 
@@ -28,8 +29,8 @@ def scrape_sheet(sheet_id):
     prior_date = df['date'].max().tz_localize('EST').date()
 
     # wait till 12:05 then check every 15 mins for update
-    target = pd.datetime.now().replace(hour=12).replace(minute=5)
-    while pd.datetime.now() < target:
+    target = datetime.now().replace(hour=12).replace(minute=5)
+    while datetime.now() < target:
         print(f"[status] waiting for 12pm", end='\r')
         time.sleep(60)
 
@@ -127,7 +128,7 @@ def scrape_revised(sheet_id):
         cols.extend(move_cols)
         df = df[cols]
 
-        df['date_scraped'] = pd.datetime.strftime(pd.datetime.now(), '%m/%d/%Y')
+        df['date_scraped'] = datetime.strftime(datetime.now(), '%m/%d/%Y')
         save_file(df, raw_revised, df['date'].max())
 
 def scrape_nursing_homes(sheet_id):
