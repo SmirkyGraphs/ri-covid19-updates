@@ -188,7 +188,41 @@ def first_vs_current(df):
     fig.set_size_inches(15, 7, forward=True)
     fig.text(x=.5, y=0.92, s=sub_head, fontsize=10, ha='center')
     fig.text(x=0.97, y=0.03, s=footer, fontsize=10, ha='right')
+
+    patch = mpatches.Patch(facecolor='dodgerblue', label='trend from first reported')
+    fig.legend(handles=[patch], loc='upper left', bbox_to_anchor=[0.78, 1], fontsize=10)   
+
+    patch = mpatches.Patch(facecolor='coral', label='trend from current data')
+    fig.legend(handles=[patch], loc='upper left', bbox_to_anchor=[0.78, 0.97], fontsize=10) 
+
     plt.savefig('./figures/first_vs_current.png', dpi=150)
+
+def first_vs_current_bar(df):
+    print('[status] creating first vs. current (bar)')
+    lowest = df.groupby('date_ts')['deaths'].min().reset_index().rename(columns={'deaths': 'lowest_deaths'})
+    current = df[df['date_scraped'] == df['date_scraped'].max()][['date_ts', 'deaths']].rename(columns={'deaths': 'current_deaths'})
+    df = current.merge(lowest)
+
+    fig, axs = plt.subplots(nrows=1, ncols=1, sharex=True)
+    fig.suptitle("COVID-19 Deaths, First Reported vs. Current", fontsize=16)
+    sub_head = 'stacked bargraph showing change from first reported vs. current values'
+
+    # plot data
+    axs.bar(df['date_ts'], df['lowest_deaths'], color='dodgerblue')
+    axs.bar(df['date_ts'], (df['current_deaths']-df['lowest_deaths']), color='coral', bottom=df['lowest_deaths'])
+    axs.xaxis.set_major_formatter(date_format)
+
+    fig.tight_layout(rect=[0, 0.05, 1, 0.90])
+    fig.set_size_inches(15, 7, forward=True)
+    fig.text(x=.5, y=0.92, s=sub_head, fontsize=10, ha='center')
+    fig.text(x=0.97, y=0.03, s=footer, fontsize=10, ha='right')
+
+    patch = mpatches.Patch(facecolor='dodgerblue', label='first reported deaths for date')
+    fig.legend(handles=[patch], loc='upper left', bbox_to_anchor=[0.78, 1], fontsize=10)   
+
+    patch = mpatches.Patch(facecolor='coral', label='updated new deaths')
+    fig.legend(handles=[patch], loc='upper left', bbox_to_anchor=[0.78, 0.97], fontsize=10) 
+    plt.savefig('./figures/first_vs_current_bar.png', dpi=150)
 
 def icu_ma_daily(df):
     print('[status] creating hospital: icu graph')
@@ -425,6 +459,7 @@ def make_plots():
     hospital_combo_ma_plot(recent_df)
     city_rate_plot(geo_df)
     first_vs_current(df)
+    first_vs_current_bar(df)
     icu_ma_daily(recent_df)
     vent_ma_daily(recent_df)
     hospitalized_ma_daily(recent_df)
