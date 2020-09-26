@@ -5345,3 +5345,36 @@ date,metric,count,new_cases,change_%
 09/24/2020,people tested,327583.0,2463,0.007575664370078838
 09/24/2020,total deaths,1106.0,4,0.003629764065335772
 09/24/2020,total discharged,0.0,0,0.0
+09/25/2020,3-day average of currently hospitalized,87.0,0,0.0
+09/25/2020,3-day average of daily number of positive tests (may count people more than once),155.0,15,0.1071428571428572
+09/25/2020,3-day average of new people who tested positive (counts first positive lab per person),121.0,5,0.0431034482758621
+09/25/2020,Cumulative hospital admissions,2725.0,0,0.0
+09/25/2020,Cumulative hospital deaths,353.0,0,0.0
+09/25/2020,Cumulative hospital discharges,2278.0,0,0.0
+09/25/2020,Cumulative negative tests (may count people more than once),693170.0,10234,0.014985298768845023
+09/25/2020,Cumulative people who have only tested negative (counts first negative lab per person),305853.0,2581,0.008510512015616367
+09/25/2020,Cumulative positive tests (may count people more than once),34299.0,188,0.005511418603969309
+09/25/2020,Cumulative total tests completed (may count people more than once),727469.0,10422,0.014534612096557042
+09/25/2020,Daily number of negative tests (may count people more than once),7562.0,-2021,-0.21089429197537302
+09/25/2020,Daily number of negative tests (may count people more than once) plus new people who tested positive (counts first positive lab per person),7681.0,-2041,-0.20993622711376259
+09/25/2020,Daily number of positive tests (may count people more than once),134.0,-10,-0.06944444444444442
+09/25/2020,Daily total tests completed (may count people more than once),7696.0,-2031,-0.20880024673588982
+09/25/2020,Hospital deaths,1.0,0,0.0
+09/25/2020,New hospital admissions,11.0,0,0.0
+09/25/2020,New hospital discharges,3.0,0,0.0
+09/25/2020,New people who have only tested negative (counts first negative lab per person),1667.0,-480,-0.2235677689799721
+09/25/2020,Newly confirmed deaths,1.0,-3,-0.75
+09/25/2020,Number of COVID-19 cases who  were admitted to a hospital in Rhode Island (cumulative),0.0,0,0.0
+09/25/2020,Number of COVID-19 cases who were admitted to a hospital in Rhode Island (cumulative),0.0,0,0.0
+09/25/2020,RI negative results,0.0,0,0.0
+09/25/2020,RI positive cases,0.0,0,0.0
+09/25/2020,RI total tests,0.0,0,0.0
+09/25/2020,currently hospitalized,94.0,0,0.0
+09/25/2020,currently in icu,8.0,0,0.0
+09/25/2020,currently on ventilator,4.0,0,0.0
+09/25/2020,instructed to self-quarantine,0.0,0,0.0
+09/25/2020,new positive,119.0,-20,-0.14388489208633093
+09/25/2020,people positive,24181.0,-130,-0.005347373616881201
+09/25/2020,people tested,330034.0,2451,0.007482073245559162
+09/25/2020,total deaths,1107.0,1,0.0009041591320071429
+09/25/2020,total discharged,0.0,0,0.0
