@@ -6137,3 +6137,135 @@ date,metric,count,new_cases,change_%
 10/30/2020,people tested,432876.0,3536,0.008235896958121769
 10/30/2020,total deaths,1201.0,6,0.00502092050209213
 10/30/2020,total discharged,0.0,0,0.0
+11/02/2020,3-day average of currently hospitalized,160.0,11,0.0738255033557047
+11/02/2020,3-day average of daily number of positive tests (may count people more than once),460.0,-52,-0.1015625
+11/02/2020,3-day average of new people who tested positive (counts first positive lab per person),385.0,-59,-0.13288288288288286
+11/02/2020,Cumulative hospital admissions,3385.0,76,0.02296766394681171
+11/02/2020,Cumulative hospital deaths,404.0,10,0.025380710659898442
+11/02/2020,Cumulative hospital discharges,2811.0,48,0.017372421281216077
+11/02/2020,Cumulative negative tests (may count people more than once),1113217.0,32558,0.03012791269031201
+11/02/2020,Cumulative people who have only tested negative (counts first negative lab per person),406506.0,6504,0.01625991870040644
+11/02/2020,Cumulative positive tests (may count people more than once),45170.0,1522,0.034869868035190654
+11/02/2020,Cumulative total tests completed (may count people more than once),1158387.0,34080,0.03031200552873914
+11/02/2020,Daily number of negative tests (may count people more than once),4279.0,-9732,-0.6945971022767825
+11/02/2020,Daily number of negative tests (may count people more than once) plus new people who tested positive (counts first positive lab per person),4511.0,-9982,-0.6887462913130477
+11/02/2020,Daily number of positive tests (may count people more than once),281.0,-270,-0.4900181488203267
+11/02/2020,Daily total tests completed (may count people more than once),4560.0,-10002,-0.6868562010712814
+11/02/2020,Hospital deaths,1.0,0,0.0
+11/02/2020,New hospital admissions,27.0,7,0.3500000000000001
+11/02/2020,New hospital discharges,9.0,-12,-0.5714285714285714
+11/02/2020,New people who have only tested negative (counts first negative lab per person),1060.0,-1778,-0.6264975334742777
+11/02/2020,Newly confirmed deaths,3.0,-3,-0.5
+11/02/2020,Number of COVID-19 cases who  were admitted to a hospital in Rhode Island (cumulative),0.0,0,0.0
+11/02/2020,Number of COVID-19 cases who were admitted to a hospital in Rhode Island (cumulative),0.0,0,0.0
+11/02/2020,RI negative results,0.0,0,0.0
+11/02/2020,RI positive cases,0.0,0,0.0
+11/02/2020,RI total tests,0.0,0,0.0
+11/02/2020,currently hospitalized,170.0,18,0.11842105263157898
+11/02/2020,currently in icu,22.0,7,0.46666666666666656
+11/02/2020,currently on ventilator,9.0,0,0.0
+11/02/2020,instructed to self-quarantine,0.0,0,0.0
+11/02/2020,new positive,232.0,-250,-0.5186721991701244
+11/02/2020,people positive,34120.0,1246,0.03790229360588926
+11/02/2020,people tested,440626.0,7750,0.01790351047413119
+11/02/2020,total deaths,1210.0,9,0.007493755203996644
+11/02/2020,total discharged,0.0,0,0.0
+11/03/2020,3-day average of currently hospitalized,169.0,9,0.05624999999999991
+11/03/2020,3-day average of daily number of positive tests (may count people more than once),428.0,-32,-0.06956521739130439
+11/03/2020,3-day average of new people who tested positive (counts first positive lab per person),372.0,-13,-0.03376623376623378
+11/03/2020,Cumulative hospital admissions,3406.0,21,0.0062038404726736385
+11/03/2020,Cumulative hospital deaths,404.0,0,0.0
+11/03/2020,Cumulative hospital discharges,2825.0,14,0.004980434009249413
+11/03/2020,Cumulative negative tests (may count people more than once),1124452.0,11235,0.01009237192748591
+11/03/2020,Cumulative people who have only tested negative (counts first negative lab per person),408981.0,2475,0.0060884710188779945
+11/03/2020,Cumulative positive tests (may count people more than once),45607.0,437,0.0096745627628958
+11/03/2020,Cumulative total tests completed (may count people more than once),1170059.0,11672,0.01007607992838322
+11/03/2020,Daily number of negative tests (may count people more than once),8830.0,4551,1.063566253797616
+11/03/2020,Daily number of negative tests (may count people more than once) plus new people who tested positive (counts first positive lab per person),9174.0,4663,1.0336954112170251
+11/03/2020,Daily number of positive tests (may count people more than once),405.0,124,0.4412811387900355
+11/03/2020,Daily total tests completed (may count people more than once),9235.0,4675,1.0252192982456139
+11/03/2020,Hospital deaths,1.0,0,0.0
+11/03/2020,New hospital admissions,17.0,-10,-0.37037037037037035
+11/03/2020,New hospital discharges,13.0,4,0.4444444444444444
+11/03/2020,New people who have only tested negative (counts first negative lab per person),2471.0,1411,1.331132075471698
+11/03/2020,Newly confirmed deaths,2.0,-1,-0.33333333333333337
+11/03/2020,Number of COVID-19 cases who  were admitted to a hospital in Rhode Island (cumulative),0.0,0,0.0
+11/03/2020,Number of COVID-19 cases who were admitted to a hospital in Rhode Island (cumulative),0.0,0,0.0
+11/03/2020,RI negative results,0.0,0,0.0
+11/03/2020,RI positive cases,0.0,0,0.0
+11/03/2020,RI total tests,0.0,0,0.0
+11/03/2020,currently hospitalized,177.0,7,0.04117647058823537
+11/03/2020,currently in icu,24.0,2,0.09090909090909083
+11/03/2020,currently on ventilator,12.0,3,0.33333333333333326
+11/03/2020,instructed to self-quarantine,0.0,0,0.0
+11/03/2020,new positive,344.0,112,0.48275862068965525
+11/03/2020,people positive,34543.0,423,0.012397420867526376
+11/03/2020,people tested,443524.0,2898,0.006577006350056536
+11/03/2020,total deaths,1212.0,2,0.0016528925619834212
+11/03/2020,total discharged,0.0,0,0.0
+11/04/2020,3-day average of currently hospitalized,171.0,2,0.01183431952662728
+11/04/2020,3-day average of daily number of positive tests (may count people more than once),459.0,31,0.07242990654205617
+11/04/2020,3-day average of new people who tested positive (counts first positive lab per person),393.0,21,0.056451612903225756
+11/04/2020,Cumulative hospital admissions,3432.0,26,0.007633587786259444
+11/04/2020,Cumulative hospital deaths,407.0,3,0.007425742574257432
+11/04/2020,Cumulative hospital discharges,2856.0,31,0.010973451327433548
+11/04/2020,Cumulative negative tests (may count people more than once),1138055.0,13603,0.012097448357066387
+11/04/2020,Cumulative people who have only tested negative (counts first negative lab per person),411899.0,2918,0.007134805773373332
+11/04/2020,Cumulative positive tests (may count people more than once),46304.0,697,0.015282741684390588
+11/04/2020,Cumulative total tests completed (may count people more than once),1184359.0,14300,0.012221605919017664
+11/04/2020,Daily number of negative tests (may count people more than once),12348.0,3518,0.39841449603624013
+11/04/2020,Daily number of negative tests (may count people more than once) plus new people who tested positive (counts first positive lab per person),12814.0,3640,0.39677349029867015
+11/04/2020,Daily number of positive tests (may count people more than once),544.0,139,0.3432098765432099
+11/04/2020,Daily total tests completed (may count people more than once),12892.0,3657,0.3959935029778019
+11/04/2020,Hospital deaths,3.0,2,2.0
+11/04/2020,New hospital admissions,25.0,8,0.47058823529411775
+11/04/2020,New hospital discharges,26.0,13,1.0
+11/04/2020,New people who have only tested negative (counts first negative lab per person),2376.0,-95,-0.03844597329016597
+11/04/2020,Newly confirmed deaths,2.0,0,0.0
+11/04/2020,Number of COVID-19 cases who  were admitted to a hospital in Rhode Island (cumulative),0.0,0,0.0
+11/04/2020,Number of COVID-19 cases who were admitted to a hospital in Rhode Island (cumulative),0.0,0,0.0
+11/04/2020,RI negative results,0.0,0,0.0
+11/04/2020,RI positive cases,0.0,0,0.0
+11/04/2020,RI total tests,0.0,0,0.0
+11/04/2020,currently hospitalized,169.0,-8,-0.04519774011299438
+11/04/2020,currently in icu,21.0,-3,-0.125
+11/04/2020,currently on ventilator,11.0,-1,-0.08333333333333337
+11/04/2020,instructed to self-quarantine,0.0,0,0.0
+11/04/2020,new positive,466.0,122,0.35465116279069764
+11/04/2020,people positive,35122.0,579,0.016761717279911936
+11/04/2020,people tested,447021.0,3497,0.007884578963032407
+11/04/2020,total deaths,1214.0,2,0.0016501650165017256
+11/04/2020,total discharged,0.0,0,0.0
+11/05/2020,3-day average of currently hospitalized,179.0,8,0.04678362573099415
+11/05/2020,3-day average of daily number of positive tests (may count people more than once),589.0,130,0.2832244008714597
+11/05/2020,3-day average of new people who tested positive (counts first positive lab per person),512.0,119,0.30279898218829526
+11/05/2020,Cumulative hospital admissions,3472.0,40,0.011655011655011593
+11/05/2020,Cumulative hospital deaths,409.0,2,0.004914004914004844
+11/05/2020,Cumulative hospital discharges,2881.0,25,0.008753501400560193
+11/05/2020,Cumulative negative tests (may count people more than once),1153730.0,15675,0.013773499523309418
+11/05/2020,Cumulative people who have only tested negative (counts first negative lab per person),414678.0,2779,0.006746799579508522
+11/05/2020,Cumulative positive tests (may count people more than once),47021.0,717,0.015484623358673177
+11/05/2020,Cumulative total tests completed (may count people more than once),1200751.0,16392,0.013840398054981717
+11/05/2020,Daily number of negative tests (may count people more than once),15139.0,2791,0.22602850664075147
+11/05/2020,Daily number of negative tests (may count people more than once) plus new people who tested positive (counts first positive lab per person),15705.0,2891,0.2256126112064929
+11/05/2020,Daily number of positive tests (may count people more than once),646.0,102,0.1875
+11/05/2020,Daily total tests completed (may count people more than once),15785.0,2893,0.22440273037542657
+11/05/2020,Hospital deaths,1.0,-2,-0.6666666666666667
+11/05/2020,New hospital admissions,28.0,3,0.1200000000000001
+11/05/2020,New hospital discharges,24.0,-2,-0.07692307692307687
+11/05/2020,New people who have only tested negative (counts first negative lab per person),2803.0,427,0.17971380471380471
+11/05/2020,Newly confirmed deaths,8.0,6,3.0
+11/05/2020,Number of COVID-19 cases who  were admitted to a hospital in Rhode Island (cumulative),0.0,0,0.0
+11/05/2020,Number of COVID-19 cases who were admitted to a hospital in Rhode Island (cumulative),0.0,0,0.0
+11/05/2020,RI negative results,0.0,0,0.0
+11/05/2020,RI positive cases,0.0,0,0.0
+11/05/2020,RI total tests,0.0,0,0.0
+11/05/2020,currently hospitalized,182.0,13,0.07692307692307687
+11/05/2020,currently in icu,20.0,-1,-0.04761904761904767
+11/05/2020,currently on ventilator,11.0,0,0.0
+11/05/2020,instructed to self-quarantine,0.0,0,0.0
+11/05/2020,new positive,566.0,100,0.21459227467811148
+11/05/2020,people positive,35750.0,628,0.0178805307214851
+11/05/2020,people tested,450428.0,3407,0.007621565877218295
+11/05/2020,total deaths,1222.0,8,0.006589785831960571
+11/05/2020,total discharged,0.0,0,0.0
