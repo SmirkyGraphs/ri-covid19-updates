@@ -2945,3 +2945,30 @@ Newly confirmed deaths,4,2020-11-10
 Total deaths,1237,2020-11-10
 Cumulative people who tested positive (counts first positive lab per person) plus cumulative negative tests (may count people more than once),1255762,2020-11-10
 Daily number of negative tests (may count people more than once) plus new people who tested positive (counts first positive lab per person),9296,2020-11-10
+Daily number of positive tests (may count people more than once),1026,2020-11-11
+3-day average of daily number of positive tests (may count people more than once),718,2020-11-11
+Cumulative positive tests (may count people more than once),51353,2020-11-11
+Daily number of negative tests (may count people more than once),12603,2020-11-11
+Cumulative negative tests (may count people more than once),1229792,2020-11-11
+Daily total tests completed (may count people more than once),13629,2020-11-11
+Cumulative total tests completed (may count people more than once),1281145,2020-11-11
+New people who tested positive (counts first positive lab per person),919,2020-11-11
+3-day average of new people who tested positive (counts first positive lab per person),659,2020-11-11
+Cumulative people who tested positive (counts first positive lab per person),39776,2020-11-11
+New people who have only tested negative (counts first negative lab per person),2791,2020-11-11
+Cumulative people who have only tested negative (counts first negative lab per person),431508,2020-11-11
+Cumulative people tested (one count per person),471284,2020-11-11
+New hospital admissions,31,2020-11-11
+Cumulative hospital admissions,3656,2020-11-11
+New hospital discharges,30,2020-11-11
+Cumulative hospital discharges,3020,2020-11-11
+Hospital deaths,2,2020-11-11
+Cumulative hospital deaths,416,2020-11-11
+Currently hospitalized,220,2020-11-11
+3-day average of currently hospitalized,220,2020-11-11
+Currently in ICU,25,2020-11-11
+Currently vented,17,2020-11-11
+Newly confirmed deaths,6,2020-11-11
+Total deaths,1243,2020-11-11
+Cumulative people who tested positive (counts first positive lab per person) plus cumulative negative tests (may count people more than once),1269568,2020-11-11
+Daily number of negative tests (may count people more than once) plus new people who tested positive (counts first positive lab per person),13522,2020-11-11

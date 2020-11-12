@@ -1,3 +1,4 @@
+import time
 import numpy as np
 import pandas as pd
 
@@ -13,7 +14,7 @@ plt.style.use('fivethirtyeight')
 date_format = mdates.DateFormatter('%#m/%#d')
 pd.plotting.register_matplotlib_converters()
 
-footer = 'made by: SmirkyGraphs  |  site: ivizri.com  |  source: RIDOH'
+footer = f'made by: SmirkyGraphs  |  site: ivizri.com  |  source: RIDOH  |  updated: {time.strftime("%m/%d/%Y")}'
 
 def fit_trend(df, y):
     temp_df = df[df[y].notnull()].copy()
