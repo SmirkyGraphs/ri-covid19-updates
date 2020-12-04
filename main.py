@@ -28,3 +28,6 @@ if __name__ == "__main__":
 
     # run reports
     reports.run_reports()
+
+    # archieve page
+    scraper.archive_page()

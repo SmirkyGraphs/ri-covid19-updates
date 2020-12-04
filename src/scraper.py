@@ -2,6 +2,7 @@ import time
 from datetime import datetime
 import pandas as pd
 from pathlib import Path
+import requests
 
 drop_cols = [
     '3-day average of daily number of positive tests (may count people more than once)',
@@ -28,10 +29,10 @@ def scrape_sheet(sheet_id):
     df = pd.read_csv(raw_general, parse_dates=['date'])
     prior_date = df['date'].max().tz_localize('EST').date()
 
-    # wait till 12:05 then check every 15 mins for update
-    target = datetime.now().replace(hour=12).replace(minute=5)
+    # wait till 5:05 then check every 15 mins for update
+    target = datetime.now().replace(hour=17).replace(minute=5)
     while datetime.now() < target:
-        print(f"[status] waiting for 12pm", end='\r')
+        print(f"[status] waiting for 5pm", end='\r')
         time.sleep(60)
 
     # load data from RI - DOH spreadsheet
@@ -194,3 +195,25 @@ def scrape_zip_codes(sheet_id):
         df['date'] = date
         save_file(df, raw_zip, date)
         print('[status] zip codes:\tupdated')
+
+def archive_page():
+    ua = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2762.73 Safari/537.36'
+    url = 'https://docs.google.com/spreadsheets/d/1c2QrNMz8pIbYEKzMJL7Uh2dtThOJa2j1sSMwiDo5Gz4/edit#gid=264100583'
+    archive_url = 'https://pragma.archivelab.org'
+
+    headers = {
+        "Content-Type": "application/json",
+        "user-agent": ua
+    }
+
+    data = {
+        'url': url, 
+        'capture_all': 'on',
+        'annoation': {
+            'id': 'list-ib',
+            'message': 'covid-daily data'
+        }
+    }
+    
+    requests.post(archive_url, data=data, headers=headers)
+    print('[status] page archived')
