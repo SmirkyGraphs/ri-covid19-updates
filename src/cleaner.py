@@ -193,6 +193,7 @@ def clean_revised(fname):
     df['%_positive_labs'] = (df['new positive labs']/df['new total labs'])
     df['new people tested'] = (df['new people positive'] + df['new people negative'])
     df['%_new_people_positive'] = (df['new people positive']/df['new people tested'])
+    df['%_new_labs_new_people'] = (df['new people tested']/df['new total labs'])
     df['date_ts'] = df['date'].apply(lambda x: datetime.toordinal(x))
 
     # sort by date & save
