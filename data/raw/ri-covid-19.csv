@@ -3377,3 +3377,30 @@ Newly confirmed deaths,9,2020-12-03
 Total deaths,1400,2020-12-03
 Cumulative people who tested positive (counts first positive lab per person) plus cumulative negative tests (may count people more than once),1580466,2020-12-03
 Daily number of negative tests (may count people more than once) plus new people who tested positive (counts first positive lab per person),16411,2020-12-03
+Daily number of positive tests (may count people more than once),1484,2020-12-04
+3-day average of daily number of positive tests (may count people more than once),1497,2020-12-04
+Cumulative positive tests (may count people more than once),75792,2020-12-04
+Daily number of negative tests (may count people more than once),12994,2020-12-04
+Cumulative negative tests (may count people more than once),1533056,2020-12-04
+Daily total tests completed (may count people more than once),14478,2020-12-04
+Cumulative total tests completed (may count people more than once),1608848,2020-12-04
+New people who tested positive (counts first positive lab per person),1326,2020-12-04
+3-day average of new people who tested positive (counts first positive lab per person),1376,2020-12-04
+Cumulative people who tested positive (counts first positive lab per person),62137,2020-12-04
+New people who have only tested negative (counts first negative lab per person),2741,2020-12-04
+Cumulative people who have only tested negative (counts first negative lab per person),482922,2020-12-04
+Cumulative people tested (one count per person),545059,2020-12-04
+New hospital admissions,43,2020-12-04
+Cumulative hospital admissions,4843,2020-12-04
+New hospital discharges,48,2020-12-04
+Cumulative hospital discharges,3939,2020-12-04
+Hospital deaths,7,2020-12-04
+Cumulative hospital deaths,496,2020-12-04
+Currently hospitalized,408,2020-12-04
+3-day average of currently hospitalized,418,2020-12-04
+Currently in ICU,45,2020-12-04
+Currently vented,29,2020-12-04
+Newly confirmed deaths,13,2020-12-04
+Total deaths,1413,2020-12-04
+Cumulative people who tested positive (counts first positive lab per person) plus cumulative negative tests (may count people more than once),1595193,2020-12-04
+Daily number of negative tests (may count people more than once) plus new people who tested positive (counts first positive lab per person),14320,2020-12-04

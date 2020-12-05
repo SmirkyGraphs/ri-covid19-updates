@@ -6896,3 +6896,36 @@ date,metric,count,new_cases,change_%
 12/03/2020,people tested,541476.0,4570,0.008511732035030306
 12/03/2020,total deaths,1400.0,9,0.006470165348670065
 12/03/2020,total discharged,0.0,0,0.0
+12/04/2020,3-day average of currently hospitalized,418.0,2,0.004807692307692291
+12/04/2020,3-day average of daily number of positive tests (may count people more than once),1497.0,107,0.07697841726618715
+12/04/2020,3-day average of new people who tested positive (counts first positive lab per person),1376.0,96,0.07499999999999996
+12/04/2020,Cumulative hospital admissions,4843.0,54,0.011275840467738663
+12/04/2020,Cumulative hospital deaths,496.0,8,0.016393442622950838
+12/04/2020,Cumulative hospital discharges,3939.0,47,0.012076053442959811
+12/04/2020,Cumulative negative tests (may count people more than once),1533056.0,13312,0.008759369999157718
+12/04/2020,Cumulative people who have only tested negative (counts first negative lab per person),482922.0,2168,0.004509582863585049
+12/04/2020,Cumulative positive tests (may count people more than once),75792.0,1529,0.02058898778665008
+12/04/2020,Cumulative total tests completed (may count people more than once),1608848.0,14841,0.009310498636455167
+12/04/2020,Daily number of negative tests (may count people more than once),12994.0,-2087,-0.13838604867051252
+12/04/2020,Daily number of negative tests (may count people more than once) plus new people who tested positive (counts first positive lab per person),14320.0,-2091,-0.12741453902870026
+12/04/2020,Daily number of positive tests (may count people more than once),1484.0,8,0.005420054200542035
+12/04/2020,Daily total tests completed (may count people more than once),14478.0,-2079,-0.12556622576553722
+12/04/2020,Hospital deaths,7.0,4,1.3333333333333335
+12/04/2020,New hospital admissions,43.0,-1,-0.022727272727272707
+12/04/2020,New hospital discharges,48.0,-5,-0.09433962264150941
+12/04/2020,New people who have only tested negative (counts first negative lab per person),2741.0,-356,-0.1149499515660316
+12/04/2020,Newly confirmed deaths,13.0,4,0.4444444444444444
+12/04/2020,Number of COVID-19 cases who  were admitted to a hospital in Rhode Island (cumulative),0.0,0,0.0
+12/04/2020,Number of COVID-19 cases who were admitted to a hospital in Rhode Island (cumulative),0.0,0,0.0
+12/04/2020,RI negative results,0.0,0,0.0
+12/04/2020,RI positive cases,0.0,0,0.0
+12/04/2020,RI total tests,0.0,0,0.0
+12/04/2020,currently hospitalized,408.0,-1,-0.0024449877750610804
+12/04/2020,currently in icu,45.0,0,0.0
+12/04/2020,currently on ventilator,29.0,-2,-0.06451612903225812
+12/04/2020,instructed to self-quarantine,0.0,0,0.0
+12/04/2020,new positive,1326.0,-4,-0.003007518796992459
+12/04/2020,people positive,62137.0,1415,0.0233029215111491
+12/04/2020,people tested,545059.0,3583,0.006617098449423375
+12/04/2020,total deaths,1413.0,13,0.009285714285714342
+12/04/2020,total discharged,0.0,0,0.0
