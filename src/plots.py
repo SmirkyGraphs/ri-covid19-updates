@@ -448,6 +448,29 @@ def daily_deaths(df):
     fig.legend(handles=[patch], loc='upper left', bbox_to_anchor=[0.78, 0.97], fontsize=10) 
     plt.savefig('./figures/daily_deaths.png', dpi=150)
 
+def percent_tests_new(df):
+    print('[status] creating % of tests new people')
+    fig, axs = plt.subplots(nrows=1, ncols=1, sharex=True)
+    fig.suptitle("Testing: Daily % First-Time Tested", fontsize=16)
+    sub_head = 'percent of daily labs who are people tested for the first time'
+
+    # plot data
+    axs.bar(df['date_ts'].to_numpy(), df['%_new_labs_new_people'].to_numpy(), color='dodgerblue')
+    axs.plot(df['date_ts'].to_numpy(), df['%_new_labs_new_people'].rolling(7).mean().to_numpy(), c='coral', linewidth=2)
+    axs.xaxis.set_major_formatter(date_format)
+
+    fig.tight_layout(rect=[0, 0.05, 1, 0.90])
+    fig.set_size_inches(15, 7, forward=True)
+    fig.text(x=.5, y=0.92, s=sub_head, fontsize=10, ha='center')
+    fig.text(x=0.97, y=0.03, s=footer, fontsize=10, ha='right')
+
+    patch = mpatches.Patch(facecolor='dodgerblue', label='daily % first-time')
+    fig.legend(handles=[patch], loc='upper left', bbox_to_anchor=[0.78, 1], fontsize=10)   
+
+    patch = mpatches.Patch(facecolor='coral', label='7-day moving average')
+    fig.legend(handles=[patch], loc='upper left', bbox_to_anchor=[0.78, 0.97], fontsize=10) 
+    plt.savefig('./figures/percent_first_time_tested.png', dpi=150)
+
 def make_plots():
     # load revised daily updated data and geographic data
     df = pd.read_csv('./data/clean/revised-data-clean.csv', parse_dates=['date', 'date_scraped'])
@@ -470,3 +493,4 @@ def make_plots():
     total_labs_percent_pos(recent_df)
     daily_positive(recent_df)
     daily_deaths(recent_df)
+    percent_tests_new(recent_df)
