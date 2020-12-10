@@ -35,16 +35,16 @@ def testing_trend_plot(df):
     fig.suptitle("14-Day Trend: Testing", fontsize=16)
     
     # plot data
-    axs[0,0].plot(df['date_ts'], df['new positive labs'], c='dodgerblue', linewidth=2)
-    axs[0,1].plot(df['date_ts'], df['new negative labs'], c='dodgerblue', linewidth=2)
-    axs[1,0].plot(df['date_ts'], df['new total labs'], c='dodgerblue', linewidth=2)
-    axs[1,1].plot(df['date_ts'], df['%_positive_labs'], c='dodgerblue', linewidth=2)
+    axs[0,0].plot(df['date_ts'].to_numpy(), df['new positive labs'].to_numpy(), c='dodgerblue', linewidth=2)
+    axs[0,1].plot(df['date_ts'].to_numpy(), df['new negative labs'].to_numpy(), c='dodgerblue', linewidth=2)
+    axs[1,0].plot(df['date_ts'].to_numpy(), df['new total labs'].to_numpy(), c='dodgerblue', linewidth=2)
+    axs[1,1].plot(df['date_ts'].to_numpy(), df['%_positive_labs'].to_numpy(), c='dodgerblue', linewidth=2)
 
     # add trendline
-    axs[0,0].plot(df['date_ts'], fit_trend(df, 'new positive labs'), c='coral', linewidth=2, linestyle='--')
-    axs[0,1].plot(df['date_ts'], fit_trend(df, 'new negative labs'), c='coral', linewidth=2, linestyle='--')
-    axs[1,0].plot(df['date_ts'], fit_trend(df, 'new total labs'), c='coral', linewidth=2, linestyle='--')
-    axs[1,1].plot(df['date_ts'], fit_trend(df, '%_positive_labs'), c='coral', linewidth=2, linestyle='--')
+    axs[0,0].plot(df['date_ts'].to_numpy(), fit_trend(df, 'new positive labs'), c='coral', linewidth=2, linestyle='--')
+    axs[0,1].plot(df['date_ts'].to_numpy(), fit_trend(df, 'new negative labs'), c='coral', linewidth=2, linestyle='--')
+    axs[1,0].plot(df['date_ts'].to_numpy(), fit_trend(df, 'new total labs'), c='coral', linewidth=2, linestyle='--')
+    axs[1,1].plot(df['date_ts'].to_numpy(), fit_trend(df, '%_positive_labs'), c='coral', linewidth=2, linestyle='--')
 
     axs[0,0].set_title('new positive labs')
     axs[0,1].set_title('new negative labs')
@@ -73,16 +73,16 @@ def hospital_trend_plot(df):
     fig.suptitle("14-Day Trend: Hospital", fontsize=16)
 
     # plot data
-    axs[0,0].plot(df['date_ts'], df['new hospital admissions'], c='dodgerblue', linewidth=2)
-    axs[0,1].plot(df['date_ts'], df['new hospital discharges'], c='dodgerblue', linewidth=2)
-    axs[1,0].plot(df['date_ts'], df['hospital deaths'], c='dodgerblue', linewidth=2)
-    axs[1,1].plot(df['date_ts'], df['deaths'], c='dodgerblue', linewidth=2)
+    axs[0,0].plot(df['date_ts'].to_numpy(), df['new hospital admissions'].to_numpy(), c='dodgerblue', linewidth=2)
+    axs[0,1].plot(df['date_ts'].to_numpy(), df['new hospital discharges'].to_numpy(), c='dodgerblue', linewidth=2)
+    axs[1,0].plot(df['date_ts'].to_numpy(), df['hospital deaths'].to_numpy(), c='dodgerblue', linewidth=2)
+    axs[1,1].plot(df['date_ts'].to_numpy(), df['deaths'].to_numpy(), c='dodgerblue', linewidth=2)
 
     # add trendline
-    axs[0,0].plot(df['date_ts'], fit_trend(df, 'new hospital admissions'), c='coral', linewidth=2, linestyle='--')
-    axs[0,1].plot(df['date_ts'], fit_trend(df, 'new hospital discharges'), c='coral', linewidth=2, linestyle='--')
-    axs[1,0].plot(df['date_ts'], fit_trend(df, 'hospital deaths'), c='coral', linewidth=2, linestyle='--')
-    axs[1,1].plot(df['date_ts'], fit_trend(df, 'deaths'), c='coral', linewidth=2, linestyle='--')
+    axs[0,0].plot(df['date_ts'].to_numpy(), fit_trend(df, 'new hospital admissions'), c='coral', linewidth=2, linestyle='--')
+    axs[0,1].plot(df['date_ts'].to_numpy(), fit_trend(df, 'new hospital discharges'), c='coral', linewidth=2, linestyle='--')
+    axs[1,0].plot(df['date_ts'].to_numpy(), fit_trend(df, 'hospital deaths'), c='coral', linewidth=2, linestyle='--')
+    axs[1,1].plot(df['date_ts'].to_numpy(), fit_trend(df, 'deaths'), c='coral', linewidth=2, linestyle='--')
 
     axs[0,0].set_title('hospital admissions')
     axs[0,1].set_title('hospital discharges')
@@ -110,10 +110,10 @@ def testing_combo_ma_plot(df):
     fig.suptitle("7-Day Moving Avg: Testing", fontsize=16)
 
     # plot data
-    axs[0,0].plot(df['date_ts'], df['new positive labs'].rolling(7).mean(), c='dodgerblue', linewidth=2)
-    axs[0,1].plot(df['date_ts'], df['new negative labs'].rolling(7).mean(), c='dodgerblue', linewidth=2)
-    axs[1,0].plot(df['date_ts'], df['new total labs'].rolling(7).mean(), c='dodgerblue', linewidth=2)
-    axs[1,1].plot(df['date_ts'], df['%_positive_labs'].rolling(7).mean(), c='dodgerblue', linewidth=2)
+    axs[0,0].plot(df['date_ts'].to_numpy(), df['new positive labs'].rolling(7).mean().to_numpy(), c='dodgerblue', linewidth=2)
+    axs[0,1].plot(df['date_ts'].to_numpy(), df['new negative labs'].rolling(7).mean().to_numpy(), c='dodgerblue', linewidth=2)
+    axs[1,0].plot(df['date_ts'].to_numpy(), df['new total labs'].rolling(7).mean().to_numpy(), c='dodgerblue', linewidth=2)
+    axs[1,1].plot(df['date_ts'].to_numpy(), df['%_positive_labs'].rolling(7).mean().to_numpy(), c='dodgerblue', linewidth=2)
 
     axs[0,0].set_title('new positive labs')
     axs[0,1].set_title('new negative labs')
@@ -141,10 +141,10 @@ def hospital_combo_ma_plot(df):
     fig.suptitle("7-Day Moving Avg: Hospital", fontsize=16)
 
     # plot data
-    axs[0,0].plot(df['date_ts'], df['new hospital admissions'].rolling(7).mean(), c='dodgerblue', linewidth=2)
-    axs[0,1].plot(df['date_ts'], df['new hospital discharges'].rolling(7).mean(), c='dodgerblue', linewidth=2)
-    axs[1,0].plot(df['date_ts'], df['hospital deaths'].rolling(7).mean(), c='dodgerblue', linewidth=2)
-    axs[1,1].plot(df['date_ts'], df['deaths'].rolling(7).mean(), c='dodgerblue', linewidth=2)
+    axs[0,0].plot(df['date_ts'].to_numpy(), df['new hospital admissions'].rolling(7).mean().to_numpy(), c='dodgerblue', linewidth=2)
+    axs[0,1].plot(df['date_ts'].to_numpy(), df['new hospital discharges'].rolling(7).mean().to_numpy(), c='dodgerblue', linewidth=2)
+    axs[1,0].plot(df['date_ts'].to_numpy(), df['hospital deaths'].rolling(7).mean().to_numpy(), c='dodgerblue', linewidth=2)
+    axs[1,1].plot(df['date_ts'].to_numpy(), df['deaths'].rolling(7).mean().to_numpy(), c='dodgerblue', linewidth=2)
 
     axs[0,0].set_title('hospital admissions')
     axs[0,1].set_title('hospital discharges')
@@ -181,8 +181,8 @@ def first_vs_current(df):
     sub_head = '7-day moving average showing the change between first reported & current number'
 
     # plot data
-    axs.plot(df['date_ts'], df['lowest_deaths'].rolling(7).mean(), c='dodgerblue', linewidth=2)
-    axs.plot(df['date_ts'], df['current_deaths'].rolling(7).mean(), c='coral', linewidth=2)
+    axs.plot(df['date_ts'].to_numpy(), df['lowest_deaths'].rolling(7).mean().to_numpy(), c='dodgerblue', linewidth=2)
+    axs.plot(df['date_ts'].to_numpy(), df['current_deaths'].rolling(7).mean().to_numpy(), c='coral', linewidth=2)
     axs.xaxis.set_major_formatter(date_format)
 
     fig.tight_layout(rect=[0, 0.05, 1, 0.90])
@@ -209,8 +209,8 @@ def first_vs_current_bar(df):
     sub_head = 'stacked bargraph showing change from first reported vs. current values'
 
     # plot data
-    axs.bar(df['date_ts'], df['lowest_deaths'], color='dodgerblue')
-    axs.bar(df['date_ts'], (df['current_deaths']-df['lowest_deaths']), color='coral', bottom=df['lowest_deaths'])
+    axs.bar(df['date_ts'].to_numpy(), df['lowest_deaths'], color='dodgerblue')
+    axs.bar(df['date_ts'].to_numpy(), (df['current_deaths']-df['lowest_deaths']), color='coral', bottom=df['lowest_deaths'])
     axs.xaxis.set_major_formatter(date_format)
 
     fig.tight_layout(rect=[0, 0.05, 1, 0.90])
@@ -232,8 +232,8 @@ def icu_ma_daily(df):
     sub_head = 'daily number of people in an icu bed'
 
     # plot data
-    axs.bar(df['date_ts'], df['icu'], color='dodgerblue')
-    axs.plot(df['date_ts'], df['icu'].rolling(7).mean(), c='coral', linewidth=2)
+    axs.bar(df['date_ts'].to_numpy(), df['icu'].to_numpy(), color='dodgerblue')
+    axs.plot(df['date_ts'].to_numpy(), df['icu'].rolling(7).mean().to_numpy(), c='coral', linewidth=2)
     axs.xaxis.set_major_formatter(date_format)
 
     fig.tight_layout(rect=[0, 0.05, 1, 0.90])
@@ -255,8 +255,8 @@ def vent_ma_daily(df):
     sub_head = 'daily number of people on a vent'
 
     # plot data
-    axs.bar(df['date_ts'], df['vented'], color='dodgerblue')
-    axs.plot(df['date_ts'], df['vented'].rolling(7).mean(), c='coral', linewidth=2)
+    axs.bar(df['date_ts'].to_numpy(), df['vented'].to_numpy(), color='dodgerblue')
+    axs.plot(df['date_ts'].to_numpy(), df['vented'].rolling(7).mean().to_numpy(), c='coral', linewidth=2)
     axs.xaxis.set_major_formatter(date_format)
 
     fig.tight_layout(rect=[0, 0.05, 1, 0.90])
@@ -278,8 +278,8 @@ def hospitalized_ma_daily(df):
     sub_head = 'daily number of new hospital admissions'
 
     # plot data
-    axs.bar(df['date_ts'], df['new hospital admissions'], color='dodgerblue')
-    axs.plot(df['date_ts'], df['new hospital admissions'].rolling(7).mean(), c='coral', linewidth=2)
+    axs.bar(df['date_ts'].to_numpy(), df['new hospital admissions'].to_numpy(), color='dodgerblue')
+    axs.plot(df['date_ts'].to_numpy(), df['new hospital admissions'].rolling(7).mean().to_numpy(), c='coral', linewidth=2)
     axs.xaxis.set_major_formatter(date_format)
 
     fig.tight_layout(rect=[0, 0.05, 1, 0.90])
@@ -301,8 +301,8 @@ def new_ppl_tested(df):
     sub_head = 'daily number of first tests (only counts first test per person)'
 
     # plot data
-    axs1.bar(df['date_ts'], df['new people positive'], color='coral')
-    axs1.bar(df['date_ts'], df['new people negative'], color='dodgerblue', bottom=df['new people positive'])
+    axs1.bar(df['date_ts'].to_numpy(), df['new people positive'], color='coral')
+    axs1.bar(df['date_ts'].to_numpy(), df['new people negative'], color='dodgerblue', bottom=df['new people positive'])
     axs1.xaxis.set_major_formatter(date_format)
 
     fig.tight_layout(rect=[0, 0.05, 1, 0.90])
@@ -324,8 +324,8 @@ def labs_tested(df):
     sub_head = 'daily number of labs tested (includes people tested mutliple times)'
 
     # plot data
-    axs1.bar(df['date_ts'], df['new positive labs'], color='coral')
-    axs1.bar(df['date_ts'], df['new negative labs'], color='dodgerblue', bottom=df['new positive labs'])
+    axs1.bar(df['date_ts'].to_numpy(), df['new positive labs'], color='coral')
+    axs1.bar(df['date_ts'].to_numpy(), df['new negative labs'], color='dodgerblue', bottom=df['new positive labs'])
     axs1.xaxis.set_major_formatter(date_format)
 
     fig.tight_layout(rect=[0, 0.05, 1, 0.90])
@@ -349,7 +349,7 @@ def new_ppl_percent_pos(df):
     colors = ['dodgerblue' if (x < 0.05) else 'coral' for x in df['%_new_people_positive']]
 
     # plot data
-    axs.bar(df['date_ts'], df['%_new_people_positive'], color=colors)
+    axs.bar(df['date_ts'].to_numpy(), df['%_new_people_positive'], color=colors)
     axs.xaxis.set_major_formatter(date_format)
 
     # 5% static line
@@ -380,7 +380,7 @@ def total_labs_percent_pos(df):
     colors = ['dodgerblue' if (x < 0.05) else 'coral' for x in df['%_positive_labs']]
 
     # plot data
-    axs.bar(df['date_ts'], df['%_positive_labs'], color=colors)
+    axs.bar(df['date_ts'].to_numpy(), df['%_positive_labs'], color=colors)
     axs.xaxis.set_major_formatter(date_format)
 
     # 5% static line
@@ -409,8 +409,8 @@ def daily_positive(df):
     sub_head = 'daily number of positive labs'
 
     # plot data
-    axs.bar(df['date_ts'], df['new positive labs'], color='dodgerblue')
-    axs.plot(df['date_ts'], df['new positive labs'].rolling(7).mean(), c='coral', linewidth=2)
+    axs.bar(df['date_ts'].to_numpy(), df['new positive labs'].to_numpy(), color='dodgerblue')
+    axs.plot(df['date_ts'].to_numpy(), df['new positive labs'].rolling(7).mean().to_numpy(), c='coral', linewidth=2)
     axs.xaxis.set_major_formatter(date_format)
 
     fig.tight_layout(rect=[0, 0.05, 1, 0.90])
@@ -432,8 +432,8 @@ def daily_deaths(df):
     sub_head = 'daily number of deaths related to covid-19'
 
     # plot data
-    axs.bar(df['date_ts'], df['deaths'], color='dodgerblue')
-    axs.plot(df['date_ts'], df['deaths'].rolling(7).mean(), c='coral', linewidth=2)
+    axs.bar(df['date_ts'].to_numpy(), df['deaths'].to_numpy(), color='dodgerblue')
+    axs.plot(df['date_ts'].to_numpy(), df['deaths'].rolling(7).mean().to_numpy(), c='coral', linewidth=2)
     axs.xaxis.set_major_formatter(date_format)
 
     fig.tight_layout(rect=[0, 0.05, 1, 0.90])
