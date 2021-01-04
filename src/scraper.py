@@ -41,6 +41,9 @@ def scrape_sheet(sheet_id):
     date = list(df)[1].strip()
     date = pd.to_datetime(date).tz_localize('EST').date()
 
+    if df.shape[0] != 27:
+        print('[ERROR: summary page format changed]')
+
     while not prior_date < date:
         print(f"[status] waiting for update...{time.strftime('%H:%M')}", end='\r')
         time.sleep(5 * 60)
