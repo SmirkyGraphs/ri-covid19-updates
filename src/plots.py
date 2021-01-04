@@ -425,6 +425,29 @@ def daily_positive(df):
     fig.legend(handles=[patch], loc='upper left', bbox_to_anchor=[0.78, 0.97], fontsize=10) 
     plt.savefig('./figures/test_daily_positive.png', dpi=150)
 
+def daily_ppl_positive(df):
+    print('[status] creating testing: daily people positive')
+    fig, axs = plt.subplots(nrows=1, ncols=1, sharex=True)
+    fig.suptitle("Testing: People Positive", fontsize=16)
+    sub_head = 'daily number of new people who tested positive'
+
+    # plot data
+    axs.bar(df['date_ts'].to_numpy(), df['new people positive'].to_numpy(), color='dodgerblue')
+    axs.plot(df['date_ts'].to_numpy(), df['new people positive'].rolling(7).mean().to_numpy(), c='coral', linewidth=2)
+    axs.xaxis.set_major_formatter(date_format)
+
+    fig.tight_layout(rect=[0, 0.05, 1, 0.90])
+    fig.set_size_inches(15, 7, forward=True)
+    fig.text(x=.5, y=0.92, s=sub_head, fontsize=10, ha='center')
+    fig.text(x=0.97, y=0.03, s=footer, fontsize=10, ha='right')
+
+    patch = mpatches.Patch(facecolor='dodgerblue', label='daily positive people')
+    fig.legend(handles=[patch], loc='upper left', bbox_to_anchor=[0.78, 1], fontsize=10)   
+
+    patch = mpatches.Patch(facecolor='coral', label='7-day moving average')
+    fig.legend(handles=[patch], loc='upper left', bbox_to_anchor=[0.78, 0.97], fontsize=10) 
+    plt.savefig('./figures/test_daily_ppl_positive.png', dpi=150)
+
 def daily_deaths(df):
     print('[status] creating daily deaths')
     fig, axs = plt.subplots(nrows=1, ncols=1, sharex=True)
@@ -487,6 +510,7 @@ def make_plots():
     icu_ma_daily(recent_df)
     vent_ma_daily(recent_df)
     hospitalized_ma_daily(recent_df)
+    daily_ppl_positive(recent_df)
     new_ppl_tested(recent_df)
     labs_tested(recent_df)
     new_ppl_percent_pos(recent_df)
