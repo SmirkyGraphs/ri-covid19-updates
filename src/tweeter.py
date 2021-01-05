@@ -12,7 +12,7 @@ with open('./config.json') as config:
 
 def add_plus(value):
     if value >= 0:
-       return f"+{value}"
+        return f"+{value}"
     else:
         return value
 
@@ -23,8 +23,9 @@ def send_tweet():
     api = tweepy.API(auth)
 
     # load the clean data and variables
-    df = pd.read_csv('./data/clean/ri-covid-19-clean.csv')
+    df = pd.read_csv('./data/clean/ri-covid-19-clean.csv', parse_dates=['date'])
     current_date = df['date'].max()
+    date_fmt = current_date.strftime('%m/%d/%Y')
 
     # filter on current_date
     df = df[df['date'] == current_date]
@@ -48,7 +49,7 @@ def send_tweet():
     death_diff = add_plus(change['total deaths'])
 
     tweet = [
-        f'{current_date} update:',
+        f'{date_fmt} update:',
         f'people tested: {total} ({total_diff})',
         f'people positive: {positive} ({pos_diff})',
         f'hospitalized: {hospital} ({hosp_diff})',
