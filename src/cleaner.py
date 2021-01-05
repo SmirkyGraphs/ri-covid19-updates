@@ -65,10 +65,8 @@ def clean_general(fname):
     df.loc[df['metric'].str.contains('Currently vented'), 'metric'] = 'currently on ventilator'
     df.loc[df['metric'].str.contains('Total deaths'), 'metric'] = 'total deaths'
 
-
     # convert types count -> int, date -> datetime str
     df['count'] = df['count'].apply(convert_int)
-    df['date'] = pd.to_datetime(df['date']).dt.strftime('%m/%d/%Y')
 
     # pivot to get total tests given out then un-pivot 
     df = df.pivot_table(index='date', columns='metric', values='count').reset_index()
@@ -79,6 +77,9 @@ def clean_general(fname):
     df['count'] = df['count'].fillna(0)
     df['new_cases'] = df.groupby('metric')['count'].diff().fillna(0).astype(int)
     df['change_%'] = df.groupby('metric')['count'].pct_change().replace(np.inf, 0).fillna(0)
+
+    # add date format
+    df['date'] = pd.to_datetime(df['date']).dt.strftime('%m/%d/%Y')
 
     # save & sync to google sheets
     df.to_csv('./data/clean/ri-covid-19-clean.csv', index=False)
