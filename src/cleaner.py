@@ -198,8 +198,8 @@ def clean_revised(fname):
     df['date_ts'] = df['date'].apply(lambda x: datetime.toordinal(x))
 
     # sort by date & save
-    df['date'] = pd.to_datetime(df['date']).dt.strftime('%m/%d/%Y')
     df = df.sort_values(by=['date_scraped', 'date'])
+    df['date'] = pd.to_datetime(df['date']).dt.strftime('%m/%d/%Y')
     df.to_csv('./data/clean/revised-data-clean.csv', index=False)
 
     # export to google sheets most recent date
