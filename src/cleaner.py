@@ -206,3 +206,4 @@ def clean_revised(fname):
     df = df[df['date_scraped'] == df['date_scraped'].max()]
     df['date_scraped'] = df['date_scraped'].dt.strftime('%m/%d/%Y')
     sync_sheets(df, 'trend_data')
+
