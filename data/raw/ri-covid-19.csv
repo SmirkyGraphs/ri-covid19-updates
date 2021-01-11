@@ -3971,3 +3971,30 @@ Newly confirmed deaths,6,2021-01-08
 Total deaths,1916,2021-01-08
 Cumulative people who tested positive (counts first positive lab per person) plus cumulative negative tests (may count people more than once),2096697,2021-01-08
 Daily number of negative tests (may count people more than once) plus new people who tested positive (counts first positive lab per person),15264,2021-01-08
+Daily number of positive tests (may count people more than once),672,2021-01-11
+3-day average of daily number of positive tests (may count people more than once),1091,2021-01-11
+Cumulative positive tests (may count people more than once),120360,2021-01-11
+Daily number of negative tests (may count people more than once),7656,2021-01-11
+Cumulative negative tests (may count people more than once),2046460,2021-01-11
+Daily total tests completed (may count people more than once),8328,2021-01-11
+Cumulative total tests completed (may count people more than once),2166820,2021-01-11
+New people who tested positive (counts first positive lab per person),568,2021-01-11
+3-day average of new people who tested positive (counts first positive lab per person),929,2021-01-11
+Cumulative people who tested positive (counts first positive lab per person),100607,2021-01-11
+New people who have only tested negative (counts first negative lab per person),1975,2021-01-11
+Cumulative people who have only tested negative (counts first negative lab per person),575802,2021-01-11
+Cumulative people tested (one count per person),676409,2021-01-11
+New hospital admissions,52,2021-01-11
+Cumulative hospital admissions,7191,2021-01-11
+New hospital discharges,32,2021-01-11
+Cumulative hospital discharges,6000,2021-01-11
+Hospital deaths,6,2021-01-11
+Cumulative hospital deaths,792,2021-01-11
+Currently hospitalized,399,2021-01-11
+3-day average of currently hospitalized,393,2021-01-11
+Currently in ICU,47,2021-01-11
+Currently vented,33,2021-01-11
+Newly confirmed deaths,8,2021-01-11
+Total deaths,1947,2021-01-11
+Cumulative people who tested positive (counts first positive lab per person) plus cumulative negative tests (may count people more than once),2147067,2021-01-11
+Daily number of negative tests (may count people more than once) plus new people who tested positive (counts first positive lab per person),8224,2021-01-11
