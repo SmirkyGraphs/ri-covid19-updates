@@ -3,6 +3,7 @@ from src import cleaner
 from src import tweeter
 from src import plots
 from src import reports
+from src import website
 
 main_sheet = '1c2QrNMz8pIbYEKzMJL7Uh2dtThOJa2j1sSMwiDo5Gz4/export?format=csv&gid='
 
@@ -25,6 +26,9 @@ if __name__ == "__main__":
 
     # make graphs
     plots.make_plots()
+
+    # update website
+    website.update_data()
 
     # run reports
     reports.run_reports()
