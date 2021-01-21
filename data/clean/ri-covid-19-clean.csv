@@ -7853,3 +7853,36 @@ date,metric,count,new_cases,change_%
 01/20/2021,people tested,707198.0,3314,0.004708162140352634
 01/20/2021,total deaths,2058.0,13,0.006356968215158965
 01/20/2021,total discharged,0.0,0,0.0
+01/21/2021,3-day average of currently hospitalized,383.0,5,0.013227513227513255
+01/21/2021,3-day average of daily number of positive tests (may count people more than once),752.0,107,0.16589147286821704
+01/21/2021,3-day average of new people who tested positive (counts first positive lab per person),653.0,103,0.18727272727272726
+01/21/2021,Cumulative hospital admissions,7787.0,67,0.008678756476683924
+01/21/2021,Cumulative hospital deaths,855.0,9,0.010638297872340496
+01/21/2021,Cumulative hospital discharges,6553.0,58,0.008929946112394171
+01/21/2021,Cumulative negative tests (may count people more than once),2210799.0,25662,0.011743886081284627
+01/21/2021,Cumulative people who have only tested negative (counts first negative lab per person),602437.0,3115,0.005197539886738767
+01/21/2021,Cumulative positive tests (may count people more than once),129882.0,1110,0.008619886310688551
+01/21/2021,Cumulative total tests completed (may count people more than once),2340681.0,26772,0.01157003149216318
+01/21/2021,Daily number of negative tests (may count people more than once),19270.0,5551,0.4046213280851374
+01/21/2021,Daily number of negative tests (may count people more than once) plus new people who tested positive (counts first positive lab per person),19968.0,5527,0.3827297278581816
+01/21/2021,Daily number of positive tests (may count people more than once),809.0,-4,-0.004920049200492049
+01/21/2021,Daily total tests completed (may count people more than once),20079.0,5547,0.38170933113129646
+01/21/2021,Hospital deaths,9.0,2,0.2857142857142858
+01/21/2021,New hospital admissions,58.0,6,0.11538461538461542
+01/21/2021,New hospital discharges,59.0,18,0.4390243902439024
+01/21/2021,New people who have only tested negative (counts first negative lab per person),2941.0,325,0.12423547400611623
+01/21/2021,Newly confirmed deaths,18.0,5,0.3846153846153846
+01/21/2021,Number of COVID-19 cases who  were admitted to a hospital in Rhode Island (cumulative),0.0,0,0.0
+01/21/2021,Number of COVID-19 cases who were admitted to a hospital in Rhode Island (cumulative),0.0,0,0.0
+01/21/2021,RI negative results,0.0,0,0.0
+01/21/2021,RI positive cases,0.0,0,0.0
+01/21/2021,RI total tests,0.0,0,0.0
+01/21/2021,currently hospitalized,379.0,0,0.0
+01/21/2021,currently in icu,51.0,3,0.0625
+01/21/2021,currently on ventilator,36.0,0,0.0
+01/21/2021,instructed to self-quarantine,0.0,0,0.0
+01/21/2021,new positive,698.0,-24,-0.03324099722991691
+01/21/2021,people positive,108786.0,910,0.00843561125736958
+01/21/2021,people tested,711223.0,4025,0.0056914753718195765
+01/21/2021,total deaths,2076.0,18,0.008746355685131268
+01/21/2021,total discharged,0.0,0,0.0
