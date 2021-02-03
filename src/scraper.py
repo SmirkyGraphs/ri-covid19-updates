@@ -1,4 +1,5 @@
 import time
+import json
 from datetime import datetime
 import pandas as pd
 from pathlib import Path
@@ -255,4 +256,21 @@ def archive_page():
     }
     
     requests.post(archive_url, data=data, headers=headers)
-    print('[status] page archived')
+    print('[status] page archived')def scrape_cdc_vaccine(dataSet):
+    # load prior date
+    raw = f'./data/raw/vaccine-{dataSet}-raw.csv'
+    url = f'https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id={dataSet}'
+    r = requests.get(url)
+    data = json.loads(r.text)
+
+    data = data[dataSet]
+    for d in data:
+        if d['Location'] == 'RI':
+            ri_data = d
+
+    df = pd.DataFrame([ri_data])
+    df = df.rename(columns={'Date':'date'})
+    df['date'] = pd.to_datetime(df['date'])
+    date = df['date'].max()
+    save_file(df, raw, date)
+    print('[status] vaccine:\tupdated')
