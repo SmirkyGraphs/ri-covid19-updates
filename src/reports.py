@@ -59,4 +59,69 @@ def run_reports():
     # change in deaths
     full_death_change(df)
     first_death_change(df)
-    hosp_capacity(df)
+    hosp_capacity(df)def schools_count_report(df):
+
+    def count_schools_u5(df, col):
+        df = df[df['type'] == col]
+
+        total_schools = df.groupby('date').size()
+        df_stu = df[df['total_student_cases_high']<5].groupby('date').size()
+        df_staff = df[df['total_staff_cases_high']<5].groupby('date').size()
+
+        df = pd.concat([df_stu, df_staff, total_schools], axis=1)
+        df.columns = ['u5_student_cases', 'u5_staff_cases', 'total_schools']
+
+        df['%_schools_u5_student'] = df['u5_student_cases']/df['total_schools']
+        df['%_schools_u5_staff'] = df['u5_staff_cases']/df['total_schools']
+
+        df['type'] = col
+
+        return df
+
+    in_person = count_schools_u5(df, 'in person')
+    virtual = count_schools_u5(df, 'virtual')
+    df = pd.concat([in_person, virtual]).sort_values(by=['date', 'type'])
+
+    diff = df.groupby(['type']).diff().fillna(0).iloc[:, 0:3]
+    diff.columns = [f"chng_{col}" for col in list(diff)]
+
+    df = pd.concat([df, diff], axis=1).reset_index()
+    df.to_csv('./data/reports/schools_count.csv', index=False)
+
+def school_update_tables(df):
+    cols = ['school', 'lea', 'type', 'total_student_cases_avg', 'total_staff_cases_avg', 'date']
+    df = df[cols]
+
+    df = df.groupby(['school', 'type', 'date']).sum()
+
+    diff = df.groupby(['school', 'type']).diff().fillna(0)
+    diff.columns = [f"chng_{col}" for col in list(diff)]
+
+    df = pd.concat([df, diff], axis=1).reset_index()
+    df.to_csv('./data/reports/school_cases.csv', index=False)
+
+    # get wanted columns & seperate vr & person
+    df2 = df[df['date']==df['date'].max()]
+    value_cols = list(df2)[3:]
+    col_order = [
+        'school',
+        'total_student_cases_avg',
+        'chng_total_student_cases_avg',
+        'total_staff_cases_avg',
+        'chng_total_staff_cases_avg'
+    ]
+
+    per = df2[df2['type']=='in person'].copy()
+    per[value_cols] = per[value_cols].astype(int)
+    per[col_order].to_csv('./data/reports/in_person_schools.csv', index=False)
+
+    vr = df2[df2['type']=='virtual'].copy()
+    vr[value_cols] = vr[value_cols].astype(int)
+    vr[col_order].to_csv('./data/reports/virtual_schools.csv', index=False)
+
+
+def run_school_reports():
+    df = pd.read_csv('./data/clean/schools-covid-19-clean.csv', parse_dates=['date'])
+    df = df[~df['school'].isin(['Other', 'Total'])]
+    schools_count_report(df)
+    school_update_tables(df)

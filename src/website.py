@@ -121,6 +121,79 @@ def current_total(data):
         
     return data
 
+def weekly_schools(data):
+    
+    def update_json(lookup, v1, v2=''):
+        if d['id'] == lookup:
+            d['total'] = v1
+            d['change'] = v2
+    
+    # getting student and staff numbers
+    df = pd.read_csv('./data/clean/schools-covid-19-clean.csv', parse_dates=['date'])
+    cols = ['school', 'type', 'total_student_cases_avg', 'total_staff_cases_avg', 'date']
+    df = df[df['school']=='Total'][cols].sort_values(by=['type', 'date'])
+
+    # get difference from prior date & select most recent date
+    df[['student_diff', 'staff_diff']] = df.groupby('type')[['total_student_cases_avg', 'total_staff_cases_avg']].diff()
+    df = df[df['date'] == df['date'].max()]
+
+    in_per_student = f"{int(df[df['type']=='in person'].iloc[0]['total_student_cases_avg']):,}"
+    in_per_stu_diff = change_fmt(df[df['type']=='in person'].iloc[0]['student_diff'])
+    in_per_staff = f"{int(df[df['type']=='in person'].iloc[0]['total_staff_cases_avg']):,}"
+    in_per_staff_diff = change_fmt(df[df['type']=='in person'].iloc[0]['staff_diff'])
+
+    vr_student = f"{int(df[df['type']=='virtual'].iloc[0]['total_student_cases_avg']):,}"
+    vr_stu_diff = change_fmt(df[df['type']=='virtual'].iloc[0]['student_diff'])
+    vr_staff = f"{int(df[df['type']=='virtual'].iloc[0]['total_staff_cases_avg']):,}"
+    vr_staff_diff = change_fmt(df[df['type']=='virtual'].iloc[0]['staff_diff'])
+
+    # getting count of schools
+    df = pd.read_csv('./data/reports/schools_count.csv', parse_dates=['date'])
+    df = df[df['date']==df['date'].max()]
+
+    print(df)
+
+    per_u5_student_cases = f"{int(df[df['type']=='in person'].iloc[0]['u5_student_cases']):,}"
+    per_u5_student_cases_diff = change_fmt(df[df['type']=='in person'].iloc[0]['chng_u5_student_cases'])
+    per_u5_staff_cases = f"{int(df[df['type']=='in person'].iloc[0]['u5_staff_cases']):,}"
+    per_u5_staff_cases_diff = change_fmt(df[df['type']=='in person'].iloc[0]['chng_u5_staff_cases'])
+    per_total_schools = f"{int(df[df['type']=='in person'].iloc[0]['total_schools']):,}"
+    per_total_diff = f"{int(df[df['type']=='in person'].iloc[0]['chng_total_schools']):,}"
+    per_pct_stu = f"{df[df['type']=='in person'].iloc[0]['%_schools_u5_student']:.1%}"
+    per_pct_staff = f"{df[df['type']=='in person'].iloc[0]['%_schools_u5_staff']:.1%}"
+
+    vr_u5_student_cases = f"{int(df[df['type']=='virtual'].iloc[0]['u5_student_cases']):,}"
+    vr_u5_student_cases_diff = change_fmt(df[df['type']=='virtual'].iloc[0]['chng_u5_student_cases'])
+    vr_u5_staff_cases = f"{int(df[df['type']=='virtual'].iloc[0]['u5_staff_cases']):,}"
+    vr_u5_staff_cases_diff = change_fmt(df[df['type']=='virtual'].iloc[0]['chng_u5_staff_cases'])
+    vr_total_schools = f"{int(df[df['type']=='virtual'].iloc[0]['total_schools']):,}"
+    vr_total_diff = f"{int(df[df['type']=='virtual'].iloc[0]['chng_total_schools']):,}"
+    vr_pct_stu = f"{df[df['type']=='virtual'].iloc[0]['%_schools_u5_student']:.1%}"
+    vr_pct_staff = f"{df[df['type']=='virtual'].iloc[0]['%_schools_u5_staff']:.1%}"
+
+    # add data to json
+    for d in data['in-person']:
+        update_json('in-person-student-total', in_per_student, in_per_stu_diff)
+        update_json('in-person-staff-total', in_per_staff, in_per_staff_diff)
+        update_json('in-person-student-schools-u5', per_u5_student_cases, per_u5_student_cases_diff)
+        update_json('in-person-staff-schools-u5', per_u5_staff_cases, per_u5_staff_cases_diff)
+        update_json('in-person-new-schools', per_total_diff)
+        update_json('in-person-total-schools', per_total_schools)
+        update_json('in-person-pct-student', per_pct_stu)
+        update_json('in-person-pct-staff', per_pct_staff)
+
+    for d in data['virtual']:   
+        update_json('virtual-student-total', vr_student, vr_stu_diff)
+        update_json('virtual-staff-total', vr_staff, vr_staff_diff)
+        update_json('virtual-student-schools-u5', vr_u5_student_cases, vr_u5_student_cases_diff)
+        update_json('virtual-staff-schools-u5', vr_u5_staff_cases, vr_u5_staff_cases_diff)
+        update_json('virtual-new-schools', vr_total_diff)
+        update_json('virtual-total-schools', vr_total_schools)
+        update_json('virtual-pct-student', vr_pct_stu)
+        update_json('virtual-pct-staff', vr_pct_staff)
+    
+    return data
+
 def update_data():
 
     with open(f'{fp}/daily_update.json', 'r') as f:
@@ -137,6 +210,13 @@ def update_data():
     with open(f'{fp}/totals.json', 'w') as f:
         f.write(json.dumps(update))
     
+    with open(f'{fp}/schools.json', 'r+') as f:
+        data = json.load(f)
+        update = weekly_schools(data)
+
+        f.seek(0)
+        f.write(json.dumps(update))
+        f.truncate()
     with open(f'{fp}/daily_death_dates.json', 'w') as f:
         f.write(daily_death_dates())
         

@@ -199,6 +199,42 @@ def scrape_zip_codes(sheet_id):
         save_file(df, raw_zip, date)
         print('[status] zip codes:\tupdated')
 
+def scrape_schools(sheet_id):
+    # load prior date
+    raw_school = './data/raw/schools-covid-19.csv'
+    df = pd.read_csv(raw_school, parse_dates=['date'])
+    prior_date = df['date'].max().tz_localize('EST').date()
+
+    url = f'https://docs.google.com/spreadsheets/d/{sheet_id}594871904'
+    df = pd.read_csv(url)
+
+    # get date of last update 
+    date = df.iloc[0,0].split(' ')[3]
+    date = pd.to_datetime(date).tz_localize('EST').date()
+    if not date > prior_date:
+        print('\n[status] schools:\tno update')
+        return
+    else:
+        # fix headers
+        df.columns = df.iloc[2]
+        df.columns = ['school', 'lea', 'new_student_cases', 'total_student_cases', 
+                      'new_staff_cases', 'total_staff_cases']
+
+        # fix dataframe shape
+        split = df[df['school'] == 'Virtual Cases‡'].index[0]
+        in_person = df[4:split].copy()
+        virtual = df[split+1:-1].copy()
+
+        # add facility type & recombine
+        in_person['type'] = 'in person'
+        virtual['type'] = 'virtual'
+        df = pd.concat([in_person, virtual]).reset_index(drop=True)
+
+        # add date
+        df['date'] = date
+        save_file(df, raw_school, date)
+        print('[status] schools:\tupdated')
+
 def archive_page():
     ua = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2762.73 Safari/537.36'
     url = 'https://docs.google.com/spreadsheets/d/1c2QrNMz8pIbYEKzMJL7Uh2dtThOJa2j1sSMwiDo5Gz4/edit#gid=264100583'

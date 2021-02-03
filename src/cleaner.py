@@ -18,6 +18,15 @@ def convert_int(value):
     
     return int(value)
 
+def split_high_low(df, col):
+    df = df.copy()
+    data = df[col].str.split(" to ", n=1, expand=True).fillna(0)
+    df[f'{col}_low'] = data[0].apply(convert_int)
+    df[f'{col}_high'] = data[1].apply(convert_int)
+    df[f'{col}_avg'] = (df[f'{col}_low'] + df[f'{col}_high'])/2
+    
+    return df
+
 def clean_facility_city(string):
     if string == None:
         return
@@ -207,3 +216,25 @@ def clean_revised(fname):
     df['date_scraped'] = df['date_scraped'].dt.strftime('%m/%d/%Y')
     sync_sheets(df, 'trend_data')
 
+def clean_schools(fname):
+    print('[status] cleaning schools')
+    df = pd.read_csv(f'./data/raw/{fname}.csv')
+    
+    # split high/low cases
+    cols = ['new_student_cases', 'total_student_cases', 'new_staff_cases', 'total_staff_cases']
+    for col in cols:
+        df = split_high_low(df, col)
+        df = df.drop(columns=[col])
+
+    # rename cols
+    df.loc[df['lea']=='Total:', ['school', 'lea']] = "Total"
+    df.loc[df['school']=='Other*', ['school', 'lea']] = "Other"
+    
+    # move date to end
+    order = list(df)
+    order.remove('date')
+    order.append('date')
+    df = df[order]
+
+    # save file
+    df.to_csv('./data/clean/schools-covid-19-clean.csv', index=False)

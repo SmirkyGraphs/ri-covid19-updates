@@ -27,11 +27,10 @@ if __name__ == "__main__":
     # make graphs
     plots.make_plots()
 
+    # run reports
+    reports.run_school_reports()
     # update website
     website.update_data()
-
-    # run reports
-    reports.run_reports()
 
     # archieve page
     scraper.archive_page()
