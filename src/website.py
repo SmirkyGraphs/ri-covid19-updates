@@ -6,11 +6,15 @@ with open('./config.json') as config:
 
 def pad_num(num):
     num = str(int(num))
-    num = num.zfill(2).replace('0', '&nbsp;')
+    num = num.zfill(2)
+    
+    if num.startswith('0'):
+        num = num.replace('0', '&nbsp;')
 
     return num
 
 def change_fmt(num):
+    num = int(num)
     if num >= 0:
         return f"( +{num} )"
     else:
@@ -24,7 +28,7 @@ def daily_death_dates():
     df['date'] = df['date'].dt.strftime('%m/%d/%Y')
     
     df = df.to_json(orient="records").replace("\\","")
-    
+
     return df
 
 def hospital_capacity():
@@ -196,20 +200,22 @@ def weekly_schools(data):
 
 def update_data():
 
-    with open(f'{fp}/daily_update.json', 'r') as f:
+    with open(f'{fp}/daily_update.json', 'r+') as f:
         data = json.load(f)
         update = daily_update(data)
-        
-    with open(f'{fp}/daily_update.json', 'w') as f:
+
+        f.seek(0)
         f.write(json.dumps(update))
+        f.truncate()
         
-    with open(f'{fp}/totals.json', 'r') as f:
+    with open(f'{fp}/totals.json', 'r+') as f:
         data = json.load(f)
         update = current_total(data)
 
-    with open(f'{fp}/totals.json', 'w') as f:
+        f.seek(0)
         f.write(json.dumps(update))
-    
+        f.truncate()
+
     with open(f'{fp}/schools.json', 'r+') as f:
         data = json.load(f)
         update = weekly_schools(data)
@@ -217,6 +223,7 @@ def update_data():
         f.seek(0)
         f.write(json.dumps(update))
         f.truncate()
+
     with open(f'{fp}/daily_death_dates.json', 'w') as f:
         f.write(daily_death_dates())
         
