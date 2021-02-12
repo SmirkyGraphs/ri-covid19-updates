@@ -53,13 +53,159 @@ def hosp_capacity(df):
     df['%_capacity_covid'] = df['current']/df['capacity']
     df.to_csv('./data/reports/hospital_capacity.csv', index=False)
 
-def run_reports():
+def run_trend_reports():
     df = pd.read_csv('./data/clean/revised-data-clean.csv', parse_dates=['date_scraped', 'date'])
     
     # change in deaths
     full_death_change(df)
     first_death_change(df)
-    hosp_capacity(df)def schools_count_report(df):
+    hosp_capacity(df)
+
+def weekly_short_staffed(df):
+    print('[status] getting cms short staffed')
+    cols = [
+        'week_ending',
+        'provider_name',
+        'shortage_of_nursing_staff',
+        'shortage_of_clinical_staff',
+        'shortage_of_aides',
+        'shortage_of_other_staff'
+    ]
+
+    weekly = df[cols].dropna(axis=0).replace('Y', True).replace('N', False)
+    df = weekly.groupby('week_ending').sum()
+    df['total_providers_reporting'] = weekly.groupby('week_ending').size()
+    
+    df_dif = df.div(df['total_providers_reporting'], axis=0).drop(columns='total_providers_reporting')
+    df_dif.columns = df_dif.columns.str.replace('shortage_of_', '%_short_')
+
+    change = df.diff().fillna(0).drop(columns='total_providers_reporting')
+    change.columns = change.columns.str.replace('shortage_of_', 'change_')
+    df = df.merge(change, on='week_ending').merge(df_dif, on='week_ending')
+    df.to_csv('./data/reports/nursing_home_staff_shortage_weekly.csv')
+
+def count_short_staffed(df):
+    # most recent 
+    df = df[df['week_ending'] == df['week_ending'].max()].reset_index()
+
+    # filter columns
+    cols = [
+        'provider_name',
+        'shortage_of_nursing_staff', 
+        'shortage_of_clinical_staff',
+        'shortage_of_aides',
+        'shortage_of_other_staff'
+    ]
+
+    df = df[cols].dropna(axis=0).replace('Y', True).replace('N', False)
+
+    # count of how many positions each home is short staffed
+    df['total nursing homes'] = df.sum(axis=1)
+    count_short = df['total nursing homes'].value_counts()
+
+    count_short = count_short.reset_index().sort_values(by='index')
+    count_short.columns = ['positions short staffed', 'homes short staffed']
+    count_short['total nursing homes'] = df.shape[0]
+    count_short['% short staffed'] = count_short['homes short staffed']/count_short['total nursing homes']
+    count_short = count_short.drop(columns=['total nursing homes'])
+    count_short.to_csv('./data/reports/nursing_home_staff_shortage_count.csv')
+    
+def short_ppe_supply(df):
+    print('[status] getting lacking ppe supply')
+    cols = [
+        'week_ending',
+        'provider_name',
+        'one_week_supply_of_n95_masks',
+        'one_week_supply_of_surgical',
+        'one_week_supply_of_eye',
+        'one_week_supply_of_gowns',
+        'one_week_supply_of_gloves',
+        'one_week_supply_of_hand',
+    ]
+
+    weekly = df[cols]
+    weekly = weekly.dropna(axis=0).replace('Y', True).replace('N', False)
+    df = weekly.groupby('week_ending').sum()
+    total_reporting = weekly.groupby('week_ending').size()
+    
+    # get reverse (lack of supply instead of has)
+    df_neg = df.rsub(total_reporting, axis=0)
+    df_neg['total_providers_reporting'] = total_reporting
+    
+    df_pct = df_neg.div(df_neg['total_providers_reporting'], axis=0).drop(columns='total_providers_reporting')
+    df_pct.columns = df_pct.columns.str.replace('one_week_supply_of', '%_lacking_1week')
+
+    df_dif = df_neg.diff().fillna(0).drop(columns='total_providers_reporting')
+    df_dif.columns = df_dif.columns.str.replace('one_week_supply_of', 'change')
+    
+    df_neg['total_shortage'] = df_neg.sum(axis=1)
+    df = df_neg.merge(df_pct, on='week_ending').merge(df_dif, on='week_ending')
+    df.to_csv('./data/reports/nursing_home_ppe_shortage.csv')
+
+def nursing_home_metrics(df):
+    print('[status] getting nursing home cases/deaths metrics')
+    cols = [
+        'week_ending',
+        'provider_name',
+        'residents_weekly_admissions',
+        'residents_total_admissions',
+        'residents_weekly_all_deaths',
+        'residents_total_all_deaths', 
+        'residents_weekly_covid_19',
+        'residents_total_covid_19',
+        'residents_weekly_confirmed',
+        'residents_total_confirmed',
+        'staff_weekly_confirmed_covid',
+        'staff_total_confirmed_covid',
+        'staff_weekly_covid_19_deaths',
+        'staff_total_covid_19_deaths'
+    ]
+
+    df = df[cols]
+    df = df.dropna(axis=0).replace('Y', True).replace('N', False)
+    df = df.groupby('week_ending').sum()
+    df.to_csv('./data/reports/nursing_home_metrics.csv')
+
+def nursing_weekly_deaths(df):
+    print('[status] getting cms weekly deaths')
+    cols = [
+        'week_ending',
+        'provider_name',
+        'residents_total_all_deaths',
+        'residents_total_covid_19'
+    ]
+
+    df = df[cols].dropna(axis=0)
+    df = df.groupby('week_ending').sum()
+    df['%_total_covid'] = df['residents_total_covid_19']/df['residents_total_all_deaths']
+    df.to_csv('./data/reports/nursing_home_weekly_deaths.csv')
+
+def nursing_provider_deaths(df):
+    print('[status] getting cms provider deaths')
+    cols = [
+        'week_ending',
+        'provider_name',
+        'residents_total_all_deaths',
+        'residents_total_covid_19'
+    ]
+
+    prov = df[cols]
+    prov = prov[prov['week_ending'] == prov['week_ending'].max()].dropna(axis=0)
+    prov = prov.groupby('provider_name').sum()
+    prov['%_total_covid'] = prov['residents_total_covid_19']/prov['residents_total_all_deaths']
+    prov.to_csv('./data/reports/nursing_home_provider_deaths.csv')
+
+def run_cms_reports():
+    df = pd.read_csv('./data/raw/cms_nursing_homes.csv', parse_dates=['week_ending'])
+
+    weekly_short_staffed(df)
+    count_short_staffed(df)
+    short_ppe_supply(df)
+    nursing_home_metrics(df)
+    nursing_weekly_deaths(df)
+    nursing_provider_deaths(df)
+
+def schools_count_report(df):
 
     def count_schools_u5(df, col):
         df = df[df['type'] == col]

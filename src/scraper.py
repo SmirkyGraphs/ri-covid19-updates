@@ -4,6 +4,7 @@ from datetime import datetime
 import pandas as pd
 from pathlib import Path
 import requests
+import urllib.parse
 
 drop_cols = [
     '3-day average of daily number of positive tests (may count people more than once)',
@@ -256,7 +257,19 @@ def archive_page():
     }
     
     requests.post(archive_url, data=data, headers=headers)
-    print('[status] page archived')def scrape_cdc_vaccine(dataSet):
+    print('[status] page archived')
+
+def scrape_cms_data():
+    # query data
+    url = 'https://data.cms.gov/resource/s2uc-8wxp.csv?$query='
+    query = "select *, :id where (upper(`provider_state`) = upper('RI')) limit 150000"
+    query = urllib.parse.quote_plus(query)
+
+    df = pd.read_csv(f'{url}{query}', parse_dates=['week_ending'])
+    df = df.sort_values(by='week_ending')
+    df.to_csv('./data/raw/cms_nursing_homes.csv', index=False)
+
+def scrape_cdc_vaccine(dataSet):
     # load prior date
     raw = f'./data/raw/vaccine-{dataSet}-raw.csv'
     url = f'https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id={dataSet}'

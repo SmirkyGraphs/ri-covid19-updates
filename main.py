@@ -17,8 +17,10 @@ if __name__ == "__main__":
     # scrape, clean infrequently updated data
     scraper.scrape_nursing_homes(main_sheet)
     scraper.scrape_zip_codes(main_sheet)
+    scraper.scrape_schools(main_sheet)
     cleaner.clean_nursing_homes('nurse-homes-covid-19')
     cleaner.clean_zip_codes('zip-codes-covid-19')
+    cleaner.clean_schools('schools-covid-19')
 
     # scrape revised data
     scraper.scrape_revised(main_sheet)
@@ -32,7 +34,10 @@ if __name__ == "__main__":
     plots.make_plots()
 
     # run reports
+    reports.run_trend_reports()
     reports.run_school_reports()
+    reports.run_cms_reports()
+
     # update website
     website.update_data()
 

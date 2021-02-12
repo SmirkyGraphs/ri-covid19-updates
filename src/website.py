@@ -155,8 +155,6 @@ def weekly_schools(data):
     df = pd.read_csv('./data/reports/schools_count.csv', parse_dates=['date'])
     df = df[df['date']==df['date'].max()]
 
-    print(df)
-
     per_u5_student_cases = f"{int(df[df['type']=='in person'].iloc[0]['u5_student_cases']):,}"
     per_u5_student_cases_diff = change_fmt(df[df['type']=='in person'].iloc[0]['chng_u5_student_cases'])
     per_u5_staff_cases = f"{int(df[df['type']=='in person'].iloc[0]['u5_staff_cases']):,}"
@@ -198,9 +196,62 @@ def weekly_schools(data):
     
     return data
 
+def weekly_nursing_homes(data):
+
+    def update_json(lookup, v1, v2=''):
+        if d['id'] == lookup:
+            d['total'] = v1
+            d['change'] = v2
+
+    # load datasets
+    df = pd.read_csv('./data/reports/nursing_home_metrics.csv', parse_dates=['week_ending'])
+    staff = pd.read_csv('./data/reports/nursing_home_staff_shortage_weekly.csv', parse_dates=['week_ending'])
+    ppe = pd.read_csv('./data/reports/nursing_home_ppe_shortage.csv', parse_dates=['week_ending'])
+
+    res_covid19_deaths = f"{int(df.iloc[-1]['residents_total_covid_19']):,}"
+    res_covid19_cases = f"{int(df.iloc[-1]['residents_total_confirmed']):,}"
+    staff_covid19_deaths = f"{int(df.iloc[-1]['staff_total_covid_19_deaths']):,}"
+    staff_covid19_cases = f"{int(df.iloc[-1]['staff_total_confirmed_covid']):,}"
+    res_covid19_deaths_chng = f"{change_fmt(df.iloc[-1]['residents_weekly_covid_19'])}"
+    res_covid19_cases_chng = f"{change_fmt(df.iloc[-1]['residents_weekly_confirmed'])}"
+    staff_covid19_deaths_chng = f"{change_fmt(df.iloc[-1]['staff_weekly_covid_19_deaths'])}"
+    staff_covid19_cases_chng = f"{change_fmt(df.iloc[-1]['staff_weekly_confirmed_covid'])}"
+
+    nurse_pct = f"{staff.iloc[-1]['%_short_nursing_staff']:.1%}"
+    clinical_pct = f"{staff.iloc[-1]['%_short_clinical_staff']:.1%}"
+    aides_pct = f"{staff.iloc[-1]['%_short_aides']:.1%}"
+    other_pct = f"{staff.iloc[-1]['%_short_other_staff']:.1%}"
+
+    n95_pct = f"{ppe.iloc[-1]['%_lacking_1week_n95_masks']:.1%}"
+    surgical_pct = f"{ppe.iloc[-1]['%_lacking_1week_surgical']:.1%}"
+    eye_pct = f"{ppe.iloc[-1]['%_lacking_1week_eye']:.1%}"
+    gowns_pct = f"{ppe.iloc[-1]['%_lacking_1week_gowns']:.1%}"
+    gloves_pct = f"{ppe.iloc[-1]['%_lacking_1week_gloves']:.1%}"
+    hand_pct = f"{ppe.iloc[-1]['%_lacking_1week_hand']:.1%}"
+
+    for d in data['metrics']:   
+        update_json('resident-covid-deaths', res_covid19_deaths, res_covid19_deaths_chng)
+        update_json('resident-covid-cases', res_covid19_cases, res_covid19_cases_chng)
+        update_json('staff-covid-deaths', staff_covid19_deaths, staff_covid19_deaths_chng)
+        update_json('staff-covid-cases', staff_covid19_cases, staff_covid19_cases_chng)
+        update_json('nursing-shortage', nurse_pct)
+        update_json('clinical-shortage', clinical_pct)
+        update_json('aides-shortage', aides_pct)
+        update_json('other-shortage', other_pct)
+
+    for d in data['ppe']:   
+        update_json('n95-shortage', n95_pct)
+        update_json('surgical-shortage', surgical_pct)
+        update_json('eye-shortage', eye_pct)
+        update_json('gowns-shortage', gowns_pct)
+        update_json('gloves-shortage', gloves_pct)
+        update_json('hand-shortage', hand_pct)
+
+    return data
+
 def update_data():
 
-    with open(f'{fp}/daily_update.json', 'r+') as f:
+    with open(f'{fp}/values/daily_update.json', 'r+') as f:
         data = json.load(f)
         update = daily_update(data)
 
@@ -208,7 +259,7 @@ def update_data():
         f.write(json.dumps(update))
         f.truncate()
         
-    with open(f'{fp}/totals.json', 'r+') as f:
+    with open(f'{fp}/values/totals.json', 'r+') as f:
         data = json.load(f)
         update = current_total(data)
 
@@ -216,7 +267,7 @@ def update_data():
         f.write(json.dumps(update))
         f.truncate()
 
-    with open(f'{fp}/schools.json', 'r+') as f:
+    with open(f'{fp}/values/schools.json', 'r+') as f:
         data = json.load(f)
         update = weekly_schools(data)
 
@@ -224,9 +275,17 @@ def update_data():
         f.write(json.dumps(update))
         f.truncate()
 
-    with open(f'{fp}/daily_death_dates.json', 'w') as f:
+    with open(f'{fp}/values/nursing_homes.json', 'r+') as f:
+        data = json.load(f)
+        update = weekly_nursing_homes(data)
+
+        f.seek(0)
+        f.write(json.dumps(update))
+        f.truncate()
+
+    with open(f'{fp}/values/daily_death_dates.json', 'w') as f:
         f.write(daily_death_dates())
         
-    with open(f'{fp}/capacity.json', 'w') as f:
+    with open(f'{fp}/values/capacity.json', 'w') as f:
         f.write(hospital_capacity())
     
