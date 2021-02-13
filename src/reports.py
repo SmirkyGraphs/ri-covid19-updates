@@ -108,7 +108,7 @@ def count_short_staffed(df):
     count_short['total nursing homes'] = df.shape[0]
     count_short['% short staffed'] = count_short['homes short staffed']/count_short['total nursing homes']
     count_short = count_short.drop(columns=['total nursing homes'])
-    count_short.to_csv('./data/reports/nursing_home_staff_shortage_count.csv')
+    count_short.to_csv('./data/reports/nursing_home_staff_shortage_count.csv', index=False)
     
 def short_ppe_supply(df):
     print('[status] getting lacking ppe supply')
