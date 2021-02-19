@@ -205,8 +205,8 @@ def weekly_nursing_homes(data):
 
     # load datasets
     df = pd.read_csv('./data/reports/nursing_home_metrics.csv', parse_dates=['week_ending'])
-    staff = pd.read_csv('./data/reports/nursing_home_staff_shortage_weekly.csv', parse_dates=['week_ending'])
-    ppe = pd.read_csv('./data/reports/nursing_home_ppe_shortage.csv', parse_dates=['week_ending'])
+    staff = pd.read_csv('./data/reports/nursing_home_weekly_staffing.csv', parse_dates=['week_ending'])
+    ppe = pd.read_csv('./data/reports/nursing_home_weekly_ppe.csv', parse_dates=['week_ending'])
 
     res_covid19_deaths = f"{int(df.iloc[-1]['residents_total_covid_19']):,}"
     res_covid19_cases = f"{int(df.iloc[-1]['residents_total_confirmed']):,}"
