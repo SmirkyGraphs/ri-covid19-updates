@@ -26,6 +26,9 @@ if __name__ == "__main__":
     scraper.scrape_revised(main_sheet)
     cleaner.clean_revised('revised-data')
 
+    # scrape cms data
+    scraper.scrape_cms_data()
+
     # scrape vaccine information from cdc
     scraper.scrape_cdc_vaccine('vaccination_data')
     scraper.scrape_cdc_vaccine('vaccination_ltc_data')

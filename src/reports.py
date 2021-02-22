@@ -290,8 +290,6 @@ def nursing_provider_deaths(df):
     prov = prov[prov['week_ending'] == max_date].dropna(axis=0)
     prov = prov.groupby('provider_name').sum()
     prov['%_total_covid'] = prov['residents_total_covid_19']/prov['residents_total_all_deaths']
-
-    prov = prov.dropna()
     prov['week_ending'] = max_date
     prov.to_csv('./data/reports/nursing_home_provider_deaths.csv')
 
@@ -308,6 +306,8 @@ def nursing_provider_capacity(df):
     prov = prov[prov['week_ending'] == prov['week_ending'].max()]
     prov = prov.groupby('provider_name').sum()
     prov['percent_occupied'] = prov['total_number_of_occupied']/prov['number_of_all_beds']
+
+    prov = prov.dropna()
     prov['week_ending'] = max_date
     prov.to_csv('./data/reports/nursing_home_provider_capacity.csv')
 

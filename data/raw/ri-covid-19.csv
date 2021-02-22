@@ -4727,3 +4727,38 @@ Newly confirmed deaths,15,2021-02-18
 Total deaths,2367,2021-02-18
 Cumulative people who tested positive (counts first positive lab per person) plus cumulative negative tests (may count people more than once),2808718,2021-02-18
 Daily number of negative tests (may count people more than once) plus new people who tested positive (counts first positive lab per person),17871,2021-02-18
+Daily number of positive tests (may count people more than once),344,2021-02-19
+3-day average of daily number of positive tests (may count people more than once),407,2021-02-19
+Cumulative positive tests (may count people more than once),146886,2021-02-19
+Daily number of negative tests (may count people more than once),16479,2021-02-19
+Cumulative negative tests (may count people more than once),2706898,2021-02-19
+Daily total tests completed (may count people more than once),16823,2021-02-19
+Cumulative total tests completed (may count people more than once),2853784,2021-02-19
+New people who tested positive (counts first positive lab per person),289,2021-02-19
+3-day average of new people who tested positive (counts first positive lab per person),348,2021-02-19
+Cumulative people who tested positive (counts first positive lab per person),123145,2021-02-19
+New people who have only tested negative (counts first negative lab per person),1385,2021-02-19
+Cumulative people who have only tested negative (counts first negative lab per person),655694,2021-02-19
+Cumulative people tested (one count per person),778839,2021-02-19
+New hospital admissions,19,2021-02-19
+Cumulative hospital admissions,8870,2021-02-19
+New hospital discharges,25,2021-02-19
+Cumulative hospital discharges,7705,2021-02-19
+Hospital deaths,0,2021-02-19
+Cumulative hospital deaths,988,2021-02-19
+Currently hospitalized,177,2021-02-19
+3-day average of currently hospitalized,188,2021-02-19
+Currently in ICU,29,2021-02-19
+Currently vented,18,2021-02-19
+Newly confirmed deaths,9,2021-02-19
+Total deaths,2376,2021-02-19
+Daily number of first vaccine doses administered (includes single-dose vaccines),4863,2021-02-19
+Daily number of second vaccine doses administered (only applicable for two-dose vaccines),1741,2021-02-19
+Daily total number of vaccine doses administered,6604,2021-02-19
+Cumulative total number of vaccine doses administered,183814,2021-02-19
+Daily number of people at least partially vaccinated,4863,2021-02-19
+Cumulative total number of people at least partially vaccinated,126805,2021-02-19
+Daily number of people fully vaccinated,1741,2021-02-19
+Cumulative total number of people fully vaccinated,57008,2021-02-19
+Cumulative people who tested positive (counts first positive lab per person) plus cumulative negative tests (may count people more than once),2830043,2021-02-19
+Daily number of negative tests (may count people more than once) plus new people who tested positive (counts first positive lab per person),16768,2021-02-19

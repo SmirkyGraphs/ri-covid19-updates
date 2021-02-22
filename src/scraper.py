@@ -118,9 +118,9 @@ def scrape_revised(sheet_id):
     url = f'https://docs.google.com/spreadsheets/d/{sheet_id}1592746937'
     df = pd.read_csv(url, parse_dates=['Date'])
     df.columns = [x.lower() for x in list(df)]
-
+    
     # test to try and make sure columns dont change
-    if df.shape[1] != 26 or list(df)[6] != 'daily total tests completed (may count people more than once)':
+    if df.shape[1] != 34 or list(df)[6] != 'daily total tests completed (may count people more than once)':
         print('[error] revised sheet columns changed')
         return
 
@@ -130,8 +130,10 @@ def scrape_revised(sheet_id):
 
         # re order columns
         move_cols = list(df)[6:11]
-        cols = [x for x in list(df) if x not in move_cols]
+        move_cols_2 = list(df)[26:34]
+        cols = [x for x in list(df) if x not in move_cols and x not in move_cols_2]
         cols.extend(move_cols)
+        cols.extend(move_cols_2)
         df = df[cols]
 
         df['date_scraped'] = datetime.strftime(datetime.now(), '%m/%d/%Y')
