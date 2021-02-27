@@ -377,7 +377,7 @@ def nursing_provider_staffing(df):
     prov.to_csv('./data/reports/nursing_home_provider_staffing.csv')
 
 def run_cms_reports():
-    df = pd.read_csv('./data/raw/cms_nursing_homes.csv', parse_dates=['week_ending'])
+    df = pd.read_csv('./data/raw/cms-nursing-homes.csv', parse_dates=['week_ending'])
 
     count_short_staffed(df)
     nursing_weekly_short_staffed(df)
