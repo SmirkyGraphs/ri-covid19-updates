@@ -129,13 +129,11 @@ def scrape_revised(sheet_id):
         df = df.drop(columns=drop_cols)
 
         # re order columns
-        move_cols = list(df)[6:11]
-        move_cols_2 = list(df)[26:34]
-        cols = [x for x in list(df) if x not in move_cols and x not in move_cols_2]
+        move_cols = (list(df)[6:11] + list(df)[22:30])
+        cols = [x for x in list(df) if x not in move_cols]
         cols.extend(move_cols)
-        cols.extend(move_cols_2)
         df = df[cols]
-
+        
         df['date_scraped'] = datetime.strftime(datetime.now(), '%m/%d/%Y')
         save_file(df, raw_revised, df['date'].max())
 
@@ -269,11 +267,11 @@ def scrape_cms_data():
 
     df = pd.read_csv(f'{url}{query}', parse_dates=['week_ending'])
     df = df.sort_values(by='week_ending')
-    df.to_csv('./data/raw/cms_nursing_homes.csv', index=False)
+    df.to_csv('./data/raw/cms-nursing-homes.csv', index=False)
 
 def scrape_cdc_vaccine(dataSet):
     # load prior date
-    raw = f'./data/raw/vaccine-{dataSet}-raw.csv'
+    raw = f'./data/raw/vaccine-{dataSet}.csv'
     url = f'https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id={dataSet}'
     r = requests.get(url)
     data = json.loads(r.text)
@@ -283,9 +281,24 @@ def scrape_cdc_vaccine(dataSet):
         if d['Location'] == 'RI':
             ri_data = d
 
-    df = pd.DataFrame([ri_data])
-    df = df.rename(columns={'Date':'date'})
+    df = pd.DataFrame([ri_data]).rename(columns={"Date":"date"})
     df['date'] = pd.to_datetime(df['date'])
     date = df['date'].max()
     save_file(df, raw, date)
     print('[status] vaccine:\tupdated')
+
+def scrape_cdc_vaccine_states():
+    raw = './data/raw/vaccine-vaccination_states.csv'
+    drop_cols = ['AS', 'BP2', 'DC', 'DD2', 'FM', 'GU', 'IH2', 'MH', 'MP', 'PR', 'RP', 'VA2', 'VI', 'US', 'LTC']
+    url = f'https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data'
+    r = requests.get(url)
+    data = json.loads(r.text)
+    data = data['vaccination_data']
+
+    df = pd.DataFrame(data).rename(columns={"Date":"date"})
+    df = df[~df['Location'].isin(drop_cols)].dropna(axis=1, how='all')
+
+    df['date'] = pd.to_datetime(df['date'])
+    date = df['date'].max()
+    save_file(df, raw, date)
+    print('[status] vaccine states: updated')

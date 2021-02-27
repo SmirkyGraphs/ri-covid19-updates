@@ -238,3 +238,22 @@ def clean_schools(fname):
 
     # save file
     df.to_csv('./data/clean/schools-covid-19-clean.csv', index=False)
+
+def clean_vaccine(fname):   
+    # load data and drop unwanted column
+    df = pd.read_csv(f'./data/raw/{fname}.csv', parse_dates=['date'])
+    df = df.drop(columns='date_type')
+    
+    # percent distributed doses that were administered
+    df['Pct_Dist_Administered'] = df['Doses_Administered']/df['Doses_Distributed']
+    
+    # doses administered to u18 people (only PFizer approved for 16+)
+    df['Administered_Dose1_Recip_U18'] = df['Administered_Dose1_Recip'] - df['Administered_Dose1_Recip_18Plus']
+    df['Administered_Dose2_Recip_U18'] = df['Administered_Dose2_Recip'] - df['Administered_Dose2_Recip_18Plus']
+    
+    # total doses administered to u18 people (only PFizer approved for 16+)
+    df['Administered_Total_Recip'] = df['Administered_Dose1_Recip'] + df['Administered_Dose2_Recip']
+    df['Administered_Total_Recip_18Plus'] = df['Administered_Dose1_Recip_18Plus'] + df['Administered_Dose2_Recip_18Plus']
+    df['Administered_Recip_U18'] = df['Administered_Total_Recip'] - df['Administered_Total_Recip_18Plus']
+    
+    df.to_csv(f'./data/clean/{fname}-clean.csv', index=False)
