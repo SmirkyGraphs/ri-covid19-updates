@@ -3,13 +3,13 @@ school,total_student_cases_avg,chng_total_student_cases_avg,total_staff_cases_av
 AF Iluminar Mayoral Academy Middle School,0,0,0,0
 Achievement First Iluminar Mayoral Academy,17,0,0,0
 Achievement First Promesa Elementary,7,0,0,0
-Achievement First Providence Mayoral Academy,52,5,7,0
+Achievement First Providence Mayoral Academy,52,0,7,0
 Agnes B. Hennessey School,12,0,0,0
 Agnes E. Little School,12,0,0,0
 Alan Shawn Feinstein Elementary at Broad Street,17,0,0,0
-Alan Shawn Feinstein Middle School Of Coventry,27,0,0,0
+Alan Shawn Feinstein Middle School Of Coventry,27,0,7,7
 Alfred Lima Sr. Elementary School,7,0,0,0
-Alice M. Waddington School,7,7,0,0
+Alice M. Waddington School,7,0,0,0
 Anna M. McCabe School,0,0,0,0
 Anthony Carnevale Elementary School,12,0,0,0
 Aquidneck Elementary School,0,0,0,0
@@ -33,14 +33,14 @@ Blackstone Valley Prep Elementary 2 School (ES2),12,0,0,0
 Blackstone Valley Prep Elementary 3 School (ES3),12,0,0,0
 Blackstone Valley Prep Elementary School (ES1),32,0,0,0
 Blackstone Valley Prep High School (HS),37,0,0,0
-Blackstone Valley Prep Junior High School (JHS),12,5,0,0
+Blackstone Valley Prep Junior High School (JHS),12,0,0,0
 Blackstone Valley Prep Upper Elementary School (UES),12,0,0,0
 Blessed Sacrament School,0,0,0,0
 Block Island School,0,0,0,0
 Bradley School North,0,0,0,0
 Broad Rock Middle School,7,0,0,0
 Brown Avenue School,7,0,0,0
-Burrillville High School,27,0,0,0
+Burrillville High School,32,5,0,0
 Burrillville Middle School,22,0,0,0
 "CHILD, Inc., Centerville Road",0,0,0,0
 Captain G. Harold Hunt Elementary School,0,0,0,0
@@ -54,9 +54,9 @@ Charette Charter School,17,0,0,0
 Chariho Area Career and Technical Center,0,0,0,0
 Chariho Regional High School,27,0,0,0
 Chariho Regional Middle School,7,0,0,0
-Charles E. Shea High School,62,0,7,0
+Charles E. Shea High School,67,5,7,0
 Charles N. Fortes Elementary School,7,0,0,0
-Charlestown Elementary School,0,0,0,0
+Charlestown Elementary School,7,7,0,0
 Claiborne Pell Elementary School,12,0,0,0
 Classical High School,37,0,0,0
 Clayville Elementary School,0,0,0,0
@@ -66,11 +66,11 @@ Community School,12,0,0,0
 Cornerstone School,0,0,0,0
 Cottrell F. Hoxsie School,0,0,0,0
 Coventry High School,52,0,7,0
-Cranston High School East,102,0,7,0
+Cranston High School East,107,5,7,0
 Cranston High School West,107,0,0,0
 Cranston Transition Program(CTP),0,0,0,0
 Cumberland High School,57,0,0,0
-Curtis Corner Middle School,12,0,0,0
+Curtis Corner Middle School,17,5,0,0
 Curvin-McCabe School,17,0,0,0
 Daniel D. Waterman School,12,0,0,0
 Davisville Academy,0,0,0,0
@@ -115,9 +115,9 @@ Frank D. Spaziano Elementary School Annex,0,0,0,0
 Frank E. Thompson Middle School,12,0,0,0
 Frenchtown School,0,0,0,0
 Garden City School,7,0,0,0
-Garvin Memorial School,17,5,0,0
+Garvin Memorial School,17,0,0,0
 George Hanaford School,0,0,0,0
-George J. Peters School,12,5,0,0
+George J. Peters School,12,0,0,0
 George J. West Elementary School,17,0,0,0
 Gilbert Stuart Middle School,22,0,0,0
 Gladstone Street School,17,0,0,0
@@ -143,13 +143,13 @@ High Road School of Providence,0,0,0,0
 Highlander Charter School/Mariposa Center@Meeting St.School,0,0,0,0
 Highlander Elementary Charter School,17,0,0,0
 Highlander Secondary Charter School,27,0,0,0
-Holliman School,7,7,0,0
+Holliman School,7,0,0,0
 Hope Elementary School,0,0,0,0
-Hope High School,37,0,0,0
+Hope High School,42,5,0,0
 Hope Highlands Middle School,17,0,0,0
 Hope Street School,0,0,0,0
 Hope Valley Elementary School,0,0,0,0
-Hopkins Hill School,7,0,0,0
+Hopkins Hill Elementary School,7,0,0,0
 Howard Hathaway School,7,0,0,0
 Hugh B. Bain Middle School,27,0,7,0
 Hugh Cole School,12,0,0,0
@@ -164,20 +164,20 @@ John F. Horgan Elementary School,27,0,0,0
 John J. McLaughlin Cumberland Hill School,7,0,0,0
 Johnston Senior High School,42,0,0,0
 Joseph H. Gaudet Middle School,7,0,0,0
-Joseph Jenks Middle School,42,5,7,0
+Joseph Jenks Middle School,42,0,7,0
 Joseph L. McCourt Middle School,12,0,0,0
 Kent Heights School,7,0,0,0
 Kevin K. Coleman Elementary School,12,0,0,0
 Kickemuit Middle School,12,0,0,0
 Kid's Kingdom,0,0,0,0
-La Salle Academy,47,5,0,0
+La Salle Academy,52,5,0,0
 Leo A. Savoie School,12,0,0,0
 Leviton Dual Language School,7,0,0,0
 Lillian Feinstein Elementary Sackett Street,12,0,0,0
 Lincoln Central Elementary School,0,0,0,0
 Lincoln Middle School,17,0,0,0
-Lincoln School,12,5,0,0
-Lincoln Senior High School,42,5,0,0
+Lincoln School,12,0,0,0
+Lincoln Senior High School,42,0,0,0
 Lippitt School,7,0,0,0
 Lonsdale Elementary School,0,0,0,0
 Love 4 All Childcare Center,0,0,0,0
@@ -197,7 +197,7 @@ Montessori Centre of Barrington,0,0,0,0
 Moses Brown School,7,0,0,0
 Mount Pleasant Academy,0,0,0,0
 Mount Pleasant High School,37,0,0,0
-Mount St. Charles Academy,12,-5,0,0
+Mount St. Charles Academy,12,0,0,0
 Msgr. Matthew F. Clarke Catholic Regional School,0,0,0,0
 Mt. Hope High School,47,0,0,0
 Myron J. Francis Elementary School,7,0,0,0
@@ -207,15 +207,15 @@ Narragansett High School,7,0,0,0
 Narragansett Pier School,0,0,0,0
 Nathan Bishop Middle School,12,0,0,0
 Nathanael Greene Elementary School (Pawtucket),22,0,0,0
-Nathanael Greene Middle School (Providence),37,5,0,0
+Nathanael Greene Middle School (Providence),37,0,0,0
 Nayatt School,7,0,0,0
 Nicholas A. Ferri Middle School,22,0,0,0
 North Cumberland Middle School,7,0,0,0
-North Kingstown Senior High School,32,0,0,0
-North Providence High School,42,0,0,0
+North Kingstown Senior High School,37,5,0,0
+North Providence High School,47,5,0,0
 North Scituate Elementary School,0,0,0,0
 North Smithfield Elementary School,7,0,0,0
-North Smithfield High School,12,0,0,0
+North Smithfield High School,17,5,0,0
 North Smithfield Middle School,12,0,0,0
 Northern Lincoln Elementary School,7,0,0,0
 Northern RI Collaborative,0,0,0,0
@@ -245,7 +245,7 @@ Portsmouth Abbey School,7,0,0,0
 Portsmouth High School,32,0,0,0
 Portsmouth Middle School,7,0,0,0
 Pothier-Citizens Elementary Campus,27,0,7,0
-Potter-Burns School,17,5,0,0
+Potter-Burns School,17,0,0,0
 Primrose Hill School,0,0,0,0
 Providence Career and Technical Academy,27,0,0,0
 Providence Country Day School,0,0,0,0
@@ -266,7 +266,7 @@ Rocky Hill School,0,0,0,0
 Roger Williams Middle School,27,0,0,0
 Rogers High School,22,0,0,0
 Sacred Heart School,7,0,0,0
-Samuel Slater Middle School,42,5,0,0
+Samuel Slater Middle School,42,0,0,0
 San Miguel School,7,0,0,0
 Sarah Dyer Barnes School,0,0,0,0
 Sargent Rehabilitation Center,0,0,0,0
@@ -281,7 +281,7 @@ Sherman School,7,0,0,0
 Silver Spring School,7,0,0,0
 Smithfield Senior High School,22,0,0,0
 Sophia Academy,7,0,0,0
-South Kingstown High School,22,0,0,0
+South Kingstown High School,27,5,0,0
 SouthSide Elementary Charter School,7,0,0,0
 Sowams Elementary School,0,0,0,0
 Springbrook Elementary School,0,0,0,0
@@ -309,7 +309,7 @@ St. Thomas Regional School,0,0,0,0
 Stadium Elementary School,7,0,0,0
 State Street School,0,0,0,0
 Steere Farm Elementary School,0,0,0,0
-Stephen Olney School,12,5,0,0
+Stephen Olney School,12,0,0,0
 Stone Hill School,12,0,0,0
 Stony Lane Elementary School,0,0,0,0
 The Bradley School,0,0,0,0
@@ -319,7 +319,7 @@ The Genesis Daycare Center,0,0,0,0
 The Gordon School,0,0,0,0
 The Greene School,0,0,0,0
 "The Groden Center, Inc.",0,0,0,0
-The Hope Academy,12,5,0,0
+The Hope Academy,12,0,0,0
 The Learning Community Charter School,37,0,7,0
 The Pennfield School,0,0,0,0
 The Prout School,0,0,0,0
@@ -330,9 +330,9 @@ The Wheeler School,12,0,0,0
 The Wolf School,0,0,0,0
 Thornton School,7,0,0,0
 Times2 Elementary School,12,0,0,0
-Times2 Middle/High School,22,5,0,0
+Times2 Middle/High School,22,0,0,0
 Tiogue School,7,0,0,0
-Tiverton High School,12,5,0,0
+Tiverton High School,12,0,0,0
 Tiverton Middle School,7,0,0,0
 Toll Gate High School,57,0,0,0
 Trinity Academy for the Performing Arts,22,0,0,0
@@ -361,13 +361,13 @@ West Warwick Senior High School,42,0,7,0
 Westerly High School,17,0,0,0
 Westerly Middle School,17,0,0,0
 Western Coventry School,7,0,0,0
-Western Hills Middle School,37,5,0,0
+Western Hills Middle School,37,0,0,0
 Wickford Middle School,0,0,0,0
 "William B. Cooley, Sr. High School and the Providence Academy of International Studies High School",17,0,0,0
 William D'Abate Elementary School,0,0,0,0
 William E Tolman Senior High School,52,0,0,0
 William L. Callahan School,7,0,0,0
-William R. Dutemple School,0,0,0,0
+William R. Dutemple School,7,7,0,0
 William Winsor School,0,0,0,0
 Winman Middle School,32,0,0,0
 Winsor Hill School,7,0,0,0
