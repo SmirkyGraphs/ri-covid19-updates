@@ -30,12 +30,13 @@ if __name__ == "__main__":
     scraper.scrape_cms_data()
 
     # scrape vaccine information from cdc
+    scraper.scrape_geo_vaccine('geo-vaccine')
     scraper.scrape_cdc_vaccine_states()
     scraper.scrape_cdc_vaccine('vaccination_data')
     scraper.scrape_cdc_vaccine('vaccination_ltc_data')
     cleaner.clean_vaccine('vaccine-vaccination_data')
     cleaner.clean_vaccine('vaccine-vaccination_states')
-
+    
     # make graphs
     plots.make_plots()
 
