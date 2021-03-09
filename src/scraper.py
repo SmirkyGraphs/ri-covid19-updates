@@ -1,3 +1,4 @@
+import io
 import time
 import json
 from datetime import datetime
@@ -74,7 +75,7 @@ def scrape_sheet(sheet_id):
         geo_df = geo_df[cols]
 
         geo_df = geo_df.dropna(axis=0)
-        geo_df.columns = ['city_town', 'count', 'hostpialized', 'deaths', 'date']
+        geo_df.columns = ['city_town', 'count', 'hostpialized', 'deaths', 'fully_vaccinated', 'date']
 
         # save file
         raw_geo = './data/raw/geo-ri-covid-19.csv'
@@ -302,3 +303,15 @@ def scrape_cdc_vaccine_states():
     date = df['date'].max()
     save_file(df, raw, date)
     print('[status] vaccine states: updated')
+
+def scrape_geo_vaccine(fp):
+    url = r'https://static.dwcdn.net/data/B6TaX.csv' 
+    r = requests.get(url)  
+    df = pd.read_csv(io.StringIO(r.text))
+    df['date_scraped'] = datetime.strftime(datetime.now(), '%#m/%d/%Y')
+
+    file_path = f'./data/raw/{fp}.csv'
+    if not Path(file_path).exists():
+        df.to_csv(file_path, index=False)
+    else:
+        df.to_csv(file_path, mode='a', header=False, index=False)
