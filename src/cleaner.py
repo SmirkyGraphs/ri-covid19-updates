@@ -197,7 +197,7 @@ def clean_revised(fname):
     df = pd.read_csv(f'./data/raw/{fname}.csv', parse_dates=['date', 'date_scraped'])
 
     # replace null label -- with 0
-    df = df.replace('--', 0)
+    df = df.replace('--', 0).replace('-', 0)
 
     df['new total labs'] = (df['new positive labs'] + df['new negative labs'])
     df['%_positive_labs'] = (df['new positive labs']/df['new total labs'])
@@ -243,10 +243,12 @@ def clean_vaccine(fname):
     # load data and drop unwanted column
     df = pd.read_csv(f'./data/raw/{fname}.csv', parse_dates=['date'])
     df = df.drop(columns='date_type')
-    
-    # percent distributed doses that were administered
-    df['Pct_Dist_Administered'] = df['Doses_Administered']/df['Doses_Distributed']
-    
+
+    # convert percent to actual percent value (div by 100)
+    percent_cols = [x for x in list(df) if x.endswith('Pct')]
+    for col in percent_cols:
+        df[col] = df[col]/100
+   
     # doses administered to u18 people (only PFizer approved for 16+)
     df['Administered_Dose1_Recip_U18'] = df['Administered_Dose1_Recip'] - df['Administered_Dose1_Recip_18Plus']
     df['Administered_Dose2_Recip_U18'] = df['Administered_Dose2_Recip'] - df['Administered_Dose2_Recip_18Plus']
@@ -255,5 +257,13 @@ def clean_vaccine(fname):
     df['Administered_Total_Recip'] = df['Administered_Dose1_Recip'] + df['Administered_Dose2_Recip']
     df['Administered_Total_Recip_18Plus'] = df['Administered_Dose1_Recip_18Plus'] + df['Administered_Dose2_Recip_18Plus']
     df['Administered_Recip_U18'] = df['Administered_Total_Recip'] - df['Administered_Total_Recip_18Plus']
+
+    # percent of recip of total population
+    df['Administered_Dose1_Recip_Pct'] = df['Administered_Dose1_Recip'] / df['Census2019']
+    df['Administered_Dose2_Recip_Pct'] = df['Administered_Dose2_Recip'] / df['Census2019']
+
+    # percent distributed doses that were administered
+    df['Pct_Dist_Administered'] = df['Doses_Administered']/df['Doses_Distributed']
+    df['pct_doses_used_recip'] = df['Administered_Total_Recip']/df['Doses_Distributed']
     
     df.to_csv(f'./data/clean/{fname}-clean.csv', index=False)
