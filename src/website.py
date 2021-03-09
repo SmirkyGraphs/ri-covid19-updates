@@ -75,6 +75,8 @@ def daily_update(data):
     pct_labs = current['%_positive_labs'].iloc[0]
     pos_people = current['total people positive'].iloc[0] - prior['total people positive'].iloc[0]
     pct_people = current['%_new_people_positive'].iloc[0]
+    part_vac = current['cumulative people partially vaccinated'].iloc[0] - prior['cumulative people partially vaccinated'].iloc[0]
+    full_vac = current['cumulative people fully vaccinated'].iloc[0] - prior['cumulative people fully vaccinated'].iloc[0]
     
     # add data to json
     for d in data:   
@@ -87,6 +89,9 @@ def daily_update(data):
         update_json('daily-labs-pct', f'{pct_labs:.1%}')
         update_json('daily-positive-people', f'{int(pos_people):,}')
         update_json('daily-people-pct', f'{pct_people:.1%}')
+
+        update_json('daily-vac-full', f'{int(full_vac):,}')
+        update_json('daily-vac-partial', f'{int(part_vac):,}')
         
     return data
 
@@ -113,6 +118,8 @@ def current_total(data):
     total_hosp_deaths = f'{int(df["cumulative hospital deaths"].iloc[0]):,} hospital deaths'
     total_hosp_adm = f'{int(df["cumulative hospital admissions"].iloc[0]):,}'
     total_hosp_dis = f'{int(df["cumulative hospital discharges"].iloc[0]):,} hospital discharges'
+    total_full_vac = f'{int(df["cumulative people fully vaccinated"].iloc[0]):,}'
+    total_part_vac = f'{int(df["cumulative people partially vaccinated"].iloc[0]):,} partially vaccinated'
     
     # add data to json
     for d in data:   
@@ -122,6 +129,7 @@ def current_total(data):
         update_json('total-people-positive', total_ppl_pos, pct_ppl_pos)
         update_json('total-deaths', total_deaths, total_hosp_deaths)
         update_json('total-hosp-admittied', total_hosp_adm, total_hosp_dis)
+        update_json('total-vaccinated', total_full_vac, total_part_vac)
         
     return data
 
@@ -249,6 +257,44 @@ def weekly_nursing_homes(data):
 
     return data
 
+def daily_cdc_vaccine(data):
+
+    def update_json(lookup, v1, v2=''):
+        if d['id'] == lookup:
+            d['total'] = v1
+            d['change'] = v2
+
+    # load datasets
+    df = pd.read_csv('./data/clean/vaccine-vaccination_data-clean.csv', parse_dates=['date'])
+
+    dist = f"{int(df.iloc[-1]['Doses_Distributed']):,}"
+    admin = f"{int(df.iloc[-1]['Administered_Total_Recip']):,}"
+    dose1 = f"{int(df.iloc[-1]['Administered_Dose1_Recip']):,}"
+    dose2 = f"{int(df.iloc[-1]['Administered_Dose2_Recip']):,}"
+    admin_u18 = f"{int(df.iloc[-1]['Administered_Recip_U18']):,}"
+
+    new_dist = change_fmt(df.iloc[-1]['Doses_Distributed'] - df.iloc[-2]['Doses_Distributed'])
+    new_admin = change_fmt(df.iloc[-1]['Administered_Total_Recip'] - df.iloc[-2]['Administered_Total_Recip'])
+    new_d1 = change_fmt(df.iloc[-1]['Administered_Dose1_Recip'] - df.iloc[-2]['Administered_Dose1_Recip'])
+    new_d2 = change_fmt(df.iloc[-1]['Administered_Dose2_Recip'] - df.iloc[-2]['Administered_Dose2_Recip'])
+    new_admin_u18 = change_fmt(df.iloc[-1]['Administered_Recip_U18'] - df.iloc[-2]['Administered_Recip_U18'])
+
+    pct_used = f"{df.iloc[-1]['pct_doses_used_recip']:.1%}"
+    pct_d1 = f"{df.iloc[-1]['Administered_Dose1_Recip_Pct']:.1%}"
+    pct_d2 = f"{df.iloc[-1]['Administered_Dose2_Recip_Pct']:.1%}"
+
+    for d in data:   
+        update_json('vaccine-dist', dist, new_dist)
+        update_json('vaccine-admin', admin, new_admin)
+        update_json('vaccine-dose1', dose1, new_d1)
+        update_json('vaccine-dose2', dose2, new_d2)
+        update_json('vaccine-used-pct', pct_used)
+        update_json('vaccine-admin-u18', admin_u18, new_admin_u18)
+        update_json('vaccine-dose1-pct', pct_d1)
+        update_json('vaccine-dose2-pct', pct_d2)
+
+    return data
+
 def update_data():
 
     with open(f'{fp}/values/daily_update.json', 'r+') as f:
@@ -278,6 +324,14 @@ def update_data():
     with open(f'{fp}/values/nursing_homes.json', 'r+') as f:
         data = json.load(f)
         update = weekly_nursing_homes(data)
+
+        f.seek(0)
+        f.write(json.dumps(update))
+        f.truncate()
+
+    with open(f'{fp}/values/vaccine.json', 'r+') as f:
+        data = json.load(f)
+        update = daily_cdc_vaccine(data)
 
         f.seek(0)
         f.write(json.dumps(update))
