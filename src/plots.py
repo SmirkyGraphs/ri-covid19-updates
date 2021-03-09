@@ -495,6 +495,35 @@ def percent_tests_new(df):
     fig.legend(handles=[patch], loc='upper left', bbox_to_anchor=[0.78, 0.97], fontsize=10) 
     plt.savefig('./figures/percent_first_time_tested.png', dpi=150)
 
+def todays_new_deaths(df):
+    print('[status] creating newly reported deaths')
+    df2 = pd.read_csv('./data/reports/full_death_change.csv', parse_dates=['date', 'date_scraped'])
+    df2 = df2[df2['date_scraped']==df2['date_scraped'].max()].rename(columns={'deaths': 'new_deaths'})
+    
+    df = df.merge(df2, how='left', on=['date', 'date_scraped']).fillna(0)
+    df['old_deaths'] = df['deaths'] - df['new_deaths']
+    
+    fig, axs = plt.subplots(nrows=1, ncols=1, sharex=True)
+    fig.suptitle("Daily New Reported Deaths", fontsize=16)
+    sub_head = "shows the exact dates of today's newly reported deaths"
+
+    # plot data
+    axs.bar(df['date_ts'].to_numpy(), df['old_deaths'], color='dodgerblue')
+    axs.bar(df['date_ts'].to_numpy(), df['new_deaths'], color='coral', bottom=df['old_deaths'])
+    axs.xaxis.set_major_formatter(date_format)
+
+    fig.tight_layout(rect=[0, 0.05, 1, 0.90])
+    fig.set_size_inches(15, 7, forward=True)
+    fig.text(x=.5, y=0.92, s=sub_head, fontsize=10, ha='center')
+    fig.text(x=0.97, y=0.03, s=footer, fontsize=10, ha='right')
+
+    patch = mpatches.Patch(facecolor='dodgerblue', label='previously reported deaths')
+    fig.legend(handles=[patch], loc='upper left', bbox_to_anchor=[0.78, 1], fontsize=10)   
+
+    patch = mpatches.Patch(facecolor='coral', label='new deaths reported today')
+    fig.legend(handles=[patch], loc='upper left', bbox_to_anchor=[0.78, 0.97], fontsize=10)
+    plt.savefig('./figures/new_reported_deaths.png', dpi=150)
+
 def make_plots():
     # load revised daily updated data and geographic data
     df = pd.read_csv('./data/clean/revised-data-clean.csv', parse_dates=['date', 'date_scraped'])
