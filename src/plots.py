@@ -594,6 +594,7 @@ def make_plots():
 
     vaccine_id = recent_df['cumulative people partially vaccinated'].ne(0).idxmax()
     ri_vac_df = recent_df[recent_df.index > vaccine_id]
+
     testing_trend_plot(recent_df)
     hospital_trend_plot(recent_df)
     testing_combo_ma_plot(recent_df)
@@ -611,7 +612,11 @@ def make_plots():
     total_labs_percent_pos(recent_df)
     daily_positive(recent_df)
     daily_deaths(recent_df)
-    percent_tests_new(recent_df)    # vaccine rankings
+    percent_tests_new(recent_df)
+    todays_new_deaths(recent_df)
+    ridoh_vaccination_trend(ri_vac_df)
+
+    # vaccine rankings
     df = pd.read_csv('./data/clean/vaccine-vaccination_states-clean.csv', parse_dates=['date'])
     df = df[df['date'] == df['date'].max()]
 
