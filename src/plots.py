@@ -524,12 +524,76 @@ def todays_new_deaths(df):
     fig.legend(handles=[patch], loc='upper left', bbox_to_anchor=[0.78, 0.97], fontsize=10)
     plt.savefig('./figures/new_reported_deaths.png', dpi=150)
 
+def ridoh_vaccination_trend(df):
+    print('[status] creating vaccine trend')
+    fig, axs = plt.subplots(nrows=1, ncols=1, sharex=True)
+    fig.suptitle("RIDOH Vaccination Trend", fontsize=16)
+    sub_head = 'daily number of first and second vaccine doses administered'
+
+    # plot data
+    axs.bar(df['date_ts'].to_numpy(), df['new first vaccine doses admin (includes single-dose vaccines)'], color='dodgerblue')
+    axs.bar(df['date_ts'].to_numpy(), df['new second vaccine doses admin (only applicable for two-dose vaccines)'], color='coral', 
+            bottom=df['new first vaccine doses admin (includes single-dose vaccines)'])
+    axs.plot(df['date_ts'].to_numpy(), df['new vaccine doses admin'].rolling(7).mean().to_numpy(), linewidth=2, c='#333333', linestyle='dashed')
+    axs.xaxis.set_major_formatter(date_format)
+
+    fig.tight_layout(rect=[0, 0.05, 1, 0.90])
+    fig.set_size_inches(15, 7, forward=True)
+    fig.text(x=.5, y=0.92, s=sub_head, fontsize=10, ha='center')
+    fig.text(x=0.97, y=0.03, s=footer, fontsize=10, ha='right')
+
+    patch = mpatches.Patch(facecolor='dodgerblue', label='first dose administered')
+    fig.legend(handles=[patch], loc='upper left', bbox_to_anchor=[0.78, 1], fontsize=10)   
+
+    patch = mpatches.Patch(facecolor='coral', label='second dose administered')
+    fig.legend(handles=[patch], loc='upper left', bbox_to_anchor=[0.78, 0.97], fontsize=10)
+
+    patch = mlines.Line2D([], [], linewidth=2, linestyle="dashed", color='#333333', label='7-day moving average')
+    fig.legend(handles=[patch], loc='upper left', bbox_to_anchor=[0.78, 0.94], fontsize=10) 
+    plt.savefig('./figures/ridoh_vaccine_trend.png', dpi=150)
+
+def vaccine_rank_states(df, method, title, save_file, pct=False):
+    df = df.sort_values(by=method, ascending=False).reset_index(drop=True)
+    # get ri rank among new england states 
+    states = ['CT', 'RI', 'MA', 'NH', 'ME', 'VT']
+    ne_rnk = [df.loc[df['Location']==st].index[0] + 1 for st in states]
+    _, states = zip(*sorted(zip(ne_rnk, states)))
+    ne_rank = states.index('RI') + 1
+    
+    # highlight ri and return overall state rank
+    c = ['coral' if (x == 'RI') else 'dodgerblue' for x in df['Location']]
+    st_rank = c.index('coral') + 1
+
+    value = df[df['Location']=='RI'][method].iloc[0]
+    if value > 1:
+        value = f"{int(value):,}"
+    else:
+        value = f"{value:.1%}"
+
+    # make plot
+    fig, axs = plt.subplots(nrows=1, ncols=1, sharex=True)
+    fig.suptitle(title, fontsize=16)
+    rects = axs.bar(df['Location'], df[method], color=c)
+    
+    if pct != False:
+        plt.gca().yaxis.set_major_formatter(tick.PercentFormatter(1))
+
+    sub_title = f"RI ranked {st_rank} of all states  |  RI ranked {ne_rank} of New England states  |  RI exact number: {value}"
+    _footer = footer.replace('source: RIDOH', 'source: CDC')
+    fig.tight_layout(rect=[0, 0.05, 1, 0.90])
+    fig.set_size_inches(15, 7, forward=True)
+    fig.text(x=.5, y=0.92, s=sub_title, fontsize=10, ha='center')
+    fig.text(x=0.97, y=0.03, s=_footer, fontsize=10, ha='right')
+    plt.savefig(f'./figures/{save_file}.png', dpi=150)
+
 def make_plots():
     # load revised daily updated data and geographic data
     df = pd.read_csv('./data/clean/revised-data-clean.csv', parse_dates=['date', 'date_scraped'])
     geo_df = pd.read_csv('./data/clean/geo-ri-covid-19-clean.csv', parse_dates=['date'])
     recent_df = df[df['date_scraped'] == df['date_scraped'].max()]
 
+    vaccine_id = recent_df['cumulative people partially vaccinated'].ne(0).idxmax()
+    ri_vac_df = recent_df[recent_df.index > vaccine_id]
     testing_trend_plot(recent_df)
     hospital_trend_plot(recent_df)
     testing_combo_ma_plot(recent_df)
@@ -547,4 +611,22 @@ def make_plots():
     total_labs_percent_pos(recent_df)
     daily_positive(recent_df)
     daily_deaths(recent_df)
-    percent_tests_new(recent_df)
+    percent_tests_new(recent_df)    # vaccine rankings
+    df = pd.read_csv('./data/clean/vaccine-vaccination_states-clean.csv', parse_dates=['date'])
+    df = df[df['date'] == df['date'].max()]
+
+    title = 'Percent of People 18+ Receiving 1 or More Doses'
+    vaccine_rank_states(df, 'Administered_Dose1_Recip_18PlusPop_Pct', title, 'cdc_one_dose_pct_18', True)
+
+    title = 'Percent of People 18+ Receiving 2 Doses'
+    vaccine_rank_states(df, 'Administered_Dose2_Recip_18PlusPop_Pct', title, 'cdc_two_dose_pct_18', True)
+
+    title = 'Percent of All People Receiving 1 or More Doses'
+    vaccine_rank_states(df, 'Administered_Dose1_Recip_Pct', title, 'cdc_one_dose_pct', True)
+
+    title = 'Percent of All People Receiving 2 Doses'
+    vaccine_rank_states(df, 'Administered_Dose2_Recip_Pct', title, 'cdc_two_dose_pct', True)
+
+    title = 'Percent of Distributed Vaccine Used'
+    vaccine_rank_states(df, 'pct_doses_used_recip', title, 'cdc_vaccine_used_pct', True)
+
