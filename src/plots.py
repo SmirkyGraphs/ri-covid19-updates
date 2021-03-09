@@ -14,7 +14,7 @@ plt.style.use('fivethirtyeight')
 date_format = mdates.DateFormatter('%#m/%#d')
 pd.plotting.register_matplotlib_converters()
 
-footer = f'made by: SmirkyGraphs  |  site: ivizri.com  |  source: RIDOH  |  updated: {time.strftime("%m/%d/%Y")}'
+footer = f'made by: SmirkyGraphs  |  site: ivizri.com  |  source: RIDOH  |  updated: {time.strftime("%#m/%d/%Y")}'
 
 def fit_trend(df, y):
     temp_df = df[df[y].notnull()].copy()
@@ -475,12 +475,13 @@ def percent_tests_new(df):
     print('[status] creating % of tests new people')
     fig, axs = plt.subplots(nrows=1, ncols=1, sharex=True)
     fig.suptitle("Testing: Daily % First-Time Tested", fontsize=16)
-    sub_head = 'percent of daily labs who are people tested for the first time'
+    sub_head = 'percent of daily labs who are people being tested for the first time'
 
     # plot data
     axs.bar(df['date_ts'].to_numpy(), df['%_new_labs_new_people'].to_numpy(), color='dodgerblue')
     axs.plot(df['date_ts'].to_numpy(), df['%_new_labs_new_people'].rolling(7).mean().to_numpy(), c='coral', linewidth=2)
     axs.xaxis.set_major_formatter(date_format)
+    plt.gca().yaxis.set_major_formatter(tick.PercentFormatter(1))
 
     fig.tight_layout(rect=[0, 0.05, 1, 0.90])
     fig.set_size_inches(15, 7, forward=True)
