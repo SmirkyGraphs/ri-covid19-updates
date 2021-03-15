@@ -11274,3 +11274,44 @@ date,metric,count,new_cases,change_%
 03/12/2021,people tested,814900.0,2291,0.002819314085864111
 03/12/2021,total deaths,2567.0,4,0.0015606710885680553
 03/12/2021,total discharged,0.0,0,0.0
+03/15/2021,3-day average of currently hospitalized,138.0,-6,-0.04166666666666663
+03/15/2021,3-day average of daily number of positive tests (may count people more than once),310.0,-132,-0.29864253393665163
+03/15/2021,3-day average of new people who tested positive (counts first positive lab per person),263.0,-123,-0.31865284974093266
+03/15/2021,Cumulative hospital admissions,9225.0,58,0.006327042652994441
+03/15/2021,Cumulative hospital deaths,1028.0,7,0.006856023506366382
+03/15/2021,Cumulative hospital discharges,8063.0,55,0.006868131868131844
+03/15/2021,Cumulative negative tests (may count people more than once),3088811.0,38818,0.012727242324818366
+03/15/2021,Cumulative people who have only tested negative (counts first negative lab per person),688152.0,3754,0.005485112463800235
+03/15/2021,Cumulative positive tests (may count people more than once),156180.0,921,0.005932023264351827
+03/15/2021,Cumulative total number of people at least partially vaccinated,273216.0,19259,0.07583567296825833
+03/15/2021,Cumulative total number of people fully vaccinated,114399.0,10051,0.0963219227967953
+03/15/2021,Cumulative total number of vaccine doses administered,381163.0,25989,0.07317258583117003
+03/15/2021,Cumulative total tests completed (may count people more than once),3244991.0,39739,0.012398089136205215
+03/15/2021,Daily number of first vaccine doses administered (includes single-dose vaccines),1652.0,-2951,-0.6411036280686508
+03/15/2021,Daily number of negative tests (may count people more than once),3462.0,-13381,-0.7944546695956778
+03/15/2021,Daily number of negative tests (may count people more than once) plus new people who tested positive (counts first positive lab per person),3596.0,-13562,-0.7904184636904068
+03/15/2021,Daily number of people at least partially vaccinated,1652.0,-2951,-0.6411036280686508
+03/15/2021,Daily number of people fully vaccinated,460.0,-2239,-0.8295665061133753
+03/15/2021,Daily number of positive tests (may count people more than once),150.0,-219,-0.5934959349593496
+03/15/2021,Daily number of second vaccine doses administered (only applicable for two-dose vaccines),435.0,-1715,-0.7976744186046512
+03/15/2021,Daily total number of vaccine doses administered,2087.0,-4666,-0.6909521694061899
+03/15/2021,Daily total tests completed (may count people more than once),3612.0,-13600,-0.790146409481757
+03/15/2021,Hospital deaths,3.0,3,0.0
+03/15/2021,New hospital admissions,11.0,-6,-0.3529411764705882
+03/15/2021,New hospital discharges,12.0,-13,-0.52
+03/15/2021,New people who have only tested negative (counts first negative lab per person),587.0,-1250,-0.6804572672836147
+03/15/2021,Newly confirmed deaths,2.0,-2,-0.5
+03/15/2021,Number of COVID-19 cases who  were admitted to a hospital in Rhode Island (cumulative),0.0,0,0.0
+03/15/2021,Number of COVID-19 cases who were admitted to a hospital in Rhode Island (cumulative),0.0,0,0.0
+03/15/2021,RI negative results,0.0,0,0.0
+03/15/2021,RI positive cases,0.0,0,0.0
+03/15/2021,RI total tests,0.0,0,0.0
+03/15/2021,currently hospitalized,134.0,-4,-0.02898550724637683
+03/15/2021,currently in icu,19.0,-5,-0.20833333333333337
+03/15/2021,currently on ventilator,16.0,-3,-0.1578947368421053
+03/15/2021,instructed to self-quarantine,0.0,0,0.0
+03/15/2021,new positive,134.0,-181,-0.5746031746031746
+03/15/2021,people positive,131487.0,985,0.0075477770455625315
+03/15/2021,people tested,819639.0,4739,0.005815437476990981
+03/15/2021,total deaths,2576.0,9,0.0035060381768601268
+03/15/2021,total discharged,0.0,0,0.0
