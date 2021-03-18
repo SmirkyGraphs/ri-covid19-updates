@@ -75,3 +75,5 @@ Current plots created using the cleaned datasets.
 - City/Town Breakdown: [RIDOH](https://docs.google.com/spreadsheets/d/1n-zMS9Al94CPj_Tc3K7Adin-tN9x1RSjjx2UzJ4SV7Q/edit#gid=1679077334)
 - City/Town Population: [Census 2017 ACS 5-Year Estimates](https://factfinder.census.gov/faces/tableservices/jsf/pages/productview.xhtml)
 - Zip Population: [Census 2010 Decennial Population](https://data.census.gov/cedsci/)
+- Nursing Homes: [CMS.gov](https://data.cms.gov/Special-Programs-Initiatives-COVID-19-Nursing-Home/COVID-19-Nursing-Home-Dataset/s2uc-8wxp)
+- Vaccination: [CDC.gov](https://covid.cdc.gov/covid-data-tracker/#vaccinations)
