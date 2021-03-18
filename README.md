@@ -2,7 +2,7 @@
 
 The goal of this project is to collect the daily data from [RIDOH](https://health.ri.gov/data/covid-19/) on COVID-19 cases within Rhode Island. The raw data will be saved then cleaned to get daily changes and uploaded to google sheets to automate a Tableau graph. Lastly the change from the previous day & daily totals will be tweeted out automatically by a twitter bot [@RI_COVID19](https://twitter.com/RI_COVID19/).
 
-## Website
+## Web App Dashboard
 
 Created a dashboard to provide information about the status of COVID-19 within Rhode Island. All of the data comes from the google sheet provided & updated by the Rhode Island Department of Health and Federal Agencies CMS and CDC. The goal of this dashboard is to provide a fast loading, mobile friendly option to people wanting a daily digest of COVID-19 information. It contains charts, tables and trackers for schools, nursing homes, vaccinations, deaths, testing and hospitalizations. The website can be found at [ivizri.com/covid/](https://ivizri.com/covid/).
 
