@@ -68,7 +68,7 @@ def scrape_sheet(sheet_id):
 
         # get grographic date & fix cols
         geo_date = geo_df.iloc[-1][1]
-        geo_date = pd.to_datetime(geo_date).tz_localize('EST').date()
+        geo_date = pd.to_datetime(geo_date)
         geo_df['date'] = geo_date
 
         cols = [x for x in list(geo_df) if 'Rate' not in x]
