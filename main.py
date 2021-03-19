@@ -33,17 +33,17 @@ if __name__ == "__main__":
     scraper.scrape_geo_vaccine('geo-vaccine')
     scraper.scrape_cdc_vaccine_states()
     scraper.scrape_cdc_vaccine('vaccination_data')
-    scraper.scrape_cdc_vaccine('vaccination_ltc_data')
+    #scraper.scrape_cdc_vaccine('vaccination_ltc_data')
     cleaner.clean_vaccine('vaccine-vaccination_data')
     cleaner.clean_vaccine('vaccine-vaccination_states')
     
-    # make graphs
-    plots.make_plots()
-
     # run reports
     reports.run_trend_reports()
     reports.run_school_reports()
     reports.run_cms_reports()
+
+    # make graphs
+    plots.make_plots()
 
     # update website
     website.update_data()
