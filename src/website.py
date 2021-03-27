@@ -273,11 +273,11 @@ def daily_cdc_vaccine(data):
     dose2 = f"{int(df.iloc[-1]['Administered_Dose2_Recip']):,}"
     admin_u18 = f"{int(df.iloc[-1]['Administered_Recip_U18']):,}"
 
-    new_dist = change_fmt(df.iloc[-1]['Doses_Distributed'] - df.iloc[-2]['Doses_Distributed'])
-    new_admin = change_fmt(df.iloc[-1]['Administered_Total_Recip'] - df.iloc[-2]['Administered_Total_Recip'])
-    new_d1 = change_fmt(df.iloc[-1]['Administered_Dose1_Recip'] - df.iloc[-2]['Administered_Dose1_Recip'])
-    new_d2 = change_fmt(df.iloc[-1]['Administered_Dose2_Recip'] - df.iloc[-2]['Administered_Dose2_Recip'])
-    new_admin_u18 = change_fmt(df.iloc[-1]['Administered_Recip_U18'] - df.iloc[-2]['Administered_Recip_U18'])
+    new_dist = f"{change_fmt(df.iloc[-1]['Doses_Distributed'] - df.iloc[-2]['Doses_Distributed'])}"
+    new_admin = f"{change_fmt(df.iloc[-1]['Administered_Total_Recip'] - df.iloc[-2]['Administered_Total_Recip'])}"
+    new_d1 = f"{change_fmt(df.iloc[-1]['Administered_Dose1_Recip'] - df.iloc[-2]['Administered_Dose1_Recip'])}"
+    new_d2 = f"{change_fmt(df.iloc[-1]['Administered_Dose2_Recip'] - df.iloc[-2]['Administered_Dose2_Recip'])}"
+    new_admin_u18 = f"{change_fmt(df.iloc[-1]['Administered_Recip_U18'] - df.iloc[-2]['Administered_Recip_U18'])}"
 
     pct_used = f"{df.iloc[-1]['pct_doses_used_recip']:.1%}"
     pct_d1 = f"{df.iloc[-1]['Administered_Dose1_Recip_Pct']:.1%}"
