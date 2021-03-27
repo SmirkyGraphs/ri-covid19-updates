@@ -258,9 +258,9 @@ def clean_vaccine(fname):
     df['Administered_Total_Recip_18Plus'] = df['Administered_Dose1_Recip_18Plus'] + df['Administered_Dose2_Recip_18Plus']
     df['Administered_Recip_U18'] = df['Administered_Total_Recip'] - df['Administered_Total_Recip_18Plus']
 
-    # percent of recip of total population
-    df['Administered_Dose1_Recip_Pct'] = df['Administered_Dose1_Recip'] / df['Census2019']
-    df['Administered_Dose2_Recip_Pct'] = df['Administered_Dose2_Recip'] / df['Census2019']
+    # add admin doses pop pct with recip
+    df['Administered_Dose1_Recip_Pct'] = df['Administered_Dose1_Recip']/df['Census2019']
+    df['Administered_Dose2_Recip_Pct'] = df['Administered_Dose2_Recip']/df['Census2019']
 
     # percent distributed doses that were administered
     df['Pct_Dist_Administered'] = df['Doses_Administered']/df['Doses_Distributed']
