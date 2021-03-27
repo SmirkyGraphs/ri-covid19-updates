@@ -620,18 +620,18 @@ def make_plots():
     df = pd.read_csv('./data/clean/vaccine-vaccination_states-clean.csv', parse_dates=['date'])
     df = df[df['date'] == df['date'].max()]
 
-    title = 'Percent of People 18+ Receiving 1 or More Doses'
-    vaccine_rank_states(df, 'Administered_Dose1_Recip_18PlusPop_Pct', title, 'cdc_one_dose_pct_18', True)
-
-    title = 'Percent of People 18+ Receiving 2 Doses'
-    vaccine_rank_states(df, 'Administered_Dose2_Recip_18PlusPop_Pct', title, 'cdc_two_dose_pct_18', True)
-
     title = 'Percent of All People Receiving 1 or More Doses'
     vaccine_rank_states(df, 'Administered_Dose1_Recip_Pct', title, 'cdc_one_dose_pct', True)
 
-    title = 'Percent of All People Receiving 2 Doses'
+    title = 'Percent of All People Fully Vaccinated'
     vaccine_rank_states(df, 'Administered_Dose2_Recip_Pct', title, 'cdc_two_dose_pct', True)
 
-    title = 'Percent of Distributed Vaccine Used'
-    vaccine_rank_states(df, 'pct_doses_used_recip', title, 'cdc_vaccine_used_pct', True)
+    title = 'Percent of People 65+ Recieving 1 or More Doses'
+    vaccine_rank_states(df, 'Administered_Dose1_Recip_65PlusPop_Pct', title, 'cdc_one_dose_pct_65', True)
+
+    title = 'Percent of People 65+ Fully Vaccinated'
+    vaccine_rank_states(df, 'Series_Complete_65PlusPop_Pct', title, 'cdc_two_dose_pct_65', True)
+
+    title = 'Percent of Distributed Doses Used'
+    vaccine_rank_states(df, 'pct_doses_used_recip', title, 'cdc_doses_used_pct', True)
 
