@@ -47,6 +47,3 @@ if __name__ == "__main__":
 
     # update website
     website.update_data()
-
-    # archieve page
-    scraper.archive_page()
