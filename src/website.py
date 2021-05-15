@@ -62,8 +62,10 @@ def daily_update(data):
     vent = int(df[df['metric']=='currently on ventilator']['count'].iloc[0])
     vent_chng = change_fmt(df[df['metric']=='currently on ventilator']['new_cases'].iloc[0])
 
-    # non-hospital data
+    # non-hospital data, fill missing cumlative
     df = pd.read_csv('./data/clean/revised-data-clean.csv', parse_dates=['date_scraped', 'date'])
+    df['cumulative people fully vaccinated'] = df['cumulative people fully vaccinated'].fillna(method='ffill')
+    df['cumulative people partially vaccinated'] = df['cumulative people partially vaccinated'].fillna(method='ffill')
     dates = df['date_scraped'].unique()[-2:]
 
     prior = df[df['date_scraped']==dates[0]].tail(1)
