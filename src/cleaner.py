@@ -265,5 +265,30 @@ def clean_vaccine(fname):
     # percent distributed doses that were administered
     df['Pct_Dist_Administered'] = df['Doses_Administered']/df['Doses_Distributed']
     df['pct_doses_used_recip'] = df['Administered_Total_Recip']/df['Doses_Distributed']
-    
+
+    if fname == 'vaccine-vaccination_states':
+        df['Dist_rank'] = df.groupby('date')['Pct_Dist_Administered'].rank(ascending=False, method='first')
+        df['65Plus_rank'] = df.groupby('date')['Series_Complete_65PlusPop_Pct'].rank(ascending=False, method='first')
+        df['18Plus_rank'] = df.groupby('date')['Series_Complete_18PlusPop_Pct'].rank(ascending=False, method='first')
+        df['Total_pop_1_rank'] = df.groupby('date')['Administered_Dose1_Pop_Pct'].rank(ascending=False, method='first')
+
+        # add recent data to google sheets
+        cols = [
+            'date',
+            'Location',
+            'LongName',
+            '65Plus_rank',
+            '18Plus_rank',
+            'Dist_rank',
+            'Total_pop_1_rank',
+            'Pct_Dist_Administered',
+            'Administered_Dose1_Pop_Pct',
+            'Series_Complete_18PlusPop_Pct',
+            'Series_Complete_65PlusPop_Pct'
+        ]
+
+        gsheet = df[df['date'] == df['date'].max()]
+        gsheet['date'] = pd.to_datetime(gsheet['date']).dt.strftime('%m/%d/%Y')
+        sync_sheets(gsheet[cols], 'state_vac_rank')
+        
     df.to_csv(f'./data/clean/{fname}-clean.csv', index=False)
