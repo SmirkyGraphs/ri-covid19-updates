@@ -4,7 +4,7 @@ AF Iluminar Mayoral Academy Middle School,0,0,0,0
 AF Providence Mayoral Academy Middle,0,0,0,0
 Achievement First Iluminar Mayoral Academy,27,0,0,0
 Achievement First Promesa Elementary,7,0,0,0
-Achievement First Providence Mayoral Academy,67,5,7,0
+Achievement First Providence Mayoral Academy,67,0,7,0
 Agnes B. Hennessey School,12,0,0,0
 Agnes E. Little School,12,0,0,0
 Alan Shawn Feinstein Elementary at Broad Street,17,0,0,0
@@ -32,7 +32,7 @@ Bishop Hendricken High School,32,0,0,0
 Bishop McVinney Regional School,0,0,0,0
 Blackrock School,7,0,0,0
 Blackstone Academy Charter School,37,0,0,0
-Blackstone Valley Prep Elementary 2 School (ES2),12,0,0,0
+Blackstone Valley Prep Elementary 2 School (ES2),17,5,0,0
 Blackstone Valley Prep Elementary 3 School (ES3),12,0,0,0
 Blackstone Valley Prep Elementary School (ES1),37,0,0,0
 Blackstone Valley Prep High School (HS),37,0,0,0
@@ -92,7 +92,7 @@ E. G. Robertson School,0,0,0,0
 E.T. Wyman Elementary School,7,0,0,0
 Early Childhood Center,0,0,0,0
 East Greenwich High School,17,0,0,0
-East Providence High School,92,5,7,0
+East Providence High School,92,0,7,0
 East Side Nursery School,0,0,0,0
 Eden Park School,7,0,0,0
 Edgewood Highland School,12,0,0,0
@@ -116,7 +116,7 @@ Forest Park Elementary School,0,0,0,0
 Fort Barton School,7,0,0,0
 Founders Academy,7,0,0,0
 Francis J. Varieur School,12,0,0,0
-Frank D. Spaziano Elementary School,12,5,0,0
+Frank D. Spaziano Elementary School,12,0,0,0
 Frank D. Spaziano Elementary School Annex,0,0,0,0
 Frank E. Thompson Middle School,22,0,0,0
 Frenchtown School,0,0,0,0
@@ -128,7 +128,7 @@ George J. West Elementary School,17,0,0,0
 Gilbert Stuart Middle School,27,0,0,0
 Gladstone Street School,22,0,0,0
 Glen Hills Elementary School,7,0,0,0
-Globe Park School,17,5,0,0
+Globe Park School,17,0,0,0
 Good Shepherd Catholic Regional School,0,0,0,0
 Governor Christopher DelSesto Middle School,37,0,0,0
 Graniteville School,0,0,0,0
@@ -171,7 +171,7 @@ Jamestown School-Melrose,0,0,0,0
 John F. Deering Middle School,37,0,7,0
 John F. Horgan Elementary School,32,0,0,0
 John J. McLaughlin Cumberland Hill School,12,0,0,0
-Johnston Senior High School,57,0,0,0
+Johnston Senior High School,62,5,0,0
 Joseph H. Gaudet Learning Academy,0,0,0,0
 Joseph H. Gaudet Middle School,12,0,0,0
 Joseph Jenks Middle School,47,0,7,0
@@ -202,13 +202,13 @@ Meadowbrook Farms School,0,0,0,0
 Meeting Street School,0,0,0,0
 Melville Elementary School,7,0,0,0
 Metcalf School,7,0,0,0
-Metropolitan Regional Career and Technical Center,52,0,0,0
+Metropolitan Regional Career and Technical Center,57,5,0,0
 Middlebridge School,0,0,0,0
 Middletown High School,22,0,0,0
 Montessori Centre of Barrington,0,0,0,0
 Moses Brown School,12,0,0,0
 Mount Pleasant Academy,0,0,0,0
-Mount Pleasant High School,47,5,0,0
+Mount Pleasant High School,47,0,0,0
 Mount St. Charles Academy,12,0,0,0
 Msgr. Matthew F. Clarke Catholic Regional School,0,0,0,0
 Mt. Hope High School,52,0,0,0
@@ -218,13 +218,13 @@ Narragansett Elementary School,7,0,0,0
 Narragansett High School,12,0,0,0
 Narragansett Pier School,0,0,0,0
 Nathan Bishop Middle School,17,0,0,0
-Nathanael Greene Elementary School (Pawtucket),27,0,0,0
+Nathanael Greene Elementary School (Pawtucket),22,-5,0,0
 Nathanael Greene Middle School (Providence),47,0,0,0
 Nayatt School,7,0,0,0
 Nicholas A. Ferri Middle School,27,0,0,0
 North Cumberland Middle School,12,0,0,0
 North Kingstown Senior High School,37,0,0,0
-North Providence High School,57,5,0,0
+North Providence High School,57,0,0,0
 North Scituate Elementary School,0,0,0,0
 North Smithfield Elementary School,7,0,0,0
 North Smithfield High School,17,0,0,0
@@ -258,7 +258,7 @@ Portsmouth High School,37,0,0,0
 Portsmouth Middle School,7,0,0,0
 Pothier-Citizens Elementary Campus,32,0,7,0
 Potter-Burns School,17,0,0,0
-Primrose Hill School,7,7,0,0
+Primrose Hill School,7,0,0,0
 "Providence Career and Technical Academy (41 Fricker St, Providence)",32,0,0,0
 Providence Country Day School,0,0,0,0
 Providence Virtual Learning Academy,0,0,0,0
@@ -323,7 +323,7 @@ St. Rose of Lima School,0,0,0,0
 St. Teresa School,0,0,0,0
 St. Thomas Regional School,0,0,0,0
 Stadium Elementary School,7,0,0,0
-State Street School,0,0,0,0
+State Street School,7,7,0,0
 Steere Farm Elementary School,7,0,0,0
 Stephen Olney School,12,0,0,0
 Stone Hill School,12,0,0,0
@@ -367,7 +367,7 @@ Walter E. Ranger School,0,0,0,0
 Warwick Area Career and Technical Center,0,0,0,0
 Warwick Early Learning Center at John Brown Francis,0,0,0,0
 Warwick Neck School,7,0,0,0
-Warwick Veterans Middle School,37,-5,0,0
+Warwick Veterans Middle School,37,0,0,0
 Washington Oak School,12,0,0,0
 Wawaloam School,0,0,0,0
 Webster Avenue School,7,0,0,0
@@ -393,4 +393,4 @@ Wm. M. Davies Jr. Career-Technical High School,17,0,0,0
 Woodridge School,7,0,0,0
 Woonsocket High School,107,0,7,0
 Woonsocket Middle School at Hamlet,32,0,0,0
-Woonsocket Middle School at Villa Nova,27,5,0,0
+Woonsocket Middle School at Villa Nova,27,0,0,0
