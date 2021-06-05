@@ -7,7 +7,7 @@ Achievement First Promesa Elementary,7,0,0,0
 Achievement First Providence Mayoral Academy,67,0,7,0
 Agnes B. Hennessey School,12,0,0,0
 Agnes E. Little School,12,0,0,0
-Alan Shawn Feinstein Elementary at Broad Street,17,0,0,0
+Alan Shawn Feinstein Elementary School at Broad Street,17,0,0,0
 Alan Shawn Feinstein Middle School Of Coventry,32,0,7,0
 Alfred Lima Sr. Elementary School,7,0,0,0
 Alice M. Waddington School,7,0,0,0
@@ -32,7 +32,7 @@ Bishop Hendricken High School,32,0,0,0
 Bishop McVinney Regional School,0,0,0,0
 Blackrock School,7,0,0,0
 Blackstone Academy Charter School,37,0,0,0
-Blackstone Valley Prep Elementary 2 School (ES2),17,5,0,0
+Blackstone Valley Prep Elementary 2 School (ES2),17,0,0,0
 Blackstone Valley Prep Elementary 3 School (ES3),12,0,0,0
 Blackstone Valley Prep Elementary School (ES1),37,0,0,0
 Blackstone Valley Prep High School (HS),37,0,0,0
@@ -50,7 +50,7 @@ Captain G. Harold Hunt Elementary School,0,0,0,0
 Captain Isaac Paine Elementary School,0,0,0,0
 Carl G. Lauro Elementary School,12,0,0,0
 Cedar Hill School,7,0,0,0
-Center for Individualized Training and Ed.,0,0,0,0
+Center for Individualized Training and Education,0,0,0,0
 Central Falls Senior High School,62,0,0,0
 Central High School,57,0,0,0
 Centredale School,7,0,0,0
@@ -71,8 +71,8 @@ Community School,17,0,0,0
 Cornerstone School,0,0,0,0
 Cottrell F. Hoxsie School,0,0,0,0
 Coventry High School,52,0,7,0
-Cranston High School East,137,0,7,0
-Cranston High School West,132,0,0,0
+Cranston High School East,69,-67,7,0
+Cranston High School West,67,-65,0,0
 Cranston Transition Program(CTP),0,0,0,0
 Cumberland High School,67,0,0,0
 Curtis Corner Middle School,17,0,0,0
@@ -118,9 +118,9 @@ Founders Academy,7,0,0,0
 Francis J. Varieur School,12,0,0,0
 Frank D. Spaziano Elementary School,12,0,0,0
 Frank D. Spaziano Elementary School Annex,0,0,0,0
-Frank E. Thompson Middle School,22,0,0,0
+Frank E. Thompson Middle School,27,5,0,0
 Frenchtown School,0,0,0,0
-Garden City School,7,0,0,0
+Garden City School,12,5,0,0
 Garvin Memorial School,17,0,0,0
 George Hanaford School,0,0,0,0
 George J. Peters School,12,0,0,0
@@ -171,7 +171,7 @@ Jamestown School-Melrose,0,0,0,0
 John F. Deering Middle School,37,0,7,0
 John F. Horgan Elementary School,32,0,0,0
 John J. McLaughlin Cumberland Hill School,12,0,0,0
-Johnston Senior High School,62,5,0,0
+Johnston Senior High School,62,0,0,0
 Joseph H. Gaudet Learning Academy,0,0,0,0
 Joseph H. Gaudet Middle School,12,0,0,0
 Joseph Jenks Middle School,47,0,7,0
@@ -202,7 +202,7 @@ Meadowbrook Farms School,0,0,0,0
 Meeting Street School,0,0,0,0
 Melville Elementary School,7,0,0,0
 Metcalf School,7,0,0,0
-Metropolitan Regional Career and Technical Center,57,5,0,0
+Metropolitan Regional Career and Technical Center,57,0,0,0
 Middlebridge School,0,0,0,0
 Middletown High School,22,0,0,0
 Montessori Centre of Barrington,0,0,0,0
@@ -218,7 +218,7 @@ Narragansett Elementary School,7,0,0,0
 Narragansett High School,12,0,0,0
 Narragansett Pier School,0,0,0,0
 Nathan Bishop Middle School,17,0,0,0
-Nathanael Greene Elementary School (Pawtucket),22,-5,0,0
+Nathanael Greene Elementary School (Pawtucket),22,0,0,0
 Nathanael Greene Middle School (Providence),47,0,0,0
 Nayatt School,7,0,0,0
 Nicholas A. Ferri Middle School,27,0,0,0
@@ -271,7 +271,7 @@ Rhode Island Alternative Academy,0,0,0,0
 Rhode Island School for the Deaf,0,0,0,0
 Richmond Elementary School,0,0,0,0
 Riverside Middle School,22,0,0,0
-Robert F. Kennedy Elementary School,7,0,0,0
+Robert F. Kennedy Elementary School,12,5,0,0
 Robert L Bailey IV Elementary School,0,0,0,0
 Rockwell School,12,0,0,0
 Rocky Hill School,0,0,0,0
@@ -307,7 +307,7 @@ St. Kevin School,0,0,0,0
 St. Luke School,0,0,0,0
 St. Margaret School,0,0,0,0
 St. Mary Academy-Bay View,12,0,0,0
-St. Mary School,0,0,0,0
+St. Mary School of Cranston,0,0,0,0
 St. Mary's Home for Children/George N. Hunt Campus School,0,0,0,0
 St. Michael's Country Day School,0,0,0,0
 St. Patrick School,0,0,0,0
@@ -323,7 +323,7 @@ St. Rose of Lima School,0,0,0,0
 St. Teresa School,0,0,0,0
 St. Thomas Regional School,0,0,0,0
 Stadium Elementary School,7,0,0,0
-State Street School,7,7,0,0
+State Street School,7,0,0,0
 Steere Farm Elementary School,7,0,0,0
 Stephen Olney School,12,0,0,0
 Stone Hill School,12,0,0,0
@@ -358,7 +358,7 @@ Trinity Christian Academy,7,0,0,0
 Urban Collaborative Accelerated Program,7,0,0,0
 Vartan Gregorian Elementary School,7,0,0,0
 Veazie Street School,22,0,0,0
-Veterans Memorial Elementary,7,0,0,0
+Veterans Memorial Elementary,12,5,0,0
 Village Green Virtual Charter School,32,0,0,0
 Vincent J. Gallagher Middle School,32,0,0,0
 Wakefield Elementary School,0,0,0,0
