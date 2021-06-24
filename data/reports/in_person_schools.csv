@@ -3,7 +3,7 @@ school,total_student_cases_avg,chng_total_student_cases_avg,total_staff_cases_av
 A Venture Academy,0,0,0,0
 AF Providence Mayoral Academy Middle,0,0,0,0
 Academy For Little Children,0,0,0,0
-Achievement First Iluminar Mayoral Academy,7,0,0,0
+Achievement First Iluminar Mayoral Academy,12,0,0,0
 Achievement First Promesa Elementary,0,0,0,0
 Achievement First Providence Mayoral Academy,27,0,0,0
 Action Based Enterprises,0,0,0,0
@@ -13,12 +13,12 @@ Alan Shawn Feinstein Elementary School at Broad Street,27,0,17,0
 Alan Shawn Feinstein Middle School Of Coventry,67,0,12,0
 Alfred Lima Sr. Elementary School,22,0,7,0
 Alice M. Waddington School,22,0,7,0
-All Saints Academy,12,5,0,0
+All Saints Academy,12,0,0,0
 Alternative Education Program,0,0,0,0
 Anna M. McCabe School,22,0,12,0
 Anthony Carnevale Elementary School,22,0,22,0
 Aquidneck Elementary School,17,0,0,0
-Archie R. Cole Middle School,42,5,7,0
+Archie R. Cole Middle School,42,0,7,0
 Arlington School,7,0,0,0
 Asa Messer Elementary School,27,0,12,0
 Ashaway Elementary School,7,0,7,0
@@ -36,7 +36,7 @@ Bishop Feehan High School,0,0,0,0
 Bishop Hendricken High School,82,0,7,0
 Bishop McVinney Regional School,17,0,0,0
 Blackrock School,22,0,7,0
-Blackstone Academy Charter School,12,5,0,0
+Blackstone Academy Charter School,12,0,0,0
 Blackstone Valley Prep Elementary 2 School (ES2),12,0,0,0
 Blackstone Valley Prep Elementary 3 School (ES3),12,0,0,0
 Blackstone Valley Prep Elementary School (ES1),22,0,7,0
@@ -72,7 +72,7 @@ Chariho Area Career and Technical Center,0,0,0,0
 Chariho Regional High School,72,0,12,0
 Chariho Regional Middle School,47,0,12,0
 Charles E. Shea High School,12,0,0,0
-Charles N. Fortes Elementary School,22,0,12,0
+Charles N. Fortes Elementary School,27,0,12,0
 Charlestown Elementary School,17,0,0,0
 Children's Friend @ Dorcas International,0,0,0,0
 Claiborne Pell Elementary School,37,0,7,0
@@ -84,7 +84,7 @@ Community Preparatory School,12,0,0,0
 Community School,32,0,7,0
 Cornerstone School,0,0,0,0
 Cottrell F. Hoxsie School,12,0,0,0
-Coventry High School,55,-51,12,0
+Coventry High School,55,0,12,0
 Cranston Child Development Center,0,0,0,0
 Cranston Early Learning Center,0,0,0,0
 Cranston High School East,32,0,12,0
@@ -117,11 +117,11 @@ Edward R. Martin Middle School Annex,0,0,0,0
 Edward S. Rhodes School,12,0,0,0
 Eleanor Briggs School,0,0,0,0
 Elizabeth Baldwin School,0,0,7,0
-Ella Risk School,22,0,12,5
+Ella Risk School,22,0,12,0
 Emma G. Whiteknact School,12,0,7,0
 Esek Hopkins Middle School,22,0,7,0
-Exeter-West Greenwich Regional High School,22,0,7,0
 Exeter-West Greenwich Regional Junior High,12,0,0,0
+Exeter-West Greenwich Regional Senior High School,22,0,7,0
 Fallon Memorial School,7,0,0,0
 Father John V. Doyle School,27,0,0,0
 Fishing Cove Elementary School,12,0,7,0
@@ -140,18 +140,17 @@ Garden City School,27,0,7,0
 Garvin Memorial School,17,0,12,0
 George Hanaford School,12,0,0,0
 George J. Peters School,17,0,7,0
-George J. West Elementary School,47,0,12,0
-Gilbert Stuart Middle School,42,5,17,0
+George J. West Elementary School,52,0,12,0
+Gilbert Stuart Middle School,42,0,17,0
 Gladstone Street School,12,0,7,0
 Glen Hills Elementary School,12,0,0,0
-Globe Park School,22,5,0,0
+Globe Park School,22,0,0,0
 Good Shepherd Catholic Regional School,12,0,0,0
 Governor Christopher DelSesto Middle School,37,0,17,0
 Graniteville School,0,0,0,0
-Greenbush Elementary School,17,5,0,0
-Greenwich Village Nursery and Kindergarten,0,0,0,0
+Greenbush Elementary School,17,0,0,0
 Greenwood School,7,0,0,0
-Greystone Elementary School,17,0,7,0
+Greystone Elementary School,27,0,7,0
 Groden Center South,7,0,12,0
 Guiteras School,12,0,7,0
 Hamilton Elementary School,22,0,0,0
@@ -177,8 +176,8 @@ Hope Valley Elementary School Annex,0,0,0,0
 Hopkins Hill Elementary School,22,0,12,0
 Howard Hathaway School,12,0,0,0
 Hugh B. Bain Middle School,22,0,12,0
-Hugh Cole School,32,5,17,0
-Immaculate Conception Catholic Regional,32,5,0,0
+Hugh Cole School,32,0,17,0
+Immaculate Conception Catholic Regional,32,0,0,0
 International Charter School,22,0,7,0
 Islamic School of RI,27,0,7,0
 Jacqueline M. Walsh School for the Performing and Visual Arts,0,0,0,0
@@ -200,17 +199,17 @@ Kent Heights School,12,0,0,0
 Kevin K. Coleman Elementary School,12,0,0,0
 Kickemuit Middle School,47,0,7,0
 Kingston Hill Academy,7,0,7,0
-La Salle Academy,92,0,7,0
+La Salle Academy,97,5,7,0
 Leo A. Savoie School,22,0,0,0
 Leviton Dual Language School,22,0,12,0
 Lifespan School Solutions,0,0,0,0
 Lillian Feinstein Elementary Sackett Street,22,0,12,0
-Lincoln Central Elementary School,22,5,7,0
+Lincoln Central Elementary School,22,0,7,0
 Lincoln Middle School,37,0,12,0
 Lincoln School,17,0,0,0
 Lincoln Senior High School,67,0,12,0
 Lippitt School,7,0,0,0
-Lonsdale Elementary School,22,5,7,0
+Lonsdale Elementary School,22,0,7,0
 Love 4 All Childcare Center,0,0,0,0
 Lyman B. Goff Middle School,7,0,0,0
 M. Virginia Cunningham School,7,0,0,0
@@ -218,13 +217,13 @@ Maisie E. Quinn Elementary School,0,0,0,0
 Mary E. Fogarty Elementary School,22,0,12,0
 Matunuck School,12,0,0,0
 Meadowbrook Farms School,22,0,0,0
-Meadowbrook Waldorf School,0,0,0,0
+Meadowbrook Waldorf School,7,7,0,0
 Meadowridge School-Justice Resource,0,0,0,0
 Meeting Street School,7,0,7,0
 Melville Elementary School,27,0,7,0
 Mercymount Country Day School,17,0,7,0
-Metcalf School,32,5,0,0
-Metropolitan Regional Career and Technical Center,17,0,7,0
+Metcalf School,32,0,0,0
+Metropolitan Regional Career and Technical Center,22,0,7,0
 Middlebridge School,0,0,0,0
 Middletown High School,47,0,0,0
 Mildred E. Lineham School,0,0,0,0
@@ -233,7 +232,7 @@ Montessori Centre of Barrington,0,0,0,0
 Montessori Children's House,0,0,0,0
 Moses Brown School,22,0,7,0
 Mount Pleasant Academy,0,0,0,0
-Mount Pleasant High School,37,0,17,0
+Mount Pleasant High School,37,-5,17,0
 Mount St. Charles Academy,72,0,7,0
 Msgr. Matthew F. Clarke Catholic Regional School,27,0,0,0
 Mt. Hope High School,47,0,17,0
@@ -265,7 +264,7 @@ Ocean State Montessori School,0,0,0,0
 Ocean Tides School,0,0,0,0
 "Ocean Tides, Inc.",0,0,0,0
 Old County Road School,12,0,7,0
-Orchard Farms Elementary School,27,5,7,0
+Orchard Farms Elementary School,27,0,7,0
 Orlo Avenue School,7,0,7,0
 Our Lady of Mercy Regional School,17,0,0,0
 Our Lady of Mt. Carmel,7,0,0,0
@@ -294,14 +293,14 @@ Progreso Latino Excellence Academy,0,0,0,0
 Providence Autism School to Tomorrow Academy,0,0,0,0
 "Providence Career and Technical Academy (41 Fricker St, Providence)",52,0,12,0
 Providence Country Day School,17,0,0,0
-Providence Hebrew Day/N.E. Academy of Torah,27,5,12,0
+Providence Hebrew Day/N.E. Academy of Torah,27,0,12,0
 Providence Transition Academy and Providence Autism School to Tomorrow Academy,0,0,0,0
 Quest Montessori School,0,0,0,0
 READS Collaborative,0,0,0,0
-RI Nurses Institute Middle College Charter High School,7,0,0,0
+RI Nurses Institute Middle College Charter High School,12,5,0,0
 RISE Prep Mayoral Academy Elementary School,27,0,0,0
 RISE Prep Mayoral Academy Middle School,0,0,0,0
-Raices Dual Language Academy at Margaret I. Robertson School,12,0,0,0
+Raices Dual Language Academy at Margaret I. Robertson School,17,0,0,0
 Raymond C. LaPerche School,12,0,7,0
 Reservoir Avenue School,17,0,7,0
 Rhode Island Alternative Academy,0,0,0,0
@@ -315,8 +314,7 @@ Rocky Hill School,22,0,0,0
 "Roger Williams Middle School (278 Thurbers Ave, Providence)",32,0,17,0
 Rogers High School,42,0,7,0
 Sacred Heart School,7,0,7,0
-Sakonnet Early Learning Center,0,0,0,0
-Samuel Slater Middle School,7,7,0,0
+Samuel Slater Middle School,7,0,0,0
 San Miguel School,7,0,0,0
 Sanders Academy,0,0,0,0
 Sarah Dyer Barnes School,12,0,0,0
@@ -339,7 +337,7 @@ Sowams Elementary School,7,0,0,0
 Springbrook Elementary School,22,0,0,0
 St. Andrew's School,12,0,7,0
 St. Augustine School,17,0,0,0
-St. Cecilia School,12,5,7,0
+St. Cecilia School,12,0,7,0
 St. George's School,17,0,7,0
 St. Joseph School,12,0,0,0
 St. Kevin School,17,0,7,0
@@ -396,7 +394,7 @@ The Tides School - West Warwick,0,0,0,0
 The Wheeler School,27,0,17,0
 The Wolf School,12,0,12,0
 Thornton School,12,0,0,0
-Times2 Elementary School,27,0,7,0
+Times2 Elementary School,32,0,7,0
 Times2 Middle/High School,17,0,12,0
 Tiogue School,22,0,7,0
 Tiverton High School,27,0,0,0
@@ -406,7 +404,7 @@ Trinity Academy for the Performing Arts,0,0,0,0
 Trinity Christian Academy,12,0,0,0
 Urban Collaborative Accelerated Program,7,0,0,0
 Vartan Gregorian Elementary School,17,0,0,0
-Veazie Street School,27,0,12,0
+Veazie Street School,32,0,12,0
 Veterans Memorial Elementary,17,0,0,0
 Village Green Virtual Charter School,7,0,0,0
 Vincent J. Gallagher Middle School,47,0,12,0
@@ -435,14 +433,14 @@ Western Coventry School,17,0,0,0
 Western Hills Middle School,32,0,7,0
 Wickford Middle School,17,0,0,0
 Wilbur and McMahon Schools,7,0,0,0
-"William B. Cooley, Sr. High School and the Providence Academy of International Studies High School",22,5,17,0
-William D'Abate Elementary School,37,5,7,0
+"William B. Cooley, Sr. High School and the Providence Academy of International Studies High School",22,0,17,0
+William D'Abate Elementary School,37,0,7,0
 William E Tolman Senior High School,22,0,0,0
 William L. Callahan School,27,0,7,0
 William R. Dutemple School,12,0,0,0
 William Winsor School,27,0,0,0
 Winman Middle School,17,0,7,0
-Winsor Hill School,32,5,12,0
+Winsor Hill School,32,0,12,0
 Wm. M. Davies Jr. Career-Technical High School,92,0,12,0
 Woodridge School,12,0,0,0
 Woonsocket Area Career and Technical Center,0,0,0,0

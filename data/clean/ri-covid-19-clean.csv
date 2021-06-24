@@ -31,6 +31,7 @@ date,metric,count,new_cases,change_%
 03/10/2020,RI negative results,58.0,0,0.0
 03/10/2020,RI positive cases,5.0,0,0.0
 03/10/2020,RI total tests,63.0,0,0.0
+03/10/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 03/10/2020,currently hospitalized,0.0,0,0.0
 03/10/2020,currently in icu,0.0,0,0.0
 03/10/2020,currently on ventilator,0.0,0,0.0
@@ -72,6 +73,7 @@ date,metric,count,new_cases,change_%
 03/11/2020,RI negative results,94.0,36,0.6206896551724137
 03/11/2020,RI positive cases,5.0,0,0.0
 03/11/2020,RI total tests,99.0,36,0.5714285714285714
+03/11/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 03/11/2020,currently hospitalized,0.0,0,0.0
 03/11/2020,currently in icu,0.0,0,0.0
 03/11/2020,currently on ventilator,0.0,0,0.0
@@ -113,6 +115,7 @@ date,metric,count,new_cases,change_%
 03/12/2020,RI negative results,126.0,32,0.34042553191489366
 03/12/2020,RI positive cases,5.0,0,0.0
 03/12/2020,RI total tests,131.0,32,0.3232323232323233
+03/12/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 03/12/2020,currently hospitalized,0.0,0,0.0
 03/12/2020,currently in icu,0.0,0,0.0
 03/12/2020,currently on ventilator,0.0,0,0.0
@@ -154,6 +157,7 @@ date,metric,count,new_cases,change_%
 03/13/2020,RI negative results,142.0,16,0.12698412698412698
 03/13/2020,RI positive cases,14.0,9,1.7999999999999998
 03/13/2020,RI total tests,156.0,25,0.19083969465648853
+03/13/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 03/13/2020,currently hospitalized,0.0,0,0.0
 03/13/2020,currently in icu,0.0,0,0.0
 03/13/2020,currently on ventilator,0.0,0,0.0
@@ -195,6 +199,7 @@ date,metric,count,new_cases,change_%
 03/14/2020,RI negative results,198.0,56,0.3943661971830985
 03/14/2020,RI positive cases,20.0,6,0.4285714285714286
 03/14/2020,RI total tests,218.0,62,0.39743589743589736
+03/14/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 03/14/2020,currently hospitalized,0.0,0,0.0
 03/14/2020,currently in icu,0.0,0,0.0
 03/14/2020,currently on ventilator,0.0,0,0.0
@@ -236,6 +241,7 @@ date,metric,count,new_cases,change_%
 03/15/2020,RI negative results,271.0,73,0.36868686868686873
 03/15/2020,RI positive cases,20.0,0,0.0
 03/15/2020,RI total tests,291.0,73,0.334862385321101
+03/15/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 03/15/2020,currently hospitalized,0.0,0,0.0
 03/15/2020,currently in icu,0.0,0,0.0
 03/15/2020,currently on ventilator,0.0,0,0.0
@@ -277,6 +283,7 @@ date,metric,count,new_cases,change_%
 03/16/2020,RI negative results,308.0,37,0.13653136531365306
 03/16/2020,RI positive cases,21.0,1,0.050000000000000044
 03/16/2020,RI total tests,329.0,38,0.13058419243986252
+03/16/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 03/16/2020,currently hospitalized,0.0,0,0.0
 03/16/2020,currently in icu,0.0,0,0.0
 03/16/2020,currently on ventilator,0.0,0,0.0
@@ -318,6 +325,7 @@ date,metric,count,new_cases,change_%
 03/17/2020,RI negative results,403.0,95,0.3084415584415585
 03/17/2020,RI positive cases,23.0,2,0.09523809523809534
 03/17/2020,RI total tests,426.0,97,0.29483282674772027
+03/17/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 03/17/2020,currently hospitalized,0.0,0,0.0
 03/17/2020,currently in icu,0.0,0,0.0
 03/17/2020,currently on ventilator,0.0,0,0.0
@@ -359,6 +367,7 @@ date,metric,count,new_cases,change_%
 03/18/2020,RI negative results,540.0,137,0.3399503722084367
 03/18/2020,RI positive cases,33.0,10,0.4347826086956521
 03/18/2020,RI total tests,573.0,147,0.34507042253521125
+03/18/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 03/18/2020,currently hospitalized,0.0,0,0.0
 03/18/2020,currently in icu,0.0,0,0.0
 03/18/2020,currently on ventilator,0.0,0,0.0
@@ -400,6 +409,7 @@ date,metric,count,new_cases,change_%
 03/19/2020,RI negative results,654.0,114,0.21111111111111103
 03/19/2020,RI positive cases,44.0,11,0.33333333333333326
 03/19/2020,RI total tests,698.0,125,0.21815008726003482
+03/19/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 03/19/2020,currently hospitalized,0.0,0,0.0
 03/19/2020,currently in icu,0.0,0,0.0
 03/19/2020,currently on ventilator,0.0,0,0.0
@@ -441,6 +451,7 @@ date,metric,count,new_cases,change_%
 03/20/2020,RI negative results,800.0,146,0.2232415902140672
 03/20/2020,RI positive cases,54.0,10,0.2272727272727273
 03/20/2020,RI total tests,854.0,156,0.22349570200573066
+03/20/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 03/20/2020,currently hospitalized,0.0,0,0.0
 03/20/2020,currently in icu,0.0,0,0.0
 03/20/2020,currently on ventilator,0.0,0,0.0
@@ -482,6 +493,7 @@ date,metric,count,new_cases,change_%
 03/21/2020,RI negative results,862.0,62,0.0774999999999999
 03/21/2020,RI positive cases,66.0,12,0.22222222222222232
 03/21/2020,RI total tests,928.0,74,0.08665105386416871
+03/21/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 03/21/2020,currently hospitalized,0.0,0,0.0
 03/21/2020,currently in icu,0.0,0,0.0
 03/21/2020,currently on ventilator,0.0,0,0.0
@@ -523,6 +535,7 @@ date,metric,count,new_cases,change_%
 03/22/2020,RI negative results,932.0,70,0.08120649651972167
 03/22/2020,RI positive cases,83.0,17,0.25757575757575757
 03/22/2020,RI total tests,1015.0,87,0.09375
+03/22/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 03/22/2020,currently hospitalized,0.0,0,0.0
 03/22/2020,currently in icu,0.0,0,0.0
 03/22/2020,currently on ventilator,0.0,0,0.0
@@ -564,6 +577,7 @@ date,metric,count,new_cases,change_%
 03/23/2020,RI negative results,1120.0,188,0.20171673819742497
 03/23/2020,RI positive cases,106.0,23,0.27710843373493965
 03/23/2020,RI total tests,1226.0,211,0.2078817733990148
+03/23/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 03/23/2020,currently hospitalized,0.0,0,0.0
 03/23/2020,currently in icu,0.0,0,0.0
 03/23/2020,currently on ventilator,0.0,0,0.0
@@ -605,6 +619,7 @@ date,metric,count,new_cases,change_%
 03/24/2020,RI negative results,1143.0,23,0.020535714285714324
 03/24/2020,RI positive cases,124.0,18,0.16981132075471694
 03/24/2020,RI total tests,1267.0,41,0.03344208809135396
+03/24/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 03/24/2020,currently hospitalized,0.0,0,0.0
 03/24/2020,currently in icu,0.0,0,0.0
 03/24/2020,currently on ventilator,0.0,0,0.0
@@ -646,6 +661,7 @@ date,metric,count,new_cases,change_%
 03/25/2020,RI negative results,1339.0,196,0.17147856517935267
 03/25/2020,RI positive cases,132.0,8,0.06451612903225801
 03/25/2020,RI total tests,1471.0,204,0.16101026045777433
+03/25/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 03/25/2020,currently hospitalized,15.0,15,0.0
 03/25/2020,currently in icu,0.0,0,0.0
 03/25/2020,currently on ventilator,0.0,0,0.0
@@ -687,6 +703,7 @@ date,metric,count,new_cases,change_%
 03/26/2020,RI negative results,1366.0,27,0.020164301717699784
 03/26/2020,RI positive cases,165.0,33,0.25
 03/26/2020,RI total tests,1531.0,60,0.04078857919782464
+03/26/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 03/26/2020,currently hospitalized,23.0,8,0.5333333333333334
 03/26/2020,currently in icu,0.0,0,0.0
 03/26/2020,currently on ventilator,0.0,0,0.0
@@ -728,6 +745,7 @@ date,metric,count,new_cases,change_%
 03/27/2020,RI negative results,2306.0,940,0.6881405563689604
 03/27/2020,RI positive cases,203.0,38,0.23030303030303023
 03/27/2020,RI total tests,2509.0,978,0.6387981711299804
+03/27/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 03/27/2020,currently hospitalized,28.0,5,0.21739130434782616
 03/27/2020,currently in icu,0.0,0,0.0
 03/27/2020,currently on ventilator,0.0,0,0.0
@@ -769,6 +787,7 @@ date,metric,count,new_cases,change_%
 03/28/2020,RI negative results,2541.0,235,0.10190806591500423
 03/28/2020,RI positive cases,239.0,36,0.17733990147783252
 03/28/2020,RI total tests,2780.0,271,0.10801115982463139
+03/28/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 03/28/2020,currently hospitalized,29.0,1,0.03571428571428581
 03/28/2020,currently in icu,0.0,0,0.0
 03/28/2020,currently on ventilator,0.0,0,0.0
@@ -810,6 +829,7 @@ date,metric,count,new_cases,change_%
 03/29/2020,RI negative results,2840.0,299,0.11767020857929955
 03/29/2020,RI positive cases,294.0,55,0.2301255230125523
 03/29/2020,RI total tests,3134.0,354,0.12733812949640289
+03/29/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 03/29/2020,currently hospitalized,35.0,6,0.2068965517241379
 03/29/2020,currently in icu,0.0,0,0.0
 03/29/2020,currently on ventilator,0.0,0,0.0
@@ -851,6 +871,7 @@ date,metric,count,new_cases,change_%
 03/30/2020,RI negative results,3187.0,347,0.1221830985915493
 03/30/2020,RI positive cases,408.0,114,0.3877551020408163
 03/30/2020,RI total tests,3595.0,461,0.14709636247606883
+03/30/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 03/30/2020,currently hospitalized,41.0,6,0.17142857142857149
 03/30/2020,currently in icu,0.0,0,0.0
 03/30/2020,currently on ventilator,0.0,0,0.0
@@ -892,6 +913,7 @@ date,metric,count,new_cases,change_%
 03/31/2020,RI negative results,3476.0,289,0.09068089112017574
 03/31/2020,RI positive cases,488.0,80,0.196078431372549
 03/31/2020,RI total tests,3964.0,369,0.10264255910987474
+03/31/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 03/31/2020,currently hospitalized,59.0,18,0.4390243902439024
 03/31/2020,currently in icu,0.0,0,0.0
 03/31/2020,currently on ventilator,0.0,0,0.0
@@ -933,6 +955,7 @@ date,metric,count,new_cases,change_%
 04/01/2020,RI negative results,3831.0,355,0.1021288837744534
 04/01/2020,RI positive cases,566.0,78,0.1598360655737705
 04/01/2020,RI total tests,4397.0,433,0.10923309788092839
+04/01/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 04/01/2020,currently hospitalized,60.0,1,0.016949152542372836
 04/01/2020,currently in icu,14.0,14,0.0
 04/01/2020,currently on ventilator,0.0,0,0.0
@@ -974,6 +997,7 @@ date,metric,count,new_cases,change_%
 04/02/2020,RI negative results,4412.0,581,0.1516575306708432
 04/02/2020,RI positive cases,657.0,91,0.16077738515901063
 04/02/2020,RI total tests,5069.0,672,0.15283147600636804
+04/02/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 04/02/2020,currently hospitalized,72.0,12,0.19999999999999996
 04/02/2020,currently in icu,14.0,0,0.0
 04/02/2020,currently on ventilator,0.0,0,0.0
@@ -1015,6 +1039,7 @@ date,metric,count,new_cases,change_%
 04/03/2020,RI negative results,4857.0,445,0.10086128739800548
 04/03/2020,RI positive cases,711.0,54,0.08219178082191791
 04/03/2020,RI total tests,5568.0,499,0.09844150720063127
+04/03/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 04/03/2020,currently hospitalized,77.0,5,0.06944444444444442
 04/03/2020,currently in icu,18.0,4,0.2857142857142858
 04/03/2020,currently on ventilator,0.0,0,0.0
@@ -1056,6 +1081,7 @@ date,metric,count,new_cases,change_%
 04/04/2020,RI negative results,5584.0,727,0.14968087296685195
 04/04/2020,RI positive cases,806.0,95,0.13361462728551343
 04/04/2020,RI total tests,6390.0,822,0.14762931034482762
+04/04/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 04/04/2020,currently hospitalized,93.0,16,0.20779220779220786
 04/04/2020,currently in icu,31.0,13,0.7222222222222223
 04/04/2020,currently on ventilator,0.0,0,0.0
@@ -1097,6 +1123,7 @@ date,metric,count,new_cases,change_%
 04/05/2020,RI negative results,6259.0,675,0.12088108882521498
 04/05/2020,RI positive cases,922.0,116,0.14392059553349879
 04/05/2020,RI total tests,7181.0,791,0.12378716744913931
+04/05/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 04/05/2020,currently hospitalized,103.0,10,0.10752688172043001
 04/05/2020,currently in icu,33.0,2,0.06451612903225801
 04/05/2020,currently on ventilator,0.0,0,0.0
@@ -1138,6 +1165,7 @@ date,metric,count,new_cases,change_%
 04/06/2020,RI negative results,7399.0,1140,0.18213772168077957
 04/06/2020,RI positive cases,1082.0,160,0.17353579175704992
 04/06/2020,RI total tests,8481.0,1300,0.1810332822726639
+04/06/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 04/06/2020,currently hospitalized,109.0,6,0.058252427184465994
 04/06/2020,currently in icu,37.0,4,0.1212121212121211
 04/06/2020,currently on ventilator,0.0,0,0.0
@@ -1179,6 +1207,7 @@ date,metric,count,new_cases,change_%
 04/07/2020,RI negative results,9077.0,1678,0.22678740370320316
 04/07/2020,RI positive cases,1229.0,147,0.13585951940850283
 04/07/2020,RI total tests,10306.0,1825,0.21518688833863941
+04/07/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 04/07/2020,currently hospitalized,123.0,14,0.12844036697247696
 04/07/2020,currently in icu,40.0,3,0.08108108108108114
 04/07/2020,currently on ventilator,0.0,0,0.0
@@ -1220,6 +1249,7 @@ date,metric,count,new_cases,change_%
 04/08/2020,RI negative results,10682.0,1605,0.1768205354191914
 04/08/2020,RI positive cases,1450.0,221,0.17982099267697316
 04/08/2020,RI total tests,12132.0,1826,0.17717834271298272
+04/08/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 04/08/2020,currently hospitalized,143.0,20,0.16260162601626016
 04/08/2020,currently in icu,45.0,5,0.125
 04/08/2020,currently on ventilator,0.0,0,0.0
@@ -1261,6 +1291,7 @@ date,metric,count,new_cases,change_%
 04/09/2020,RI negative results,12281.0,1599,0.14969106908818564
 04/09/2020,RI positive cases,1727.0,277,0.19103448275862078
 04/09/2020,RI total tests,14008.0,1876,0.1546323771843059
+04/09/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 04/09/2020,currently hospitalized,160.0,17,0.11888111888111896
 04/09/2020,currently in icu,45.0,0,0.0
 04/09/2020,currently on ventilator,0.0,0,0.0
@@ -1302,6 +1333,7 @@ date,metric,count,new_cases,change_%
 04/10/2020,RI negative results,13417.0,1136,0.09250061069945437
 04/10/2020,RI positive cases,2015.0,288,0.1667631731325998
 04/10/2020,RI total tests,15432.0,1424,0.10165619645916624
+04/10/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 04/10/2020,currently hospitalized,182.0,22,0.13749999999999996
 04/10/2020,currently in icu,45.0,0,0.0
 04/10/2020,currently on ventilator,0.0,0,0.0
@@ -1343,6 +1375,7 @@ date,metric,count,new_cases,change_%
 04/11/2020,RI negative results,15858.0,2441,0.18193336811507788
 04/11/2020,RI positive cases,2349.0,334,0.16575682382134005
 04/11/2020,RI total tests,18207.0,2775,0.17982115085536554
+04/11/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 04/11/2020,currently hospitalized,183.0,1,0.005494505494505475
 04/11/2020,currently in icu,50.0,5,0.11111111111111116
 04/11/2020,currently on ventilator,0.0,0,0.0
@@ -1384,6 +1417,7 @@ date,metric,count,new_cases,change_%
 04/12/2020,RI negative results,17685.0,1827,0.11520998864926213
 04/12/2020,RI positive cases,2665.0,316,0.13452532992762878
 04/12/2020,RI total tests,20350.0,2143,0.11770198275388588
+04/12/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 04/12/2020,currently hospitalized,201.0,18,0.09836065573770503
 04/12/2020,currently in icu,50.0,0,0.0
 04/12/2020,currently on ventilator,0.0,0,0.0
@@ -1425,6 +1459,7 @@ date,metric,count,new_cases,change_%
 04/13/2020,RI negative results,19649.0,1964,0.11105456601639818
 04/13/2020,RI positive cases,2976.0,311,0.11669793621013125
 04/13/2020,RI total tests,22625.0,2275,0.1117936117936118
+04/13/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 04/13/2020,currently hospitalized,197.0,-4,-0.01990049751243783
 04/13/2020,currently in icu,48.0,-2,-0.040000000000000036
 04/13/2020,currently on ventilator,0.0,0,0.0
@@ -1466,6 +1501,7 @@ date,metric,count,new_cases,change_%
 04/14/2020,RI negative results,20675.0,1026,0.052216397781057466
 04/14/2020,RI positive cases,3251.0,275,0.09240591397849451
 04/14/2020,RI total tests,23926.0,1301,0.057502762430939214
+04/14/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 04/14/2020,currently hospitalized,197.0,0,0.0
 04/14/2020,currently in icu,49.0,1,0.02083333333333326
 04/14/2020,currently on ventilator,0.0,0,0.0
@@ -1507,6 +1543,7 @@ date,metric,count,new_cases,change_%
 04/15/2020,RI negative results,22368.0,1693,0.08188633615477636
 04/15/2020,RI positive cases,3529.0,278,0.08551215010765922
 04/15/2020,RI total tests,25897.0,1971,0.08237900192259473
+04/15/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 04/15/2020,currently hospitalized,229.0,32,0.1624365482233503
 04/15/2020,currently in icu,54.0,5,0.1020408163265305
 04/15/2020,currently on ventilator,44.0,44,0.0
@@ -1548,6 +1585,7 @@ date,metric,count,new_cases,change_%
 04/16/2020,RI negative results,24226.0,1858,0.08306509298998566
 04/16/2020,RI positive cases,3838.0,309,0.08756021535845848
 04/16/2020,RI total tests,28064.0,2167,0.0836776460593891
+04/16/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 04/16/2020,currently hospitalized,245.0,16,0.06986899563318771
 04/16/2020,currently in icu,61.0,7,0.12962962962962954
 04/16/2020,currently on ventilator,43.0,-1,-0.022727272727272707
@@ -1589,6 +1627,7 @@ date,metric,count,new_cases,change_%
 04/17/2020,RI negative results,26584.0,2358,0.09733344340790895
 04/17/2020,RI positive cases,4177.0,339,0.08832725377800932
 04/17/2020,RI total tests,30761.0,2697,0.09610176738882559
+04/17/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 04/17/2020,currently hospitalized,252.0,7,0.02857142857142847
 04/17/2020,currently in icu,62.0,1,0.016393442622950838
 04/17/2020,currently on ventilator,43.0,0,0.0
@@ -1630,6 +1669,7 @@ date,metric,count,new_cases,change_%
 04/18/2020,RI negative results,28335.0,1751,0.06586668672885954
 04/18/2020,RI positive cases,4491.0,314,0.07517356954752219
 04/18/2020,RI total tests,32826.0,2065,0.06713045739735368
+04/18/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 04/18/2020,currently hospitalized,255.0,3,0.011904761904761862
 04/18/2020,currently in icu,67.0,5,0.08064516129032251
 04/18/2020,currently on ventilator,43.0,0,0.0
@@ -1671,6 +1711,7 @@ date,metric,count,new_cases,change_%
 04/19/2020,RI negative results,29993.0,1658,0.05851420504676197
 04/19/2020,RI positive cases,4706.0,215,0.04787352482743268
 04/19/2020,RI total tests,34699.0,1873,0.05705842929385252
+04/19/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 04/19/2020,currently hospitalized,254.0,-1,-0.0039215686274509665
 04/19/2020,currently in icu,70.0,3,0.04477611940298498
 04/19/2020,currently on ventilator,43.0,0,0.0
@@ -1712,6 +1753,7 @@ date,metric,count,new_cases,change_%
 04/20/2020,RI negative results,31990.0,1997,0.06658220251392
 04/20/2020,RI positive cases,5090.0,384,0.08159796005099862
 04/20/2020,RI total tests,37080.0,2381,0.06861869218133076
+04/20/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 04/20/2020,currently hospitalized,272.0,18,0.07086614173228356
 04/20/2020,currently in icu,62.0,-8,-0.11428571428571432
 04/20/2020,currently on ventilator,45.0,2,0.04651162790697683
@@ -1753,6 +1795,7 @@ date,metric,count,new_cases,change_%
 04/21/2020,RI negative results,33833.0,1843,0.057611753673022736
 04/21/2020,RI positive cases,5500.0,410,0.08055009823182702
 04/21/2020,RI total tests,39333.0,2253,0.060760517799352654
+04/21/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 04/21/2020,currently hospitalized,271.0,-1,-0.003676470588235281
 04/21/2020,currently in icu,67.0,5,0.08064516129032251
 04/21/2020,currently on ventilator,43.0,-2,-0.0444444444444444
@@ -1794,6 +1837,7 @@ date,metric,count,new_cases,change_%
 04/22/2020,RI negative results,35881.0,2048,0.06053261608488758
 04/22/2020,RI positive cases,5841.0,341,0.062000000000000055
 04/22/2020,RI total tests,41722.0,2389,0.06073780286273611
+04/22/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 04/22/2020,currently hospitalized,270.0,-1,-0.0036900369003689537
 04/22/2020,currently in icu,71.0,4,0.05970149253731338
 04/22/2020,currently on ventilator,44.0,1,0.023255813953488413
@@ -1835,6 +1879,7 @@ date,metric,count,new_cases,change_%
 04/23/2020,RI negative results,38163.0,2282,0.06359911931105589
 04/23/2020,RI positive cases,6256.0,415,0.07104947782913884
 04/23/2020,RI total tests,44419.0,2697,0.06464215521787064
+04/23/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 04/23/2020,currently hospitalized,267.0,-3,-0.011111111111111072
 04/23/2020,currently in icu,72.0,1,0.014084507042253502
 04/23/2020,currently on ventilator,45.0,1,0.022727272727272707
@@ -1876,6 +1921,7 @@ date,metric,count,new_cases,change_%
 04/24/2020,RI negative results,40558.0,2395,0.06275712077142792
 04/24/2020,RI positive cases,6699.0,443,0.07081202046035795
 04/24/2020,RI total tests,47257.0,2838,0.06389157792836397
+04/24/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 04/24/2020,currently hospitalized,267.0,0,0.0
 04/24/2020,currently in icu,77.0,5,0.06944444444444442
 04/24/2020,currently on ventilator,48.0,3,0.06666666666666665
@@ -1917,6 +1963,7 @@ date,metric,count,new_cases,change_%
 04/25/2020,RI negative results,43762.0,3204,0.07899797820405352
 04/25/2020,RI positive cases,7129.0,430,0.06418868487833995
 04/25/2020,RI total tests,50891.0,3634,0.07689866051590233
+04/25/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 04/25/2020,currently hospitalized,263.0,-4,-0.014981273408239737
 04/25/2020,currently in icu,77.0,0,0.0
 04/25/2020,currently on ventilator,52.0,4,0.08333333333333326
@@ -1958,6 +2005,7 @@ date,metric,count,new_cases,change_%
 04/26/2020,RI negative results,45964.0,2202,0.05031762716512045
 04/26/2020,RI positive cases,7439.0,310,0.043484359657736116
 04/26/2020,RI total tests,53403.0,2512,0.049360397712758575
+04/26/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 04/26/2020,currently hospitalized,258.0,-5,-0.019011406844106515
 04/26/2020,currently in icu,78.0,1,0.01298701298701288
 04/26/2020,currently on ventilator,53.0,1,0.019230769230769162
@@ -1999,6 +2047,7 @@ date,metric,count,new_cases,change_%
 04/27/2020,RI negative results,48177.0,2213,0.04814637542424505
 04/27/2020,RI positive cases,7708.0,269,0.03616077429762066
 04/27/2020,RI total tests,55885.0,2482,0.046476789693462806
+04/27/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 04/27/2020,currently hospitalized,266.0,8,0.03100775193798455
 04/27/2020,currently in icu,81.0,3,0.03846153846153855
 04/27/2020,currently on ventilator,56.0,3,0.05660377358490565
@@ -2040,6 +2089,7 @@ date,metric,count,new_cases,change_%
 04/28/2020,RI negative results,49767.0,1590,0.03300330033003296
 04/28/2020,RI positive cases,7926.0,218,0.028282304099636724
 04/28/2020,RI total tests,57693.0,1808,0.0323521517401808
+04/28/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 04/28/2020,currently hospitalized,266.0,0,0.0
 04/28/2020,currently in icu,84.0,3,0.03703703703703698
 04/28/2020,currently on ventilator,55.0,-1,-0.017857142857142905
@@ -2081,6 +2131,7 @@ date,metric,count,new_cases,change_%
 04/29/2020,RI negative results,51918.0,2151,0.04322141177888961
 04/29/2020,RI positive cases,8247.0,321,0.040499621498864435
 04/29/2020,RI total tests,60165.0,2472,0.04284748583016995
+04/29/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 04/29/2020,currently hospitalized,269.0,3,0.011278195488721776
 04/29/2020,currently in icu,80.0,-4,-0.04761904761904767
 04/29/2020,currently on ventilator,55.0,0,0.0
@@ -2122,6 +2173,7 @@ date,metric,count,new_cases,change_%
 04/30/2020,RI negative results,55089.0,3171,0.061077083092569096
 04/30/2020,RI positive cases,8621.0,374,0.045349824178489095
 04/30/2020,RI total tests,63710.0,3545,0.05892129975899607
+04/30/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 04/30/2020,currently hospitalized,339.0,70,0.2602230483271375
 04/30/2020,currently in icu,85.0,5,0.0625
 04/30/2020,currently on ventilator,54.0,-1,-0.018181818181818188
@@ -2163,6 +2215,7 @@ date,metric,count,new_cases,change_%
 05/01/2020,RI negative results,57686.0,2597,0.04714189765651944
 05/01/2020,RI positive cases,8962.0,341,0.03955457603526269
 05/01/2020,RI total tests,66648.0,2938,0.046115209543242885
+05/01/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 05/01/2020,currently hospitalized,352.0,13,0.03834808259587019
 05/01/2020,currently in icu,76.0,-9,-0.10588235294117643
 05/01/2020,currently on ventilator,51.0,-3,-0.05555555555555558
@@ -2204,6 +2257,7 @@ date,metric,count,new_cases,change_%
 05/02/2020,RI negative results,60639.0,2953,0.05119093020836951
 05/02/2020,RI positive cases,9289.0,327,0.03648739120731981
 05/02/2020,RI total tests,69928.0,3280,0.049213779858360285
+05/02/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 05/02/2020,currently hospitalized,316.0,-36,-0.10227272727272729
 05/02/2020,currently in icu,80.0,4,0.05263157894736836
 05/02/2020,currently on ventilator,54.0,3,0.05882352941176472
@@ -2245,6 +2299,7 @@ date,metric,count,new_cases,change_%
 05/03/2020,RI negative results,62450.0,1811,0.029865268226718866
 05/03/2020,RI positive cases,9477.0,188,0.02023899235655069
 05/03/2020,RI total tests,71927.0,1999,0.02858654616176648
+05/03/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 05/03/2020,currently hospitalized,330.0,14,0.044303797468354444
 05/03/2020,currently in icu,83.0,3,0.03750000000000009
 05/03/2020,currently on ventilator,59.0,5,0.09259259259259256
@@ -2286,6 +2341,7 @@ date,metric,count,new_cases,change_%
 05/04/2020,RI negative results,64484.0,2034,0.03257005604483587
 05/04/2020,RI positive cases,9652.0,175,0.018465759206499843
 05/04/2020,RI total tests,74136.0,2209,0.03071169380065908
+05/04/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 05/04/2020,currently hospitalized,339.0,9,0.027272727272727337
 05/04/2020,currently in icu,84.0,1,0.012048192771084265
 05/04/2020,currently on ventilator,61.0,2,0.03389830508474567
@@ -2327,6 +2383,7 @@ date,metric,count,new_cases,change_%
 05/05/2020,RI negative results,66502.0,2018,0.03129458470318225
 05/05/2020,RI positive cases,9933.0,281,0.029113137173642833
 05/05/2020,RI total tests,76435.0,2299,0.031010575159166942
+05/05/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 05/05/2020,currently hospitalized,327.0,-12,-0.03539823008849563
 05/05/2020,currently in icu,89.0,5,0.059523809523809534
 05/05/2020,currently on ventilator,62.0,1,0.016393442622950838
@@ -2368,6 +2425,7 @@ date,metric,count,new_cases,change_%
 05/06/2020,RI negative results,69168.0,2666,0.040089019879101295
 05/06/2020,RI positive cases,10205.0,272,0.02738346924393431
 05/06/2020,RI total tests,79373.0,2938,0.03843788840191009
+05/06/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 05/06/2020,currently hospitalized,324.0,-3,-0.00917431192660545
 05/06/2020,currently in icu,86.0,-3,-0.0337078651685393
 05/06/2020,currently on ventilator,60.0,-2,-0.032258064516129004
@@ -2409,6 +2467,7 @@ date,metric,count,new_cases,change_%
 05/07/2020,RI negative results,71788.0,2620,0.037878787878787845
 05/07/2020,RI positive cases,10530.0,325,0.031847133757961776
 05/07/2020,RI total tests,82318.0,2945,0.03710329709095039
+05/07/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 05/07/2020,currently hospitalized,318.0,-6,-0.01851851851851849
 05/07/2020,currently in icu,82.0,-4,-0.046511627906976716
 05/07/2020,currently on ventilator,56.0,-4,-0.06666666666666665
@@ -2450,6 +2509,7 @@ date,metric,count,new_cases,change_%
 05/08/2020,RI negative results,74487.0,2699,0.03759681283780014
 05/08/2020,RI positive cases,10779.0,249,0.02364672364672371
 05/08/2020,RI total tests,85266.0,2948,0.03581233752034785
+05/08/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 05/08/2020,currently hospitalized,312.0,-6,-0.018867924528301883
 05/08/2020,currently in icu,71.0,-11,-0.13414634146341464
 05/08/2020,currently on ventilator,52.0,-4,-0.0714285714285714
@@ -2491,6 +2551,7 @@ date,metric,count,new_cases,change_%
 05/09/2020,RI negative results,76826.0,2339,0.03140145260246752
 05/09/2020,RI positive cases,10989.0,210,0.01948232674645145
 05/09/2020,RI total tests,87815.0,2549,0.029894682522928262
+05/09/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 05/09/2020,currently hospitalized,292.0,-20,-0.0641025641025641
 05/09/2020,currently in icu,77.0,6,0.08450704225352124
 05/09/2020,currently on ventilator,56.0,4,0.07692307692307687
@@ -2532,6 +2593,7 @@ date,metric,count,new_cases,change_%
 05/10/2020,RI negative results,79939.0,3113,0.04052013641215213
 05/10/2020,RI positive cases,11274.0,285,0.025935025935025946
 05/10/2020,RI total tests,91213.0,3398,0.03869498377270397
+05/10/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 05/10/2020,currently hospitalized,283.0,-9,-0.03082191780821919
 05/10/2020,currently in icu,70.0,-7,-0.09090909090909094
 05/10/2020,currently on ventilator,52.0,-4,-0.0714285714285714
@@ -2573,6 +2635,7 @@ date,metric,count,new_cases,change_%
 05/11/2020,RI negative results,81882.0,1943,0.02430603335042969
 05/11/2020,RI positive cases,11450.0,176,0.015611140677665336
 05/11/2020,RI total tests,93332.0,2119,0.02323133763827534
+05/11/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 05/11/2020,currently hospitalized,276.0,-7,-0.02473498233215543
 05/11/2020,currently in icu,73.0,3,0.04285714285714293
 05/11/2020,currently on ventilator,52.0,0,0.0
@@ -2614,6 +2677,7 @@ date,metric,count,new_cases,change_%
 05/12/2020,RI negative results,83625.0,1743,0.02128672968417966
 05/12/2020,RI positive cases,11614.0,164,0.014323144104803509
 05/12/2020,RI total tests,95239.0,1907,0.020432434749067863
+05/12/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 05/12/2020,currently hospitalized,277.0,1,0.0036231884057971175
 05/12/2020,currently in icu,72.0,-1,-0.013698630136986356
 05/12/2020,currently on ventilator,53.0,1,0.019230769230769162
@@ -2655,6 +2719,7 @@ date,metric,count,new_cases,change_%
 05/13/2020,RI negative results,86087.0,2462,0.029440956651719086
 05/13/2020,RI positive cases,11835.0,221,0.019028758395040368
 05/13/2020,RI total tests,97922.0,2683,0.028171232373292554
+05/13/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 05/13/2020,currently hospitalized,269.0,-8,-0.028880866425992746
 05/13/2020,currently in icu,68.0,-4,-0.05555555555555558
 05/13/2020,currently on ventilator,48.0,-5,-0.09433962264150941
@@ -2696,6 +2761,7 @@ date,metric,count,new_cases,change_%
 05/14/2020,RI negative results,89585.0,3498,0.04063331281145821
 05/14/2020,RI positive cases,12016.0,181,0.015293620616814607
 05/14/2020,RI total tests,101601.0,3679,0.03757071955229674
+05/14/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 05/14/2020,currently hospitalized,271.0,2,0.0074349442379182396
 05/14/2020,currently in icu,65.0,-3,-0.044117647058823484
 05/14/2020,currently on ventilator,42.0,-6,-0.125
@@ -2737,6 +2803,7 @@ date,metric,count,new_cases,change_%
 05/15/2020,RI negative results,92759.0,3174,0.03543003851091142
 05/15/2020,RI positive cases,12219.0,203,0.016894141145139763
 05/15/2020,RI total tests,104978.0,3377,0.03323786183206856
+05/15/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 05/15/2020,currently hospitalized,272.0,1,0.0036900369003689537
 05/15/2020,currently in icu,63.0,-2,-0.03076923076923077
 05/15/2020,currently on ventilator,41.0,-1,-0.023809523809523836
@@ -2778,6 +2845,7 @@ date,metric,count,new_cases,change_%
 05/16/2020,RI negative results,96046.0,3287,0.03543591457432704
 05/16/2020,RI positive cases,12434.0,215,0.0175955479171781
 05/16/2020,RI total tests,108480.0,3502,0.033359370534778776
+05/16/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 05/16/2020,currently hospitalized,273.0,1,0.003676470588235281
 05/16/2020,currently in icu,66.0,3,0.04761904761904767
 05/16/2020,currently on ventilator,44.0,3,0.07317073170731714
@@ -2819,6 +2887,7 @@ date,metric,count,new_cases,change_%
 05/17/2020,RI negative results,99876.0,3830,0.039876725735584984
 05/17/2020,RI positive cases,12674.0,240,0.0193019141064823
 05/17/2020,RI total tests,112550.0,4070,0.03751843657817111
+05/17/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 05/17/2020,currently hospitalized,260.0,-13,-0.04761904761904767
 05/17/2020,currently in icu,64.0,-2,-0.030303030303030276
 05/17/2020,currently on ventilator,45.0,1,0.022727272727272707
@@ -2860,6 +2929,7 @@ date,metric,count,new_cases,change_%
 05/18/2020,RI negative results,102589.0,2713,0.027163682966878877
 05/18/2020,RI positive cases,12795.0,121,0.009547104308032184
 05/18/2020,RI total tests,115384.0,2834,0.025179920035539816
+05/18/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 05/18/2020,currently hospitalized,236.0,-24,-0.09230769230769231
 05/18/2020,currently in icu,62.0,-2,-0.03125
 05/18/2020,currently on ventilator,46.0,1,0.022222222222222143
@@ -2901,6 +2971,7 @@ date,metric,count,new_cases,change_%
 05/19/2020,RI negative results,104295.0,1706,0.01662946319780878
 05/19/2020,RI positive cases,12951.0,156,0.012192262602579218
 05/19/2020,RI total tests,117246.0,1862,0.01613741939957003
+05/19/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 05/19/2020,currently hospitalized,247.0,11,0.04661016949152552
 05/19/2020,currently in icu,59.0,-3,-0.048387096774193505
 05/19/2020,currently on ventilator,44.0,-2,-0.04347826086956519
@@ -2942,6 +3013,7 @@ date,metric,count,new_cases,change_%
 05/20/2020,RI negative results,107172.0,2877,0.027585215015101472
 05/20/2020,RI positive cases,13356.0,405,0.03127171646977067
 05/20/2020,RI total tests,120528.0,3282,0.027992426180850627
+05/20/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 05/20/2020,currently hospitalized,257.0,10,0.04048582995951411
 05/20/2020,currently in icu,58.0,-1,-0.016949152542372836
 05/20/2020,currently on ventilator,45.0,1,0.022727272727272707
@@ -2983,6 +3055,7 @@ date,metric,count,new_cases,change_%
 05/21/2020,RI negative results,109796.0,2624,0.024484007016758014
 05/21/2020,RI positive cases,13571.0,215,0.016097634022162355
 05/21/2020,RI total tests,123367.0,2839,0.02355469268551702
+05/21/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 05/21/2020,currently hospitalized,254.0,-3,-0.011673151750972721
 05/21/2020,currently in icu,56.0,-2,-0.03448275862068961
 05/21/2020,currently on ventilator,41.0,-4,-0.0888888888888889
@@ -3024,6 +3097,7 @@ date,metric,count,new_cases,change_%
 05/22/2020,RI negative results,113403.0,3607,0.03285183431090388
 05/22/2020,RI positive cases,13736.0,165,0.012158278682484758
 05/22/2020,RI total tests,127139.0,3772,0.03057543751570524
+05/22/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 05/22/2020,currently hospitalized,242.0,-12,-0.047244094488189003
 05/22/2020,currently in icu,56.0,0,0.0
 05/22/2020,currently on ventilator,40.0,-1,-0.024390243902439046
@@ -3065,6 +3139,7 @@ date,metric,count,new_cases,change_%
 05/23/2020,RI negative results,116180.0,2777,0.024487888327469287
 05/23/2020,RI positive cases,13952.0,216,0.015725101921956863
 05/23/2020,RI total tests,130132.0,2993,0.023541163608334248
+05/23/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 05/23/2020,currently hospitalized,233.0,-9,-0.037190082644628086
 05/23/2020,currently in icu,51.0,-5,-0.0892857142857143
 05/23/2020,currently on ventilator,34.0,-6,-0.15000000000000002
@@ -3106,6 +3181,7 @@ date,metric,count,new_cases,change_%
 05/24/2020,RI negative results,118636.0,2456,0.02113961094852823
 05/24/2020,RI positive cases,14065.0,113,0.008099197247706469
 05/24/2020,RI total tests,132701.0,2569,0.01974149325300467
+05/24/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 05/24/2020,currently hospitalized,240.0,7,0.030042918454935563
 05/24/2020,currently in icu,49.0,-2,-0.039215686274509776
 05/24/2020,currently on ventilator,32.0,-2,-0.05882352941176472
@@ -3147,6 +3223,7 @@ date,metric,count,new_cases,change_%
 05/26/2020,RI negative results,121153.0,2517,0.021216156984389167
 05/26/2020,RI positive cases,14210.0,145,0.010309278350515427
 05/26/2020,RI total tests,135363.0,2662,0.020060135191144024
+05/26/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 05/26/2020,currently hospitalized,226.0,-14,-0.05833333333333335
 05/26/2020,currently in icu,50.0,1,0.020408163265306145
 05/26/2020,currently on ventilator,36.0,4,0.125
@@ -3188,6 +3265,7 @@ date,metric,count,new_cases,change_%
 05/27/2020,RI negative results,124030.0,2877,0.02374683251756049
 05/27/2020,RI positive cases,14353.0,143,0.010063335679099117
 05/27/2020,RI total tests,138383.0,3020,0.02231038023684473
+05/27/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 05/27/2020,currently hospitalized,218.0,-8,-0.03539823008849563
 05/27/2020,currently in icu,49.0,-1,-0.020000000000000018
 05/27/2020,currently on ventilator,35.0,-1,-0.02777777777777779
@@ -3229,6 +3307,7 @@ date,metric,count,new_cases,change_%
 05/28/2020,RI negative results,125871.0,1841,0.014843183100862634
 05/28/2020,RI positive cases,14494.0,141,0.009823730230613892
 05/28/2020,RI total tests,140365.0,1982,0.014322568523590373
+05/28/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 05/28/2020,currently hospitalized,222.0,4,0.0183486238532109
 05/28/2020,currently in icu,53.0,4,0.08163265306122458
 05/28/2020,currently on ventilator,36.0,1,0.02857142857142847
@@ -3270,6 +3349,7 @@ date,metric,count,new_cases,change_%
 05/29/2020,RI negative results,131720.0,5849,0.04646820951609176
 05/29/2020,RI positive cases,14635.0,141,0.009728163377949572
 05/29/2020,RI total tests,146355.0,5990,0.04267445588287688
+05/29/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 05/29/2020,currently hospitalized,219.0,-3,-0.013513513513513487
 05/29/2020,currently in icu,47.0,-6,-0.1132075471698113
 05/29/2020,currently on ventilator,33.0,-3,-0.08333333333333337
@@ -3311,6 +3391,7 @@ date,metric,count,new_cases,change_%
 05/30/2020,RI negative results,135498.0,3778,0.02868205283935632
 05/30/2020,RI positive cases,14819.0,184,0.012572599931670592
 05/30/2020,RI total tests,150317.0,3962,0.02707116258412756
+05/30/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 05/30/2020,currently hospitalized,219.0,0,0.0
 05/30/2020,currently in icu,50.0,3,0.06382978723404253
 05/30/2020,currently on ventilator,32.0,-1,-0.030303030303030276
@@ -3352,6 +3433,7 @@ date,metric,count,new_cases,change_%
 05/31/2020,RI negative results,139565.0,4067,0.030015203176430694
 05/31/2020,RI positive cases,14928.0,109,0.007355422093258568
 05/31/2020,RI total tests,154493.0,4176,0.027781288876175037
+05/31/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 05/31/2020,currently hospitalized,206.0,-13,-0.05936073059360736
 05/31/2020,currently in icu,46.0,-4,-0.07999999999999996
 05/31/2020,currently on ventilator,29.0,-3,-0.09375
@@ -3393,6 +3475,7 @@ date,metric,count,new_cases,change_%
 06/01/2020,RI negative results,141844.0,2279,0.016329308924157182
 06/01/2020,RI positive cases,14991.0,63,0.004220257234726743
 06/01/2020,RI total tests,156835.0,2342,0.015159262879224311
+06/01/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 06/01/2020,currently hospitalized,195.0,-11,-0.05339805825242716
 06/01/2020,currently in icu,46.0,0,0.0
 06/01/2020,currently on ventilator,29.0,0,0.0
@@ -3434,6 +3517,7 @@ date,metric,count,new_cases,change_%
 06/02/2020,RI negative results,144448.0,2604,0.018358196328360776
 06/02/2020,RI positive cases,15112.0,121,0.008071509572410207
 06/02/2020,RI total tests,159560.0,2725,0.017374948193961792
+06/02/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 06/02/2020,currently hospitalized,188.0,-7,-0.03589743589743588
 06/02/2020,currently in icu,48.0,2,0.04347826086956519
 06/02/2020,currently on ventilator,31.0,2,0.06896551724137923
@@ -3475,6 +3559,7 @@ date,metric,count,new_cases,change_%
 06/03/2020,RI negative results,147321.0,2873,0.019889510412051337
 06/03/2020,RI positive cases,15219.0,107,0.007080465854949702
 06/03/2020,RI total tests,162540.0,2980,0.018676359989972413
+06/03/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 06/03/2020,currently hospitalized,189.0,1,0.005319148936170137
 06/03/2020,currently in icu,44.0,-4,-0.08333333333333337
 06/03/2020,currently on ventilator,30.0,-1,-0.032258064516129004
@@ -3516,6 +3601,7 @@ date,metric,count,new_cases,change_%
 06/04/2020,RI negative results,150598.0,3277,0.02224394349753256
 06/04/2020,RI positive cases,15325.0,106,0.006964977988041188
 06/04/2020,RI total tests,165923.0,3383,0.02081333825519871
+06/04/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 06/04/2020,currently hospitalized,185.0,-4,-0.021164021164021163
 06/04/2020,currently in icu,42.0,-2,-0.045454545454545414
 06/04/2020,currently on ventilator,29.0,-1,-0.033333333333333326
@@ -3557,6 +3643,7 @@ date,metric,count,new_cases,change_%
 06/05/2020,RI negative results,155298.0,4700,0.031208913796995974
 06/05/2020,RI positive cases,15441.0,116,0.007569331158238102
 06/05/2020,RI total tests,170739.0,4816,0.02902551183380253
+06/05/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 06/05/2020,currently hospitalized,182.0,-3,-0.01621621621621616
 06/05/2020,currently in icu,37.0,-5,-0.11904761904761907
 06/05/2020,currently on ventilator,23.0,-6,-0.2068965517241379
@@ -3598,6 +3685,7 @@ date,metric,count,new_cases,change_%
 06/08/2020,RI negative results,163527.0,8229,0.052988448016072276
 06/08/2020,RI positive cases,15642.0,201,0.01301729162618992
 06/08/2020,RI total tests,179169.0,8430,0.049373605327429626
+06/08/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 06/08/2020,currently hospitalized,146.0,-36,-0.19780219780219777
 06/08/2020,currently in icu,28.0,-9,-0.2432432432432432
 06/08/2020,currently on ventilator,20.0,-3,-0.13043478260869568
@@ -3639,6 +3727,7 @@ date,metric,count,new_cases,change_%
 06/09/2020,RI negative results,165196.0,1669,0.010206265631975242
 06/09/2020,RI positive cases,15691.0,49,0.003132591740186763
 06/09/2020,RI total tests,180887.0,1718,0.009588712333048699
+06/09/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 06/09/2020,currently hospitalized,144.0,-2,-0.013698630136986356
 06/09/2020,currently in icu,31.0,3,0.1071428571428572
 06/09/2020,currently on ventilator,19.0,-1,-0.050000000000000044
@@ -3680,6 +3769,7 @@ date,metric,count,new_cases,change_%
 06/10/2020,RI negative results,167866.0,2670,0.01616261894961135
 06/10/2020,RI positive cases,15756.0,65,0.0041425020712511085
 06/10/2020,RI total tests,183622.0,2735,0.015119936756096353
+06/10/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 06/10/2020,currently hospitalized,148.0,4,0.02777777777777768
 06/10/2020,currently in icu,27.0,-4,-0.12903225806451613
 06/10/2020,currently on ventilator,16.0,-3,-0.1578947368421053
@@ -3721,6 +3811,7 @@ date,metric,count,new_cases,change_%
 06/11/2020,RI negative results,171941.0,4075,0.024275314834451223
 06/11/2020,RI positive cases,15862.0,106,0.006727595836506728
 06/11/2020,RI total tests,187803.0,4181,0.02276960277090989
+06/11/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 06/11/2020,currently hospitalized,146.0,-2,-0.013513513513513487
 06/11/2020,currently in icu,26.0,-1,-0.03703703703703709
 06/11/2020,currently on ventilator,16.0,0,0.0
@@ -3762,6 +3853,7 @@ date,metric,count,new_cases,change_%
 06/12/2020,RI negative results,175571.0,3630,0.02111189303307537
 06/12/2020,RI positive cases,15947.0,85,0.005358718950951857
 06/12/2020,RI total tests,191518.0,3715,0.019781366644835208
+06/12/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 06/12/2020,currently hospitalized,141.0,-5,-0.03424657534246578
 06/12/2020,currently in icu,28.0,2,0.07692307692307687
 06/12/2020,currently on ventilator,17.0,1,0.0625
@@ -3803,6 +3895,7 @@ date,metric,count,new_cases,change_%
 06/15/2020,RI negative results,184352.0,8781,0.050013954468562494
 06/15/2020,RI positive cases,16093.0,146,0.009155327020756276
 06/15/2020,RI total tests,200445.0,8927,0.04661180672312781
+06/15/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 06/15/2020,currently hospitalized,127.0,-14,-0.099290780141844
 06/15/2020,currently in icu,21.0,-7,-0.25
 06/15/2020,currently on ventilator,14.0,-3,-0.17647058823529416
@@ -3844,6 +3937,7 @@ date,metric,count,new_cases,change_%
 06/16/2020,RI negative results,187454.0,3102,0.01682650581496259
 06/16/2020,RI positive cases,16164.0,71,0.00441185608649719
 06/16/2020,RI total tests,203618.0,3173,0.015829778742298295
+06/16/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 06/16/2020,currently hospitalized,129.0,2,0.015748031496062964
 06/16/2020,currently in icu,16.0,-5,-0.23809523809523814
 06/16/2020,currently on ventilator,13.0,-1,-0.0714285714285714
@@ -3885,6 +3979,7 @@ date,metric,count,new_cases,change_%
 06/17/2020,RI negative results,190257.0,2803,0.01495300180310899
 06/17/2020,RI positive cases,16213.0,49,0.003031427864389924
 06/17/2020,RI total tests,206470.0,2852,0.01400662023986099
+06/17/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 06/17/2020,currently hospitalized,126.0,-3,-0.023255813953488413
 06/17/2020,currently in icu,17.0,1,0.0625
 06/17/2020,currently on ventilator,13.0,0,0.0
@@ -3926,6 +4021,7 @@ date,metric,count,new_cases,change_%
 06/18/2020,RI negative results,195324.0,5067,0.02663239723111377
 06/18/2020,RI positive cases,16269.0,56,0.0034540183803120073
 06/18/2020,RI total tests,211593.0,5123,0.024812321402625015
+06/18/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 06/18/2020,currently hospitalized,126.0,0,0.0
 06/18/2020,currently in icu,23.0,6,0.3529411764705883
 06/18/2020,currently on ventilator,13.0,0,0.0
@@ -3967,6 +4063,7 @@ date,metric,count,new_cases,change_%
 06/19/2020,RI negative results,198252.0,2928,0.014990477360693033
 06/19/2020,RI positive cases,16337.0,68,0.004179728317659448
 06/19/2020,RI total tests,214589.0,2996,0.014159258576607048
+06/19/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 06/19/2020,currently hospitalized,123.0,-3,-0.023809523809523836
 06/19/2020,currently in icu,23.0,0,0.0
 06/19/2020,currently on ventilator,12.0,-1,-0.07692307692307687
@@ -4008,6 +4105,7 @@ date,metric,count,new_cases,change_%
 06/22/2020,RI negative results,202209.0,3957,0.019959445554143196
 06/22/2020,RI positive cases,16459.0,122,0.007467711330109594
 06/22/2020,RI total tests,218668.0,4079,0.019008430068642834
+06/22/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 06/22/2020,currently hospitalized,106.0,-17,-0.1382113821138211
 06/22/2020,currently in icu,18.0,-5,-0.21739130434782605
 06/22/2020,currently on ventilator,15.0,3,0.25
@@ -4049,6 +4147,7 @@ date,metric,count,new_cases,change_%
 06/23/2020,RI negative results,205630.0,3421,0.016918139153054623
 06/23/2020,RI positive cases,16533.0,74,0.004496020414362922
 06/23/2020,RI total tests,222163.0,3495,0.015983134249181408
+06/23/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 06/23/2020,currently hospitalized,105.0,-1,-0.009433962264150941
 06/23/2020,currently in icu,19.0,1,0.05555555555555558
 06/23/2020,currently on ventilator,17.0,2,0.1333333333333333
@@ -4090,6 +4189,7 @@ date,metric,count,new_cases,change_%
 06/24/2020,RI negative results,208387.0,2757,0.01340757671545978
 06/24/2020,RI positive cases,16606.0,73,0.00441541160104042
 06/24/2020,RI total tests,224993.0,2830,0.012738394782209506
+06/24/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 06/24/2020,currently hospitalized,104.0,-1,-0.00952380952380949
 06/24/2020,currently in icu,20.0,1,0.05263157894736836
 06/24/2020,currently on ventilator,16.0,-1,-0.05882352941176472
@@ -4131,6 +4231,7 @@ date,metric,count,new_cases,change_%
 06/25/2020,RI negative results,211500.0,3113,0.014938551829048796
 06/25/2020,RI positive cases,16640.0,34,0.0020474527279297217
 06/25/2020,RI total tests,228140.0,3147,0.013987101820945647
+06/25/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 06/25/2020,currently hospitalized,103.0,-1,-0.009615384615384581
 06/25/2020,currently in icu,18.0,-2,-0.09999999999999998
 06/25/2020,currently on ventilator,17.0,1,0.0625
@@ -4172,6 +4273,7 @@ date,metric,count,new_cases,change_%
 06/26/2020,RI negative results,213847.0,2347,0.011096926713948019
 06/26/2020,RI positive cases,16661.0,21,0.0012620192307692957
 06/26/2020,RI total tests,230508.0,2368,0.010379591478916428
+06/26/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 06/26/2020,currently hospitalized,91.0,-12,-0.11650485436893199
 06/26/2020,currently in icu,16.0,-2,-0.11111111111111116
 06/26/2020,currently on ventilator,15.0,-2,-0.11764705882352944
@@ -4213,6 +4315,7 @@ date,metric,count,new_cases,change_%
 06/29/2020,RI negative results,221756.0,7909,0.0369843860330048
 06/29/2020,RI positive cases,16764.0,103,0.0061821019146510725
 06/29/2020,RI total tests,238520.0,8012,0.03475801273708501
+06/29/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 06/29/2020,currently hospitalized,73.0,-18,-0.19780219780219777
 06/29/2020,currently in icu,15.0,-1,-0.0625
 06/29/2020,currently on ventilator,14.0,-1,-0.06666666666666665
@@ -4254,6 +4357,7 @@ date,metric,count,new_cases,change_%
 06/30/2020,RI negative results,225469.0,3713,0.01674362813182051
 06/30/2020,RI positive cases,16813.0,49,0.002922930088284481
 06/30/2020,RI total tests,242282.0,3762,0.015772262284085237
+06/30/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 06/30/2020,currently hospitalized,74.0,1,0.013698630136986356
 06/30/2020,currently in icu,13.0,-2,-0.1333333333333333
 06/30/2020,currently on ventilator,13.0,-1,-0.0714285714285714
@@ -4295,6 +4399,7 @@ date,metric,count,new_cases,change_%
 07/01/2020,RI negative results,227362.0,1893,0.008395832686533433
 07/01/2020,RI positive cases,16853.0,40,0.0023791114018913984
 07/01/2020,RI total tests,244215.0,1933,0.00797830627120466
+07/01/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 07/01/2020,currently hospitalized,69.0,-5,-0.06756756756756754
 07/01/2020,currently in icu,11.0,-2,-0.15384615384615385
 07/01/2020,currently on ventilator,11.0,-2,-0.15384615384615385
@@ -4336,6 +4441,7 @@ date,metric,count,new_cases,change_%
 07/02/2020,RI negative results,231327.0,3965,0.017439149901918416
 07/02/2020,RI positive cases,16941.0,88,0.005221622263098524
 07/02/2020,RI total tests,248268.0,4053,0.01659603218475514
+07/02/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 07/02/2020,currently hospitalized,67.0,-2,-0.02898550724637683
 07/02/2020,currently in icu,11.0,0,0.0
 07/02/2020,currently on ventilator,10.0,-1,-0.09090909090909094
@@ -4377,6 +4483,7 @@ date,metric,count,new_cases,change_%
 07/03/2020,RI negative results,233963.0,2636,0.011395124650386723
 07/03/2020,RI positive cases,16991.0,50,0.0029514196328432885
 07/03/2020,RI total tests,250954.0,2686,0.010818953711311918
+07/03/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 07/03/2020,currently hospitalized,61.0,-6,-0.08955223880597019
 07/03/2020,currently in icu,9.0,-2,-0.18181818181818177
 07/03/2020,currently on ventilator,7.0,-3,-0.30000000000000004
@@ -4418,6 +4525,7 @@ date,metric,count,new_cases,change_%
 07/07/2020,RI negative results,243536.0,9573,0.04091672614900643
 07/07/2020,RI positive cases,17154.0,163,0.009593314107468665
 07/07/2020,RI total tests,260690.0,9736,0.038795954637104835
+07/07/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 07/07/2020,currently hospitalized,55.0,-6,-0.09836065573770492
 07/07/2020,currently in icu,4.0,-5,-0.5555555555555556
 07/07/2020,currently on ventilator,4.0,-3,-0.4285714285714286
@@ -4459,6 +4567,7 @@ date,metric,count,new_cases,change_%
 07/08/2020,RI negative results,247012.0,3476,0.01427304382103678
 07/08/2020,RI positive cases,17204.0,50,0.0029147720648246
 07/08/2020,RI total tests,264216.0,3526,0.013525643484598504
+07/08/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 07/08/2020,currently hospitalized,56.0,1,0.018181818181818077
 07/08/2020,currently in icu,5.0,1,0.25
 07/08/2020,currently on ventilator,5.0,1,0.25
@@ -4500,6 +4609,7 @@ date,metric,count,new_cases,change_%
 07/13/2020,RI negative results,0.0,-247012,-1.0
 07/13/2020,RI positive cases,0.0,-17204,-1.0
 07/13/2020,RI total tests,0.0,-264216,-1.0
+07/13/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 07/13/2020,currently hospitalized,67.0,11,0.1964285714285714
 07/13/2020,currently in icu,3.0,-2,-0.4
 07/13/2020,currently on ventilator,4.0,-1,-0.19999999999999996
@@ -4541,6 +4651,7 @@ date,metric,count,new_cases,change_%
 07/14/2020,RI negative results,0.0,0,0.0
 07/14/2020,RI positive cases,0.0,0,0.0
 07/14/2020,RI total tests,0.0,0,0.0
+07/14/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 07/14/2020,currently hospitalized,69.0,2,0.029850746268656803
 07/14/2020,currently in icu,5.0,2,0.6666666666666667
 07/14/2020,currently on ventilator,3.0,-1,-0.25
@@ -4582,6 +4693,7 @@ date,metric,count,new_cases,change_%
 07/15/2020,RI negative results,0.0,0,0.0
 07/15/2020,RI positive cases,0.0,0,0.0
 07/15/2020,RI total tests,0.0,0,0.0
+07/15/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 07/15/2020,currently hospitalized,59.0,-10,-0.14492753623188404
 07/15/2020,currently in icu,5.0,0,0.0
 07/15/2020,currently on ventilator,3.0,0,0.0
@@ -4623,6 +4735,7 @@ date,metric,count,new_cases,change_%
 07/16/2020,RI negative results,0.0,0,0.0
 07/16/2020,RI positive cases,0.0,0,0.0
 07/16/2020,RI total tests,0.0,0,0.0
+07/16/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 07/16/2020,currently hospitalized,64.0,5,0.0847457627118644
 07/16/2020,currently in icu,4.0,-1,-0.19999999999999996
 07/16/2020,currently on ventilator,3.0,0,0.0
@@ -4664,6 +4777,7 @@ date,metric,count,new_cases,change_%
 07/17/2020,RI negative results,0.0,0,0.0
 07/17/2020,RI positive cases,0.0,0,0.0
 07/17/2020,RI total tests,0.0,0,0.0
+07/17/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 07/17/2020,currently hospitalized,62.0,-2,-0.03125
 07/17/2020,currently in icu,4.0,0,0.0
 07/17/2020,currently on ventilator,2.0,-1,-0.33333333333333337
@@ -4705,6 +4819,7 @@ date,metric,count,new_cases,change_%
 07/20/2020,RI negative results,0.0,0,0.0
 07/20/2020,RI positive cases,0.0,0,0.0
 07/20/2020,RI total tests,0.0,0,0.0
+07/20/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 07/20/2020,currently hospitalized,61.0,-1,-0.016129032258064502
 07/20/2020,currently in icu,2.0,-2,-0.5
 07/20/2020,currently on ventilator,2.0,0,0.0
@@ -4746,6 +4861,7 @@ date,metric,count,new_cases,change_%
 07/21/2020,RI negative results,0.0,0,0.0
 07/21/2020,RI positive cases,0.0,0,0.0
 07/21/2020,RI total tests,0.0,0,0.0
+07/21/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 07/21/2020,currently hospitalized,64.0,3,0.049180327868852514
 07/21/2020,currently in icu,4.0,2,1.0
 07/21/2020,currently on ventilator,2.0,0,0.0
@@ -4787,6 +4903,7 @@ date,metric,count,new_cases,change_%
 07/22/2020,RI negative results,0.0,0,0.0
 07/22/2020,RI positive cases,0.0,0,0.0
 07/22/2020,RI total tests,0.0,0,0.0
+07/22/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 07/22/2020,currently hospitalized,67.0,3,0.046875
 07/22/2020,currently in icu,5.0,1,0.25
 07/22/2020,currently on ventilator,3.0,1,0.5
@@ -4828,6 +4945,7 @@ date,metric,count,new_cases,change_%
 07/23/2020,RI negative results,0.0,0,0.0
 07/23/2020,RI positive cases,0.0,0,0.0
 07/23/2020,RI total tests,0.0,0,0.0
+07/23/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 07/23/2020,currently hospitalized,67.0,0,0.0
 07/23/2020,currently in icu,7.0,2,0.3999999999999999
 07/23/2020,currently on ventilator,4.0,1,0.33333333333333326
@@ -4869,6 +4987,7 @@ date,metric,count,new_cases,change_%
 07/24/2020,RI negative results,0.0,0,0.0
 07/24/2020,RI positive cases,0.0,0,0.0
 07/24/2020,RI total tests,0.0,0,0.0
+07/24/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 07/24/2020,currently hospitalized,66.0,-1,-0.014925373134328401
 07/24/2020,currently in icu,6.0,-1,-0.1428571428571429
 07/24/2020,currently on ventilator,5.0,1,0.25
@@ -4910,6 +5029,7 @@ date,metric,count,new_cases,change_%
 07/27/2020,RI negative results,0.0,0,0.0
 07/27/2020,RI positive cases,0.0,0,0.0
 07/27/2020,RI total tests,0.0,0,0.0
+07/27/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 07/27/2020,currently hospitalized,71.0,5,0.07575757575757569
 07/27/2020,currently in icu,8.0,2,0.33333333333333326
 07/27/2020,currently on ventilator,6.0,1,0.19999999999999996
@@ -4951,6 +5071,7 @@ date,metric,count,new_cases,change_%
 07/28/2020,RI negative results,0.0,0,0.0
 07/28/2020,RI positive cases,0.0,0,0.0
 07/28/2020,RI total tests,0.0,0,0.0
+07/28/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 07/28/2020,currently hospitalized,68.0,-3,-0.04225352112676062
 07/28/2020,currently in icu,10.0,2,0.25
 07/28/2020,currently on ventilator,7.0,1,0.16666666666666674
@@ -4992,6 +5113,7 @@ date,metric,count,new_cases,change_%
 07/29/2020,RI negative results,0.0,0,0.0
 07/29/2020,RI positive cases,0.0,0,0.0
 07/29/2020,RI total tests,0.0,0,0.0
+07/29/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 07/29/2020,currently hospitalized,74.0,6,0.08823529411764697
 07/29/2020,currently in icu,12.0,2,0.19999999999999996
 07/29/2020,currently on ventilator,6.0,-1,-0.1428571428571429
@@ -5033,6 +5155,7 @@ date,metric,count,new_cases,change_%
 07/30/2020,RI negative results,0.0,0,0.0
 07/30/2020,RI positive cases,0.0,0,0.0
 07/30/2020,RI total tests,0.0,0,0.0
+07/30/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 07/30/2020,currently hospitalized,77.0,3,0.04054054054054057
 07/30/2020,currently in icu,13.0,1,0.08333333333333326
 07/30/2020,currently on ventilator,5.0,-1,-0.16666666666666663
@@ -5074,6 +5197,7 @@ date,metric,count,new_cases,change_%
 07/31/2020,RI negative results,0.0,0,0.0
 07/31/2020,RI positive cases,0.0,0,0.0
 07/31/2020,RI total tests,0.0,0,0.0
+07/31/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 07/31/2020,currently hospitalized,76.0,-1,-0.012987012987012991
 07/31/2020,currently in icu,15.0,2,0.15384615384615374
 07/31/2020,currently on ventilator,5.0,0,0.0
@@ -5115,6 +5239,7 @@ date,metric,count,new_cases,change_%
 08/03/2020,RI negative results,0.0,0,0.0
 08/03/2020,RI positive cases,0.0,0,0.0
 08/03/2020,RI total tests,0.0,0,0.0
+08/03/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 08/03/2020,currently hospitalized,80.0,4,0.05263157894736836
 08/03/2020,currently in icu,14.0,-1,-0.06666666666666665
 08/03/2020,currently on ventilator,5.0,0,0.0
@@ -5156,6 +5281,7 @@ date,metric,count,new_cases,change_%
 08/04/2020,RI negative results,0.0,0,0.0
 08/04/2020,RI positive cases,0.0,0,0.0
 08/04/2020,RI total tests,0.0,0,0.0
+08/04/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 08/04/2020,currently hospitalized,80.0,0,0.0
 08/04/2020,currently in icu,14.0,0,0.0
 08/04/2020,currently on ventilator,6.0,1,0.19999999999999996
@@ -5197,6 +5323,7 @@ date,metric,count,new_cases,change_%
 08/05/2020,RI negative results,0.0,0,0.0
 08/05/2020,RI positive cases,0.0,0,0.0
 08/05/2020,RI total tests,0.0,0,0.0
+08/05/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 08/05/2020,currently hospitalized,79.0,-1,-0.012499999999999956
 08/05/2020,currently in icu,14.0,0,0.0
 08/05/2020,currently on ventilator,5.0,-1,-0.16666666666666663
@@ -5238,6 +5365,7 @@ date,metric,count,new_cases,change_%
 08/06/2020,RI negative results,0.0,0,0.0
 08/06/2020,RI positive cases,0.0,0,0.0
 08/06/2020,RI total tests,0.0,0,0.0
+08/06/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 08/06/2020,currently hospitalized,83.0,4,0.05063291139240511
 08/06/2020,currently in icu,11.0,-3,-0.2142857142857143
 08/06/2020,currently on ventilator,4.0,-1,-0.19999999999999996
@@ -5279,6 +5407,7 @@ date,metric,count,new_cases,change_%
 08/07/2020,RI negative results,0.0,0,0.0
 08/07/2020,RI positive cases,0.0,0,0.0
 08/07/2020,RI total tests,0.0,0,0.0
+08/07/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 08/07/2020,currently hospitalized,84.0,1,0.012048192771084265
 08/07/2020,currently in icu,10.0,-1,-0.09090909090909094
 08/07/2020,currently on ventilator,4.0,0,0.0
@@ -5320,6 +5449,7 @@ date,metric,count,new_cases,change_%
 08/10/2020,RI negative results,0.0,0,0.0
 08/10/2020,RI positive cases,0.0,0,0.0
 08/10/2020,RI total tests,0.0,0,0.0
+08/10/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 08/10/2020,currently hospitalized,93.0,9,0.1071428571428572
 08/10/2020,currently in icu,8.0,-2,-0.19999999999999996
 08/10/2020,currently on ventilator,2.0,-2,-0.5
@@ -5361,6 +5491,7 @@ date,metric,count,new_cases,change_%
 08/11/2020,RI negative results,0.0,0,0.0
 08/11/2020,RI positive cases,0.0,0,0.0
 08/11/2020,RI total tests,0.0,0,0.0
+08/11/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 08/11/2020,currently hospitalized,88.0,-5,-0.053763440860215006
 08/11/2020,currently in icu,9.0,1,0.125
 08/11/2020,currently on ventilator,2.0,0,0.0
@@ -5402,6 +5533,7 @@ date,metric,count,new_cases,change_%
 08/12/2020,RI negative results,0.0,0,0.0
 08/12/2020,RI positive cases,0.0,0,0.0
 08/12/2020,RI total tests,0.0,0,0.0
+08/12/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 08/12/2020,currently hospitalized,89.0,1,0.011363636363636465
 08/12/2020,currently in icu,9.0,0,0.0
 08/12/2020,currently on ventilator,3.0,1,0.5
@@ -5443,6 +5575,7 @@ date,metric,count,new_cases,change_%
 08/13/2020,RI negative results,0.0,0,0.0
 08/13/2020,RI positive cases,0.0,0,0.0
 08/13/2020,RI total tests,0.0,0,0.0
+08/13/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 08/13/2020,currently hospitalized,80.0,-9,-0.101123595505618
 08/13/2020,currently in icu,10.0,1,0.11111111111111116
 08/13/2020,currently on ventilator,4.0,1,0.33333333333333326
@@ -5484,6 +5617,7 @@ date,metric,count,new_cases,change_%
 08/14/2020,RI negative results,0.0,0,0.0
 08/14/2020,RI positive cases,0.0,0,0.0
 08/14/2020,RI total tests,0.0,0,0.0
+08/14/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 08/14/2020,currently hospitalized,79.0,-1,-0.012499999999999956
 08/14/2020,currently in icu,8.0,-2,-0.19999999999999996
 08/14/2020,currently on ventilator,3.0,-1,-0.25
@@ -5525,6 +5659,7 @@ date,metric,count,new_cases,change_%
 08/17/2020,RI negative results,0.0,0,0.0
 08/17/2020,RI positive cases,0.0,0,0.0
 08/17/2020,RI total tests,0.0,0,0.0
+08/17/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 08/17/2020,currently hospitalized,80.0,1,0.012658227848101333
 08/17/2020,currently in icu,11.0,3,0.375
 08/17/2020,currently on ventilator,3.0,0,0.0
@@ -5566,6 +5701,7 @@ date,metric,count,new_cases,change_%
 08/18/2020,RI negative results,0.0,0,0.0
 08/18/2020,RI positive cases,0.0,0,0.0
 08/18/2020,RI total tests,0.0,0,0.0
+08/18/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 08/18/2020,currently hospitalized,78.0,-2,-0.025000000000000022
 08/18/2020,currently in icu,8.0,-3,-0.2727272727272727
 08/18/2020,currently on ventilator,4.0,1,0.33333333333333326
@@ -5607,6 +5743,7 @@ date,metric,count,new_cases,change_%
 08/19/2020,RI negative results,0.0,0,0.0
 08/19/2020,RI positive cases,0.0,0,0.0
 08/19/2020,RI total tests,0.0,0,0.0
+08/19/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 08/19/2020,currently hospitalized,82.0,4,0.05128205128205132
 08/19/2020,currently in icu,8.0,0,0.0
 08/19/2020,currently on ventilator,5.0,1,0.25
@@ -5648,6 +5785,7 @@ date,metric,count,new_cases,change_%
 08/20/2020,RI negative results,0.0,0,0.0
 08/20/2020,RI positive cases,0.0,0,0.0
 08/20/2020,RI total tests,0.0,0,0.0
+08/20/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 08/20/2020,currently hospitalized,84.0,2,0.024390243902439046
 08/20/2020,currently in icu,8.0,0,0.0
 08/20/2020,currently on ventilator,4.0,-1,-0.19999999999999996
@@ -5689,6 +5827,7 @@ date,metric,count,new_cases,change_%
 08/21/2020,RI negative results,0.0,0,0.0
 08/21/2020,RI positive cases,0.0,0,0.0
 08/21/2020,RI total tests,0.0,0,0.0
+08/21/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 08/21/2020,currently hospitalized,81.0,-3,-0.0357142857142857
 08/21/2020,currently in icu,9.0,1,0.125
 08/21/2020,currently on ventilator,5.0,1,0.25
@@ -5730,6 +5869,7 @@ date,metric,count,new_cases,change_%
 08/24/2020,RI negative results,0.0,0,0.0
 08/24/2020,RI positive cases,0.0,0,0.0
 08/24/2020,RI total tests,0.0,0,0.0
+08/24/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 08/24/2020,currently hospitalized,80.0,-1,-0.012345679012345734
 08/24/2020,currently in icu,11.0,2,0.22222222222222232
 08/24/2020,currently on ventilator,4.0,-1,-0.19999999999999996
@@ -5771,6 +5911,7 @@ date,metric,count,new_cases,change_%
 08/25/2020,RI negative results,0.0,0,0.0
 08/25/2020,RI positive cases,0.0,0,0.0
 08/25/2020,RI total tests,0.0,0,0.0
+08/25/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 08/25/2020,currently hospitalized,87.0,7,0.08749999999999991
 08/25/2020,currently in icu,11.0,0,0.0
 08/25/2020,currently on ventilator,2.0,-2,-0.5
@@ -5812,6 +5953,7 @@ date,metric,count,new_cases,change_%
 08/26/2020,RI negative results,0.0,0,0.0
 08/26/2020,RI positive cases,0.0,0,0.0
 08/26/2020,RI total tests,0.0,0,0.0
+08/26/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 08/26/2020,currently hospitalized,80.0,-7,-0.08045977011494254
 08/26/2020,currently in icu,11.0,0,0.0
 08/26/2020,currently on ventilator,4.0,2,1.0
@@ -5853,6 +5995,7 @@ date,metric,count,new_cases,change_%
 08/27/2020,RI negative results,0.0,0,0.0
 08/27/2020,RI positive cases,0.0,0,0.0
 08/27/2020,RI total tests,0.0,0,0.0
+08/27/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 08/27/2020,currently hospitalized,82.0,2,0.02499999999999991
 08/27/2020,currently in icu,10.0,-1,-0.09090909090909094
 08/27/2020,currently on ventilator,3.0,-1,-0.25
@@ -5894,6 +6037,7 @@ date,metric,count,new_cases,change_%
 08/28/2020,RI negative results,0.0,0,0.0
 08/28/2020,RI positive cases,0.0,0,0.0
 08/28/2020,RI total tests,0.0,0,0.0
+08/28/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 08/28/2020,currently hospitalized,81.0,-1,-0.012195121951219523
 08/28/2020,currently in icu,8.0,-2,-0.19999999999999996
 08/28/2020,currently on ventilator,4.0,1,0.33333333333333326
@@ -5935,6 +6079,7 @@ date,metric,count,new_cases,change_%
 08/31/2020,RI negative results,0.0,0,0.0
 08/31/2020,RI positive cases,0.0,0,0.0
 08/31/2020,RI total tests,0.0,0,0.0
+08/31/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 08/31/2020,currently hospitalized,77.0,-4,-0.04938271604938271
 08/31/2020,currently in icu,9.0,1,0.125
 08/31/2020,currently on ventilator,5.0,1,0.25
@@ -5976,6 +6121,7 @@ date,metric,count,new_cases,change_%
 09/01/2020,RI negative results,0.0,0,0.0
 09/01/2020,RI positive cases,0.0,0,0.0
 09/01/2020,RI total tests,0.0,0,0.0
+09/01/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 09/01/2020,currently hospitalized,81.0,4,0.051948051948051965
 09/01/2020,currently in icu,8.0,-1,-0.11111111111111116
 09/01/2020,currently on ventilator,5.0,0,0.0
@@ -6017,6 +6163,7 @@ date,metric,count,new_cases,change_%
 09/02/2020,RI negative results,0.0,0,0.0
 09/02/2020,RI positive cases,0.0,0,0.0
 09/02/2020,RI total tests,0.0,0,0.0
+09/02/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 09/02/2020,currently hospitalized,78.0,-3,-0.03703703703703709
 09/02/2020,currently in icu,8.0,0,0.0
 09/02/2020,currently on ventilator,4.0,-1,-0.19999999999999996
@@ -6058,6 +6205,7 @@ date,metric,count,new_cases,change_%
 09/03/2020,RI negative results,0.0,0,0.0
 09/03/2020,RI positive cases,0.0,0,0.0
 09/03/2020,RI total tests,0.0,0,0.0
+09/03/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 09/03/2020,currently hospitalized,68.0,-10,-0.1282051282051282
 09/03/2020,currently in icu,7.0,-1,-0.125
 09/03/2020,currently on ventilator,4.0,0,0.0
@@ -6099,6 +6247,7 @@ date,metric,count,new_cases,change_%
 09/04/2020,RI negative results,0.0,0,0.0
 09/04/2020,RI positive cases,0.0,0,0.0
 09/04/2020,RI total tests,0.0,0,0.0
+09/04/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 09/04/2020,currently hospitalized,76.0,8,0.11764705882352944
 09/04/2020,currently in icu,8.0,1,0.1428571428571428
 09/04/2020,currently on ventilator,4.0,0,0.0
@@ -6140,6 +6289,7 @@ date,metric,count,new_cases,change_%
 09/08/2020,RI negative results,0.0,0,0.0
 09/08/2020,RI positive cases,0.0,0,0.0
 09/08/2020,RI total tests,0.0,0,0.0
+09/08/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 09/08/2020,currently hospitalized,73.0,-3,-0.03947368421052633
 09/08/2020,currently in icu,5.0,-3,-0.375
 09/08/2020,currently on ventilator,3.0,-1,-0.25
@@ -6181,6 +6331,7 @@ date,metric,count,new_cases,change_%
 09/09/2020,RI negative results,0.0,0,0.0
 09/09/2020,RI positive cases,0.0,0,0.0
 09/09/2020,RI total tests,0.0,0,0.0
+09/09/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 09/09/2020,currently hospitalized,82.0,9,0.12328767123287676
 09/09/2020,currently in icu,4.0,-1,-0.19999999999999996
 09/09/2020,currently on ventilator,3.0,0,0.0
@@ -6222,6 +6373,7 @@ date,metric,count,new_cases,change_%
 09/10/2020,RI negative results,0.0,0,0.0
 09/10/2020,RI positive cases,0.0,0,0.0
 09/10/2020,RI total tests,0.0,0,0.0
+09/10/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 09/10/2020,currently hospitalized,76.0,-6,-0.07317073170731703
 09/10/2020,currently in icu,5.0,1,0.25
 09/10/2020,currently on ventilator,3.0,0,0.0
@@ -6263,6 +6415,7 @@ date,metric,count,new_cases,change_%
 09/11/2020,RI negative results,0.0,0,0.0
 09/11/2020,RI positive cases,0.0,0,0.0
 09/11/2020,RI total tests,0.0,0,0.0
+09/11/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 09/11/2020,currently hospitalized,80.0,4,0.05263157894736836
 09/11/2020,currently in icu,8.0,3,0.6000000000000001
 09/11/2020,currently on ventilator,3.0,0,0.0
@@ -6304,6 +6457,7 @@ date,metric,count,new_cases,change_%
 09/14/2020,RI negative results,0.0,0,0.0
 09/14/2020,RI positive cases,0.0,0,0.0
 09/14/2020,RI total tests,0.0,0,0.0
+09/14/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 09/14/2020,currently hospitalized,80.0,0,0.0
 09/14/2020,currently in icu,7.0,-1,-0.125
 09/14/2020,currently on ventilator,4.0,1,0.33333333333333326
@@ -6345,6 +6499,7 @@ date,metric,count,new_cases,change_%
 09/15/2020,RI negative results,0.0,0,0.0
 09/15/2020,RI positive cases,0.0,0,0.0
 09/15/2020,RI total tests,0.0,0,0.0
+09/15/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 09/15/2020,currently hospitalized,81.0,1,0.012499999999999956
 09/15/2020,currently in icu,9.0,2,0.2857142857142858
 09/15/2020,currently on ventilator,5.0,1,0.25
@@ -6386,6 +6541,7 @@ date,metric,count,new_cases,change_%
 09/16/2020,RI negative results,0.0,0,0.0
 09/16/2020,RI positive cases,0.0,0,0.0
 09/16/2020,RI total tests,0.0,0,0.0
+09/16/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 09/16/2020,currently hospitalized,84.0,3,0.03703703703703698
 09/16/2020,currently in icu,9.0,0,0.0
 09/16/2020,currently on ventilator,5.0,0,0.0
@@ -6427,6 +6583,7 @@ date,metric,count,new_cases,change_%
 09/17/2020,RI negative results,0.0,0,0.0
 09/17/2020,RI positive cases,0.0,0,0.0
 09/17/2020,RI total tests,0.0,0,0.0
+09/17/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 09/17/2020,currently hospitalized,88.0,4,0.04761904761904767
 09/17/2020,currently in icu,9.0,0,0.0
 09/17/2020,currently on ventilator,5.0,0,0.0
@@ -6468,6 +6625,7 @@ date,metric,count,new_cases,change_%
 09/18/2020,RI negative results,0.0,0,0.0
 09/18/2020,RI positive cases,0.0,0,0.0
 09/18/2020,RI total tests,0.0,0,0.0
+09/18/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 09/18/2020,currently hospitalized,85.0,-3,-0.03409090909090906
 09/18/2020,currently in icu,7.0,-2,-0.2222222222222222
 09/18/2020,currently on ventilator,6.0,1,0.19999999999999996
@@ -6509,6 +6667,7 @@ date,metric,count,new_cases,change_%
 09/21/2020,RI negative results,0.0,0,0.0
 09/21/2020,RI positive cases,0.0,0,0.0
 09/21/2020,RI total tests,0.0,0,0.0
+09/21/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 09/21/2020,currently hospitalized,78.0,-7,-0.08235294117647063
 09/21/2020,currently in icu,10.0,3,0.4285714285714286
 09/21/2020,currently on ventilator,4.0,-2,-0.33333333333333337
@@ -6550,6 +6709,7 @@ date,metric,count,new_cases,change_%
 09/22/2020,RI negative results,0.0,0,0.0
 09/22/2020,RI positive cases,0.0,0,0.0
 09/22/2020,RI total tests,0.0,0,0.0
+09/22/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 09/22/2020,currently hospitalized,82.0,4,0.05128205128205132
 09/22/2020,currently in icu,10.0,0,0.0
 09/22/2020,currently on ventilator,7.0,3,0.75
@@ -6591,6 +6751,7 @@ date,metric,count,new_cases,change_%
 09/23/2020,RI negative results,0.0,0,0.0
 09/23/2020,RI positive cases,0.0,0,0.0
 09/23/2020,RI total tests,0.0,0,0.0
+09/23/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 09/23/2020,currently hospitalized,86.0,4,0.04878048780487809
 09/23/2020,currently in icu,9.0,-1,-0.09999999999999998
 09/23/2020,currently on ventilator,5.0,-2,-0.2857142857142857
@@ -6632,6 +6793,7 @@ date,metric,count,new_cases,change_%
 09/24/2020,RI negative results,0.0,0,0.0
 09/24/2020,RI positive cases,0.0,0,0.0
 09/24/2020,RI total tests,0.0,0,0.0
+09/24/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 09/24/2020,currently hospitalized,94.0,8,0.09302325581395343
 09/24/2020,currently in icu,8.0,-1,-0.11111111111111116
 09/24/2020,currently on ventilator,4.0,-1,-0.19999999999999996
@@ -6673,6 +6835,7 @@ date,metric,count,new_cases,change_%
 09/25/2020,RI negative results,0.0,0,0.0
 09/25/2020,RI positive cases,0.0,0,0.0
 09/25/2020,RI total tests,0.0,0,0.0
+09/25/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 09/25/2020,currently hospitalized,94.0,0,0.0
 09/25/2020,currently in icu,8.0,0,0.0
 09/25/2020,currently on ventilator,4.0,0,0.0
@@ -6714,6 +6877,7 @@ date,metric,count,new_cases,change_%
 09/28/2020,RI negative results,0.0,0,0.0
 09/28/2020,RI positive cases,0.0,0,0.0
 09/28/2020,RI total tests,0.0,0,0.0
+09/28/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 09/28/2020,currently hospitalized,94.0,0,0.0
 09/28/2020,currently in icu,8.0,0,0.0
 09/28/2020,currently on ventilator,4.0,0,0.0
@@ -6755,6 +6919,7 @@ date,metric,count,new_cases,change_%
 09/29/2020,RI negative results,0.0,0,0.0
 09/29/2020,RI positive cases,0.0,0,0.0
 09/29/2020,RI total tests,0.0,0,0.0
+09/29/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 09/29/2020,currently hospitalized,103.0,9,0.0957446808510638
 09/29/2020,currently in icu,8.0,0,0.0
 09/29/2020,currently on ventilator,5.0,1,0.25
@@ -6796,6 +6961,7 @@ date,metric,count,new_cases,change_%
 09/30/2020,RI negative results,0.0,0,0.0
 09/30/2020,RI positive cases,0.0,0,0.0
 09/30/2020,RI total tests,0.0,0,0.0
+09/30/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 09/30/2020,currently hospitalized,103.0,0,0.0
 09/30/2020,currently in icu,7.0,-1,-0.125
 09/30/2020,currently on ventilator,6.0,1,0.19999999999999996
@@ -6837,6 +7003,7 @@ date,metric,count,new_cases,change_%
 10/01/2020,RI negative results,0.0,0,0.0
 10/01/2020,RI positive cases,0.0,0,0.0
 10/01/2020,RI total tests,0.0,0,0.0
+10/01/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 10/01/2020,currently hospitalized,94.0,-9,-0.08737864077669899
 10/01/2020,currently in icu,6.0,-1,-0.1428571428571429
 10/01/2020,currently on ventilator,7.0,1,0.16666666666666674
@@ -6878,6 +7045,7 @@ date,metric,count,new_cases,change_%
 10/02/2020,RI negative results,0.0,0,0.0
 10/02/2020,RI positive cases,0.0,0,0.0
 10/02/2020,RI total tests,0.0,0,0.0
+10/02/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 10/02/2020,currently hospitalized,96.0,2,0.02127659574468077
 10/02/2020,currently in icu,7.0,1,0.16666666666666674
 10/02/2020,currently on ventilator,7.0,0,0.0
@@ -6919,6 +7087,7 @@ date,metric,count,new_cases,change_%
 10/06/2020,RI negative results,0.0,0,0.0
 10/06/2020,RI positive cases,0.0,0,0.0
 10/06/2020,RI total tests,0.0,0,0.0
+10/06/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 10/06/2020,currently hospitalized,93.0,-3,-0.03125
 10/06/2020,currently in icu,8.0,1,0.1428571428571428
 10/06/2020,currently on ventilator,4.0,-3,-0.4285714285714286
@@ -6960,6 +7129,7 @@ date,metric,count,new_cases,change_%
 10/07/2020,RI negative results,0.0,0,0.0
 10/07/2020,RI positive cases,0.0,0,0.0
 10/07/2020,RI total tests,0.0,0,0.0
+10/07/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 10/07/2020,currently hospitalized,107.0,14,0.15053763440860224
 10/07/2020,currently in icu,10.0,2,0.25
 10/07/2020,currently on ventilator,5.0,1,0.25
@@ -7001,6 +7171,7 @@ date,metric,count,new_cases,change_%
 10/08/2020,RI negative results,0.0,0,0.0
 10/08/2020,RI positive cases,0.0,0,0.0
 10/08/2020,RI total tests,0.0,0,0.0
+10/08/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 10/08/2020,currently hospitalized,117.0,10,0.09345794392523366
 10/08/2020,currently in icu,12.0,2,0.19999999999999996
 10/08/2020,currently on ventilator,6.0,1,0.19999999999999996
@@ -7042,6 +7213,7 @@ date,metric,count,new_cases,change_%
 10/09/2020,RI negative results,0.0,0,0.0
 10/09/2020,RI positive cases,0.0,0,0.0
 10/09/2020,RI total tests,0.0,0,0.0
+10/09/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 10/09/2020,currently hospitalized,112.0,-5,-0.042735042735042694
 10/09/2020,currently in icu,10.0,-2,-0.16666666666666663
 10/09/2020,currently on ventilator,6.0,0,0.0
@@ -7083,6 +7255,7 @@ date,metric,count,new_cases,change_%
 10/13/2020,RI negative results,0.0,0,0.0
 10/13/2020,RI positive cases,0.0,0,0.0
 10/13/2020,RI total tests,0.0,0,0.0
+10/13/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 10/13/2020,currently hospitalized,126.0,14,0.125
 10/13/2020,currently in icu,13.0,3,0.30000000000000004
 10/13/2020,currently on ventilator,4.0,-2,-0.33333333333333337
@@ -7124,6 +7297,7 @@ date,metric,count,new_cases,change_%
 10/14/2020,RI negative results,0.0,0,0.0
 10/14/2020,RI positive cases,0.0,0,0.0
 10/14/2020,RI total tests,0.0,0,0.0
+10/14/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 10/14/2020,currently hospitalized,131.0,5,0.039682539682539764
 10/14/2020,currently in icu,13.0,0,0.0
 10/14/2020,currently on ventilator,4.0,0,0.0
@@ -7165,6 +7339,7 @@ date,metric,count,new_cases,change_%
 10/15/2020,RI negative results,0.0,0,0.0
 10/15/2020,RI positive cases,0.0,0,0.0
 10/15/2020,RI total tests,0.0,0,0.0
+10/15/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 10/15/2020,currently hospitalized,129.0,-2,-0.01526717557251911
 10/15/2020,currently in icu,12.0,-1,-0.07692307692307687
 10/15/2020,currently on ventilator,5.0,1,0.25
@@ -7206,6 +7381,7 @@ date,metric,count,new_cases,change_%
 10/16/2020,RI negative results,0.0,0,0.0
 10/16/2020,RI positive cases,0.0,0,0.0
 10/16/2020,RI total tests,0.0,0,0.0
+10/16/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 10/16/2020,currently hospitalized,137.0,8,0.0620155038759691
 10/16/2020,currently in icu,14.0,2,0.16666666666666674
 10/16/2020,currently on ventilator,5.0,0,0.0
@@ -7247,6 +7423,7 @@ date,metric,count,new_cases,change_%
 10/19/2020,RI negative results,0.0,0,0.0
 10/19/2020,RI positive cases,0.0,0,0.0
 10/19/2020,RI total tests,0.0,0,0.0
+10/19/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 10/19/2020,currently hospitalized,124.0,-13,-0.0948905109489051
 10/19/2020,currently in icu,16.0,2,0.1428571428571428
 10/19/2020,currently on ventilator,4.0,-1,-0.19999999999999996
@@ -7288,6 +7465,7 @@ date,metric,count,new_cases,change_%
 10/20/2020,RI negative results,0.0,0,0.0
 10/20/2020,RI positive cases,0.0,0,0.0
 10/20/2020,RI total tests,0.0,0,0.0
+10/20/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 10/20/2020,currently hospitalized,135.0,11,0.08870967741935476
 10/20/2020,currently in icu,16.0,0,0.0
 10/20/2020,currently on ventilator,6.0,2,0.5
@@ -7329,6 +7507,7 @@ date,metric,count,new_cases,change_%
 10/21/2020,RI negative results,0.0,0,0.0
 10/21/2020,RI positive cases,0.0,0,0.0
 10/21/2020,RI total tests,0.0,0,0.0
+10/21/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 10/21/2020,currently hospitalized,130.0,-5,-0.03703703703703709
 10/21/2020,currently in icu,14.0,-2,-0.125
 10/21/2020,currently on ventilator,6.0,0,0.0
@@ -7370,6 +7549,7 @@ date,metric,count,new_cases,change_%
 10/22/2020,RI negative results,0.0,0,0.0
 10/22/2020,RI positive cases,0.0,0,0.0
 10/22/2020,RI total tests,0.0,0,0.0
+10/22/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 10/22/2020,currently hospitalized,140.0,10,0.07692307692307687
 10/22/2020,currently in icu,13.0,-1,-0.0714285714285714
 10/22/2020,currently on ventilator,8.0,2,0.33333333333333326
@@ -7411,6 +7591,7 @@ date,metric,count,new_cases,change_%
 10/23/2020,RI negative results,0.0,0,0.0
 10/23/2020,RI positive cases,0.0,0,0.0
 10/23/2020,RI total tests,0.0,0,0.0
+10/23/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 10/23/2020,currently hospitalized,140.0,0,0.0
 10/23/2020,currently in icu,13.0,0,0.0
 10/23/2020,currently on ventilator,9.0,1,0.125
@@ -7452,6 +7633,7 @@ date,metric,count,new_cases,change_%
 10/26/2020,RI negative results,0.0,0,0.0
 10/26/2020,RI positive cases,0.0,0,0.0
 10/26/2020,RI total tests,0.0,0,0.0
+10/26/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 10/26/2020,currently hospitalized,163.0,23,0.16428571428571437
 10/26/2020,currently in icu,14.0,1,0.07692307692307687
 10/26/2020,currently on ventilator,8.0,-1,-0.11111111111111116
@@ -7493,6 +7675,7 @@ date,metric,count,new_cases,change_%
 10/27/2020,RI negative results,0.0,0,0.0
 10/27/2020,RI positive cases,0.0,0,0.0
 10/27/2020,RI total tests,0.0,0,0.0
+10/27/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 10/27/2020,currently hospitalized,168.0,5,0.030674846625766916
 10/27/2020,currently in icu,14.0,0,0.0
 10/27/2020,currently on ventilator,8.0,0,0.0
@@ -7534,6 +7717,7 @@ date,metric,count,new_cases,change_%
 10/28/2020,RI negative results,0.0,0,0.0
 10/28/2020,RI positive cases,0.0,0,0.0
 10/28/2020,RI total tests,0.0,0,0.0
+10/28/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 10/28/2020,currently hospitalized,136.0,-32,-0.19047619047619047
 10/28/2020,currently in icu,18.0,4,0.2857142857142858
 10/28/2020,currently on ventilator,8.0,0,0.0
@@ -7575,6 +7759,7 @@ date,metric,count,new_cases,change_%
 10/29/2020,RI negative results,0.0,0,0.0
 10/29/2020,RI positive cases,0.0,0,0.0
 10/29/2020,RI total tests,0.0,0,0.0
+10/29/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 10/29/2020,currently hospitalized,139.0,3,0.022058823529411686
 10/29/2020,currently in icu,16.0,-2,-0.11111111111111116
 10/29/2020,currently on ventilator,9.0,1,0.125
@@ -7616,6 +7801,7 @@ date,metric,count,new_cases,change_%
 10/30/2020,RI negative results,0.0,0,0.0
 10/30/2020,RI positive cases,0.0,0,0.0
 10/30/2020,RI total tests,0.0,0,0.0
+10/30/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 10/30/2020,currently hospitalized,152.0,13,0.09352517985611519
 10/30/2020,currently in icu,15.0,-1,-0.0625
 10/30/2020,currently on ventilator,9.0,0,0.0
@@ -7657,6 +7843,7 @@ date,metric,count,new_cases,change_%
 11/02/2020,RI negative results,0.0,0,0.0
 11/02/2020,RI positive cases,0.0,0,0.0
 11/02/2020,RI total tests,0.0,0,0.0
+11/02/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 11/02/2020,currently hospitalized,170.0,18,0.11842105263157898
 11/02/2020,currently in icu,22.0,7,0.46666666666666656
 11/02/2020,currently on ventilator,9.0,0,0.0
@@ -7698,6 +7885,7 @@ date,metric,count,new_cases,change_%
 11/03/2020,RI negative results,0.0,0,0.0
 11/03/2020,RI positive cases,0.0,0,0.0
 11/03/2020,RI total tests,0.0,0,0.0
+11/03/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 11/03/2020,currently hospitalized,177.0,7,0.04117647058823537
 11/03/2020,currently in icu,24.0,2,0.09090909090909083
 11/03/2020,currently on ventilator,12.0,3,0.33333333333333326
@@ -7739,6 +7927,7 @@ date,metric,count,new_cases,change_%
 11/04/2020,RI negative results,0.0,0,0.0
 11/04/2020,RI positive cases,0.0,0,0.0
 11/04/2020,RI total tests,0.0,0,0.0
+11/04/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 11/04/2020,currently hospitalized,169.0,-8,-0.04519774011299438
 11/04/2020,currently in icu,21.0,-3,-0.125
 11/04/2020,currently on ventilator,11.0,-1,-0.08333333333333337
@@ -7780,6 +7969,7 @@ date,metric,count,new_cases,change_%
 11/05/2020,RI negative results,0.0,0,0.0
 11/05/2020,RI positive cases,0.0,0,0.0
 11/05/2020,RI total tests,0.0,0,0.0
+11/05/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 11/05/2020,currently hospitalized,182.0,13,0.07692307692307687
 11/05/2020,currently in icu,20.0,-1,-0.04761904761904767
 11/05/2020,currently on ventilator,11.0,0,0.0
@@ -7821,6 +8011,7 @@ date,metric,count,new_cases,change_%
 11/06/2020,RI negative results,0.0,0,0.0
 11/06/2020,RI positive cases,0.0,0,0.0
 11/06/2020,RI total tests,0.0,0,0.0
+11/06/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 11/06/2020,currently hospitalized,187.0,5,0.027472527472527375
 11/06/2020,currently in icu,21.0,1,0.050000000000000044
 11/06/2020,currently on ventilator,12.0,1,0.09090909090909083
@@ -7862,6 +8053,7 @@ date,metric,count,new_cases,change_%
 11/09/2020,RI negative results,0.0,0,0.0
 11/09/2020,RI positive cases,0.0,0,0.0
 11/09/2020,RI total tests,0.0,0,0.0
+11/09/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 11/09/2020,currently hospitalized,212.0,25,0.1336898395721926
 11/09/2020,currently in icu,27.0,6,0.2857142857142858
 11/09/2020,currently on ventilator,17.0,5,0.41666666666666674
@@ -7903,6 +8095,7 @@ date,metric,count,new_cases,change_%
 11/10/2020,RI negative results,0.0,0,0.0
 11/10/2020,RI positive cases,0.0,0,0.0
 11/10/2020,RI total tests,0.0,0,0.0
+11/10/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 11/10/2020,currently hospitalized,218.0,6,0.028301886792452935
 11/10/2020,currently in icu,26.0,-1,-0.03703703703703709
 11/10/2020,currently on ventilator,18.0,1,0.05882352941176472
@@ -7944,6 +8137,7 @@ date,metric,count,new_cases,change_%
 11/11/2020,RI negative results,0.0,0,0.0
 11/11/2020,RI positive cases,0.0,0,0.0
 11/11/2020,RI total tests,0.0,0,0.0
+11/11/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 11/11/2020,currently hospitalized,220.0,2,0.00917431192660545
 11/11/2020,currently in icu,25.0,-1,-0.038461538461538436
 11/11/2020,currently on ventilator,17.0,-1,-0.05555555555555558
@@ -7985,6 +8179,7 @@ date,metric,count,new_cases,change_%
 11/12/2020,RI negative results,0.0,0,0.0
 11/12/2020,RI positive cases,0.0,0,0.0
 11/12/2020,RI total tests,0.0,0,0.0
+11/12/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 11/12/2020,currently hospitalized,232.0,12,0.05454545454545445
 11/12/2020,currently in icu,28.0,3,0.1200000000000001
 11/12/2020,currently on ventilator,17.0,0,0.0
@@ -8026,6 +8221,7 @@ date,metric,count,new_cases,change_%
 11/13/2020,RI negative results,0.0,0,0.0
 11/13/2020,RI positive cases,0.0,0,0.0
 11/13/2020,RI total tests,0.0,0,0.0
+11/13/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 11/13/2020,currently hospitalized,250.0,18,0.07758620689655182
 11/13/2020,currently in icu,27.0,-1,-0.0357142857142857
 11/13/2020,currently on ventilator,14.0,-3,-0.17647058823529416
@@ -8067,6 +8263,7 @@ date,metric,count,new_cases,change_%
 11/16/2020,RI negative results,0.0,0,0.0
 11/16/2020,RI positive cases,0.0,0,0.0
 11/16/2020,RI total tests,0.0,0,0.0
+11/16/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 11/16/2020,currently hospitalized,256.0,6,0.02400000000000002
 11/16/2020,currently in icu,21.0,-6,-0.2222222222222222
 11/16/2020,currently on ventilator,12.0,-2,-0.1428571428571429
@@ -8108,6 +8305,7 @@ date,metric,count,new_cases,change_%
 11/17/2020,RI negative results,0.0,0,0.0
 11/17/2020,RI positive cases,0.0,0,0.0
 11/17/2020,RI total tests,0.0,0,0.0
+11/17/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 11/17/2020,currently hospitalized,265.0,9,0.03515625
 11/17/2020,currently in icu,22.0,1,0.04761904761904767
 11/17/2020,currently on ventilator,10.0,-2,-0.16666666666666663
@@ -8149,6 +8347,7 @@ date,metric,count,new_cases,change_%
 11/18/2020,RI negative results,0.0,0,0.0
 11/18/2020,RI positive cases,0.0,0,0.0
 11/18/2020,RI total tests,0.0,0,0.0
+11/18/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 11/18/2020,currently hospitalized,284.0,19,0.07169811320754715
 11/18/2020,currently in icu,22.0,0,0.0
 11/18/2020,currently on ventilator,13.0,3,0.30000000000000004
@@ -8190,6 +8389,7 @@ date,metric,count,new_cases,change_%
 11/19/2020,RI negative results,0.0,0,0.0
 11/19/2020,RI positive cases,0.0,0,0.0
 11/19/2020,RI total tests,0.0,0,0.0
+11/19/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 11/19/2020,currently hospitalized,298.0,14,0.04929577464788726
 11/19/2020,currently in icu,26.0,4,0.18181818181818188
 11/19/2020,currently on ventilator,13.0,0,0.0
@@ -8231,6 +8431,7 @@ date,metric,count,new_cases,change_%
 11/20/2020,RI negative results,0.0,0,0.0
 11/20/2020,RI positive cases,0.0,0,0.0
 11/20/2020,RI total tests,0.0,0,0.0
+11/20/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 11/20/2020,currently hospitalized,288.0,-10,-0.03355704697986572
 11/20/2020,currently in icu,24.0,-2,-0.07692307692307687
 11/20/2020,currently on ventilator,14.0,1,0.07692307692307687
@@ -8272,6 +8473,7 @@ date,metric,count,new_cases,change_%
 11/23/2020,RI negative results,0.0,0,0.0
 11/23/2020,RI positive cases,0.0,0,0.0
 11/23/2020,RI total tests,0.0,0,0.0
+11/23/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 11/23/2020,currently hospitalized,285.0,-3,-0.01041666666666663
 11/23/2020,currently in icu,30.0,6,0.25
 11/23/2020,currently on ventilator,14.0,0,0.0
@@ -8313,6 +8515,7 @@ date,metric,count,new_cases,change_%
 11/24/2020,RI negative results,0.0,0,0.0
 11/24/2020,RI positive cases,0.0,0,0.0
 11/24/2020,RI total tests,0.0,0,0.0
+11/24/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 11/24/2020,currently hospitalized,323.0,38,0.1333333333333333
 11/24/2020,currently in icu,30.0,0,0.0
 11/24/2020,currently on ventilator,16.0,2,0.1428571428571428
@@ -8354,6 +8557,7 @@ date,metric,count,new_cases,change_%
 11/25/2020,RI negative results,0.0,0,0.0
 11/25/2020,RI positive cases,0.0,0,0.0
 11/25/2020,RI total tests,0.0,0,0.0
+11/25/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 11/25/2020,currently hospitalized,357.0,34,0.10526315789473695
 11/25/2020,currently in icu,35.0,5,0.16666666666666674
 11/25/2020,currently on ventilator,16.0,0,0.0
@@ -8395,6 +8599,7 @@ date,metric,count,new_cases,change_%
 11/27/2020,RI negative results,0.0,0,0.0
 11/27/2020,RI positive cases,0.0,0,0.0
 11/27/2020,RI total tests,0.0,0,0.0
+11/27/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 11/27/2020,currently hospitalized,319.0,-38,-0.10644257703081228
 11/27/2020,currently in icu,37.0,2,0.05714285714285716
 11/27/2020,currently on ventilator,23.0,7,0.4375
@@ -8436,6 +8641,7 @@ date,metric,count,new_cases,change_%
 11/30/2020,RI negative results,0.0,0,0.0
 11/30/2020,RI positive cases,0.0,0,0.0
 11/30/2020,RI total tests,0.0,0,0.0
+11/30/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 11/30/2020,currently hospitalized,365.0,46,0.14420062695924774
 11/30/2020,currently in icu,40.0,3,0.08108108108108114
 11/30/2020,currently on ventilator,19.0,-4,-0.17391304347826086
@@ -8477,6 +8683,7 @@ date,metric,count,new_cases,change_%
 12/01/2020,RI negative results,0.0,0,0.0
 12/01/2020,RI positive cases,0.0,0,0.0
 12/01/2020,RI total tests,0.0,0,0.0
+12/01/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 12/01/2020,currently hospitalized,410.0,45,0.12328767123287676
 12/01/2020,currently in icu,41.0,1,0.02499999999999991
 12/01/2020,currently on ventilator,23.0,4,0.21052631578947367
@@ -8518,6 +8725,7 @@ date,metric,count,new_cases,change_%
 12/02/2020,RI negative results,0.0,0,0.0
 12/02/2020,RI positive cases,0.0,0,0.0
 12/02/2020,RI total tests,0.0,0,0.0
+12/02/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 12/02/2020,currently hospitalized,408.0,-2,-0.004878048780487809
 12/02/2020,currently in icu,45.0,4,0.09756097560975618
 12/02/2020,currently on ventilator,28.0,5,0.21739130434782616
@@ -8559,6 +8767,7 @@ date,metric,count,new_cases,change_%
 12/03/2020,RI negative results,0.0,0,0.0
 12/03/2020,RI positive cases,0.0,0,0.0
 12/03/2020,RI total tests,0.0,0,0.0
+12/03/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 12/03/2020,currently hospitalized,409.0,1,0.002450980392156854
 12/03/2020,currently in icu,45.0,0,0.0
 12/03/2020,currently on ventilator,31.0,3,0.1071428571428572
@@ -8600,6 +8809,7 @@ date,metric,count,new_cases,change_%
 12/04/2020,RI negative results,0.0,0,0.0
 12/04/2020,RI positive cases,0.0,0,0.0
 12/04/2020,RI total tests,0.0,0,0.0
+12/04/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 12/04/2020,currently hospitalized,408.0,-1,-0.0024449877750610804
 12/04/2020,currently in icu,45.0,0,0.0
 12/04/2020,currently on ventilator,29.0,-2,-0.06451612903225812
@@ -8641,6 +8851,7 @@ date,metric,count,new_cases,change_%
 12/07/2020,RI negative results,0.0,0,0.0
 12/07/2020,RI positive cases,0.0,0,0.0
 12/07/2020,RI total tests,0.0,0,0.0
+12/07/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 12/07/2020,currently hospitalized,422.0,14,0.03431372549019618
 12/07/2020,currently in icu,45.0,0,0.0
 12/07/2020,currently on ventilator,30.0,1,0.034482758620689724
@@ -8682,6 +8893,7 @@ date,metric,count,new_cases,change_%
 12/08/2020,RI negative results,0.0,0,0.0
 12/08/2020,RI positive cases,0.0,0,0.0
 12/08/2020,RI total tests,0.0,0,0.0
+12/08/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 12/08/2020,currently hospitalized,444.0,22,0.05213270142180093
 12/08/2020,currently in icu,43.0,-2,-0.0444444444444444
 12/08/2020,currently on ventilator,25.0,-5,-0.16666666666666663
@@ -8723,6 +8935,7 @@ date,metric,count,new_cases,change_%
 12/09/2020,RI negative results,0.0,0,0.0
 12/09/2020,RI positive cases,0.0,0,0.0
 12/09/2020,RI total tests,0.0,0,0.0
+12/09/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 12/09/2020,currently hospitalized,461.0,17,0.03828828828828823
 12/09/2020,currently in icu,42.0,-1,-0.023255813953488413
 12/09/2020,currently on ventilator,24.0,-1,-0.040000000000000036
@@ -8764,6 +8977,7 @@ date,metric,count,new_cases,change_%
 12/10/2020,RI negative results,0.0,0,0.0
 12/10/2020,RI positive cases,0.0,0,0.0
 12/10/2020,RI total tests,0.0,0,0.0
+12/10/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 12/10/2020,currently hospitalized,466.0,5,0.010845986984815648
 12/10/2020,currently in icu,48.0,6,0.1428571428571428
 12/10/2020,currently on ventilator,25.0,1,0.04166666666666674
@@ -8805,6 +9019,7 @@ date,metric,count,new_cases,change_%
 12/11/2020,RI negative results,0.0,0,0.0
 12/11/2020,RI positive cases,0.0,0,0.0
 12/11/2020,RI total tests,0.0,0,0.0
+12/11/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 12/11/2020,currently hospitalized,466.0,0,0.0
 12/11/2020,currently in icu,48.0,0,0.0
 12/11/2020,currently on ventilator,25.0,0,0.0
@@ -8846,6 +9061,7 @@ date,metric,count,new_cases,change_%
 12/14/2020,RI negative results,0.0,0,0.0
 12/14/2020,RI positive cases,0.0,0,0.0
 12/14/2020,RI total tests,0.0,0,0.0
+12/14/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 12/14/2020,currently hospitalized,433.0,-33,-0.07081545064377681
 12/14/2020,currently in icu,47.0,-1,-0.02083333333333337
 12/14/2020,currently on ventilator,31.0,6,0.24
@@ -8887,6 +9103,7 @@ date,metric,count,new_cases,change_%
 12/15/2020,RI negative results,0.0,0,0.0
 12/15/2020,RI positive cases,0.0,0,0.0
 12/15/2020,RI total tests,0.0,0,0.0
+12/15/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 12/15/2020,currently hospitalized,455.0,22,0.050808314087759765
 12/15/2020,currently in icu,53.0,6,0.12765957446808507
 12/15/2020,currently on ventilator,29.0,-2,-0.06451612903225812
@@ -8928,6 +9145,7 @@ date,metric,count,new_cases,change_%
 12/16/2020,RI negative results,0.0,0,0.0
 12/16/2020,RI positive cases,0.0,0,0.0
 12/16/2020,RI total tests,0.0,0,0.0
+12/16/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 12/16/2020,currently hospitalized,469.0,14,0.03076923076923066
 12/16/2020,currently in icu,62.0,9,0.16981132075471694
 12/16/2020,currently on ventilator,30.0,1,0.034482758620689724
@@ -8969,6 +9187,7 @@ date,metric,count,new_cases,change_%
 12/17/2020,RI negative results,0.0,0,0.0
 12/17/2020,RI positive cases,0.0,0,0.0
 12/17/2020,RI total tests,0.0,0,0.0
+12/17/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 12/17/2020,currently hospitalized,479.0,10,0.021321961620469176
 12/17/2020,currently in icu,59.0,-3,-0.048387096774193505
 12/17/2020,currently on ventilator,29.0,-1,-0.033333333333333326
@@ -9010,6 +9229,7 @@ date,metric,count,new_cases,change_%
 12/18/2020,RI negative results,0.0,0,0.0
 12/18/2020,RI positive cases,0.0,0,0.0
 12/18/2020,RI total tests,0.0,0,0.0
+12/18/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 12/18/2020,currently hospitalized,459.0,-20,-0.04175365344467641
 12/18/2020,currently in icu,56.0,-3,-0.05084745762711862
 12/18/2020,currently on ventilator,29.0,0,0.0
@@ -9051,6 +9271,7 @@ date,metric,count,new_cases,change_%
 12/21/2020,RI negative results,0.0,0,0.0
 12/21/2020,RI positive cases,0.0,0,0.0
 12/21/2020,RI total tests,0.0,0,0.0
+12/21/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 12/21/2020,currently hospitalized,429.0,-30,-0.065359477124183
 12/21/2020,currently in icu,57.0,1,0.017857142857142794
 12/21/2020,currently on ventilator,36.0,7,0.24137931034482762
@@ -9092,6 +9313,7 @@ date,metric,count,new_cases,change_%
 12/22/2020,RI negative results,0.0,0,0.0
 12/22/2020,RI positive cases,0.0,0,0.0
 12/22/2020,RI total tests,0.0,0,0.0
+12/22/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 12/22/2020,currently hospitalized,440.0,11,0.02564102564102555
 12/22/2020,currently in icu,54.0,-3,-0.052631578947368474
 12/22/2020,currently on ventilator,38.0,2,0.05555555555555558
@@ -9133,6 +9355,7 @@ date,metric,count,new_cases,change_%
 12/23/2020,RI negative results,0.0,0,0.0
 12/23/2020,RI positive cases,0.0,0,0.0
 12/23/2020,RI total tests,0.0,0,0.0
+12/23/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 12/23/2020,currently hospitalized,442.0,2,0.00454545454545463
 12/23/2020,currently in icu,49.0,-5,-0.09259259259259256
 12/23/2020,currently on ventilator,35.0,-3,-0.07894736842105265
@@ -9174,6 +9397,7 @@ date,metric,count,new_cases,change_%
 12/28/2020,RI negative results,0.0,0,0.0
 12/28/2020,RI positive cases,0.0,0,0.0
 12/28/2020,RI total tests,0.0,0,0.0
+12/28/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 12/28/2020,currently hospitalized,412.0,-30,-0.0678733031674208
 12/28/2020,currently in icu,54.0,5,0.1020408163265305
 12/28/2020,currently on ventilator,47.0,12,0.34285714285714275
@@ -9215,6 +9439,7 @@ date,metric,count,new_cases,change_%
 12/29/2020,RI negative results,0.0,0,0.0
 12/29/2020,RI positive cases,0.0,0,0.0
 12/29/2020,RI total tests,0.0,0,0.0
+12/29/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 12/29/2020,currently hospitalized,423.0,11,0.02669902912621369
 12/29/2020,currently in icu,55.0,1,0.0185185185185186
 12/29/2020,currently on ventilator,46.0,-1,-0.021276595744680882
@@ -9256,6 +9481,7 @@ date,metric,count,new_cases,change_%
 12/30/2020,RI negative results,0.0,0,0.0
 12/30/2020,RI positive cases,0.0,0,0.0
 12/30/2020,RI total tests,0.0,0,0.0
+12/30/2020,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 12/30/2020,currently hospitalized,426.0,3,0.007092198581560183
 12/30/2020,currently in icu,61.0,6,0.10909090909090913
 12/30/2020,currently on ventilator,47.0,1,0.021739130434782705
@@ -9297,6 +9523,7 @@ date,metric,count,new_cases,change_%
 01/04/2021,RI negative results,0.0,0,0.0
 01/04/2021,RI positive cases,0.0,0,0.0
 01/04/2021,RI total tests,0.0,0,0.0
+01/04/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 01/04/2021,currently hospitalized,415.0,-11,-0.025821596244131495
 01/04/2021,currently in icu,53.0,-8,-0.1311475409836066
 01/04/2021,currently on ventilator,40.0,-7,-0.14893617021276595
@@ -9338,6 +9565,7 @@ date,metric,count,new_cases,change_%
 01/05/2021,RI negative results,0.0,0,0.0
 01/05/2021,RI positive cases,0.0,0,0.0
 01/05/2021,RI total tests,0.0,0,0.0
+01/05/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 01/05/2021,currently hospitalized,409.0,-6,-0.014457831325301207
 01/05/2021,currently in icu,56.0,3,0.05660377358490565
 01/05/2021,currently on ventilator,40.0,0,0.0
@@ -9379,6 +9607,7 @@ date,metric,count,new_cases,change_%
 01/06/2021,RI negative results,0.0,0,0.0
 01/06/2021,RI positive cases,0.0,0,0.0
 01/06/2021,RI total tests,0.0,0,0.0
+01/06/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 01/06/2021,currently hospitalized,405.0,-4,-0.009779951100244544
 01/06/2021,currently in icu,59.0,3,0.0535714285714286
 01/06/2021,currently on ventilator,40.0,0,0.0
@@ -9420,6 +9649,7 @@ date,metric,count,new_cases,change_%
 01/07/2021,RI negative results,0.0,0,0.0
 01/07/2021,RI positive cases,0.0,0,0.0
 01/07/2021,RI total tests,0.0,0,0.0
+01/07/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 01/07/2021,currently hospitalized,397.0,-8,-0.01975308641975304
 01/07/2021,currently in icu,59.0,0,0.0
 01/07/2021,currently on ventilator,40.0,0,0.0
@@ -9461,6 +9691,7 @@ date,metric,count,new_cases,change_%
 01/08/2021,RI negative results,0.0,0,0.0
 01/08/2021,RI positive cases,0.0,0,0.0
 01/08/2021,RI total tests,0.0,0,0.0
+01/08/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 01/08/2021,currently hospitalized,390.0,-7,-0.017632241813602012
 01/08/2021,currently in icu,55.0,-4,-0.06779661016949157
 01/08/2021,currently on ventilator,39.0,-1,-0.025000000000000022
@@ -9502,6 +9733,7 @@ date,metric,count,new_cases,change_%
 01/11/2021,RI negative results,0.0,0,0.0
 01/11/2021,RI positive cases,0.0,0,0.0
 01/11/2021,RI total tests,0.0,0,0.0
+01/11/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 01/11/2021,currently hospitalized,399.0,9,0.023076923076922995
 01/11/2021,currently in icu,47.0,-8,-0.1454545454545455
 01/11/2021,currently on ventilator,33.0,-6,-0.15384615384615385
@@ -9543,6 +9775,7 @@ date,metric,count,new_cases,change_%
 01/12/2021,RI negative results,0.0,0,0.0
 01/12/2021,RI positive cases,0.0,0,0.0
 01/12/2021,RI total tests,0.0,0,0.0
+01/12/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 01/12/2021,currently hospitalized,402.0,3,0.007518796992481258
 01/12/2021,currently in icu,53.0,6,0.12765957446808507
 01/12/2021,currently on ventilator,34.0,1,0.030303030303030276
@@ -9584,6 +9817,7 @@ date,metric,count,new_cases,change_%
 01/13/2021,RI negative results,0.0,0,0.0
 01/13/2021,RI positive cases,0.0,0,0.0
 01/13/2021,RI total tests,0.0,0,0.0
+01/13/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 01/13/2021,currently hospitalized,402.0,0,0.0
 01/13/2021,currently in icu,49.0,-4,-0.07547169811320753
 01/13/2021,currently on ventilator,35.0,1,0.02941176470588225
@@ -9625,6 +9859,7 @@ date,metric,count,new_cases,change_%
 01/14/2021,RI negative results,0.0,0,0.0
 01/14/2021,RI positive cases,0.0,0,0.0
 01/14/2021,RI total tests,0.0,0,0.0
+01/14/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 01/14/2021,currently hospitalized,375.0,-27,-0.06716417910447758
 01/14/2021,currently in icu,53.0,4,0.08163265306122458
 01/14/2021,currently on ventilator,34.0,-1,-0.02857142857142858
@@ -9666,6 +9901,7 @@ date,metric,count,new_cases,change_%
 01/15/2021,RI negative results,0.0,0,0.0
 01/15/2021,RI positive cases,0.0,0,0.0
 01/15/2021,RI total tests,0.0,0,0.0
+01/15/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 01/15/2021,currently hospitalized,384.0,9,0.02400000000000002
 01/15/2021,currently in icu,51.0,-2,-0.037735849056603765
 01/15/2021,currently on ventilator,35.0,1,0.02941176470588225
@@ -9707,6 +9943,7 @@ date,metric,count,new_cases,change_%
 01/19/2021,RI negative results,0.0,0,0.0
 01/19/2021,RI positive cases,0.0,0,0.0
 01/19/2021,RI total tests,0.0,0,0.0
+01/19/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 01/19/2021,currently hospitalized,366.0,-18,-0.046875
 01/19/2021,currently in icu,50.0,-1,-0.019607843137254943
 01/19/2021,currently on ventilator,37.0,2,0.05714285714285716
@@ -9748,6 +9985,7 @@ date,metric,count,new_cases,change_%
 01/20/2021,RI negative results,0.0,0,0.0
 01/20/2021,RI positive cases,0.0,0,0.0
 01/20/2021,RI total tests,0.0,0,0.0
+01/20/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 01/20/2021,currently hospitalized,379.0,13,0.03551912568306004
 01/20/2021,currently in icu,48.0,-2,-0.040000000000000036
 01/20/2021,currently on ventilator,36.0,-1,-0.027027027027026973
@@ -9789,6 +10027,7 @@ date,metric,count,new_cases,change_%
 01/21/2021,RI negative results,0.0,0,0.0
 01/21/2021,RI positive cases,0.0,0,0.0
 01/21/2021,RI total tests,0.0,0,0.0
+01/21/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 01/21/2021,currently hospitalized,379.0,0,0.0
 01/21/2021,currently in icu,51.0,3,0.0625
 01/21/2021,currently on ventilator,36.0,0,0.0
@@ -9830,6 +10069,7 @@ date,metric,count,new_cases,change_%
 01/22/2021,RI negative results,0.0,0,0.0
 01/22/2021,RI positive cases,0.0,0,0.0
 01/22/2021,RI total tests,0.0,0,0.0
+01/22/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 01/22/2021,currently hospitalized,352.0,-27,-0.0712401055408971
 01/22/2021,currently in icu,43.0,-8,-0.1568627450980392
 01/22/2021,currently on ventilator,31.0,-5,-0.13888888888888884
@@ -9871,6 +10111,7 @@ date,metric,count,new_cases,change_%
 01/25/2021,RI negative results,0.0,0,0.0
 01/25/2021,RI positive cases,0.0,0,0.0
 01/25/2021,RI total tests,0.0,0,0.0
+01/25/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 01/25/2021,currently hospitalized,347.0,-5,-0.014204545454545414
 01/25/2021,currently in icu,50.0,7,0.16279069767441867
 01/25/2021,currently on ventilator,33.0,2,0.06451612903225801
@@ -9912,6 +10153,7 @@ date,metric,count,new_cases,change_%
 01/26/2021,RI negative results,0.0,0,0.0
 01/26/2021,RI positive cases,0.0,0,0.0
 01/26/2021,RI total tests,0.0,0,0.0
+01/26/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 01/26/2021,currently hospitalized,346.0,-1,-0.0028818443804035088
 01/26/2021,currently in icu,51.0,1,0.020000000000000018
 01/26/2021,currently on ventilator,35.0,2,0.06060606060606055
@@ -9953,6 +10195,7 @@ date,metric,count,new_cases,change_%
 01/27/2021,RI negative results,0.0,0,0.0
 01/27/2021,RI positive cases,0.0,0,0.0
 01/27/2021,RI total tests,0.0,0,0.0
+01/27/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 01/27/2021,currently hospitalized,334.0,-12,-0.034682080924855474
 01/27/2021,currently in icu,50.0,-1,-0.019607843137254943
 01/27/2021,currently on ventilator,35.0,0,0.0
@@ -9994,6 +10237,7 @@ date,metric,count,new_cases,change_%
 01/28/2021,RI negative results,0.0,0,0.0
 01/28/2021,RI positive cases,0.0,0,0.0
 01/28/2021,RI total tests,0.0,0,0.0
+01/28/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 01/28/2021,currently hospitalized,335.0,1,0.0029940119760478723
 01/28/2021,currently in icu,47.0,-3,-0.06000000000000005
 01/28/2021,currently on ventilator,31.0,-4,-0.11428571428571432
@@ -10035,6 +10279,7 @@ date,metric,count,new_cases,change_%
 01/29/2021,RI negative results,0.0,0,0.0
 01/29/2021,RI positive cases,0.0,0,0.0
 01/29/2021,RI total tests,0.0,0,0.0
+01/29/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 01/29/2021,currently hospitalized,324.0,-11,-0.032835820895522394
 01/29/2021,currently in icu,50.0,3,0.06382978723404253
 01/29/2021,currently on ventilator,31.0,0,0.0
@@ -10076,6 +10321,7 @@ date,metric,count,new_cases,change_%
 02/01/2021,RI negative results,0.0,0,0.0
 02/01/2021,RI positive cases,0.0,0,0.0
 02/01/2021,RI total tests,0.0,0,0.0
+02/01/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 02/01/2021,currently hospitalized,316.0,-8,-0.024691358024691357
 02/01/2021,currently in icu,47.0,-3,-0.06000000000000005
 02/01/2021,currently on ventilator,29.0,-2,-0.06451612903225812
@@ -10117,6 +10363,7 @@ date,metric,count,new_cases,change_%
 02/02/2021,RI negative results,0.0,0,0.0
 02/02/2021,RI positive cases,0.0,0,0.0
 02/02/2021,RI total tests,0.0,0,0.0
+02/02/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 02/02/2021,currently hospitalized,307.0,-9,-0.02848101265822789
 02/02/2021,currently in icu,41.0,-6,-0.12765957446808507
 02/02/2021,currently on ventilator,25.0,-4,-0.13793103448275867
@@ -10158,6 +10405,7 @@ date,metric,count,new_cases,change_%
 02/03/2021,RI negative results,0.0,0,0.0
 02/03/2021,RI positive cases,0.0,0,0.0
 02/03/2021,RI total tests,0.0,0,0.0
+02/03/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 02/03/2021,currently hospitalized,298.0,-9,-0.02931596091205213
 02/03/2021,currently in icu,42.0,1,0.024390243902439046
 02/03/2021,currently on ventilator,23.0,-2,-0.07999999999999996
@@ -10199,6 +10447,7 @@ date,metric,count,new_cases,change_%
 02/04/2021,RI negative results,0.0,0,0.0
 02/04/2021,RI positive cases,0.0,0,0.0
 02/04/2021,RI total tests,0.0,0,0.0
+02/04/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 02/04/2021,currently hospitalized,290.0,-8,-0.02684563758389258
 02/04/2021,currently in icu,43.0,1,0.023809523809523725
 02/04/2021,currently on ventilator,23.0,0,0.0
@@ -10240,6 +10489,7 @@ date,metric,count,new_cases,change_%
 02/05/2021,RI negative results,0.0,0,0.0
 02/05/2021,RI positive cases,0.0,0,0.0
 02/05/2021,RI total tests,0.0,0,0.0
+02/05/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 02/05/2021,currently hospitalized,288.0,-2,-0.006896551724137945
 02/05/2021,currently in icu,41.0,-2,-0.046511627906976716
 02/05/2021,currently on ventilator,20.0,-3,-0.13043478260869568
@@ -10281,6 +10531,7 @@ date,metric,count,new_cases,change_%
 02/08/2021,RI negative results,0.0,0,0.0
 02/08/2021,RI positive cases,0.0,0,0.0
 02/08/2021,RI total tests,0.0,0,0.0
+02/08/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 02/08/2021,currently hospitalized,241.0,-47,-0.16319444444444442
 02/08/2021,currently in icu,42.0,1,0.024390243902439046
 02/08/2021,currently on ventilator,20.0,0,0.0
@@ -10322,6 +10573,7 @@ date,metric,count,new_cases,change_%
 02/09/2021,RI negative results,0.0,0,0.0
 02/09/2021,RI positive cases,0.0,0,0.0
 02/09/2021,RI total tests,0.0,0,0.0
+02/09/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 02/09/2021,currently hospitalized,242.0,1,0.004149377593360981
 02/09/2021,currently in icu,44.0,2,0.04761904761904767
 02/09/2021,currently on ventilator,20.0,0,0.0
@@ -10363,6 +10615,7 @@ date,metric,count,new_cases,change_%
 02/10/2021,RI negative results,0.0,0,0.0
 02/10/2021,RI positive cases,0.0,0,0.0
 02/10/2021,RI total tests,0.0,0,0.0
+02/10/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 02/10/2021,currently hospitalized,238.0,-4,-0.016528925619834656
 02/10/2021,currently in icu,42.0,-2,-0.045454545454545414
 02/10/2021,currently on ventilator,22.0,2,0.10000000000000009
@@ -10404,6 +10657,7 @@ date,metric,count,new_cases,change_%
 02/11/2021,RI negative results,0.0,0,0.0
 02/11/2021,RI positive cases,0.0,0,0.0
 02/11/2021,RI total tests,0.0,0,0.0
+02/11/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 02/11/2021,currently hospitalized,238.0,0,0.0
 02/11/2021,currently in icu,45.0,3,0.0714285714285714
 02/11/2021,currently on ventilator,22.0,0,0.0
@@ -10445,6 +10699,7 @@ date,metric,count,new_cases,change_%
 02/12/2021,RI negative results,0.0,0,0.0
 02/12/2021,RI positive cases,0.0,0,0.0
 02/12/2021,RI total tests,0.0,0,0.0
+02/12/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 02/12/2021,currently hospitalized,222.0,-16,-0.0672268907563025
 02/12/2021,currently in icu,39.0,-6,-0.1333333333333333
 02/12/2021,currently on ventilator,20.0,-2,-0.09090909090909094
@@ -10486,6 +10741,7 @@ date,metric,count,new_cases,change_%
 02/15/2021,RI negative results,0.0,0,0.0
 02/15/2021,RI positive cases,0.0,0,0.0
 02/15/2021,RI total tests,0.0,0,0.0
+02/15/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 02/15/2021,currently hospitalized,181.0,-41,-0.18468468468468469
 02/15/2021,currently in icu,35.0,-4,-0.10256410256410253
 02/15/2021,currently on ventilator,16.0,-4,-0.19999999999999996
@@ -10527,6 +10783,7 @@ date,metric,count,new_cases,change_%
 02/16/2021,RI negative results,0.0,0,0.0
 02/16/2021,RI positive cases,0.0,0,0.0
 02/16/2021,RI total tests,0.0,0,0.0
+02/16/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 02/16/2021,currently hospitalized,197.0,16,0.08839779005524862
 02/16/2021,currently in icu,36.0,1,0.02857142857142847
 02/16/2021,currently on ventilator,20.0,4,0.25
@@ -10568,6 +10825,7 @@ date,metric,count,new_cases,change_%
 02/17/2021,RI negative results,0.0,0,0.0
 02/17/2021,RI positive cases,0.0,0,0.0
 02/17/2021,RI total tests,0.0,0,0.0
+02/17/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 02/17/2021,currently hospitalized,193.0,-4,-0.02030456852791873
 02/17/2021,currently in icu,30.0,-6,-0.16666666666666663
 02/17/2021,currently on ventilator,19.0,-1,-0.050000000000000044
@@ -10609,6 +10867,7 @@ date,metric,count,new_cases,change_%
 02/18/2021,RI negative results,0.0,0,0.0
 02/18/2021,RI positive cases,0.0,0,0.0
 02/18/2021,RI total tests,0.0,0,0.0
+02/18/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 02/18/2021,currently hospitalized,180.0,-13,-0.06735751295336789
 02/18/2021,currently in icu,32.0,2,0.06666666666666665
 02/18/2021,currently on ventilator,18.0,-1,-0.052631578947368474
@@ -10650,6 +10909,7 @@ date,metric,count,new_cases,change_%
 02/19/2021,RI negative results,0.0,0,0.0
 02/19/2021,RI positive cases,0.0,0,0.0
 02/19/2021,RI total tests,0.0,0,0.0
+02/19/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 02/19/2021,currently hospitalized,177.0,-3,-0.01666666666666672
 02/19/2021,currently in icu,29.0,-3,-0.09375
 02/19/2021,currently on ventilator,18.0,0,0.0
@@ -10691,6 +10951,7 @@ date,metric,count,new_cases,change_%
 02/22/2021,RI negative results,0.0,0,0.0
 02/22/2021,RI positive cases,0.0,0,0.0
 02/22/2021,RI total tests,0.0,0,0.0
+02/22/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 02/22/2021,currently hospitalized,186.0,9,0.05084745762711873
 02/22/2021,currently in icu,27.0,-2,-0.06896551724137934
 02/22/2021,currently on ventilator,18.0,0,0.0
@@ -10732,6 +10993,7 @@ date,metric,count,new_cases,change_%
 02/23/2021,RI negative results,0.0,0,0.0
 02/23/2021,RI positive cases,0.0,0,0.0
 02/23/2021,RI total tests,0.0,0,0.0
+02/23/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 02/23/2021,currently hospitalized,170.0,-16,-0.08602150537634412
 02/23/2021,currently in icu,32.0,5,0.18518518518518512
 02/23/2021,currently on ventilator,19.0,1,0.05555555555555558
@@ -10773,6 +11035,7 @@ date,metric,count,new_cases,change_%
 02/24/2021,RI negative results,0.0,0,0.0
 02/24/2021,RI positive cases,0.0,0,0.0
 02/24/2021,RI total tests,0.0,0,0.0
+02/24/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 02/24/2021,currently hospitalized,168.0,-2,-0.0117647058823529
 02/24/2021,currently in icu,32.0,0,0.0
 02/24/2021,currently on ventilator,16.0,-3,-0.1578947368421053
@@ -10814,6 +11077,7 @@ date,metric,count,new_cases,change_%
 02/25/2021,RI negative results,0.0,0,0.0
 02/25/2021,RI positive cases,0.0,0,0.0
 02/25/2021,RI total tests,0.0,0,0.0
+02/25/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 02/25/2021,currently hospitalized,163.0,-5,-0.029761904761904767
 02/25/2021,currently in icu,34.0,2,0.0625
 02/25/2021,currently on ventilator,17.0,1,0.0625
@@ -10855,6 +11119,7 @@ date,metric,count,new_cases,change_%
 02/26/2021,RI negative results,0.0,0,0.0
 02/26/2021,RI positive cases,0.0,0,0.0
 02/26/2021,RI total tests,0.0,0,0.0
+02/26/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 02/26/2021,currently hospitalized,168.0,5,0.030674846625766916
 02/26/2021,currently in icu,34.0,0,0.0
 02/26/2021,currently on ventilator,19.0,2,0.11764705882352944
@@ -10896,6 +11161,7 @@ date,metric,count,new_cases,change_%
 03/01/2021,RI negative results,0.0,0,0.0
 03/01/2021,RI positive cases,0.0,0,0.0
 03/01/2021,RI total tests,0.0,0,0.0
+03/01/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 03/01/2021,currently hospitalized,162.0,-6,-0.0357142857142857
 03/01/2021,currently in icu,28.0,-6,-0.17647058823529416
 03/01/2021,currently on ventilator,18.0,-1,-0.052631578947368474
@@ -10937,6 +11203,7 @@ date,metric,count,new_cases,change_%
 03/02/2021,RI negative results,0.0,0,0.0
 03/02/2021,RI positive cases,0.0,0,0.0
 03/02/2021,RI total tests,0.0,0,0.0
+03/02/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 03/02/2021,currently hospitalized,157.0,-5,-0.030864197530864224
 03/02/2021,currently in icu,25.0,-3,-0.1071428571428571
 03/02/2021,currently on ventilator,17.0,-1,-0.05555555555555558
@@ -10978,6 +11245,7 @@ date,metric,count,new_cases,change_%
 03/03/2021,RI negative results,0.0,0,0.0
 03/03/2021,RI positive cases,0.0,0,0.0
 03/03/2021,RI total tests,0.0,0,0.0
+03/03/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 03/03/2021,currently hospitalized,147.0,-10,-0.06369426751592355
 03/03/2021,currently in icu,23.0,-2,-0.07999999999999996
 03/03/2021,currently on ventilator,14.0,-3,-0.17647058823529416
@@ -11019,6 +11287,7 @@ date,metric,count,new_cases,change_%
 03/04/2021,RI negative results,0.0,0,0.0
 03/04/2021,RI positive cases,0.0,0,0.0
 03/04/2021,RI total tests,0.0,0,0.0
+03/04/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 03/04/2021,currently hospitalized,148.0,1,0.006802721088435382
 03/04/2021,currently in icu,23.0,0,0.0
 03/04/2021,currently on ventilator,16.0,2,0.1428571428571428
@@ -11060,6 +11329,7 @@ date,metric,count,new_cases,change_%
 03/05/2021,RI negative results,0.0,0,0.0
 03/05/2021,RI positive cases,0.0,0,0.0
 03/05/2021,RI total tests,0.0,0,0.0
+03/05/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 03/05/2021,currently hospitalized,141.0,-7,-0.04729729729729726
 03/05/2021,currently in icu,25.0,2,0.08695652173913038
 03/05/2021,currently on ventilator,16.0,0,0.0
@@ -11101,6 +11371,7 @@ date,metric,count,new_cases,change_%
 03/08/2021,RI negative results,0.0,0,0.0
 03/08/2021,RI positive cases,0.0,0,0.0
 03/08/2021,RI total tests,0.0,0,0.0
+03/08/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 03/08/2021,currently hospitalized,133.0,-8,-0.05673758865248224
 03/08/2021,currently in icu,21.0,-4,-0.16000000000000003
 03/08/2021,currently on ventilator,15.0,-1,-0.0625
@@ -11142,6 +11413,7 @@ date,metric,count,new_cases,change_%
 03/09/2021,RI negative results,0.0,0,0.0
 03/09/2021,RI positive cases,0.0,0,0.0
 03/09/2021,RI total tests,0.0,0,0.0
+03/09/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 03/09/2021,currently hospitalized,145.0,12,0.09022556390977443
 03/09/2021,currently in icu,21.0,0,0.0
 03/09/2021,currently on ventilator,16.0,1,0.06666666666666665
@@ -11183,6 +11455,7 @@ date,metric,count,new_cases,change_%
 03/10/2021,RI negative results,0.0,0,0.0
 03/10/2021,RI positive cases,0.0,0,0.0
 03/10/2021,RI total tests,0.0,0,0.0
+03/10/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 03/10/2021,currently hospitalized,142.0,-3,-0.020689655172413834
 03/10/2021,currently in icu,21.0,0,0.0
 03/10/2021,currently on ventilator,16.0,0,0.0
@@ -11224,6 +11497,7 @@ date,metric,count,new_cases,change_%
 03/11/2021,RI negative results,0.0,0,0.0
 03/11/2021,RI positive cases,0.0,0,0.0
 03/11/2021,RI total tests,0.0,0,0.0
+03/11/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 03/11/2021,currently hospitalized,141.0,-1,-0.007042253521126751
 03/11/2021,currently in icu,25.0,4,0.19047619047619047
 03/11/2021,currently on ventilator,17.0,1,0.0625
@@ -11265,6 +11539,7 @@ date,metric,count,new_cases,change_%
 03/12/2021,RI negative results,0.0,0,0.0
 03/12/2021,RI positive cases,0.0,0,0.0
 03/12/2021,RI total tests,0.0,0,0.0
+03/12/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 03/12/2021,currently hospitalized,138.0,-3,-0.021276595744680882
 03/12/2021,currently in icu,24.0,-1,-0.040000000000000036
 03/12/2021,currently on ventilator,19.0,2,0.11764705882352944
@@ -11306,6 +11581,7 @@ date,metric,count,new_cases,change_%
 03/15/2021,RI negative results,0.0,0,0.0
 03/15/2021,RI positive cases,0.0,0,0.0
 03/15/2021,RI total tests,0.0,0,0.0
+03/15/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 03/15/2021,currently hospitalized,134.0,-4,-0.02898550724637683
 03/15/2021,currently in icu,19.0,-5,-0.20833333333333337
 03/15/2021,currently on ventilator,16.0,-3,-0.1578947368421053
@@ -11347,6 +11623,7 @@ date,metric,count,new_cases,change_%
 03/16/2021,RI negative results,0.0,0,0.0
 03/16/2021,RI positive cases,0.0,0,0.0
 03/16/2021,RI total tests,0.0,0,0.0
+03/16/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 03/16/2021,currently hospitalized,132.0,-2,-0.014925373134328401
 03/16/2021,currently in icu,18.0,-1,-0.052631578947368474
 03/16/2021,currently on ventilator,16.0,0,0.0
@@ -11388,6 +11665,7 @@ date,metric,count,new_cases,change_%
 03/17/2021,RI negative results,0.0,0,0.0
 03/17/2021,RI positive cases,0.0,0,0.0
 03/17/2021,RI total tests,0.0,0,0.0
+03/17/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 03/17/2021,currently hospitalized,130.0,-2,-0.015151515151515138
 03/17/2021,currently in icu,17.0,-1,-0.05555555555555558
 03/17/2021,currently on ventilator,14.0,-2,-0.125
@@ -11429,6 +11707,7 @@ date,metric,count,new_cases,change_%
 03/18/2021,RI negative results,0.0,0,0.0
 03/18/2021,RI positive cases,0.0,0,0.0
 03/18/2021,RI total tests,0.0,0,0.0
+03/18/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 03/18/2021,currently hospitalized,125.0,-5,-0.038461538461538436
 03/18/2021,currently in icu,17.0,0,0.0
 03/18/2021,currently on ventilator,13.0,-1,-0.0714285714285714
@@ -11470,6 +11749,7 @@ date,metric,count,new_cases,change_%
 03/19/2021,RI negative results,0.0,0,0.0
 03/19/2021,RI positive cases,0.0,0,0.0
 03/19/2021,RI total tests,0.0,0,0.0
+03/19/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 03/19/2021,currently hospitalized,129.0,4,0.03200000000000003
 03/19/2021,currently in icu,18.0,1,0.05882352941176472
 03/19/2021,currently on ventilator,11.0,-2,-0.15384615384615385
@@ -11511,6 +11791,7 @@ date,metric,count,new_cases,change_%
 03/22/2021,RI negative results,0.0,0,0.0
 03/22/2021,RI positive cases,0.0,0,0.0
 03/22/2021,RI total tests,0.0,0,0.0
+03/22/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 03/22/2021,currently hospitalized,118.0,-11,-0.0852713178294574
 03/22/2021,currently in icu,16.0,-2,-0.11111111111111116
 03/22/2021,currently on ventilator,13.0,2,0.18181818181818188
@@ -11552,6 +11833,7 @@ date,metric,count,new_cases,change_%
 03/23/2021,RI negative results,0.0,0,0.0
 03/23/2021,RI positive cases,0.0,0,0.0
 03/23/2021,RI total tests,0.0,0,0.0
+03/23/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 03/23/2021,currently hospitalized,118.0,0,0.0
 03/23/2021,currently in icu,15.0,-1,-0.0625
 03/23/2021,currently on ventilator,12.0,-1,-0.07692307692307687
@@ -11593,6 +11875,7 @@ date,metric,count,new_cases,change_%
 03/24/2021,RI negative results,0.0,0,0.0
 03/24/2021,RI positive cases,0.0,0,0.0
 03/24/2021,RI total tests,0.0,0,0.0
+03/24/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 03/24/2021,currently hospitalized,112.0,-6,-0.05084745762711862
 03/24/2021,currently in icu,16.0,1,0.06666666666666665
 03/24/2021,currently on ventilator,12.0,0,0.0
@@ -11634,6 +11917,7 @@ date,metric,count,new_cases,change_%
 03/25/2021,RI negative results,0.0,0,0.0
 03/25/2021,RI positive cases,0.0,0,0.0
 03/25/2021,RI total tests,0.0,0,0.0
+03/25/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 03/25/2021,currently hospitalized,110.0,-2,-0.017857142857142905
 03/25/2021,currently in icu,18.0,2,0.125
 03/25/2021,currently on ventilator,11.0,-1,-0.08333333333333337
@@ -11675,6 +11959,7 @@ date,metric,count,new_cases,change_%
 03/26/2021,RI negative results,0.0,0,0.0
 03/26/2021,RI positive cases,0.0,0,0.0
 03/26/2021,RI total tests,0.0,0,0.0
+03/26/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 03/26/2021,currently hospitalized,117.0,7,0.06363636363636371
 03/26/2021,currently in icu,20.0,2,0.11111111111111116
 03/26/2021,currently on ventilator,11.0,0,0.0
@@ -11716,6 +12001,7 @@ date,metric,count,new_cases,change_%
 03/29/2021,RI negative results,0.0,0,0.0
 03/29/2021,RI positive cases,0.0,0,0.0
 03/29/2021,RI total tests,0.0,0,0.0
+03/29/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 03/29/2021,currently hospitalized,117.0,0,0.0
 03/29/2021,currently in icu,16.0,-4,-0.19999999999999996
 03/29/2021,currently on ventilator,7.0,-4,-0.36363636363636365
@@ -11757,6 +12043,7 @@ date,metric,count,new_cases,change_%
 03/30/2021,RI negative results,0.0,0,0.0
 03/30/2021,RI positive cases,0.0,0,0.0
 03/30/2021,RI total tests,0.0,0,0.0
+03/30/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 03/30/2021,currently hospitalized,123.0,6,0.05128205128205132
 03/30/2021,currently in icu,15.0,-1,-0.0625
 03/30/2021,currently on ventilator,8.0,1,0.1428571428571428
@@ -11798,6 +12085,7 @@ date,metric,count,new_cases,change_%
 03/31/2021,RI negative results,0.0,0,0.0
 03/31/2021,RI positive cases,0.0,0,0.0
 03/31/2021,RI total tests,0.0,0,0.0
+03/31/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 03/31/2021,currently hospitalized,125.0,2,0.016260162601626105
 03/31/2021,currently in icu,14.0,-1,-0.06666666666666665
 03/31/2021,currently on ventilator,9.0,1,0.125
@@ -11839,6 +12127,7 @@ date,metric,count,new_cases,change_%
 04/01/2021,RI negative results,0.0,0,0.0
 04/01/2021,RI positive cases,0.0,0,0.0
 04/01/2021,RI total tests,0.0,0,0.0
+04/01/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 04/01/2021,currently hospitalized,131.0,6,0.04800000000000004
 04/01/2021,currently in icu,15.0,1,0.0714285714285714
 04/01/2021,currently on ventilator,9.0,0,0.0
@@ -11880,6 +12169,7 @@ date,metric,count,new_cases,change_%
 04/02/2021,RI negative results,0.0,0,0.0
 04/02/2021,RI positive cases,0.0,0,0.0
 04/02/2021,RI total tests,0.0,0,0.0
+04/02/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 04/02/2021,currently hospitalized,136.0,5,0.03816793893129766
 04/02/2021,currently in icu,13.0,-2,-0.1333333333333333
 04/02/2021,currently on ventilator,9.0,0,0.0
@@ -11921,6 +12211,7 @@ date,metric,count,new_cases,change_%
 04/05/2021,RI negative results,0.0,0,0.0
 04/05/2021,RI positive cases,0.0,0,0.0
 04/05/2021,RI total tests,0.0,0,0.0
+04/05/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 04/05/2021,currently hospitalized,144.0,8,0.05882352941176472
 04/05/2021,currently in icu,23.0,10,0.7692307692307692
 04/05/2021,currently on ventilator,15.0,6,0.6666666666666667
@@ -11962,6 +12253,7 @@ date,metric,count,new_cases,change_%
 04/06/2021,RI negative results,0.0,0,0.0
 04/06/2021,RI positive cases,0.0,0,0.0
 04/06/2021,RI total tests,0.0,0,0.0
+04/06/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 04/06/2021,currently hospitalized,149.0,5,0.03472222222222232
 04/06/2021,currently in icu,26.0,3,0.13043478260869557
 04/06/2021,currently on ventilator,16.0,1,0.06666666666666665
@@ -12003,6 +12295,7 @@ date,metric,count,new_cases,change_%
 04/07/2021,RI negative results,0.0,0,0.0
 04/07/2021,RI positive cases,0.0,0,0.0
 04/07/2021,RI total tests,0.0,0,0.0
+04/07/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 04/07/2021,currently hospitalized,154.0,5,0.033557046979865834
 04/07/2021,currently in icu,25.0,-1,-0.038461538461538436
 04/07/2021,currently on ventilator,21.0,5,0.3125
@@ -12044,6 +12337,7 @@ date,metric,count,new_cases,change_%
 04/08/2021,RI negative results,0.0,0,0.0
 04/08/2021,RI positive cases,0.0,0,0.0
 04/08/2021,RI total tests,0.0,0,0.0
+04/08/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 04/08/2021,currently hospitalized,154.0,0,0.0
 04/08/2021,currently in icu,28.0,3,0.1200000000000001
 04/08/2021,currently on ventilator,21.0,0,0.0
@@ -12085,6 +12379,7 @@ date,metric,count,new_cases,change_%
 04/09/2021,RI negative results,0.0,0,0.0
 04/09/2021,RI positive cases,0.0,0,0.0
 04/09/2021,RI total tests,0.0,0,0.0
+04/09/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 04/09/2021,currently hospitalized,145.0,-9,-0.058441558441558406
 04/09/2021,currently in icu,33.0,5,0.1785714285714286
 04/09/2021,currently on ventilator,23.0,2,0.09523809523809534
@@ -12126,6 +12421,7 @@ date,metric,count,new_cases,change_%
 04/14/2021,RI negative results,0.0,0,0.0
 04/14/2021,RI positive cases,0.0,0,0.0
 04/14/2021,RI total tests,0.0,0,0.0
+04/14/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 04/14/2021,currently hospitalized,136.0,-9,-0.06206896551724139
 04/14/2021,currently in icu,30.0,-3,-0.09090909090909094
 04/14/2021,currently on ventilator,28.0,5,0.21739130434782616
@@ -12167,6 +12463,7 @@ date,metric,count,new_cases,change_%
 04/15/2021,RI negative results,0.0,0,0.0
 04/15/2021,RI positive cases,0.0,0,0.0
 04/15/2021,RI total tests,0.0,0,0.0
+04/15/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 04/15/2021,currently hospitalized,138.0,2,0.014705882352941124
 04/15/2021,currently in icu,30.0,0,0.0
 04/15/2021,currently on ventilator,24.0,-4,-0.1428571428571429
@@ -12208,6 +12505,7 @@ date,metric,count,new_cases,change_%
 04/16/2021,RI negative results,0.0,0,0.0
 04/16/2021,RI positive cases,0.0,0,0.0
 04/16/2021,RI total tests,0.0,0,0.0
+04/16/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 04/16/2021,currently hospitalized,133.0,-5,-0.036231884057971064
 04/16/2021,currently in icu,28.0,-2,-0.06666666666666665
 04/16/2021,currently on ventilator,24.0,0,0.0
@@ -12249,6 +12547,7 @@ date,metric,count,new_cases,change_%
 04/19/2021,RI negative results,0.0,0,0.0
 04/19/2021,RI positive cases,0.0,0,0.0
 04/19/2021,RI total tests,0.0,0,0.0
+04/19/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 04/19/2021,currently hospitalized,136.0,3,0.022556390977443552
 04/19/2021,currently in icu,27.0,-1,-0.0357142857142857
 04/19/2021,currently on ventilator,21.0,-3,-0.125
@@ -12290,6 +12589,7 @@ date,metric,count,new_cases,change_%
 04/20/2021,RI negative results,0.0,0,0.0
 04/20/2021,RI positive cases,0.0,0,0.0
 04/20/2021,RI total tests,0.0,0,0.0
+04/20/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 04/20/2021,currently hospitalized,153.0,17,0.125
 04/20/2021,currently in icu,30.0,3,0.11111111111111116
 04/20/2021,currently on ventilator,23.0,2,0.09523809523809534
@@ -12331,6 +12631,7 @@ date,metric,count,new_cases,change_%
 04/21/2021,RI negative results,0.0,0,0.0
 04/21/2021,RI positive cases,0.0,0,0.0
 04/21/2021,RI total tests,0.0,0,0.0
+04/21/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 04/21/2021,currently hospitalized,153.0,0,0.0
 04/21/2021,currently in icu,26.0,-4,-0.1333333333333333
 04/21/2021,currently on ventilator,21.0,-2,-0.08695652173913049
@@ -12372,6 +12673,7 @@ date,metric,count,new_cases,change_%
 04/22/2021,RI negative results,0.0,0,0.0
 04/22/2021,RI positive cases,0.0,0,0.0
 04/22/2021,RI total tests,0.0,0,0.0
+04/22/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 04/22/2021,currently hospitalized,140.0,-13,-0.08496732026143794
 04/22/2021,currently in icu,23.0,-3,-0.11538461538461542
 04/22/2021,currently on ventilator,20.0,-1,-0.04761904761904767
@@ -12413,6 +12715,7 @@ date,metric,count,new_cases,change_%
 04/23/2021,RI negative results,0.0,0,0.0
 04/23/2021,RI positive cases,0.0,0,0.0
 04/23/2021,RI total tests,0.0,0,0.0
+04/23/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 04/23/2021,currently hospitalized,147.0,7,0.050000000000000044
 04/23/2021,currently in icu,27.0,4,0.17391304347826098
 04/23/2021,currently on ventilator,21.0,1,0.050000000000000044
@@ -12454,6 +12757,7 @@ date,metric,count,new_cases,change_%
 04/26/2021,RI negative results,0.0,0,0.0
 04/26/2021,RI positive cases,0.0,0,0.0
 04/26/2021,RI total tests,0.0,0,0.0
+04/26/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 04/26/2021,currently hospitalized,134.0,-13,-0.08843537414965985
 04/26/2021,currently in icu,28.0,1,0.03703703703703698
 04/26/2021,currently on ventilator,26.0,5,0.23809523809523814
@@ -12495,6 +12799,7 @@ date,metric,count,new_cases,change_%
 04/27/2021,RI negative results,0.0,0,0.0
 04/27/2021,RI positive cases,0.0,0,0.0
 04/27/2021,RI total tests,0.0,0,0.0
+04/27/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 04/27/2021,currently hospitalized,135.0,1,0.00746268656716409
 04/27/2021,currently in icu,31.0,3,0.1071428571428572
 04/27/2021,currently on ventilator,24.0,-2,-0.07692307692307687
@@ -12536,6 +12841,7 @@ date,metric,count,new_cases,change_%
 04/28/2021,RI negative results,0.0,0,0.0
 04/28/2021,RI positive cases,0.0,0,0.0
 04/28/2021,RI total tests,0.0,0,0.0
+04/28/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 04/28/2021,currently hospitalized,148.0,13,0.09629629629629632
 04/28/2021,currently in icu,34.0,3,0.09677419354838701
 04/28/2021,currently on ventilator,24.0,0,0.0
@@ -12577,6 +12883,7 @@ date,metric,count,new_cases,change_%
 04/29/2021,RI negative results,0.0,0,0.0
 04/29/2021,RI positive cases,0.0,0,0.0
 04/29/2021,RI total tests,0.0,0,0.0
+04/29/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 04/29/2021,currently hospitalized,150.0,2,0.013513513513513598
 04/29/2021,currently in icu,32.0,-2,-0.05882352941176472
 04/29/2021,currently on ventilator,20.0,-4,-0.16666666666666663
@@ -12618,6 +12925,7 @@ date,metric,count,new_cases,change_%
 04/30/2021,RI negative results,0.0,0,0.0
 04/30/2021,RI positive cases,0.0,0,0.0
 04/30/2021,RI total tests,0.0,0,0.0
+04/30/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 04/30/2021,currently hospitalized,143.0,-7,-0.046666666666666634
 04/30/2021,currently in icu,30.0,-2,-0.0625
 04/30/2021,currently on ventilator,20.0,0,0.0
@@ -12659,6 +12967,7 @@ date,metric,count,new_cases,change_%
 05/03/2021,RI negative results,0.0,0,0.0
 05/03/2021,RI positive cases,0.0,0,0.0
 05/03/2021,RI total tests,0.0,0,0.0
+05/03/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 05/03/2021,currently hospitalized,124.0,-19,-0.13286713286713292
 05/03/2021,currently in icu,22.0,-8,-0.2666666666666667
 05/03/2021,currently on ventilator,19.0,-1,-0.050000000000000044
@@ -12700,6 +13009,7 @@ date,metric,count,new_cases,change_%
 05/04/2021,RI negative results,0.0,0,0.0
 05/04/2021,RI positive cases,0.0,0,0.0
 05/04/2021,RI total tests,0.0,0,0.0
+05/04/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 05/04/2021,currently hospitalized,129.0,5,0.040322580645161255
 05/04/2021,currently in icu,26.0,4,0.18181818181818188
 05/04/2021,currently on ventilator,16.0,-3,-0.1578947368421053
@@ -12741,6 +13051,7 @@ date,metric,count,new_cases,change_%
 05/05/2021,RI negative results,0.0,0,0.0
 05/05/2021,RI positive cases,0.0,0,0.0
 05/05/2021,RI total tests,0.0,0,0.0
+05/05/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 05/05/2021,currently hospitalized,125.0,-4,-0.03100775193798455
 05/05/2021,currently in icu,23.0,-3,-0.11538461538461542
 05/05/2021,currently on ventilator,17.0,1,0.0625
@@ -12782,6 +13093,7 @@ date,metric,count,new_cases,change_%
 05/06/2021,RI negative results,0.0,0,0.0
 05/06/2021,RI positive cases,0.0,0,0.0
 05/06/2021,RI total tests,0.0,0,0.0
+05/06/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 05/06/2021,currently hospitalized,118.0,-7,-0.05600000000000005
 05/06/2021,currently in icu,23.0,0,0.0
 05/06/2021,currently on ventilator,16.0,-1,-0.05882352941176472
@@ -12823,6 +13135,7 @@ date,metric,count,new_cases,change_%
 05/07/2021,RI negative results,0.0,0,0.0
 05/07/2021,RI positive cases,0.0,0,0.0
 05/07/2021,RI total tests,0.0,0,0.0
+05/07/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 05/07/2021,currently hospitalized,113.0,-5,-0.0423728813559322
 05/07/2021,currently in icu,23.0,0,0.0
 05/07/2021,currently on ventilator,18.0,2,0.125
@@ -12864,6 +13177,7 @@ date,metric,count,new_cases,change_%
 05/10/2021,RI negative results,0.0,0,0.0
 05/10/2021,RI positive cases,0.0,0,0.0
 05/10/2021,RI total tests,0.0,0,0.0
+05/10/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 05/10/2021,currently hospitalized,97.0,-16,-0.1415929203539823
 05/10/2021,currently in icu,20.0,-3,-0.13043478260869568
 05/10/2021,currently on ventilator,18.0,0,0.0
@@ -12905,6 +13219,7 @@ date,metric,count,new_cases,change_%
 05/11/2021,RI negative results,0.0,0,0.0
 05/11/2021,RI positive cases,0.0,0,0.0
 05/11/2021,RI total tests,0.0,0,0.0
+05/11/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 05/11/2021,currently hospitalized,104.0,7,0.07216494845360821
 05/11/2021,currently in icu,17.0,-3,-0.15000000000000002
 05/11/2021,currently on ventilator,15.0,-3,-0.16666666666666663
@@ -12946,6 +13261,7 @@ date,metric,count,new_cases,change_%
 05/12/2021,RI negative results,0.0,0,0.0
 05/12/2021,RI positive cases,0.0,0,0.0
 05/12/2021,RI total tests,0.0,0,0.0
+05/12/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 05/12/2021,currently hospitalized,101.0,-3,-0.028846153846153855
 05/12/2021,currently in icu,21.0,4,0.23529411764705888
 05/12/2021,currently on ventilator,16.0,1,0.06666666666666665
@@ -12987,6 +13303,7 @@ date,metric,count,new_cases,change_%
 05/13/2021,RI negative results,0.0,0,0.0
 05/13/2021,RI positive cases,0.0,0,0.0
 05/13/2021,RI total tests,0.0,0,0.0
+05/13/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 05/13/2021,currently hospitalized,96.0,-5,-0.04950495049504955
 05/13/2021,currently in icu,22.0,1,0.04761904761904767
 05/13/2021,currently on ventilator,15.0,-1,-0.0625
@@ -13028,6 +13345,7 @@ date,metric,count,new_cases,change_%
 05/14/2021,RI negative results,0.0,0,0.0
 05/14/2021,RI positive cases,0.0,0,0.0
 05/14/2021,RI total tests,0.0,0,0.0
+05/14/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 05/14/2021,currently hospitalized,92.0,-4,-0.04166666666666663
 05/14/2021,currently in icu,20.0,-2,-0.09090909090909094
 05/14/2021,currently on ventilator,14.0,-1,-0.06666666666666665
@@ -13069,6 +13387,7 @@ date,metric,count,new_cases,change_%
 05/17/2021,RI negative results,0.0,0,0.0
 05/17/2021,RI positive cases,0.0,0,0.0
 05/17/2021,RI total tests,0.0,0,0.0
+05/17/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 05/17/2021,currently hospitalized,78.0,-14,-0.15217391304347827
 05/17/2021,currently in icu,18.0,-2,-0.09999999999999998
 05/17/2021,currently on ventilator,15.0,1,0.0714285714285714
@@ -13110,6 +13429,7 @@ date,metric,count,new_cases,change_%
 05/18/2021,RI negative results,0.0,0,0.0
 05/18/2021,RI positive cases,0.0,0,0.0
 05/18/2021,RI total tests,0.0,0,0.0
+05/18/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 05/18/2021,currently hospitalized,77.0,-1,-0.012820512820512775
 05/18/2021,currently in icu,17.0,-1,-0.05555555555555558
 05/18/2021,currently on ventilator,14.0,-1,-0.06666666666666665
@@ -13151,6 +13471,7 @@ date,metric,count,new_cases,change_%
 05/20/2021,RI negative results,0.0,0,0.0
 05/20/2021,RI positive cases,0.0,0,0.0
 05/20/2021,RI total tests,0.0,0,0.0
+05/20/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 05/20/2021,currently hospitalized,71.0,-6,-0.07792207792207795
 05/20/2021,currently in icu,17.0,0,0.0
 05/20/2021,currently on ventilator,13.0,-1,-0.0714285714285714
@@ -13192,6 +13513,7 @@ date,metric,count,new_cases,change_%
 05/21/2021,RI negative results,0.0,0,0.0
 05/21/2021,RI positive cases,0.0,0,0.0
 05/21/2021,RI total tests,0.0,0,0.0
+05/21/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 05/21/2021,currently hospitalized,67.0,-4,-0.05633802816901412
 05/21/2021,currently in icu,18.0,1,0.05882352941176472
 05/21/2021,currently on ventilator,11.0,-2,-0.15384615384615385
@@ -13233,6 +13555,7 @@ date,metric,count,new_cases,change_%
 05/24/2021,RI negative results,0.0,0,0.0
 05/24/2021,RI positive cases,0.0,0,0.0
 05/24/2021,RI total tests,0.0,0,0.0
+05/24/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 05/24/2021,currently hospitalized,72.0,5,0.07462686567164178
 05/24/2021,currently in icu,17.0,-1,-0.05555555555555558
 05/24/2021,currently on ventilator,10.0,-1,-0.09090909090909094
@@ -13274,6 +13597,7 @@ date,metric,count,new_cases,change_%
 05/25/2021,RI negative results,0.0,0,0.0
 05/25/2021,RI positive cases,0.0,0,0.0
 05/25/2021,RI total tests,0.0,0,0.0
+05/25/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 05/25/2021,currently hospitalized,67.0,-5,-0.06944444444444442
 05/25/2021,currently in icu,15.0,-2,-0.11764705882352944
 05/25/2021,currently on ventilator,10.0,0,0.0
@@ -13315,6 +13639,7 @@ date,metric,count,new_cases,change_%
 05/26/2021,RI negative results,0.0,0,0.0
 05/26/2021,RI positive cases,0.0,0,0.0
 05/26/2021,RI total tests,0.0,0,0.0
+05/26/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 05/26/2021,currently hospitalized,70.0,3,0.04477611940298498
 05/26/2021,currently in icu,15.0,0,0.0
 05/26/2021,currently on ventilator,11.0,1,0.10000000000000009
@@ -13356,6 +13681,7 @@ date,metric,count,new_cases,change_%
 05/27/2021,RI negative results,0.0,0,0.0
 05/27/2021,RI positive cases,0.0,0,0.0
 05/27/2021,RI total tests,0.0,0,0.0
+05/27/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 05/27/2021,currently hospitalized,65.0,-5,-0.0714285714285714
 05/27/2021,currently in icu,15.0,0,0.0
 05/27/2021,currently on ventilator,10.0,-1,-0.09090909090909094
@@ -13397,6 +13723,7 @@ date,metric,count,new_cases,change_%
 05/28/2021,RI negative results,0.0,0,0.0
 05/28/2021,RI positive cases,0.0,0,0.0
 05/28/2021,RI total tests,0.0,0,0.0
+05/28/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 05/28/2021,currently hospitalized,66.0,1,0.01538461538461533
 05/28/2021,currently in icu,14.0,-1,-0.06666666666666665
 05/28/2021,currently on ventilator,9.0,-1,-0.09999999999999998
@@ -13438,6 +13765,7 @@ date,metric,count,new_cases,change_%
 06/02/2021,RI negative results,0.0,0,0.0
 06/02/2021,RI positive cases,0.0,0,0.0
 06/02/2021,RI total tests,0.0,0,0.0
+06/02/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 06/02/2021,currently hospitalized,48.0,-18,-0.2727272727272727
 06/02/2021,currently in icu,10.0,-4,-0.2857142857142857
 06/02/2021,currently on ventilator,9.0,0,0.0
@@ -13479,6 +13807,7 @@ date,metric,count,new_cases,change_%
 06/03/2021,RI negative results,0.0,0,0.0
 06/03/2021,RI positive cases,0.0,0,0.0
 06/03/2021,RI total tests,0.0,0,0.0
+06/03/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 06/03/2021,currently hospitalized,44.0,-4,-0.08333333333333337
 06/03/2021,currently in icu,8.0,-2,-0.19999999999999996
 06/03/2021,currently on ventilator,8.0,-1,-0.11111111111111116
@@ -13520,6 +13849,7 @@ date,metric,count,new_cases,change_%
 06/04/2021,RI negative results,0.0,0,0.0
 06/04/2021,RI positive cases,0.0,0,0.0
 06/04/2021,RI total tests,0.0,0,0.0
+06/04/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 06/04/2021,currently hospitalized,44.0,0,0.0
 06/04/2021,currently in icu,6.0,-2,-0.25
 06/04/2021,currently on ventilator,7.0,-1,-0.125
@@ -13561,6 +13891,7 @@ date,metric,count,new_cases,change_%
 06/07/2021,RI negative results,0.0,0,0.0
 06/07/2021,RI positive cases,0.0,0,0.0
 06/07/2021,RI total tests,0.0,0,0.0
+06/07/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 06/07/2021,currently hospitalized,42.0,-2,-0.045454545454545414
 06/07/2021,currently in icu,5.0,-1,-0.16666666666666663
 06/07/2021,currently on ventilator,6.0,-1,-0.1428571428571429
@@ -13602,6 +13933,7 @@ date,metric,count,new_cases,change_%
 06/08/2021,RI negative results,0.0,0,0.0
 06/08/2021,RI positive cases,0.0,0,0.0
 06/08/2021,RI total tests,0.0,0,0.0
+06/08/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 06/08/2021,currently hospitalized,43.0,1,0.023809523809523725
 06/08/2021,currently in icu,5.0,0,0.0
 06/08/2021,currently on ventilator,5.0,-1,-0.16666666666666663
@@ -13643,6 +13975,7 @@ date,metric,count,new_cases,change_%
 06/09/2021,RI negative results,0.0,0,0.0
 06/09/2021,RI positive cases,0.0,0,0.0
 06/09/2021,RI total tests,0.0,0,0.0
+06/09/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 06/09/2021,currently hospitalized,44.0,1,0.023255813953488413
 06/09/2021,currently in icu,5.0,0,0.0
 06/09/2021,currently on ventilator,5.0,0,0.0
@@ -13684,6 +14017,7 @@ date,metric,count,new_cases,change_%
 06/10/2021,RI negative results,0.0,0,0.0
 06/10/2021,RI positive cases,0.0,0,0.0
 06/10/2021,RI total tests,0.0,0,0.0
+06/10/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 06/10/2021,currently hospitalized,37.0,-7,-0.15909090909090906
 06/10/2021,currently in icu,5.0,0,0.0
 06/10/2021,currently on ventilator,5.0,0,0.0
@@ -13725,6 +14059,7 @@ date,metric,count,new_cases,change_%
 06/11/2021,RI negative results,0.0,0,0.0
 06/11/2021,RI positive cases,0.0,0,0.0
 06/11/2021,RI total tests,0.0,0,0.0
+06/11/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
 06/11/2021,currently hospitalized,33.0,-4,-0.10810810810810811
 06/11/2021,currently in icu,4.0,-1,-0.19999999999999996
 06/11/2021,currently on ventilator,5.0,0,0.0
@@ -13734,3 +14069,339 @@ date,metric,count,new_cases,change_%
 06/11/2021,people tested,939427.0,911,0.0009706813735728126
 06/11/2021,total deaths,2722.0,0,0.0
 06/11/2021,total discharged,0.0,0,0.0
+06/14/2021,3-day average of currently hospitalized,34.0,-4,-0.10526315789473684
+06/14/2021,3-day average of daily number of positive tests (may count people more than once),24.0,-19,-0.4418604651162791
+06/14/2021,3-day average of new people who tested positive (counts first positive lab per person),18.0,-14,-0.4375
+06/14/2021,Cumulative hospital admissions,10506.0,8,0.0007620499142693138
+06/14/2021,Cumulative hospital deaths,1115.0,0,0.0
+06/14/2021,Cumulative hospital discharges,9358.0,8,0.0008556149732621421
+06/14/2021,Cumulative negative tests (may count people more than once),4207941.0,10680,0.0025445165311377416
+06/14/2021,Cumulative people who have only tested negative (counts first negative lab per person),789070.0,1856,0.002357681646921961
+06/14/2021,Cumulative positive tests (may count people more than once),180252.0,75,0.00041625734694217265
+06/14/2021,Cumulative total number of people at least partially vaccinated,651235.0,1863,0.002868925669724076
+06/14/2021,Cumulative total number of people fully vaccinated,577216.0,5515,0.00964665095915529
+06/14/2021,Cumulative total number of vaccine doses administered,1183935.0,7202,0.0061203348593097395
+06/14/2021,Cumulative total tests completed (may count people more than once),4388193.0,10755,0.002456916579972157
+06/14/2021,Daily number of first vaccine doses administered (includes single-dose vaccines),77.0,-458,-0.8560747663551402
+06/14/2021,Daily number of negative tests (may count people more than once),1564.0,-4920,-0.7587908698334361
+06/14/2021,Daily number of negative tests (may count people more than once) plus new people who tested positive (counts first positive lab per person),1570.0,-4935,-0.7586471944657955
+06/14/2021,Daily number of people at least partially vaccinated,77.0,-458,-0.8560747663551402
+06/14/2021,Daily number of people fully vaccinated,235.0,-1858,-0.8877209746774964
+06/14/2021,Daily number of positive tests (may count people more than once),8.0,-20,-0.7142857142857143
+06/14/2021,Daily number of second vaccine doses administered (only applicable for two-dose vaccines),231.0,-1804,-0.8864864864864865
+06/14/2021,Daily total number of vaccine doses administered,308.0,-2262,-0.8801556420233463
+06/14/2021,Daily total tests completed (may count people more than once),1572.0,-4940,-0.7585995085995085
+06/14/2021,Hospital deaths,0.0,0,0.0
+06/14/2021,New hospital admissions,1.0,-1,-0.5
+06/14/2021,New hospital discharges,2.0,-4,-0.6666666666666667
+06/14/2021,New people who have only tested negative (counts first negative lab per person),411.0,-435,-0.5141843971631206
+06/14/2021,Newly confirmed deaths,0.0,0,0.0
+06/14/2021,Number of COVID-19 cases who  were admitted to a hospital in Rhode Island (cumulative),0.0,0,0.0
+06/14/2021,Number of COVID-19 cases who were admitted to a hospital in Rhode Island (cumulative),0.0,0,0.0
+06/14/2021,RI negative results,0.0,0,0.0
+06/14/2021,RI positive cases,0.0,0,0.0
+06/14/2021,RI total tests,0.0,0,0.0
+06/14/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
+06/14/2021,currently hospitalized,33.0,0,0.0
+06/14/2021,currently in icu,5.0,1,0.25
+06/14/2021,currently on ventilator,6.0,1,0.19999999999999996
+06/14/2021,instructed to self-quarantine,0.0,0,0.0
+06/14/2021,new positive,6.0,-15,-0.7142857142857143
+06/14/2021,people positive,152273.0,60,0.0003941844651902393
+06/14/2021,people tested,941343.0,1916,0.002039541124536637
+06/14/2021,total deaths,2722.0,0,0.0
+06/14/2021,total discharged,0.0,0,0.0
+06/15/2021,3-day average of currently hospitalized,38.0,4,0.11764705882352944
+06/15/2021,3-day average of daily number of positive tests (may count people more than once),24.0,0,0.0
+06/15/2021,3-day average of new people who tested positive (counts first positive lab per person),20.0,2,0.11111111111111116
+06/15/2021,Cumulative hospital admissions,10514.0,8,0.0007614696363982265
+06/15/2021,Cumulative hospital deaths,1116.0,1,0.0008968609865471766
+06/15/2021,Cumulative hospital discharges,9360.0,2,0.00021372088052995508
+06/15/2021,Cumulative negative tests (may count people more than once),4213201.0,5260,0.0012500175263863156
+06/15/2021,Cumulative people who have only tested negative (counts first negative lab per person),790077.0,1007,0.0012761858897183398
+06/15/2021,Cumulative positive tests (may count people more than once),180285.0,33,0.00018307702549757998
+06/15/2021,Cumulative total number of people at least partially vaccinated,653205.0,1970,0.003025021689559093
+06/15/2021,Cumulative total number of people fully vaccinated,581327.0,4111,0.007122117197028599
+06/15/2021,Cumulative total number of vaccine doses administered,1189916.0,5981,0.005051797607132258
+06/15/2021,Cumulative total tests completed (may count people more than once),4393486.0,5293,0.0012061912500203054
+06/15/2021,Daily number of first vaccine doses administered (includes single-dose vaccines),353.0,276,3.5844155844155843
+06/15/2021,Daily number of negative tests (may count people more than once),4287.0,2723,1.7410485933503836
+06/15/2021,Daily number of negative tests (may count people more than once) plus new people who tested positive (counts first positive lab per person),4310.0,2740,1.7452229299363058
+06/15/2021,Daily number of people at least partially vaccinated,353.0,276,3.5844155844155843
+06/15/2021,Daily number of people fully vaccinated,1003.0,768,3.268085106382979
+06/15/2021,Daily number of positive tests (may count people more than once),25.0,17,2.125
+06/15/2021,Daily number of second vaccine doses administered (only applicable for two-dose vaccines),983.0,752,3.2554112554112553
+06/15/2021,Daily total number of vaccine doses administered,1336.0,1028,3.337662337662338
+06/15/2021,Daily total tests completed (may count people more than once),4312.0,2740,1.7430025445292623
+06/15/2021,Hospital deaths,1.0,1,0.0
+06/15/2021,New hospital admissions,3.0,2,2.0
+06/15/2021,New hospital discharges,1.0,-1,-0.5
+06/15/2021,New people who have only tested negative (counts first negative lab per person),768.0,357,0.8686131386861313
+06/15/2021,Newly confirmed deaths,1.0,1,0.0
+06/15/2021,Number of COVID-19 cases who  were admitted to a hospital in Rhode Island (cumulative),0.0,0,0.0
+06/15/2021,Number of COVID-19 cases who were admitted to a hospital in Rhode Island (cumulative),0.0,0,0.0
+06/15/2021,RI negative results,0.0,0,0.0
+06/15/2021,RI positive cases,0.0,0,0.0
+06/15/2021,RI total tests,0.0,0,0.0
+06/15/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
+06/15/2021,currently hospitalized,38.0,5,0.1515151515151516
+06/15/2021,currently in icu,6.0,1,0.19999999999999996
+06/15/2021,currently on ventilator,7.0,1,0.16666666666666674
+06/15/2021,instructed to self-quarantine,0.0,0,0.0
+06/15/2021,new positive,23.0,17,2.8333333333333335
+06/15/2021,people positive,152306.0,33,0.00021671602976236493
+06/15/2021,people tested,942383.0,1040,0.0011048045186505817
+06/15/2021,total deaths,2723.0,1,0.00036737692872890193
+06/15/2021,total discharged,0.0,0,0.0
+06/16/2021,3-day average of currently hospitalized,36.0,-2,-0.052631578947368474
+06/16/2021,3-day average of daily number of positive tests (may count people more than once),22.0,-2,-0.08333333333333337
+06/16/2021,3-day average of new people who tested positive (counts first positive lab per person),20.0,0,0.0
+06/16/2021,Cumulative hospital admissions,10492.0,-22,-0.0020924481643522785
+06/16/2021,Cumulative hospital deaths,1117.0,1,0.0008960573476701761
+06/16/2021,Cumulative hospital discharges,9341.0,-19,-0.0020299145299145227
+06/16/2021,Cumulative negative tests (may count people more than once),4220320.0,7119,0.0016896891460911334
+06/16/2021,Cumulative people who have only tested negative (counts first negative lab per person),790982.0,905,0.0011454579743492843
+06/16/2021,Cumulative positive tests (may count people more than once),180317.0,32,0.00017749674127065518
+06/16/2021,Cumulative total number of people at least partially vaccinated,654793.0,1588,0.0024310897803905274
+06/16/2021,Cumulative total number of people fully vaccinated,584435.0,3108,0.005346388521434653
+06/16/2021,Cumulative total number of vaccine doses administered,1194503.0,4587,0.003854893958901373
+06/16/2021,Cumulative total tests completed (may count people more than once),4400637.0,7151,0.0016276369151966286
+06/16/2021,Daily number of first vaccine doses administered (includes single-dose vaccines),491.0,138,0.3909348441926346
+06/16/2021,Daily number of negative tests (may count people more than once),6667.0,2380,0.5551667832983438
+06/16/2021,Daily number of negative tests (may count people more than once) plus new people who tested positive (counts first positive lab per person),6694.0,2384,0.5531322505800464
+06/16/2021,Daily number of people at least partially vaccinated,491.0,138,0.3909348441926346
+06/16/2021,Daily number of people fully vaccinated,1554.0,551,0.5493519441674974
+06/16/2021,Daily number of positive tests (may count people more than once),31.0,6,0.24
+06/16/2021,Daily number of second vaccine doses administered (only applicable for two-dose vaccines),1504.0,521,0.5300101729399798
+06/16/2021,Daily total number of vaccine doses administered,1995.0,659,0.4932634730538923
+06/16/2021,Daily total tests completed (may count people more than once),6698.0,2386,0.5533395176252318
+06/16/2021,Hospital deaths,0.0,-1,-1.0
+06/16/2021,New hospital admissions,2.0,-1,-0.33333333333333337
+06/16/2021,New hospital discharges,6.0,5,5.0
+06/16/2021,New people who have only tested negative (counts first negative lab per person),844.0,76,0.09895833333333326
+06/16/2021,Newly confirmed deaths,0.0,-1,-1.0
+06/16/2021,Number of COVID-19 cases who  were admitted to a hospital in Rhode Island (cumulative),0.0,0,0.0
+06/16/2021,Number of COVID-19 cases who were admitted to a hospital in Rhode Island (cumulative),0.0,0,0.0
+06/16/2021,RI negative results,0.0,0,0.0
+06/16/2021,RI positive cases,0.0,0,0.0
+06/16/2021,RI total tests,0.0,0,0.0
+06/16/2021,"Total new cases per 100,000 persons in the past 7 days",0.0,0,0.0
+06/16/2021,currently hospitalized,34.0,-4,-0.10526315789473684
+06/16/2021,currently in icu,7.0,1,0.16666666666666674
+06/16/2021,currently on ventilator,6.0,-1,-0.1428571428571429
+06/16/2021,instructed to self-quarantine,0.0,0,0.0
+06/16/2021,new positive,27.0,4,0.17391304347826098
+06/16/2021,people positive,152333.0,27,0.00017727469699169163
+06/16/2021,people tested,943315.0,932,0.000988982186648002
+06/16/2021,total deaths,2723.0,0,0.0
+06/16/2021,total discharged,0.0,0,0.0
+06/17/2021,3-day average of currently hospitalized,37.0,1,0.02777777777777768
+06/17/2021,3-day average of daily number of positive tests (may count people more than once),29.0,7,0.3181818181818181
+06/17/2021,3-day average of new people who tested positive (counts first positive lab per person),26.0,6,0.30000000000000004
+06/17/2021,Cumulative hospital admissions,10498.0,6,0.0005718642775447424
+06/17/2021,Cumulative hospital deaths,1118.0,1,0.0008952551477170445
+06/17/2021,Cumulative hospital discharges,9345.0,4,0.0004282196766940416
+06/17/2021,Cumulative negative tests (may count people more than once),4227335.0,7015,0.0016621962315652716
+06/17/2021,Cumulative people who have only tested negative (counts first negative lab per person),791895.0,913,0.0011542614117641126
+06/17/2021,Cumulative positive tests (may count people more than once),180345.0,28,0.00015528208654758124
+06/17/2021,Cumulative total number of people at least partially vaccinated,656501.0,1708,0.002608457940142861
+06/17/2021,Cumulative total number of people fully vaccinated,587570.0,3135,0.00536415512417987
+06/17/2021,Cumulative total number of vaccine doses administered,1198825.0,4322,0.003618241226685859
+06/17/2021,Cumulative total tests completed (may count people more than once),4407680.0,7043,0.0016004501166535512
+06/17/2021,Daily number of first vaccine doses administered (includes single-dose vaccines),523.0,32,0.06517311608961296
+06/17/2021,Daily number of negative tests (may count people more than once),6206.0,-461,-0.06914654267286635
+06/17/2021,Daily number of negative tests (may count people more than once) plus new people who tested positive (counts first positive lab per person),6231.0,-463,-0.06916641768748133
+06/17/2021,Daily number of people at least partially vaccinated,523.0,32,0.06517311608961296
+06/17/2021,Daily number of people fully vaccinated,1330.0,-224,-0.14414414414414412
+06/17/2021,Daily number of positive tests (may count people more than once),28.0,-3,-0.09677419354838712
+06/17/2021,Daily number of second vaccine doses administered (only applicable for two-dose vaccines),1294.0,-210,-0.1396276595744681
+06/17/2021,Daily total number of vaccine doses administered,1817.0,-178,-0.08922305764411032
+06/17/2021,Daily total tests completed (may count people more than once),6234.0,-464,-0.06927441027172287
+06/17/2021,Hospital deaths,0.0,0,0.0
+06/17/2021,New hospital admissions,2.0,0,0.0
+06/17/2021,New hospital discharges,3.0,-3,-0.5
+06/17/2021,New people who have only tested negative (counts first negative lab per person),869.0,25,0.02962085308056861
+06/17/2021,Newly confirmed deaths,1.0,1,0.0
+06/17/2021,Number of COVID-19 cases who  were admitted to a hospital in Rhode Island (cumulative),0.0,0,0.0
+06/17/2021,Number of COVID-19 cases who were admitted to a hospital in Rhode Island (cumulative),0.0,0,0.0
+06/17/2021,RI negative results,0.0,0,0.0
+06/17/2021,RI positive cases,0.0,0,0.0
+06/17/2021,RI total tests,0.0,0,0.0
+06/17/2021,"Total new cases per 100,000 persons in the past 7 days",156.0,156,0.0
+06/17/2021,currently hospitalized,35.0,1,0.02941176470588225
+06/17/2021,currently in icu,7.0,0,0.0
+06/17/2021,currently on ventilator,6.0,0,0.0
+06/17/2021,instructed to self-quarantine,0.0,0,0.0
+06/17/2021,new positive,25.0,-2,-0.07407407407407407
+06/17/2021,people positive,152359.0,26,0.00017067871045672867
+06/17/2021,people tested,944254.0,939,0.0009954257061532967
+06/17/2021,total deaths,2724.0,1,0.00036724201248627963
+06/17/2021,total discharged,0.0,0,0.0
+06/18/2021,3-day average of currently hospitalized,36.0,-1,-0.027027027027026973
+06/18/2021,3-day average of daily number of positive tests (may count people more than once),30.0,1,0.034482758620689724
+06/18/2021,3-day average of new people who tested positive (counts first positive lab per person),25.0,-1,-0.038461538461538436
+06/18/2021,Cumulative hospital admissions,10502.0,4,0.0003810249571347679
+06/18/2021,Cumulative hospital deaths,1119.0,1,0.0008944543828264262
+06/18/2021,Cumulative hospital discharges,9348.0,3,0.0003210272873195308
+06/18/2021,Cumulative negative tests (may count people more than once),4234536.0,7201,0.0017034372719455515
+06/18/2021,Cumulative people who have only tested negative (counts first negative lab per person),792808.0,913,0.0011529306284292495
+06/18/2021,Cumulative positive tests (may count people more than once),180377.0,32,0.00017743768887412692
+06/18/2021,Cumulative total number of people at least partially vaccinated,657337.0,836,0.0012734177099502642
+06/18/2021,Cumulative total number of people fully vaccinated,589253.0,1683,0.0028643395680514327
+06/18/2021,Cumulative total number of vaccine doses administered,1201677.0,2852,0.0023789961003481963
+06/18/2021,Cumulative total tests completed (may count people more than once),4414913.0,7233,0.0016409993465951178
+06/18/2021,Daily number of first vaccine doses administered (includes single-dose vaccines),378.0,-145,-0.27724665391969405
+06/18/2021,Daily number of negative tests (may count people more than once),6566.0,360,0.05800837898807609
+06/18/2021,Daily number of negative tests (may count people more than once) plus new people who tested positive (counts first positive lab per person),6590.0,359,0.057615150056170794
+06/18/2021,Daily number of people at least partially vaccinated,378.0,-145,-0.27724665391969405
+06/18/2021,Daily number of people fully vaccinated,844.0,-486,-0.3654135338345864
+06/18/2021,Daily number of positive tests (may count people more than once),30.0,2,0.0714285714285714
+06/18/2021,Daily number of second vaccine doses administered (only applicable for two-dose vaccines),799.0,-495,-0.3825347758887172
+06/18/2021,Daily total number of vaccine doses administered,1177.0,-640,-0.35222894881673084
+06/18/2021,Daily total tests completed (may count people more than once),6596.0,362,0.05806865575874243
+06/18/2021,Hospital deaths,1.0,1,0.0
+06/18/2021,New hospital admissions,3.0,1,0.5
+06/18/2021,New hospital discharges,3.0,0,0.0
+06/18/2021,New people who have only tested negative (counts first negative lab per person),852.0,-17,-0.019562715765247374
+06/18/2021,Newly confirmed deaths,0.0,-1,-1.0
+06/18/2021,Number of COVID-19 cases who  were admitted to a hospital in Rhode Island (cumulative),0.0,0,0.0
+06/18/2021,Number of COVID-19 cases who were admitted to a hospital in Rhode Island (cumulative),0.0,0,0.0
+06/18/2021,RI negative results,0.0,0,0.0
+06/18/2021,RI positive cases,0.0,0,0.0
+06/18/2021,RI total tests,0.0,0,0.0
+06/18/2021,"Total new cases per 100,000 persons in the past 7 days",154.0,-2,-0.012820512820512775
+06/18/2021,currently hospitalized,35.0,0,0.0
+06/18/2021,currently in icu,8.0,1,0.1428571428571428
+06/18/2021,currently on ventilator,5.0,-1,-0.16666666666666663
+06/18/2021,instructed to self-quarantine,0.0,0,0.0
+06/18/2021,new positive,24.0,-1,-0.040000000000000036
+06/18/2021,people positive,152383.0,24,0.00015752269311297695
+06/18/2021,people tested,945191.0,937,0.0009923177450135157
+06/18/2021,total deaths,2724.0,0,0.0
+06/18/2021,total discharged,0.0,0,0.0
+06/21/2021,3-day average of currently hospitalized,30.0,-6,-0.16666666666666663
+06/21/2021,3-day average of daily number of positive tests (may count people more than once),22.0,-8,-0.2666666666666667
+06/21/2021,3-day average of new people who tested positive (counts first positive lab per person),15.0,-10,-0.4
+06/21/2021,Cumulative hospital admissions,10508.0,6,0.0005713197486192367
+06/21/2021,Cumulative hospital deaths,1118.0,-1,-0.0008936550491510653
+06/21/2021,Cumulative hospital discharges,9361.0,13,0.0013906718014549124
+06/21/2021,Cumulative negative tests (may count people more than once),4245416.0,10880,0.0025693488023244004
+06/21/2021,Cumulative people who have only tested negative (counts first negative lab per person),795019.0,2211,0.0027888215053328835
+06/21/2021,Cumulative positive tests (may count people more than once),180445.0,68,0.0003769881969430955
+06/21/2021,Cumulative total number of people at least partially vaccinated,659916.0,2579,0.003923406106761007
+06/21/2021,Cumulative total number of people fully vaccinated,594747.0,5494,0.009323669120055333
+06/21/2021,Cumulative total number of vaccine doses administered,1209598.0,7921,0.006591621542228143
+06/21/2021,Cumulative total tests completed (may count people more than once),4425861.0,10948,0.0024797770646896033
+06/21/2021,Daily number of first vaccine doses administered (includes single-dose vaccines),127.0,-251,-0.664021164021164
+06/21/2021,Daily number of negative tests (may count people more than once),2016.0,-4550,-0.6929637526652452
+06/21/2021,Daily number of negative tests (may count people more than once) plus new people who tested positive (counts first positive lab per person),2029.0,-4561,-0.6921092564491653
+06/21/2021,Daily number of people at least partially vaccinated,127.0,-251,-0.664021164021164
+06/21/2021,Daily number of people fully vaccinated,319.0,-525,-0.6220379146919431
+06/21/2021,Daily number of positive tests (may count people more than once),15.0,-15,-0.5
+06/21/2021,Daily number of second vaccine doses administered (only applicable for two-dose vaccines),313.0,-486,-0.6082603254067585
+06/21/2021,Daily total number of vaccine doses administered,440.0,-737,-0.6261682242990654
+06/21/2021,Daily total tests completed (may count people more than once),2031.0,-4565,-0.6920861127956337
+06/21/2021,Hospital deaths,0.0,-1,-1.0
+06/21/2021,New hospital admissions,2.0,-1,-0.33333333333333337
+06/21/2021,New hospital discharges,2.0,-1,-0.33333333333333337
+06/21/2021,New people who have only tested negative (counts first negative lab per person),710.0,-142,-0.16666666666666663
+06/21/2021,Newly confirmed deaths,0.0,0,0.0
+06/21/2021,Number of COVID-19 cases who  were admitted to a hospital in Rhode Island (cumulative),0.0,0,0.0
+06/21/2021,Number of COVID-19 cases who were admitted to a hospital in Rhode Island (cumulative),0.0,0,0.0
+06/21/2021,RI negative results,0.0,0,0.0
+06/21/2021,RI positive cases,0.0,0,0.0
+06/21/2021,RI total tests,0.0,0,0.0
+06/21/2021,"Total new cases per 100,000 persons in the past 7 days",136.0,-18,-0.11688311688311692
+06/21/2021,currently hospitalized,29.0,-6,-0.17142857142857137
+06/21/2021,currently in icu,8.0,0,0.0
+06/21/2021,currently on ventilator,4.0,-1,-0.19999999999999996
+06/21/2021,instructed to self-quarantine,0.0,0,0.0
+06/21/2021,new positive,13.0,-11,-0.45833333333333337
+06/21/2021,people positive,152429.0,46,0.00030187094360911715
+06/21/2021,people tested,947448.0,2257,0.00238787715921962
+06/21/2021,total deaths,2724.0,0,0.0
+06/21/2021,total discharged,0.0,0,0.0
+06/22/2021,3-day average of currently hospitalized,31.0,1,0.03333333333333344
+06/22/2021,3-day average of daily number of positive tests (may count people more than once),22.0,0,0.0
+06/22/2021,3-day average of new people who tested positive (counts first positive lab per person),16.0,1,0.06666666666666665
+06/22/2021,Cumulative hospital admissions,10508.0,0,0.0
+06/22/2021,Cumulative hospital deaths,1119.0,1,0.0008944543828264262
+06/22/2021,Cumulative hospital discharges,9357.0,-4,-0.0004273047751308656
+06/22/2021,Cumulative negative tests (may count people more than once),4249871.0,4455,0.0010493671291575968
+06/22/2021,Cumulative people who have only tested negative (counts first negative lab per person),795866.0,847,0.0010653833430396276
+06/22/2021,Cumulative positive tests (may count people more than once),180465.0,20,0.00011083709717651935
+06/22/2021,Cumulative total number of people at least partially vaccinated,661144.0,1228,0.0018608428951563116
+06/22/2021,Cumulative total number of people fully vaccinated,596293.0,1546,0.0025994246292961876
+06/22/2021,Cumulative total number of vaccine doses administered,1212299.0,2701,0.0022329732688051163
+06/22/2021,Cumulative total tests completed (may count people more than once),4430336.0,4475,0.0010111026984354066
+06/22/2021,Daily number of first vaccine doses administered (includes single-dose vaccines),520.0,393,3.094488188976378
+06/22/2021,Daily number of negative tests (may count people more than once),3793.0,1777,0.8814484126984128
+06/22/2021,Daily number of negative tests (may count people more than once) plus new people who tested positive (counts first positive lab per person),3806.0,1777,0.8758008871365204
+06/22/2021,Daily number of people at least partially vaccinated,520.0,393,3.094488188976378
+06/22/2021,Daily number of people fully vaccinated,622.0,303,0.9498432601880877
+06/22/2021,Daily number of positive tests (may count people more than once),20.0,5,0.33333333333333326
+06/22/2021,Daily number of second vaccine doses administered (only applicable for two-dose vaccines),594.0,281,0.8977635782747604
+06/22/2021,Daily total number of vaccine doses administered,1114.0,674,1.5318181818181817
+06/22/2021,Daily total tests completed (may count people more than once),3813.0,1782,0.877400295420975
+06/22/2021,Hospital deaths,0.0,0,0.0
+06/22/2021,New hospital admissions,1.0,-1,-0.5
+06/22/2021,New hospital discharges,0.0,-2,-1.0
+06/22/2021,New people who have only tested negative (counts first negative lab per person),760.0,50,0.07042253521126751
+06/22/2021,Newly confirmed deaths,2.0,2,0.0
+06/22/2021,Number of COVID-19 cases who  were admitted to a hospital in Rhode Island (cumulative),0.0,0,0.0
+06/22/2021,Number of COVID-19 cases who were admitted to a hospital in Rhode Island (cumulative),0.0,0,0.0
+06/22/2021,RI negative results,0.0,0,0.0
+06/22/2021,RI positive cases,0.0,0,0.0
+06/22/2021,RI total tests,0.0,0,0.0
+06/22/2021,"Total new cases per 100,000 persons in the past 7 days",125.0,-11,-0.08088235294117652
+06/22/2021,currently hospitalized,32.0,3,0.10344827586206895
+06/22/2021,currently in icu,8.0,0,0.0
+06/22/2021,currently on ventilator,5.0,1,0.25
+06/22/2021,instructed to self-quarantine,0.0,0,0.0
+06/22/2021,new positive,13.0,0,0.0
+06/22/2021,people positive,152443.0,14,9.184603979561778e-05
+06/22/2021,people tested,948309.0,861,0.0009087569977455079
+06/22/2021,total deaths,2726.0,2,0.0007342143906019505
+06/22/2021,total discharged,0.0,0,0.0
+06/23/2021,3-day average of currently hospitalized,30.0,-1,-0.032258064516129004
+06/23/2021,3-day average of daily number of positive tests (may count people more than once),25.0,3,0.13636363636363646
+06/23/2021,3-day average of new people who tested positive (counts first positive lab per person),20.0,4,0.25
+06/23/2021,Cumulative hospital admissions,10509.0,1,9.516558812339149e-05
+06/23/2021,Cumulative hospital deaths,1119.0,0,0.0
+06/23/2021,Cumulative hospital discharges,9363.0,6,0.0006412311638346324
+06/23/2021,Cumulative negative tests (may count people more than once),4257209.0,7338,0.0017266406439160331
+06/23/2021,Cumulative people who have only tested negative (counts first negative lab per person),796695.0,829,0.001041632636649803
+06/23/2021,Cumulative positive tests (may count people more than once),180506.0,41,0.00022719086803535404
+06/23/2021,Cumulative total number of people at least partially vaccinated,662851.0,1707,0.002581888363200724
+06/23/2021,Cumulative total number of people fully vaccinated,598815.0,2522,0.00422946437405769
+06/23/2021,Cumulative total number of vaccine doses administered,1215970.0,3671,0.0030281308489077396
+06/23/2021,Cumulative total tests completed (may count people more than once),4437715.0,7379,0.0016655621605223825
+06/23/2021,Daily number of first vaccine doses administered (includes single-dose vaccines),642.0,122,0.23461538461538467
+06/23/2021,Daily number of negative tests (may count people more than once),6396.0,2603,0.6862641708410229
+06/23/2021,Daily number of negative tests (may count people more than once) plus new people who tested positive (counts first positive lab per person),6428.0,2622,0.6889122438255386
+06/23/2021,Daily number of people at least partially vaccinated,642.0,122,0.23461538461538467
+06/23/2021,Daily number of people fully vaccinated,1205.0,583,0.937299035369775
+06/23/2021,Daily number of positive tests (may count people more than once),38.0,18,0.8999999999999999
+06/23/2021,Daily number of second vaccine doses administered (only applicable for two-dose vaccines),1144.0,550,0.9259259259259258
+06/23/2021,Daily total number of vaccine doses administered,1786.0,672,0.6032315978456015
+06/23/2021,Daily total tests completed (may count people more than once),6434.0,2621,0.6873852609493838
+06/23/2021,Hospital deaths,0.0,0,0.0
+06/23/2021,New hospital admissions,0.0,-1,-1.0
+06/23/2021,New hospital discharges,5.0,5,0.0
+06/23/2021,New people who have only tested negative (counts first negative lab per person),764.0,4,0.0052631578947368585
+06/23/2021,Newly confirmed deaths,0.0,-2,-1.0
+06/23/2021,Number of COVID-19 cases who  were admitted to a hospital in Rhode Island (cumulative),0.0,0,0.0
+06/23/2021,Number of COVID-19 cases who were admitted to a hospital in Rhode Island (cumulative),0.0,0,0.0
+06/23/2021,RI negative results,0.0,0,0.0
+06/23/2021,RI positive cases,0.0,0,0.0
+06/23/2021,RI total tests,0.0,0,0.0
+06/23/2021,"Total new cases per 100,000 persons in the past 7 days",132.0,7,0.05600000000000005
+06/23/2021,currently hospitalized,27.0,-5,-0.15625
+06/23/2021,currently in icu,7.0,-1,-0.125
+06/23/2021,currently on ventilator,3.0,-2,-0.4
+06/23/2021,instructed to self-quarantine,0.0,0,0.0
+06/23/2021,new positive,32.0,19,1.4615384615384617
+06/23/2021,people positive,152481.0,38,0.0002492734989472112
+06/23/2021,people tested,949176.0,867,0.0009142589598960527
+06/23/2021,total deaths,2726.0,0,0.0
+06/23/2021,total discharged,0.0,0,0.0
