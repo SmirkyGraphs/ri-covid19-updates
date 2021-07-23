@@ -12,7 +12,7 @@ if __name__ == "__main__":
     scraper.scrape_sheet(main_sheet)
     cleaner.clean_general('ri-covid-19')
     cleaner.clean_geographic('geo-ri-covid-19')
-    tweeter.send_tweet()
+    #tweeter.send_tweet()
 
     # scrape, clean infrequently updated data
     scraper.scrape_nursing_homes(main_sheet)
@@ -27,20 +27,19 @@ if __name__ == "__main__":
     cleaner.clean_revised('revised-data')
 
     # scrape cms data
-    scraper.scrape_cms_data()
+    # scraper.scrape_cms_data()
 
     # scrape vaccine information from cdc
     scraper.scrape_geo_vaccine('geo-vaccine')
     scraper.scrape_cdc_vaccine_states()
     scraper.scrape_cdc_vaccine('vaccination_data')
-    #scraper.scrape_cdc_vaccine('vaccination_ltc_data')
     cleaner.clean_vaccine('vaccine-vaccination_data')
     cleaner.clean_vaccine('vaccine-vaccination_states')
     
     # run reports
     reports.run_trend_reports()
     reports.run_school_reports()
-    reports.run_cms_reports()
+    # reports.run_cms_reports()
 
     # make graphs
     plots.make_plots()
