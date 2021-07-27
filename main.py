@@ -12,7 +12,7 @@ if __name__ == "__main__":
     scraper.scrape_sheet(main_sheet)
     cleaner.clean_general('ri-covid-19')
     cleaner.clean_geographic('geo-ri-covid-19')
-    #tweeter.send_tweet()
+    tweeter.send_tweet()
 
     # scrape, clean infrequently updated data
     scraper.scrape_nursing_homes(main_sheet)
