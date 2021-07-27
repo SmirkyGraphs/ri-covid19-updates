@@ -8284,3 +8284,39 @@ Cumulative total number of people fully vaccinated,632715.0,2021-07-23
 "Total new cases per 100,000 persons in the past 7 days",45.4,2021-07-23
 Cumulative people who tested positive (counts first positive lab per person) plus cumulative negative tests (may count people more than once),4548705.0,2021-07-23
 Daily number of negative tests (may count people more than once) plus new people who tested positive (counts first positive lab per person),5995.0,2021-07-23
+Daily number of positive tests (may count people more than once),62.0,2021-07-26
+3-day average of daily number of positive tests (may count people more than once),92.0,2021-07-26
+Cumulative positive tests (may count people more than once),182043.0,2021-07-26
+Daily number of negative tests (may count people more than once),1804.0,2021-07-26
+Cumulative negative tests (may count people more than once),4405620.0,2021-07-26
+Daily total tests completed (may count people more than once),1866.0,2021-07-26
+Cumulative total tests completed (may count people more than once),4587663.0,2021-07-26
+New people who tested positive (counts first positive lab per person),54.0,2021-07-26
+3-day average of new people who tested positive (counts first positive lab per person),82.0,2021-07-26
+Cumulative people who tested positive (counts first positive lab per person),153697.0,2021-07-26
+New people who have only tested negative (counts first negative lab per person),440.0,2021-07-26
+Cumulative people who have only tested negative (counts first negative lab per person),822242.0,2021-07-26
+Cumulative people tested (one count per person),975939.0,2021-07-26
+New hospital admissions,3.0,2021-07-26
+Cumulative hospital admissions,10602.0,2021-07-26
+New hospital discharges,7.0,2021-07-26
+Cumulative hospital discharges,9453.0,2021-07-26
+Hospital deaths,0.0,2021-07-26
+Cumulative hospital deaths,1127.0,2021-07-26
+Currently hospitalized,22.0,2021-07-26
+3-day average of currently hospitalized,23.0,2021-07-26
+Currently in ICU,3.0,2021-07-26
+Currently vented,2.0,2021-07-26
+Newly confirmed deaths,0.0,2021-07-26
+Total deaths,2739.0,2021-07-26
+Daily number of first vaccine doses administered (includes single-dose vaccines),326.0,2021-07-26
+Daily number of second vaccine doses administered (only applicable for two-dose vaccines),132.0,2021-07-26
+Daily total number of vaccine doses administered,458.0,2021-07-26
+Cumulative total number of vaccine doses administered,1277439.0,2021-07-26
+Daily number of people at least partially vaccinated,326.0,2021-07-26
+Cumulative total number of people at least partially vaccinated,689716.0,2021-07-26
+Daily number of people fully vaccinated,135.0,2021-07-26
+Cumulative total number of people fully vaccinated,634492.0,2021-07-26
+"Total new cases per 100,000 persons in the past 7 days",57.4,2021-07-26
+Cumulative people who tested positive (counts first positive lab per person) plus cumulative negative tests (may count people more than once),4559317.0,2021-07-26
+Daily number of negative tests (may count people more than once) plus new people who tested positive (counts first positive lab per person),1858.0,2021-07-26
