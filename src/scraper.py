@@ -54,8 +54,8 @@ def scrape_sheet(sheet_id):
         date = list(df)[1].strip()
         date = pd.to_datetime(date).tz_localize('EST').date()
     else:
-        print('[status] found new update pausing for 5 mins')
-        time.sleep(5 * 60)
+        print('[status] found new update pausing for 2 mins')
+        time.sleep(2 * 60)
 
         ## transform general sheet
         df['date'] = date
