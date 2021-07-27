@@ -2,6 +2,7 @@ import pandas as pd
 import requests
 import tweepy
 import json
+import time
 
 with open('./config.json') as config:
     config = json.load(config)['twitter']
@@ -60,6 +61,8 @@ def send_tweet():
     ]
 
     tweet = '\n'.join(tweet)
+    print(tweet)
+    time.sleep(60 * 2)
    
     # send tweet
     api.update_status(status=tweet)
