@@ -3,7 +3,7 @@ school,total_student_cases_avg,chng_total_student_cases_avg,total_staff_cases_av
 AF Iluminar Mayoral Academy Middle School,0,0,0,0
 AF Providence Mayoral Academy Middle,0,0,0,0
 Achievement First Iluminar Mayoral Academy,27,0,0,0
-Achievement First Promesa Elementary,12,5,0,0
+Achievement First Promesa Elementary,12,0,0,0
 Achievement First Providence Mayoral Academy,67,0,7,0
 Agnes B. Hennessey School,12,0,0,0
 Agnes E. Little School,12,0,0,0
@@ -366,7 +366,7 @@ Walter E. Ranger School,0,0,0,0
 Warwick Area Career and Technical Center,0,0,0,0
 Warwick Early Learning Center at John Brown Francis,0,0,0,0
 Warwick Neck School,7,0,0,0
-Warwick Veterans Middle School,42,5,0,0
+Warwick Veterans Middle School,42,0,0,0
 Washington Oak School,12,0,0,0
 Wawaloam School,0,0,0,0
 Webster Avenue School,7,0,0,0
@@ -390,6 +390,6 @@ Winman Middle School,37,0,0,0
 Winsor Hill School,7,0,0,0
 Wm. M. Davies Jr. Career-Technical High School,17,0,0,0
 Woodridge School,7,0,0,0
-Woonsocket High School,107,0,7,0
+Woonsocket High School,102,-5,7,0
 Woonsocket Middle School at Hamlet,32,0,0,0
 Woonsocket Middle School at Villa Nova,27,0,0,0
