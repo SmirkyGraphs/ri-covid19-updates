@@ -121,7 +121,7 @@ def scrape_revised(sheet_id):
     df.columns = [x.lower() for x in list(df)]
     
     # test to try and make sure columns dont change
-    if df.shape[1] != 34 or list(df)[6] != 'daily total tests completed (may count people more than once)':
+    if df.shape[1] != 35 or list(df)[6] != 'daily total tests completed (may count people more than once)':
         print('[error] revised sheet columns changed')
         return
 
@@ -130,7 +130,7 @@ def scrape_revised(sheet_id):
         df = df.drop(columns=drop_cols)
 
         # re order columns
-        move_cols = (list(df)[6:11] + list(df)[22:30])
+        move_cols = (list(df)[6:11] + list(df)[22:31])
         cols = [x for x in list(df) if x not in move_cols]
         cols.extend(move_cols)
         df = df[cols]
