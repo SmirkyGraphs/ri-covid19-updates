@@ -55,6 +55,7 @@ Burrillville High School,52,0,12,0
 Burrillville Middle School,32,0,7,0
 "CHILD, Inc., Draper Avenue Center",0,0,0,0
 "CHILD, Inc.- Payan Street",0,0,0,0
+Cadence Academy,0,0,0,0
 Cadence Academy Preschool,0,0,0,0
 Calvary Christian Preschool,0,0,0,0
 Captain G. Harold Hunt Elementary School,12,0,7,0
@@ -107,7 +108,7 @@ Early Childhood Center,7,0,7,0
 East Bay Community Action Program Head Start @ John Chafee Blvd,0,0,0,0
 East Bay Educational Collaborative,0,0,0,0
 East Greenwich High School,52,0,12,0
-East Providence High School,52,5,27,0
+East Providence High School,52,0,27,0
 Eden Park School,12,0,0,0
 Edgewood Highland School,12,0,0,0
 Edward R. Martin Middle School,27,0,7,0
@@ -248,7 +249,7 @@ North Cumberland Middle School,32,0,7,0
 North Kingstown Senior High School,102,0,12,0
 North Providence High School,57,0,17,0
 North Scituate Elementary School,12,0,0,0
-North Smithfield Elementary School,22,0,12,0
+North Smithfield Elementary School,27,5,12,0
 North Smithfield High School,37,0,7,0
 North Smithfield Middle School,27,0,7,0
 Northern Lincoln Elementary School,37,0,12,0
@@ -256,7 +257,7 @@ Northern RI Collaborative,7,0,0,0
 Norwood School,12,0,0,0
 Oak Lawn School,12,0,0,0
 Oakland Beach Elementary School,7,0,7,0
-Ocean State Academy,7,0,12,0
+Ocean State Academy,12,5,17,5
 Ocean State Montessori School,0,0,0,0
 Ocean Tides School,0,0,0,0
 "Ocean Tides, Inc.",0,0,0,0
@@ -269,7 +270,7 @@ Overbrook Academy,12,0,7,0
 PPSD Multiple Pathway Evening Program,0,0,0,0
 Park School,12,0,0,0
 Park View Middle School,37,0,12,0
-Pathways Strategic Teaching Center (Coventry),0,0,12,0
+Pathways Strategic Teaching Center (Coventry),7,7,12,0
 Pathways Strategic Teaching Center (Warwick),7,0,12,0
 Paul Cuffee Lower School,7,0,7,0
 Paul Cuffee Middle School,12,0,0,0
@@ -311,7 +312,7 @@ Rocky Hill School,22,0,0,0
 "Roger Williams Middle School (278 Thurbers Ave, Providence)",32,0,17,0
 Rogers High School,47,0,7,0
 Sacred Heart School,7,0,7,0
-Samuel Slater Middle School,7,0,0,0
+Samuel Slater Middle School,7,0,7,7
 San Miguel School,7,0,0,0
 Sanders Academy,0,0,0,0
 Sarah Dyer Barnes School,12,0,0,0
@@ -412,7 +413,7 @@ Warwick Area Career and Technical Center,0,0,0,0
 Warwick Early Learning Center at John Brown Francis,0,0,0,0
 Warwick Neck School,12,0,7,0
 Warwick Veterans Middle School,32,0,17,0
-Washington Oak School,32,0,12,0
+Washington Oak School,32,0,17,5
 Wawaloam School,7,0,7,0
 Webster Avenue School,17,0,12,0
 West Bay Christian Academy,12,0,7,0
