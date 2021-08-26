@@ -60,6 +60,7 @@ def testing_trend_plot(df):
     fig.text(x=0.97, y=0.03, s=footer, fontsize=10, ha='right')
 
     plt.savefig('./figures/testing_14_day_trend.png', dpi=150)
+    plt.close(fig)
 
 def hospital_trend_plot(df):
     print('[status] creating hospital plots')
@@ -98,6 +99,7 @@ def hospital_trend_plot(df):
     fig.text(x=0.97, y=0.03, s=footer, fontsize=10, ha='right')
 
     plt.savefig('./figures/hospital_14_day_trend.png', dpi=150)
+    plt.close(fig)
 
 def testing_combo_ma_plot(df):
     print('[status] creating testing ma combo plots')
@@ -129,6 +131,7 @@ def testing_combo_ma_plot(df):
     fig.text(x=0.97, y=0.03, s=footer, fontsize=10, ha='right')
 
     plt.savefig('./figures/testing_7_day_ma.png', dpi=150)
+    plt.close(fig)
 
 def hospital_combo_ma_plot(df):
     print('[status] creating hospital ma combo plots')
@@ -160,6 +163,7 @@ def hospital_combo_ma_plot(df):
     fig.text(x=0.97, y=0.03, s=footer, fontsize=10, ha='right')
 
     plt.savefig('./figures/hospital_7_day_ma.png', dpi=150)
+    plt.close(fig)
 
 def city_rate_plot(geo_df):
     print('[status] creating cities/towns rate graphs')
@@ -197,6 +201,7 @@ def first_vs_current(df):
     fig.legend(handles=[patch], loc='upper left', bbox_to_anchor=[0.78, 0.97], fontsize=10) 
 
     plt.savefig('./figures/first_vs_current.png', dpi=150)
+    plt.close(fig)
 
 def first_vs_current_bar(df):
     print('[status] creating first vs. current (bar)')
@@ -224,6 +229,7 @@ def first_vs_current_bar(df):
     patch = mpatches.Patch(facecolor='coral', label='updated new deaths')
     fig.legend(handles=[patch], loc='upper left', bbox_to_anchor=[0.78, 0.97], fontsize=10) 
     plt.savefig('./figures/first_vs_current_bar.png', dpi=150)
+    plt.close(fig)
 
 def icu_ma_daily(df):
     print('[status] creating hospital: icu graph')
@@ -247,6 +253,7 @@ def icu_ma_daily(df):
     patch = mpatches.Patch(facecolor='coral', label='7-day moving average')
     fig.legend(handles=[patch], loc='upper left', bbox_to_anchor=[0.78, 0.97], fontsize=10) 
     plt.savefig('./figures/hospital_icu_daily_ma.png', dpi=150)
+    plt.close(fig)
 
 def vent_ma_daily(df):
     print('[status] creating hospital: vent graph')
@@ -270,6 +277,7 @@ def vent_ma_daily(df):
     patch = mpatches.Patch(facecolor='coral', label='7-day moving average')
     fig.legend(handles=[patch], loc='upper left', bbox_to_anchor=[0.78, 0.97], fontsize=10) 
     plt.savefig('./figures/hospital_vent_daily_ma.png', dpi=150)
+    plt.close(fig)
 
 def hospitalized_ma_daily(df):
     print('[status] creating hospital: admissions graph')
@@ -293,6 +301,7 @@ def hospitalized_ma_daily(df):
     patch = mpatches.Patch(facecolor='coral', label='7-day moving average')
     fig.legend(handles=[patch], loc='upper left', bbox_to_anchor=[0.78, 0.97], fontsize=10)   
     plt.savefig('./figures/hospital_admission_daily_ma.png', dpi=150)
+    plt.close(fig)
 
 def new_ppl_tested(df):
     print('[status] creating testing: new people tested')
@@ -316,6 +325,7 @@ def new_ppl_tested(df):
     patch = mpatches.Patch(facecolor='coral', label='new people tested positive')
     fig.legend(handles=[patch], loc='upper left', bbox_to_anchor=[0.78, 0.97], fontsize=10)  
     plt.savefig('./figures/test_new_people_tested_stacked.png', dpi=150)
+    plt.close(fig)
 
 def labs_tested(df):
     print('[status] creating testing: new labs tested')
@@ -339,6 +349,7 @@ def labs_tested(df):
     patch = mpatches.Patch(facecolor='coral', label='daily positive labs')
     fig.legend(handles=[patch], loc='upper left', bbox_to_anchor=[0.78, 0.97], fontsize=10)  
     plt.savefig('./figures/test_labs_tested_stacked.png', dpi=150)
+    plt.close(fig)
 
 def new_ppl_percent_pos(df):
     print('[status] creating testing: new people % pos')
@@ -370,6 +381,7 @@ def new_ppl_percent_pos(df):
     patch = mlines.Line2D([], [], linewidth=2, linestyle="dashed", color='#333333', label='5% daily positive tests')
     fig.legend(handles=[patch], loc='upper left', bbox_to_anchor=[0.78, 0.94], fontsize=10) 
     plt.savefig('./figures/test_new_percent_pos.png', dpi=150)
+    plt.close(fig)
 
 def total_labs_percent_pos(df):
     print('[status] creating testing: new labs % pos')
@@ -401,6 +413,7 @@ def total_labs_percent_pos(df):
     patch = mlines.Line2D([], [], linewidth=2, linestyle="dashed", color='#333333', label='5% daily positive tests')
     fig.legend(handles=[patch], loc='upper left', bbox_to_anchor=[0.78, 0.94], fontsize=10) 
     plt.savefig('./figures/test_labs_percent_pos.png', dpi=150)
+    plt.close(fig)
 
 def daily_positive(df):
     print('[status] creating testing: daily positive')
@@ -424,6 +437,7 @@ def daily_positive(df):
     patch = mpatches.Patch(facecolor='coral', label='7-day moving average')
     fig.legend(handles=[patch], loc='upper left', bbox_to_anchor=[0.78, 0.97], fontsize=10) 
     plt.savefig('./figures/test_daily_positive.png', dpi=150)
+    plt.close(fig)
 
 def daily_ppl_positive(df):
     print('[status] creating testing: daily people positive')
@@ -447,6 +461,7 @@ def daily_ppl_positive(df):
     patch = mpatches.Patch(facecolor='coral', label='7-day moving average')
     fig.legend(handles=[patch], loc='upper left', bbox_to_anchor=[0.78, 0.97], fontsize=10) 
     plt.savefig('./figures/test_daily_ppl_positive.png', dpi=150)
+    plt.close(fig)
 
 def daily_deaths(df):
     print('[status] creating daily deaths')
@@ -470,6 +485,7 @@ def daily_deaths(df):
     patch = mpatches.Patch(facecolor='coral', label='7-day moving average')
     fig.legend(handles=[patch], loc='upper left', bbox_to_anchor=[0.78, 0.97], fontsize=10) 
     plt.savefig('./figures/daily_deaths.png', dpi=150)
+    plt.close(fig)
 
 def percent_tests_new(df):
     print('[status] creating % of tests new people')
@@ -494,6 +510,7 @@ def percent_tests_new(df):
     patch = mpatches.Patch(facecolor='coral', label='7-day moving average')
     fig.legend(handles=[patch], loc='upper left', bbox_to_anchor=[0.78, 0.97], fontsize=10) 
     plt.savefig('./figures/percent_first_time_tested.png', dpi=150)
+    plt.close(fig)
 
 def todays_new_deaths(df):
     print('[status] creating newly reported deaths')
@@ -523,6 +540,7 @@ def todays_new_deaths(df):
     patch = mpatches.Patch(facecolor='coral', label='new deaths reported today')
     fig.legend(handles=[patch], loc='upper left', bbox_to_anchor=[0.78, 0.97], fontsize=10)
     plt.savefig('./figures/new_reported_deaths.png', dpi=150)
+    plt.close(fig)
 
 def ridoh_vaccination_trend(df):
     print('[status] creating vaccine trend')
@@ -551,6 +569,7 @@ def ridoh_vaccination_trend(df):
     patch = mlines.Line2D([], [], linewidth=2, linestyle="dashed", color='#333333', label='7-day moving average')
     fig.legend(handles=[patch], loc='upper left', bbox_to_anchor=[0.78, 0.94], fontsize=10) 
     plt.savefig('./figures/ridoh_vaccine_trend.png', dpi=150)
+    plt.close(fig)
 
 def vaccine_rank_states(df, method, title, save_file, pct=False):
     df = df.sort_values(by=method, ascending=False).reset_index(drop=True)
@@ -585,6 +604,7 @@ def vaccine_rank_states(df, method, title, save_file, pct=False):
     fig.text(x=.5, y=0.92, s=sub_title, fontsize=10, ha='center')
     fig.text(x=0.97, y=0.03, s=_footer, fontsize=10, ha='right')
     plt.savefig(f'./figures/{save_file}.png', dpi=150)
+    plt.close(fig)
 
 def make_plots():
     # load revised daily updated data and geographic data
