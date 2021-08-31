@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 
 def full_death_change(df):
     df = df[['date_scraped', 'date', 'deaths']]
@@ -213,16 +214,16 @@ def nursing_home_metrics(df):
     cols = [
         'week_ending',
         'provider_name',
-        'residents_weekly_admissions',
-        'residents_total_admissions',
+        'residents_weekly_admissions_covid_19',
+        'residents_total_admissions_covid_19',
         'residents_weekly_all_deaths',
         'residents_total_all_deaths', 
-        'residents_weekly_covid_19',
-        'residents_total_covid_19',
-        'residents_weekly_confirmed',
-        'residents_total_confirmed',
-        'staff_weekly_confirmed_covid',
-        'staff_total_confirmed_covid',
+        'residents_weekly_covid_19_deaths',
+        'residents_total_covid_19_deaths',
+        'residents_weekly_confirmed_covid_19',
+        'residents_total_confirmed_covid_19',
+        'staff_weekly_confirmed_covid_19',
+        'staff_total_confirmed_covid_19',
         'staff_weekly_covid_19_deaths',
         'staff_total_covid_19_deaths'
     ]
@@ -238,33 +239,33 @@ def nursing_weekly_deaths(df):
         'week_ending',
         'provider_name',
         'residents_total_all_deaths',
-        'residents_total_covid_19'
+        'residents_total_covid_19_deaths'
     ]
 
     df = df[cols].dropna(axis=0)
     df = df.groupby('week_ending').sum()
-    df['%_total_covid'] = df['residents_total_covid_19']/df['residents_total_all_deaths']
+    df['%_total_covid'] = df['residents_total_covid_19_deaths']/df['residents_total_all_deaths']
     df.to_csv('./data/reports/nursing_home_weekly_deaths.csv')
 
 def nursing_weekly_capacity(df):
     cols = [
         'week_ending',
         'provider_name',
-        'total_number_of_occupied',
+        'total_number_of_occupied_beds',
         'number_of_all_beds'
     ]
 
     weekly = df[cols].groupby(['week_ending']).sum()
     weekly['total_reporting'] = df.groupby(['week_ending']).size()
-    weekly['percent_occupied'] = weekly['total_number_of_occupied']/weekly['number_of_all_beds']
+    weekly['percent_occupied'] = weekly['total_number_of_occupied_beds']/weekly['number_of_all_beds']
     weekly.to_csv('./data/reports/nursing_home_weekly_capacity.csv')
 
 def nursing_weekly_cases(df):
     cols = [
         'week_ending',
         'provider_name',
-        'residents_total_confirmed',
-        'staff_total_confirmed_covid'
+        'residents_total_confirmed_covid_19',
+        'staff_total_confirmed_covid_19'
     ]
 
     weekly = df[cols].groupby(['week_ending']).sum()
@@ -274,10 +275,10 @@ def nursing_provider_deaths(df):
     cols = [
         'week_ending',
         'provider_name',
-        'total_number_of_occupied',
+        'total_number_of_occupied_beds',
         'residents_total_all_deaths',
-        'residents_total_covid_19',
-        'residents_weekly_covid_19',
+        'residents_total_covid_19_deaths',
+        'residents_weekly_covid_19_deaths',
         'staff_weekly_covid_19_deaths',
         'staff_total_covid_19_deaths',
         'weekly_resident_covid_19_deaths_per_1_000_residents',
@@ -289,7 +290,7 @@ def nursing_provider_deaths(df):
     max_date = prov['week_ending'].max()
     prov = prov[prov['week_ending'] == max_date].dropna(axis=0)
     prov = prov.groupby('provider_name').sum()
-    prov['%_total_covid'] = prov['residents_total_covid_19']/prov['residents_total_all_deaths']
+    prov['%_total_covid'] = prov['residents_total_covid_19_deaths']/prov['residents_total_all_deaths']
     prov['week_ending'] = max_date
     prov.to_csv('./data/reports/nursing_home_provider_deaths.csv')
 
@@ -298,14 +299,14 @@ def nursing_provider_capacity(df):
         'week_ending',
         'provider_name',
         'number_of_all_beds',
-        'total_number_of_occupied'
+        'total_number_of_occupied_beds'
     ]
 
     prov = df[cols]
     max_date = prov['week_ending'].max()
     prov = prov[prov['week_ending'] == prov['week_ending'].max()]
     prov = prov.groupby('provider_name').sum()
-    prov['percent_occupied'] = prov['total_number_of_occupied']/prov['number_of_all_beds']
+    prov['percent_occupied'] = prov['total_number_of_occupied_beds']/prov['number_of_all_beds']
 
     prov = prov.dropna()
     prov['week_ending'] = max_date
@@ -315,11 +316,11 @@ def nursing_provider_cases(df):
     cols = [
         'week_ending',
         'provider_name',
-        'total_number_of_occupied',
-        'residents_total_confirmed',
-        'residents_weekly_confirmed',
-        'staff_total_confirmed_covid',
-        'staff_weekly_confirmed_covid',
+        'total_number_of_occupied_beds',
+        'residents_total_confirmed_covid_19',
+        'residents_weekly_confirmed_covid_19',
+        'staff_total_confirmed_covid_19',
+        'staff_weekly_confirmed_covid_19',
         'weekly_resident_confirmed_covid_19_cases_per_1_000_residents',
         'total_resident_confirmed_covid_19_cases_per_1_000_residents'
     ]
@@ -376,13 +377,69 @@ def nursing_provider_staffing(df):
     prov['week_ending'] = max_date
     prov.to_csv('./data/reports/nursing_home_provider_staffing.csv')
 
+def nursing_prov_staff_vaccination(df):
+    cols = [
+        'provider_name',
+        'week_ending',
+        'number_of_all_healthcare_personnel_eligible_to_work_in_this_facility_for_at_least_1_day_this_week',
+        'number_of_all_healthcare_personnel_eligible_to_work_in_this_facility_for_at_least_1_day_this_week_who_received_a_completed_covid_19_vaccination_at_any_time',
+        'number_of_all_healthcare_personnel_eligible_to_work_in_this_facility_for_at_least_1_day_this_week_who_received_a_partial_covid_19_vaccination_at_any_time',
+        'recent_percentage_of_current_healthcare_personnel_who_received_a_completed_covid_19_vaccination_at_any_time',
+        'percentage_of_current_healthcare_personnel_who_received_a_completed_covid_19_vaccination_at_any_time',
+        'percentage_of_current_healthcare_personnel_who_received_a_partial_covid_19_vaccination_at_any_time'
+    ]
+
+    col_names = [
+        'provider_name', 
+        'week_ending', 
+        'all_employees', 
+        'employees_fully_vac', 
+        'employees_part_vac', 
+        'recent_pct_fully_vac',
+        'pct_fully_vac',
+        'pct_part_vac'
+    ]
+
+    df = df[cols].sort_values(by=['provider_name', 'week_ending'])
+    df.columns = col_names
+
+    df = df.replace('', np.nan)
+
+    df.loc[df['all_employees'].isnull(), 'prior_week_used'] = True
+    df[col_names[2:]] = df[col_names[2:]].astype(float)
+    for col in col_names[2:]:
+        df[col] = df.groupby(['provider_name'])[col].ffill()
+
+    df.loc[df['prior_week_used'] == True, 'provider_name'] = df['provider_name'] + '*'
+    df = df.drop(columns='prior_week_used')
+
+    df[col_names[-3:]] = df[col_names[-3:]] / 100
+    df['not_vac'] = df['all_employees'] - df['employees_fully_vac']
+
+    dates = df['week_ending'].drop_duplicates().nlargest(2).values
+    df = df[df['week_ending'].isin(dates)].reset_index(drop=True)
+    
+    cols = [
+        'all_employees',
+        'employees_fully_vac',
+        'employees_part_vac',
+        'recent_pct_fully_vac',
+        'pct_fully_vac'
+    ]
+
+    for col in cols:
+        df[f'{col}_change'] = df[col] - df.groupby('provider_name')[col].shift()
+
+    df = df[df['week_ending']==df['week_ending'].max()].fillna(0).reset_index(drop=True)
+    df.to_csv('./data/reports/nursing_home_staff_vaccination.csv', index=False)
+
 def run_cms_reports():
     df = pd.read_csv('./data/raw/cms-nursing-homes.csv', parse_dates=['week_ending'])
 
     count_short_staffed(df)
     nursing_weekly_short_staffed(df)
     nursing_weekly_deaths(df)
-    nursing_weekly_ppe(df)
+    #nursing_weekly_ppe(df)
     nursing_weekly_capacity(df)
     nursing_weekly_cases(df)
 
@@ -390,5 +447,7 @@ def run_cms_reports():
     nursing_provider_deaths(df)
     nursing_provider_capacity(df)
     nursing_provider_cases(df)
-    nursing_provider_ppe(df)
+    #nursing_provider_ppe(df)
     nursing_provider_staffing(df)
+
+    nursing_prov_staff_vaccination(df)
