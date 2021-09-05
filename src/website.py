@@ -218,14 +218,14 @@ def weekly_nursing_homes(data):
     staff = pd.read_csv('./data/reports/nursing_home_weekly_staffing.csv', parse_dates=['week_ending'])
     ppe = pd.read_csv('./data/reports/nursing_home_weekly_ppe.csv', parse_dates=['week_ending'])
 
-    res_covid19_deaths = f"{int(df.iloc[-1]['residents_total_covid_19']):,}"
-    res_covid19_cases = f"{int(df.iloc[-1]['residents_total_confirmed']):,}"
+    res_covid19_deaths = f"{int(df.iloc[-1]['residents_total_covid_19_deaths']):,}"
+    res_covid19_cases = f"{int(df.iloc[-1]['residents_total_confirmed_covid_19']):,}"
     staff_covid19_deaths = f"{int(df.iloc[-1]['staff_total_covid_19_deaths']):,}"
-    staff_covid19_cases = f"{int(df.iloc[-1]['staff_total_confirmed_covid']):,}"
-    res_covid19_deaths_chng = f"{change_fmt(df.iloc[-1]['residents_weekly_covid_19'])}"
-    res_covid19_cases_chng = f"{change_fmt(df.iloc[-1]['residents_weekly_confirmed'])}"
+    staff_covid19_cases = f"{int(df.iloc[-1]['staff_total_confirmed_covid_19']):,}"
+    res_covid19_deaths_chng = f"{change_fmt(df.iloc[-1]['residents_weekly_covid_19_deaths'])}"
+    res_covid19_cases_chng = f"{change_fmt(df.iloc[-1]['residents_weekly_confirmed_covid_19'])}"
     staff_covid19_deaths_chng = f"{change_fmt(df.iloc[-1]['staff_weekly_covid_19_deaths'])}"
-    staff_covid19_cases_chng = f"{change_fmt(df.iloc[-1]['staff_weekly_confirmed_covid'])}"
+    staff_covid19_cases_chng = f"{change_fmt(df.iloc[-1]['staff_weekly_confirmed_covid_19'])}"
 
     nurse_pct = f"{staff.iloc[-1]['%_short_nursing_staff']:.1%}"
     clinical_pct = f"{staff.iloc[-1]['%_short_clinical_staff']:.1%}"
