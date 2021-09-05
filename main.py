@@ -27,7 +27,7 @@ if __name__ == "__main__":
     cleaner.clean_revised('revised-data')
 
     # scrape cms data
-    # scraper.scrape_cms_data()
+    scraper.scrape_cms_data()
 
     # scrape vaccine information from cdc
     scraper.scrape_geo_vaccine('geo-vaccine')
@@ -39,7 +39,7 @@ if __name__ == "__main__":
     # run reports
     reports.run_trend_reports()
     reports.run_school_reports()
-    # reports.run_cms_reports()
+    reports.run_cms_reports()
 
     # make graphs
     plots.make_plots()
