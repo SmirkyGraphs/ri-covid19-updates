@@ -4,7 +4,7 @@ AF Iluminar Mayoral Academy Middle School,0,0,0,0
 AF Providence Mayoral Academy Middle,0,0,0,0
 Achievement First Iluminar Mayoral Academy,27,0,0,0
 Achievement First Promesa Elementary,12,0,0,0
-Achievement First Providence Mayoral Academy,67,0,7,0
+Achievement First Providence Mayoral Academy Middle School,67,0,7,0
 Agnes B. Hennessey School,12,0,0,0
 Agnes E. Little School,12,0,0,0
 Alan Shawn Feinstein Elementary School at Broad Street,17,0,0,0
@@ -41,10 +41,11 @@ Blackstone Valley Prep Upper Elementary School (UES),17,0,0,0
 Blessed Sacrament School,0,0,0,0
 Block Island School,0,0,0,0
 Bradley School Providence,0,0,0,0
+Bradley School-South,0,0,0,0
 Broad Rock Middle School,12,0,0,0
 Brown Avenue School,7,0,0,0
 Burrillville High School,32,0,0,0
-Burrillville Middle School,27,0,0,0
+Burrillville Middle School,32,5,0,0
 "CHILD, Inc., Centerville Road",0,0,0,0
 Captain G. Harold Hunt Elementary School,0,0,0,0
 Captain Isaac Paine Elementary School,0,0,0,0
@@ -52,7 +53,7 @@ Carl G. Lauro Elementary School,12,0,0,0
 Cedar Hill School,7,0,0,0
 Center for Individualized Training and Education,0,0,0,0
 Central Falls Senior High School,67,0,0,0
-Central High School,62,5,0,0
+Central High School,62,0,0,0
 Centredale School,7,0,0,0
 Charette Charter School,17,0,0,0
 Chariho Area Career and Technical Center,0,0,0,0
@@ -64,7 +65,7 @@ Charlestown Elementary School,7,0,0,0
 Claiborne Pell Elementary School,12,0,0,0
 Classical High School,42,0,0,0
 Clayville Elementary School,7,0,0,0
-Colt Andrews School,0,0,0,0
+Colt Andrews School,7,7,0,0
 Community Preparatory School,7,0,0,0
 Community School,17,0,0,0
 Cornerstone School,0,0,0,0
@@ -88,7 +89,7 @@ Dr. Joseph A Whelan Elementary School,7,0,0,0
 Dunn's Corners School,0,0,0,0
 E-Cubed Academy,12,0,0,0
 E. G. Robertson School,0,0,0,0
-E.T. Wyman Elementary School,7,0,0,0
+E.T. Wyman Elementary School,12,5,0,0
 Early Childhood Center,0,0,0,0
 East Greenwich High School,17,0,0,0
 East Providence High School,92,0,7,0
@@ -140,11 +141,11 @@ Hamilton Elementary School,0,0,0,0
 Hampden Meadows School,0,0,0,0
 Harmony Hill School,0,0,0,0
 Harold F. Scott School,7,0,0,0
-Harris School,12,0,0,0
+Harris School,17,5,0,0
 Harry Kizirian Elementary School,12,0,0,0
 Headstart,0,0,0,0
 Henry Barnard School,0,0,0,0
-Henry J. Winters School,17,0,0,0
+Henry J. Winters School,22,5,0,0
 High Road School of Providence,0,0,0,0
 Highlander Charter School/Mariposa Center@Meeting St.School,0,0,0,0
 Highlander Elementary Charter School,22,0,0,0
@@ -158,9 +159,9 @@ Hope Valley Elementary School,0,0,0,0
 Hopkins Hill Elementary School,7,0,0,0
 Howard Hathaway School,7,0,0,0
 Hugh B. Bain Middle School,32,0,7,0
-Hugh Cole School,17,5,0,0
+Hugh Cole School,17,0,0,0
 Imagine Preschool,0,0,0,0
-Immaculate Conception Catholic Regional,0,0,0,0
+Immaculate Conception Catholic Regional,7,7,0,0
 International Charter School,17,0,0,0
 Islamic School of RI,0,0,0,0
 Jacqueline M. Walsh School for the Performing and Visual Arts,17,0,0,0
@@ -187,7 +188,7 @@ Lillian Feinstein Elementary Sackett Street,17,0,0,0
 Lincoln Central Elementary School,0,0,0,0
 Lincoln Middle School,22,0,0,0
 Lincoln School,12,0,0,0
-Lincoln Senior High School,42,0,0,0
+Lincoln Senior High School,47,5,0,0
 Lippitt School,7,0,0,0
 Lonsdale Elementary School,0,0,0,0
 Love 4 All Childcare Center,0,0,0,0
@@ -205,10 +206,11 @@ Metropolitan Regional Career and Technical Center,57,0,0,0
 Middlebridge School,0,0,0,0
 Middletown High School,22,0,0,0
 Montessori Centre of Barrington,0,0,0,0
+Montessori Children's House,0,0,0,0
 Moses Brown School,12,0,0,0
 Mount Pleasant Academy,0,0,0,0
 Mount Pleasant High School,47,0,0,0
-Mount St. Charles Academy,12,0,0,0
+Mount St. Charles Academy,17,5,0,0
 Msgr. Matthew F. Clarke Catholic Regional School,0,0,0,0
 Mt. Hope High School,52,0,0,0
 Myron J. Francis Elementary School,12,0,0,0
@@ -225,8 +227,8 @@ North Cumberland Middle School,12,0,0,0
 North Kingstown Senior High School,37,0,0,0
 North Providence High School,62,0,0,0
 North Scituate Elementary School,0,0,0,0
-North Smithfield Elementary School,12,5,0,0
-North Smithfield High School,17,0,0,0
+North Smithfield Elementary School,12,0,0,0
+North Smithfield High School,22,5,0,0
 North Smithfield Middle School,12,0,0,0
 Northern Lincoln Elementary School,12,0,0,0
 Northern RI Collaborative,0,0,0,0
@@ -243,15 +245,15 @@ Park School,0,0,0,0
 Park View Middle School,47,0,0,0
 Pathways Strategic Teaching Center (Coventry),0,0,0,0
 Pathways Strategic Teaching Center (Warwick),0,0,0,0
-Paul Cuffee Lower School,17,5,0,0
+Paul Cuffee Lower School,17,0,0,0
 Paul Cuffee Middle School,12,0,0,0
 Paul Cuffee Upper School,22,0,0,0
 Peace Dale Elementary School,7,0,0,0
-Pilgrim High School,72,0,0,0
-Pleasant View School,12,0,0,0
+Pilgrim High School,77,5,0,0
+Pleasant View Elementary School,12,0,0,0
 Pocasset School,0,0,0,0
-Ponaganset High School,37,0,0,0
-Ponaganset Middle School,7,0,0,0
+Ponaganset High School,42,5,0,0
+Ponaganset Middle School,12,5,0,0
 Portsmouth Abbey School,0,0,0,0
 Portsmouth High School,37,0,0,0
 Portsmouth Middle School,7,0,0,0
@@ -336,7 +338,7 @@ The Gordon School,0,0,0,0
 The Greene School,7,0,0,0
 "The Groden Center, Inc.",0,0,0,0
 The Hope Academy,12,0,0,0
-The Learning Community Charter School,42,0,7,0
+The Learning Community Charter School,47,5,7,0
 The Pennfield School,0,0,0,0
 The Prout School,0,0,0,0
 The Providence Center School,0,0,0,0
@@ -390,6 +392,6 @@ Winman Middle School,37,0,0,0
 Winsor Hill School,7,0,0,0
 Wm. M. Davies Jr. Career-Technical High School,17,0,0,0
 Woodridge School,7,0,0,0
-Woonsocket High School,102,0,7,0
+Woonsocket High School,107,5,7,0
 Woonsocket Middle School at Hamlet,32,0,0,0
 Woonsocket Middle School at Villa Nova,27,0,0,0
