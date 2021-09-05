@@ -5,7 +5,6 @@ from datetime import datetime
 import pandas as pd
 from pathlib import Path
 import requests
-import urllib.parse
 
 drop_cols = [
     '3-day average of daily number of positive tests (may count people more than once)',
@@ -260,14 +259,31 @@ def archive_page():
     requests.post(archive_url, data=data, headers=headers)
     print('[status] page archived')
 
-def scrape_cms_data():
-    # query data
-    url = 'https://data.cms.gov/resource/s2uc-8wxp.csv?$query='
-    query = "select *, :id where (upper(`provider_state`) = upper('RI')) limit 150000"
-    query = urllib.parse.quote_plus(query)
+# def scrape_cms_data(): legacy -> api has changed
+#     # query data 
+#     url = 'https://data.cms.gov/resource/s2uc-8wxp.csv?$query='
+#     query = "select *, :id where (upper(`provider_state`) = upper('RI')) limit 150000"
+#     query = urllib.parse.quote_plus(query)
+# 
+#     df = pd.read_csv(f'{url}{query}', parse_dates=['week_ending'])
+#     df = df.sort_values(by='week_ending')
+#     df.to_csv('./data/raw/cms-nursing-homes.csv', index=False)
 
-    df = pd.read_csv(f'{url}{query}', parse_dates=['week_ending'])
+def scrape_cms_data():
+    url = 'https://data.cms.gov/data-api/v1/dataset-type'
+    base_url = 'https://data.cms.gov/data-api/v1/dataset'
+
+    r = requests.get(url).json()
+    uuid = [x['latest_version_uuid'] for x in r['data'] if x['name'] == 'COVID-19 Nursing Home Data'][0]
+
+    url = f'{base_url}/{uuid}/data-viewer?size=500000000&filter[provider_state]=RI'
+    data = requests.get(url).json()
+
+    headers = data['meta']['headers']
+    df = pd.DataFrame(data['data'], columns=headers)
+    df['week_ending'] =  pd.to_datetime(df['week_ending'])
     df = df.sort_values(by='week_ending')
+    
     df.to_csv('./data/raw/cms-nursing-homes.csv', index=False)
 
 def scrape_cdc_vaccine(dataSet):
