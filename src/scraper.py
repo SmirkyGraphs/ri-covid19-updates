@@ -10,7 +10,8 @@ drop_cols = [
     '3-day average of daily number of positive tests (may count people more than once)',
     'daily total tests completed (may count people more than once)',
     '3-day average of new people who tested positive (counts first positive lab per person)',
-    '3-day average of currently hospitalized'
+    '3-day average of currently hospitalized',
+    'daily number of vaccine doses administered beyond the primary series '
 ]
 
 def save_file(df, file_path, current_date):
@@ -120,7 +121,7 @@ def scrape_revised(sheet_id):
     df.columns = [x.lower() for x in list(df)]
     
     # test to try and make sure columns dont change
-    if df.shape[1] != 35 or list(df)[6] != 'daily total tests completed (may count people more than once)':
+    if df.shape[1] != 36 or list(df)[6] != 'daily total tests completed (may count people more than once)':
         print('[error] revised sheet columns changed')
         return
 
@@ -223,7 +224,7 @@ def scrape_schools(sheet_id):
                       'new_staff_cases', 'total_staff_cases']
 
         # fix dataframe shape
-        split = df[df['school'] == 'Virtual Cases‡'].index[0]
+        split = df[df['school'] == 'Not In School‡'].index[0]
         in_person = df[4:split].copy()
         virtual = df[split+1:-1].copy()
 
