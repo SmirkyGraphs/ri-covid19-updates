@@ -1,13 +1,13 @@
 school,total_student_cases_avg,chng_total_student_cases_avg,total_staff_cases_avg,chng_total_staff_cases_avg
-360 High School,0,-12,0,0
-Achievement First Iluminar Mayoral Academy,0,0,0,0
+360 High School,0,0,0,0
+Achievement First Iluminar Mayoral Academy Middle School,0,0,0,0
 Achievement First Providence Mayoral Academy Middle School,0,0,0,0
 Agnes E. Little School,0,0,0,0
 Alan Shawn Feinstein Middle School Of Coventry,0,0,0,0
 Alfred Lima Sr. Elementary School,0,0,0,0
-Alice M. Waddington School,0,0,0,0
+Alice M. Waddington Elementary School,0,0,0,0
 Alternative Education Program,0,0,0,0
-Anthony Carnevale Elementary School,7,7,0,0
+Anthony Carnevale Elementary School,7,0,0,0
 Aquidneck Elementary School,0,0,0,0
 Arlington School,0,0,0,0
 Asa Messer Elementary School,0,0,0,0
@@ -16,15 +16,15 @@ Barrington Christian Academy,0,0,0,0
 Barrington High School,0,0,0,0
 Bernon Heights School,0,0,0,0
 Birchwood Middle School,0,0,0,0
-Blackrock School,0,0,0,0
-Blackstone Academy Charter School,0,0,0,0
 Blackstone Valley Prep Elementary School (ES1),0,0,0,0
 Blackstone Valley Prep Upper Elementary School (UES),0,0,0,0
 Blessed Sacrament School,0,0,0,0
+Broad Rock Middle School,0,-12,0,0
 Burrillville Middle School,0,0,0,0
 Captain G. Harold Hunt Elementary School,0,0,0,0
+Carl G. Lauro Elementary School,0,-12,0,0
 Central High School,0,0,0,0
-Charette Charter School,0,-17,0,0
+Charette Charter School,0,0,0,0
 Chariho Regional High School,0,0,0,0
 Chariho Regional Middle School,0,0,0,0
 Charles E. Shea High School,0,0,0,0
@@ -36,14 +36,16 @@ Coventry High School,0,0,0,0
 Cranston High School East,0,0,0,0
 Cranston High School West,0,0,0,0
 Dr. Edward A. Ricci Middle School,0,0,0,0
-Dr. Jorge Alvarez High School,0,-32,0,0
+Dr. Jorge Alvarez High School,0,0,0,0
 Dunn's Corners School,0,0,0,0
+E. G. Robertson School,0,0,0,0
 E.T. Wyman Elementary School,0,0,0,0
 Early Childhood Center,0,0,0,0
 East Greenwich High School,0,0,0,0
 East Providence High School,0,0,0,0
+Eden Park School,0,-7,0,0
 Edward R. Martin Middle School,0,0,0,0
-Emma G. Whiteknact School,0,-7,0,0
+Emma G. Whiteknact School,0,0,0,0
 Esek Hopkins Middle School,0,0,0,0
 Exeter-West Greenwich Regional Junior High,0,0,0,0
 Fallon Memorial School,0,0,0,0
@@ -52,26 +54,29 @@ Fishing Cove Elementary School,0,0,0,0
 Forest Park Elementary School,0,0,0,0
 Founders Academy,0,0,0,0
 Francis J. Varieur School,0,0,0,0
-Frank E. Thompson Middle School,0,-27,0,0
+Frank E. Thompson Middle School,0,0,0,0
 Frenchtown School,0,0,0,0
 Garvin Memorial School,0,0,0,0
 George Hanaford School,0,0,0,0
 Gilbert Stuart Middle School,0,0,0,0
 Gladstone Street School,0,0,0,0
-Globe Park School,0,-17,0,0
-Governor Christopher DelSesto Middle School,0,-37,0,0
-Guiteras School,0,-7,0,0
+Globe Park School,0,0,0,0
+Governor Christopher DelSesto Middle School,0,0,0,0
+Greenwood School,0,-7,0,0
+Guiteras School,0,0,0,0
 Harris School,0,0,0,0
-Harry Kizirian Elementary School,0,-12,0,0
+Harry Kizirian Elementary School,0,0,0,0
 Henry J. Winters School,0,0,0,0
 Holy Trinity School,0,0,0,0
 Hope Highlands Middle School,0,0,0,0
 Hope Valley Elementary School,0,0,0,0
-Hugh Cole School,0,-17,0,0
+Hugh Cole School,0,0,0,0
 James H. Eldredge El. School,0,0,0,0
+James L. McGuire School,0,-7,0,0
+John F. Deering Middle School,0,-37,0,-7
 John F. Horgan Elementary School,0,0,0,0
 Johnston Senior High School,0,0,0,0
-Joseph H. Gaudet Middle School,0,-12,0,0
+Joseph H. Gaudet Middle School,0,0,0,0
 Joseph Jenks Middle School,0,0,0,0
 Joseph L. McCourt Middle School,0,0,0,0
 Kent Heights School,0,0,0,0
@@ -79,18 +84,19 @@ Kickemuit Middle School,0,0,0,0
 Kingston Hill Academy,0,0,0,0
 La Salle Academy,0,0,0,0
 Lillian Feinstein Elementary Sackett Street,0,0,0,0
-Lincoln Senior High School,0,-47,0,0
+Lincoln Senior High School,0,0,0,0
 Lippitt School,0,0,0,0
 Lonsdale Elementary School,0,0,0,0
 M. Virginia Cunningham School,0,0,0,0
+Mary E. Fogarty Elementary School,0,-7,0,0
 Meadowbrook Waldorf School,0,0,0,0
-Melville Elementary School,0,-7,0,0
+Melville Elementary School,0,0,0,0
 Metropolitan Regional Career and Technical Center,0,0,0,0
 Middletown High School,0,0,0,0
 Mount Pleasant High School,0,0,0,0
-Myron J. Francis Elementary School,0,-12,0,0
+Myron J. Francis Elementary School,0,0,0,0
 Narragansett Pier School,0,0,0,0
-Nathan Bishop Middle School,0,-22,0,0
+Nathan Bishop Middle School,0,0,0,0
 Nathanael Greene Elementary School (Pawtucket),0,0,0,0
 Nathanael Greene Middle School (Providence),0,0,0,0
 Nicholas A. Ferri Middle School,0,0,0,0
@@ -112,34 +118,36 @@ Potter-Burns School,0,0,0,0
 Providence Transition Academy and Providence Autism School to Tomorrow Academy,0,0,0,0
 Richmond Elementary School,0,0,0,0
 Riverside Middle School,0,0,0,0
-Robert F. Kennedy Elementary School,0,-12,0,0
+Robert F. Kennedy Elementary School,0,0,0,0
 "Roger Williams Middle School (278 Thurbers Ave, Providence)",0,0,0,0
-Samuel Slater Middle School,0,-52,0,0
+Samuel Slater Middle School,0,0,0,0
 Saylesville Elementary School,0,0,0,0
 Scituate High School,0,0,0,0
-Sherman School,0,-7,0,0
+Sherman School,0,0,0,0
 Springbrook Elementary School,0,0,0,0
-St. Augustine School,7,7,0,0
+St. Augustine School,0,-7,0,0
 St. Cecilia School,0,0,0,0
 St. Mary School of Cranston,0,0,0,0
 St. Michael's Country Day School,0,0,0,0
 St. Rose of Lima School,0,0,0,0
-State Street School,0,-7,0,0
+State Street School,0,0,0,0
 Stony Lane Elementary School,0,0,0,0
 The Learning Community Charter School,0,0,0,0
-The Sgt. Cornel Young Jr & Charlotte Woods Elementary School @ The B. Jae Clanton Complex,0,-17,0,0
+The Sgt. Cornel Young Jr & Charlotte Woods Elementary School @ The B. Jae Clanton Complex,0,0,0,0
 Tiverton Middle School,0,0,0,0
 Toll Gate High School,0,0,0,0
 Vartan Gregorian Elementary School,0,0,0,0
-Village Green Virtual Charter School,0,-32,0,0
+Village Green Virtual Charter School,0,0,0,0
+Wakefield Elementary School,0,0,0,0
 Wakefield Hills Elementary School,0,0,0,0
 Warwick Veterans Middle School,0,0,0,0
+West Broadway Middle School,0,-27,0,0
 West Kingston Elementary School,0,0,0,0
 West Warwick Senior High School,0,0,0,0
 Wickford Middle School,0,0,0,0
-William E Tolman Senior High School,0,-67,0,0
+William E Tolman Senior High School,0,0,0,0
 William L. Callahan School,0,0,0,0
 Winsor Hill School,0,0,0,0
 Wm. M. Davies Jr. Career-Technical High School,0,0,0,0
-Woonsocket High School,0,-107,0,-7
+Woonsocket High School,0,0,0,0
 Woonsocket Middle School at Hamlet,0,0,0,0
