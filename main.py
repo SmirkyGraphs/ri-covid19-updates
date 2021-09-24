@@ -26,8 +26,9 @@ if __name__ == "__main__":
     scraper.scrape_revised(main_sheet)
     cleaner.clean_revised('revised-data')
 
-    # scrape cms data
+    # scrape federal datasets
     scraper.scrape_cms_data()
+    scraper.scrape_hhs_data()
 
     # scrape vaccine information from cdc
     scraper.scrape_geo_vaccine('geo-vaccine')

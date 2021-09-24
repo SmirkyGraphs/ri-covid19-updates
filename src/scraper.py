@@ -285,16 +285,32 @@ def scrape_cms_data():
     df['week_ending'] =  pd.to_datetime(df['week_ending'])
     df = df.sort_values(by='week_ending')
     
+    print('[status] cms data collected')
     df.to_csv('./data/raw/cms-nursing-homes.csv', index=False)
 
-def scrape_cdc_vaccine(dataSet):
+def scrape_hhs_data():
+    # https://healthdata.gov/Hospital/COVID-19-Reported-Patient-Impact-and-Hospital-Capa/anag-cw7u # prepped
+    # https://healthdata.gov/Hospital/COVID-19-Reported-Patient-Impact-and-Hospital-Capa/uqq2-txqb # raw
+    url = 'https://healthdata.gov/resource/anag-cw7u.csv?state=RI' # hospital-level data
+    df = pd.read_csv(url, parse_dates=['collection_week'])
+    df = df.replace(-999999, None) # -999999 = "> 0 and<= 4"
+    df.to_csv('./data/raw/hhs-hospital-level.csv', index=False)
+
+    # https://healthdata.gov/Hospital/COVID-19-Reported-Patient-Impact-and-Hospital-Capa/g62h-syeh 
+    url = 'https://healthdata.gov/resource/g62h-syeh.csv?state=RI' # state-level data
+    df = pd.read_csv(url, parse_dates=['date']).sort_values(by='date')
+
+    print('[status] hhs data collected')
+    df.to_csv('./data/raw/hhs-state-level.csv', index=False)
+
+def scrape_cdc_vaccine(dataset):
     # load prior date
-    raw = f'./data/raw/vaccine-{dataSet}.csv'
-    url = f'https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id={dataSet}'
+    raw = f'./data/raw/vaccine-{dataset}.csv'
+    url = f'https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id={dataset}'
     r = requests.get(url)
     data = json.loads(r.text)
 
-    data = data[dataSet]
+    data = data[dataset]
     for d in data:
         if d['Location'] == 'RI':
             ri_data = d
