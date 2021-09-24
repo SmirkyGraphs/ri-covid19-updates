@@ -133,3 +133,7 @@ test.csv
 /data/test/*
 data/raw/vaccine-vaccination_data.csv.bak
 data/raw/vaccine-vaccination_states.csv.bak
+
+Untitled*
+hospital-level.ipynb
+test.png
