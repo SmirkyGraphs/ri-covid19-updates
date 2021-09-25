@@ -293,7 +293,7 @@ def scrape_hhs_data():
     # https://healthdata.gov/Hospital/COVID-19-Reported-Patient-Impact-and-Hospital-Capa/uqq2-txqb # raw
     url = 'https://healthdata.gov/resource/anag-cw7u.csv?state=RI' # hospital-level data
     df = pd.read_csv(url, parse_dates=['collection_week'])
-    df = df.replace(-999999, None) # -999999 = "> 0 and<= 4"
+    df = df.replace(-999999, None) # -999999 = "same as ri's small number policy"
     df.to_csv('./data/raw/hhs-hospital-level.csv', index=False)
 
     # https://healthdata.gov/Hospital/COVID-19-Reported-Patient-Impact-and-Hospital-Capa/g62h-syeh 

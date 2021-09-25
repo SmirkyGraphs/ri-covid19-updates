@@ -407,7 +407,7 @@ def nursing_prov_staff_vaccination(df):
 
     df.loc[df['all_employees'].isnull(), 'prior_week_used'] = True
     df[col_names[2:]] = df[col_names[2:]].astype(float)
-    for col in col_names[2:]:
+    for col in col_names[2:]: # forward fill if a provider didn't update most recent week
         df[col] = df.groupby(['provider_name'])[col].ffill()
 
     df.loc[df['prior_week_used'] == True, 'provider_name'] = df['provider_name'] + '*'
