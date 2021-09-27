@@ -471,6 +471,99 @@ def nursing_home_staff_weekly_vac(df):
 
     df.dropna(how='any', axis=0).to_csv('./data/reports/nursing_home_staff_weekly_vac.csv', index=False)
 
+def nursing_prov_resident_vaccination(df):
+    cols = [
+        'provider_name',
+        'week_ending',
+        'number_of_residents_staying_in_this_facility_for_at_least_1_day_this_week',
+        'number_of_residents_staying_in_this_facility_for_at_least_1_day_this_week_who_received_a_completed_covid_19_vaccination_at_any_time',
+        'number_of_residents_staying_in_this_facility_for_at_least_1_day_this_week_who_received_a_partial_covid_19_vaccination_at_any_time',
+        'recent_percentage_of_current_residents_who_received_a_completed_covid_19_vaccination_at_any_time',
+        'percentage_of_current_residents_who_received_a_completed_covid_19_vaccination_at_any_time',
+        'percentage_of_current_residents_who_received_a_partial_covid_19_vaccination_at_any_time'
+    ]
+
+    col_names = [
+        'provider_name', 
+        'week_ending', 
+        'all_residents', 
+        'residents_fully_vac', 
+        'residents_part_vac', 
+        'recent_pct_fully_vac',
+        'pct_fully_vac',
+        'pct_part_vac'
+    ]
+
+    df = df[cols].sort_values(by=['provider_name', 'week_ending'])
+    df.columns = col_names
+
+    df = df.replace('', np.nan)
+
+    df.loc[df['all_residents'].isnull(), 'prior_week_used'] = True
+    df[col_names[2:]] = df[col_names[2:]].astype(float)
+    for col in col_names[2:]: # forward fill if a provider didn't update most recent week
+        df[col] = df.groupby(['provider_name'])[col].ffill()
+
+    df.loc[df['prior_week_used'] == True, 'provider_name'] = df['provider_name'] + '*'
+    df = df.drop(columns='prior_week_used')
+
+    df[col_names[-3:]] = df[col_names[-3:]] / 100
+    df['not_vac'] = df['all_residents'] - df['residents_fully_vac']
+
+    dates = df['week_ending'].drop_duplicates().nlargest(2).values
+    df = df[df['week_ending'].isin(dates)].reset_index(drop=True)
+
+    cols = [
+        'all_residents',
+        'residents_fully_vac',
+        'residents_part_vac',
+        'recent_pct_fully_vac',
+        'pct_fully_vac'
+    ]
+
+    for col in cols:
+        df[f'{col}_change'] = df[col] - df.groupby('provider_name')[col].shift()
+
+    df = df[df['week_ending']==df['week_ending'].max()].fillna(0).reset_index(drop=True)
+    df.to_csv('./data/reports/nursing_home_res_vaccination.csv', index=False)
+
+def nursing_home_resident_weekly_vac(df):
+    cols = [
+        'provider_name',
+        'week_ending',
+        'number_of_residents_staying_in_this_facility_for_at_least_1_day_this_week',
+        'number_of_residents_staying_in_this_facility_for_at_least_1_day_this_week_who_received_a_completed_covid_19_vaccination_at_any_time',
+        'number_of_residents_staying_in_this_facility_for_at_least_1_day_this_week_who_received_a_partial_covid_19_vaccination_at_any_time',
+    ]
+
+    col_names = [
+        'provider_name', 
+        'week_ending', 
+        'all_residents', 
+        'residents_fully_vac', 
+        'residents_part_vac'
+    ]
+
+    df = df[cols].sort_values(by=['provider_name', 'week_ending'])
+    df.columns = col_names
+
+    df = df.replace('', np.nan)
+    df[col_names[2:]] = df[col_names[2:]].astype(float)
+
+    # mark any homes that didn't report in the most recent week & fill with prior week
+    df.loc[df['all_residents'].isnull(), 'prior_week_used'] = True
+    for col in col_names[2:]:
+        df[col] = df.groupby(['provider_name'])[col].ffill()
+        
+    df.loc[df['prior_week_used'] == True, 'provider_name'] = df['provider_name'] + '*'
+    df = df.drop(columns='prior_week_used')
+
+    df['not_vac'] = df['all_residents'] - df['residents_fully_vac'] # get not vac count
+
+    df = df.groupby('week_ending', as_index=False).sum()
+    df['percent_fully'] = df['residents_fully_vac']/df['all_residents']
+    df.dropna(how='any', axis=0).to_csv('./data/reports/nursing_home_resident_weekly_vac.csv', index=False)
+
 def run_cms_reports():
     df = pd.read_csv('./data/raw/cms-nursing-homes.csv', parse_dates=['week_ending'], low_memory=False)
 
@@ -490,3 +583,5 @@ def run_cms_reports():
 
     nursing_prov_staff_vaccination(df)
     nursing_home_staff_weekly_vac(df)
+    nursing_prov_resident_vaccination(df)
+    nursing_home_resident_weekly_vac(df)
