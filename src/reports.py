@@ -433,8 +433,46 @@ def nursing_prov_staff_vaccination(df):
     df = df[df['week_ending']==df['week_ending'].max()].fillna(0).reset_index(drop=True)
     df.to_csv('./data/reports/nursing_home_staff_vaccination.csv', index=False)
 
+def nursing_home_staff_weekly_vac(df):
+    cols = [
+        'provider_name',
+        'week_ending',
+        'number_of_all_healthcare_personnel_eligible_to_work_in_this_facility_for_at_least_1_day_this_week',
+        'number_of_all_healthcare_personnel_eligible_to_work_in_this_facility_for_at_least_1_day_this_week_who_received_a_completed_covid_19_vaccination_at_any_time',
+        'number_of_all_healthcare_personnel_eligible_to_work_in_this_facility_for_at_least_1_day_this_week_who_received_a_partial_covid_19_vaccination_at_any_time',
+    ]
+
+    col_names = [
+        'provider_name', 
+        'week_ending', 
+        'all_employees', 
+        'employees_fully_vac', 
+        'employees_part_vac', 
+    ]
+
+    df = df[cols].sort_values(by=['provider_name', 'week_ending'])
+    df.columns = col_names
+
+    df = df.replace('', np.nan)
+    df[col_names[2:]] = df[col_names[2:]].astype(float)
+
+    # mark any homes that didn't report in the most recent week & fill with prior week
+    df.loc[df['all_employees'].isnull(), 'prior_week_used'] = True
+    for col in col_names[2:]:
+        df[col] = df.groupby(['provider_name'])[col].ffill()
+        
+    df.loc[df['prior_week_used'] == True, 'provider_name'] = df['provider_name'] + '*'
+    df = df.drop(columns='prior_week_used')
+
+    df['not_vac'] = df['all_employees'] - df['employees_fully_vac'] # get not vac count
+
+    df = df.groupby('week_ending', as_index=False).sum()
+    df['percent_fully'] = df['employees_fully_vac']/df['all_employees']
+
+    df.dropna(how='any', axis=0).to_csv('./data/reports/nursing_home_staff_weekly_vac.csv', index=False)
+
 def run_cms_reports():
-    df = pd.read_csv('./data/raw/cms-nursing-homes.csv', parse_dates=['week_ending'])
+    df = pd.read_csv('./data/raw/cms-nursing-homes.csv', parse_dates=['week_ending'], low_memory=False)
 
     count_short_staffed(df)
     nursing_weekly_short_staffed(df)
@@ -451,3 +489,4 @@ def run_cms_reports():
     nursing_provider_staffing(df)
 
     nursing_prov_staff_vaccination(df)
+    nursing_home_staff_weekly_vac(df)
