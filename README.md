@@ -1,3 +1,9 @@
+### Warning: No Longer Updated 
+
+The constant changing of data features from the state lead to this project eating up too much time to keep updated daily.
+
+The code and data will remain for anyone interested in the full daily dump of numbers in RI up to 9/26/2021.
+
 # Rhode Island COVID-19 Daily Updates
 
 The goal of this project is to collect the daily data from [RIDOH](https://health.ri.gov/data/covid-19/) on COVID-19 cases within Rhode Island. The raw data will be saved then cleaned to get daily changes and uploaded to google sheets to automate a Tableau graph. Lastly the change from the previous day & daily totals will be tweeted out automatically by a twitter bot [@RI_COVID19](https://twitter.com/RI_COVID19/).
