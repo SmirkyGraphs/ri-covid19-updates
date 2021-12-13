@@ -1,7 +1,6 @@
 ### Warning: No Longer Updated 
 
-The constant changing of data features from the state lead to this project eating up too much time to keep updated daily.
-
+The constant changing of data features from the state lead to this project eating up too much time to keep updated daily.  
 The code and data will remain for anyone interested in the full daily dump of numbers in RI up to 9/26/2021.
 
 # Rhode Island COVID-19 Daily Updates
